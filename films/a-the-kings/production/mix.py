@@ -27,6 +27,8 @@ def send_click():
  return z
 for idx,offset,name,fn in [(1,.55,'paper_fold',paper_fold),(17,1.0,'pencil_write',pencil_write),(18,1.4,'comment_send',send_click)]:
  at=shots[idx]['start']+offset;sfx.add(fx,fn(),at,gain=1,pan=0);events.append(dict(t=at,scene=idx+1,type=name,new_in_v2=True))
+for idx,offset,name,x in [(7,1.05,'defeated_shield',sfx.clack(.65,.07)),(9,.97,'harold_landing',sfx.thump(.10,80))]:
+ at=shots[idx]['start']+offset;sfx.add(fx,x,at,gain=1,pan=0);events.append(dict(t=at,scene=idx+1,type=name,new_in_v3=True))
 # Reduce the sound effects beneath active speech, preserving every word.
 env=uniform_filter1d(np.abs(voice),size=2400);duck=np.where(env>.025,.38,.75)
 fx*=duck[:,None];out=np.repeat(voice[:,None],2,axis=1)+fx

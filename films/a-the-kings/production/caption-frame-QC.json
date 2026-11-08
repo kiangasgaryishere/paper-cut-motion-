@@ -16,23 +16,23 @@
   "encoded_frame_comparisons": [
     {
       "frame": 344,
-      "caption_region_mean_error": 0.799
+      "caption_region_mean_error": 0.768
     },
     {
       "frame": 593,
-      "caption_region_mean_error": 0.857
+      "caption_region_mean_error": 0.828
     },
     {
       "frame": 722,
-      "caption_region_mean_error": 0.78
+      "caption_region_mean_error": 0.765
     },
     {
       "frame": 752,
-      "caption_region_mean_error": 0.773
+      "caption_region_mean_error": 0.826
     },
     {
       "frame": 809,
-      "caption_region_mean_error": 0.786
+      "caption_region_mean_error": 0.831
     },
     {
       "frame": 980,
@@ -40,19 +40,19 @@
     },
     {
       "frame": 1070,
-      "caption_region_mean_error": 0.832
+      "caption_region_mean_error": 0.815
     },
     {
       "frame": 1163,
-      "caption_region_mean_error": 0.813
+      "caption_region_mean_error": 0.801
     },
     {
       "frame": 1442,
-      "caption_region_mean_error": 0.852
+      "caption_region_mean_error": 0.803
     },
     {
       "frame": 1739,
-      "caption_region_mean_error": 0.975
+      "caption_region_mean_error": 0.949
     }
   ],
   "encoded_frame_check": "passed"

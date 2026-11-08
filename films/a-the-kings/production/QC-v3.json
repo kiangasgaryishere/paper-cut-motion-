@@ -1,0 +1,21 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "duration": 72.766667,
+  "video": "h264",
+  "audio": "aac",
+  "sample_rate": "48000",
+  "full_decode": "passed",
+  "black_frame_check": "passed",
+  "caption_layout": "28 speech-anchored cues checked; no bounds errors",
+  "music": "none",
+  "speech_alignment": "Whisper phrase timestamps + silence-edge refinement; continuous boundaries approximate; caption lead 22.58\u201352.92 ms",
+  "listening_review": "not performed",
+  "england_flag_scenes": [
+    2,
+    11
+  ],
+  "norway_flag": "scene 7 ship mast",
+  "encoded_caption_start_frames": "10 rounding-sensitive frames checked against browser reference"
+}

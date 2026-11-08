@@ -76,5 +76,17 @@
     "scene": 19,
     "type": "comment_send",
     "new_in_v2": true
+  },
+  {
+    "t": 25.153875,
+    "scene": 8,
+    "type": "defeated_shield",
+    "new_in_v3": true
+  },
+  {
+    "t": 30.725917,
+    "scene": 10,
+    "type": "harold_landing",
+    "new_in_v3": true
   }
 ]
