@@ -1,0 +1,15 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": "24/1",
+  "duration": 72.75,
+  "video": "h264",
+  "audio": "aac",
+  "sample_rate": "48000",
+  "full_decode": "passed",
+  "black_frame_check": "passed",
+  "caption_layout": "33 cues checked; no bounds errors",
+  "music": "none",
+  "speech_alignment": "not verified; editorial estimates",
+  "listening_review": "not performed"
+}

@@ -1,0 +1,266 @@
+[
+  {
+    "t0": 0,
+    "t1": 1.7778,
+    "text": "می‌دونی چرا توی انگلیسی",
+    "en": "Do you know why, in English,",
+    "scene": 0,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 1.7778,
+    "t1": 4.0,
+    "text": "یه‌جا A میاریم، یه‌جا THE؟",
+    "en": "we sometimes use A, and sometimes THE?",
+    "scene": 0,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 4,
+    "t1": 7.0,
+    "text": "برای جواب، بریم به انگلستانِ هزار سال پیش!",
+    "en": "For the answer, let’s visit England a thousand years ago!",
+    "scene": 1,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 7,
+    "t1": 8.7778,
+    "text": "سال ۱۰۶۶، پادشاه انگلستان",
+    "en": "In 1066, the king of England",
+    "scene": 2,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 8.7778,
+    "t1": 11.0,
+    "text": "بدون وارث از دنیا می‌ره.",
+    "en": "dies without an heir.",
+    "scene": 2,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 11,
+    "t1": 13.5455,
+    "text": "حالا انگلستان به یه پادشاه احتیاج داره:",
+    "en": "Now England needs a king:",
+    "scene": 3,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 13.5455,
+    "t1": 15.0,
+    "text": "England needs a king.",
+    "en": "England needs a king.",
+    "scene": 3,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 15,
+    "t1": 16.6364,
+    "text": "ولی مشکل اینجاست که سه نفر",
+    "en": "But there’s a problem: three men",
+    "scene": 4,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 16.6364,
+    "t1": 18.0,
+    "text": "تاج‌وتخت رو برای خودشون می‌خوان!",
+    "en": "each want the throne!",
+    "scene": 4,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 18,
+    "t1": 21.0,
+    "text": "اول هارولد تاج‌گذاری می‌کنه.",
+    "en": "First, Harold is crowned.",
+    "scene": 5,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 21,
+    "t1": 24.0,
+    "text": "اما پادشاه نروژ حمله می‌کنه!",
+    "en": "But the king of Norway invades!",
+    "scene": 6,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 24,
+    "t1": 25.3333,
+    "text": "هارولد شکستش می‌ده،",
+    "en": "Harold defeats him,",
+    "scene": 7,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 25.3333,
+    "t1": 28.0,
+    "text": "ولی هنوز نفس راحت نکشیده که",
+    "en": "but before he can catch his breath,",
+    "scene": 7,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 28,
+    "t1": 32.0,
+    "text": "ویلیام با یه لشکر دیگه از راه می‌رسه!",
+    "en": "William arrives with another army!",
+    "scene": 8,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 32,
+    "t1": 33.875,
+    "text": "این بار هارولد کشته می‌شه",
+    "en": "This time, Harold is killed",
+    "scene": 9,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 33.875,
+    "t1": 35.0,
+    "text": "و ویلیام می‌شه:",
+    "en": "and William becomes:",
+    "scene": 9,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 35,
+    "t1": 39.0,
+    "text": "The king of England!",
+    "en": "The king of England!",
+    "scene": 10,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 39,
+    "t1": 40.5,
+    "text": "حالا دقت کردی؟ اول گفتیم A KING؛",
+    "en": "Notice? First we said A KING:",
+    "scene": 11,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 40.5,
+    "t1": 42.0,
+    "text": "یعنی یه پادشاه، هنوز مشخص نکردیم کدوم.",
+    "en": "a king—we haven’t specified which one.",
+    "scene": 11,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 42,
+    "t1": 45.0,
+    "text": "ولی THE KING یعنی اون پادشاه مشخص!",
+    "en": "But THE KING means that particular king!",
+    "scene": 12,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 45,
+    "t1": 46.3333,
+    "text": "و جالبه که ریشهٔ این تفاوت",
+    "en": "Interestingly, the roots of this distinction",
+    "scene": 13,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 46.3333,
+    "t1": 47.2222,
+    "text": "به انگلیسی قدیم برمی‌گرده!",
+    "en": "go back to Old English!",
+    "scene": 13,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 47.2222,
+    "t1": 49.0,
+    "text": "A از کلمهٔ ĀN به معنی «یک» اومده.",
+    "en": "A comes from ĀN, meaning “one.”",
+    "scene": 13,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 49,
+    "t1": 51.6923,
+    "text": "اما THE از خانوادهٔ کلمهٔ اشارهٔ that؛",
+    "en": "THE belongs to the demonstrative family, like “that”:",
+    "scene": 14,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 51.6923,
+    "t1": 54.0,
+    "text": "چیزی شبیه «اون» و «همون» خودمون!",
+    "en": "something like “that one” or “the very one.”",
+    "scene": 14,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 54,
+    "t1": 55.5,
+    "text": "پس فرق اصلی چیه؟",
+    "en": "So what’s the key difference?",
+    "scene": 15,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 55.5,
+    "t1": 58.875,
+    "text": "وقتی شنونده می‌تونه بفهمه دقیقاً کدوم چیز رو می‌گی،",
+    "en": "When your listener can identify exactly which thing you mean,",
+    "scene": 15,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 58.875,
+    "t1": 60.0,
+    "text": "معمولاً THE میاریم؛",
+    "en": "we usually use THE;",
+    "scene": 15,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 60,
+    "t1": 64.0,
+    "text": "حتی اگه قبلاً اسمش رو نشنیده باشه!",
+    "en": "even if it hasn’t been mentioned before!",
+    "scene": 16,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 64,
+    "t1": 65.5385,
+    "text": "برای تمرین این تفاوت،",
+    "en": "To practise this distinction,",
+    "scene": 17,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 65.5385,
+    "t1": 69.0,
+    "text": "یه چالش تصویری و یه ورک‌شیت کاربردی آماده کردیم.",
+    "en": "we’ve prepared a visual challenge and a practical worksheet.",
+    "scene": 17,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 69,
+    "t1": 71.34,
+    "text": "فقط THE رو کامنت کن",
+    "en": "Just comment THE",
+    "scene": 18,
+    "timing": "estimated_unverified"
+  },
+  {
+    "t0": 71.34,
+    "t1": 72.744,
+    "text": "تا برات بفرستیم!",
+    "en": "and we’ll send them to you!",
+    "scene": 18,
+    "timing": "estimated_unverified"
+  }
+]
