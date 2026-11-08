@@ -1,0 +1,59 @@
+{
+  "cue_frames_checked": 28,
+  "errors": [],
+  "rounding_cases": [
+    344,
+    593,
+    722,
+    752,
+    809,
+    980,
+    1070,
+    1163,
+    1442,
+    1739
+  ],
+  "encoded_frame_comparisons": [
+    {
+      "frame": 344,
+      "caption_region_mean_error": 0.799
+    },
+    {
+      "frame": 593,
+      "caption_region_mean_error": 0.857
+    },
+    {
+      "frame": 722,
+      "caption_region_mean_error": 0.78
+    },
+    {
+      "frame": 752,
+      "caption_region_mean_error": 0.773
+    },
+    {
+      "frame": 809,
+      "caption_region_mean_error": 0.786
+    },
+    {
+      "frame": 980,
+      "caption_region_mean_error": 0.707
+    },
+    {
+      "frame": 1070,
+      "caption_region_mean_error": 0.832
+    },
+    {
+      "frame": 1163,
+      "caption_region_mean_error": 0.813
+    },
+    {
+      "frame": 1442,
+      "caption_region_mean_error": 0.852
+    },
+    {
+      "frame": 1739,
+      "caption_region_mean_error": 0.975
+    }
+  ],
+  "encoded_frame_check": "passed"
+}

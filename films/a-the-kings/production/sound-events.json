@@ -1,62 +1,80 @@
 [
   {
-    "t": 0.7,
+    "t": 0.2,
     "scene": 1,
     "type": "paper/contact"
   },
   {
-    "t": 4.6,
+    "t": 3.851458,
     "scene": 2,
     "type": "paper/contact"
   },
   {
-    "t": 7.7,
+    "t": 7.250875,
     "scene": 3,
     "type": "paper/contact"
   },
   {
-    "t": 11.7,
+    "t": 11.690833,
     "scene": 4,
     "type": "paper/contact"
   },
   {
-    "t": 15.7,
+    "t": 16.38625,
     "scene": 5,
     "type": "paper/contact"
   },
   {
-    "t": 19.15,
+    "t": 20.21125,
     "scene": 6,
     "type": "paper/contact"
   },
   {
-    "t": 21.5,
+    "t": 21.864208,
     "scene": 7,
     "type": "paper/contact"
   },
   {
-    "t": 24.6,
+    "t": 24.203875,
     "scene": 8,
     "type": "paper/contact"
   },
   {
-    "t": 28.5,
+    "t": 27.0,
     "scene": 9,
     "type": "paper/contact"
   },
   {
-    "t": 36.15,
+    "t": 33.102792,
     "scene": 11,
     "type": "paper/contact"
   },
   {
-    "t": 64.6,
+    "t": 65.56858299999999,
     "scene": 18,
     "type": "paper/contact"
   },
   {
-    "t": 69.7,
+    "t": 70.523,
     "scene": 19,
     "type": "paper/contact"
+  },
+  {
+    "t": 4.301458,
+    "scene": 2,
+    "type": "paper_fold",
+    "new_in_v2": true
+  },
+  {
+    "t": 66.468583,
+    "scene": 18,
+    "type": "pencil_write",
+    "new_in_v2": true
+  },
+  {
+    "t": 71.723,
+    "scene": 19,
+    "type": "comment_send",
+    "new_in_v2": true
   }
 ]

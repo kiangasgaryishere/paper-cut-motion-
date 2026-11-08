@@ -1,167 +1,142 @@
 [
   {
-    "t0": 0,
-    "t1": 1.7778,
-    "text": "Do you know why, in English,"
+    "t0": 0.2,
+    "t1": 3.181208,
+    "text": "Why do we sometimes use A, and sometimes THE?"
   },
   {
-    "t0": 1.7778,
-    "t1": 4.0,
-    "text": "we sometimes use A, and sometimes THE?"
+    "t0": 3.7,
+    "t1": 6.6495,
+    "text": "For the answer, let’s visit England a thousand years ago!"
   },
   {
-    "t0": 4,
-    "t1": 7.0,
-    "text": "For the answer, let\u2019s visit England a thousand years ago!"
+    "t0": 7.0,
+    "t1": 11.15725,
+    "text": "In 1066, the king of England dies without an heir."
   },
   {
-    "t0": 7,
-    "t1": 8.7778,
-    "text": "In 1066, the king of England"
-  },
-  {
-    "t0": 8.7778,
-    "t1": 11.0,
-    "text": "dies without an heir."
-  },
-  {
-    "t0": 11,
-    "t1": 13.5455,
+    "t0": 11.466667,
+    "t1": 13.470417,
     "text": "Now England needs a king:"
   },
   {
-    "t0": 13.5455,
-    "t1": 15.0,
+    "t0": 13.8,
+    "t1": 15.482708,
     "text": "England needs a king."
   },
   {
-    "t0": 15,
-    "t1": 16.6364,
-    "text": "But there\u2019s a problem: three men"
+    "t0": 16.133333,
+    "t1": 19.380708,
+    "text": "But three men each want the throne!"
   },
   {
-    "t0": 16.6364,
-    "t1": 18.0,
-    "text": "each want the throne!"
-  },
-  {
-    "t0": 18,
-    "t1": 21.0,
+    "t0": 19.766667,
+    "t1": 21.59875,
     "text": "First, Harold is crowned."
   },
   {
-    "t0": 21,
-    "t1": 24.0,
+    "t0": 21.833333,
+    "t1": 23.799958,
     "text": "But the king of Norway invades!"
   },
   {
-    "t0": 24,
-    "t1": 25.3333,
+    "t0": 24.066667,
+    "t1": 25.066667,
     "text": "Harold defeats him,"
   },
   {
-    "t0": 25.3333,
-    "t1": 28.0,
+    "t0": 25.066667,
+    "t1": 26.966667,
     "text": "but before he can catch his breath,"
   },
   {
-    "t0": 28,
-    "t1": 32.0,
+    "t0": 26.966667,
+    "t1": 29.398958,
     "text": "William arrives with another army!"
   },
   {
-    "t0": 32,
-    "t1": 33.875,
-    "text": "This time, Harold is killed"
+    "t0": 29.733333,
+    "t1": 32.458458,
+    "text": "This time, Harold is killed, and William becomes:"
   },
   {
-    "t0": 33.875,
-    "t1": 35.0,
-    "text": "and William becomes:"
-  },
-  {
-    "t0": 35,
-    "t1": 39.0,
+    "t0": 32.666667,
+    "t1": 34.049542,
     "text": "The king of England!"
   },
   {
-    "t0": 39,
-    "t1": 40.5,
-    "text": "Notice? First we said A KING:"
+    "t0": 34.5,
+    "t1": 35.483125,
+    "text": "Notice what happened?"
+  },
+  {
+    "t0": 35.666667,
+    "t1": 37.415708,
+    "text": "First, we said A KING:"
+  },
+  {
+    "t0": 37.533333,
+    "t1": 38.671792,
+    "text": "a king—"
+  },
+  {
+    "t0": 38.766667,
+    "t1": 40.162667,
+    "text": "we haven’t specified which one."
   },
   {
     "t0": 40.5,
-    "t1": 42.0,
-    "text": "a king\u2014we haven\u2019t specified which one."
-  },
-  {
-    "t0": 42,
-    "t1": 45.0,
+    "t1": 43.797792,
     "text": "But THE KING means that particular king!"
   },
   {
-    "t0": 45,
-    "t1": 46.3333,
-    "text": "Interestingly, the roots of this distinction"
+    "t0": 44.133333,
+    "t1": 47.728625,
+    "text": "The roots of this distinction go back to Old English!"
   },
   {
-    "t0": 46.3333,
-    "t1": 47.2222,
-    "text": "go back to Old English!"
+    "t0": 48.066667,
+    "t1": 50.724917,
+    "text": "A comes from ĀN, meaning “one.”"
   },
   {
-    "t0": 47.2222,
-    "t1": 49.0,
-    "text": "A comes from \u0100N, meaning \u201cone.\u201d"
+    "t0": 51.033333,
+    "t1": 53.777042,
+    "text": "THE belongs to the demonstrative family, like “that”:"
   },
   {
-    "t0": 49,
-    "t1": 51.6923,
-    "text": "THE belongs to the demonstrative family, like \u201cthat\u201d:"
+    "t0": 53.9,
+    "t1": 56.134125,
+    "text": "something like “that one” or “the very one.”"
   },
   {
-    "t0": 51.6923,
-    "t1": 54.0,
-    "text": "something like \u201cthat one\u201d or \u201cthe very one.\u201d"
+    "t0": 56.733333,
+    "t1": 57.772375,
+    "text": "So what’s the key difference?"
   },
   {
-    "t0": 54,
-    "t1": 55.5,
-    "text": "So what\u2019s the key difference?"
-  },
-  {
-    "t0": 55.5,
-    "t1": 58.875,
+    "t0": 57.966667,
+    "t1": 61.633333,
     "text": "When your listener can identify exactly which thing you mean,"
   },
   {
-    "t0": 58.875,
-    "t1": 60.0,
+    "t0": 61.633333,
+    "t1": 63.025542,
     "text": "we usually use THE;"
   },
   {
-    "t0": 60,
-    "t1": 64.0,
-    "text": "even if it hasn\u2019t been mentioned before!"
+    "t0": 63.333333,
+    "t1": 65.197208,
+    "text": "even if it hasn’t been mentioned before!"
   },
   {
-    "t0": 64,
-    "t1": 65.5385,
-    "text": "To practise this distinction,"
+    "t0": 65.433333,
+    "t1": 70.055583,
+    "text": "To practise, we’ve prepared a visual challenge and a practical worksheet."
   },
   {
-    "t0": 65.5385,
-    "t1": 69.0,
-    "text": "we\u2019ve prepared a visual challenge and a practical worksheet."
-  },
-  {
-    "t0": 69,
-    "t1": 71.34,
-    "text": "Just comment THE"
-  },
-  {
-    "t0": 71.34,
-    "t1": 72.744,
-    "text": "and we\u2019ll send them to you!"
+    "t0": 70.3,
+    "t1": 72.452208,
+    "text": "Just comment THE and we’ll send them to you!"
   }
 ]

@@ -2,461 +2,305 @@
   {
     "n": 1,
     "start": 0,
-    "end": 4,
+    "end": 3.751458,
     "title": "A or THE?",
     "narration": "می‌دونی چرا… A … THE؟",
     "visual": "دو کارت تصویری بدون نوشته؛ تاج میان دو امکان حرکت می‌کند.",
     "camera": "ECU، روبه‌رو، کشش آرام به عقب",
     "action": "دو کارت تصویری بدون نوشته؛ تاج میان دو امکان حرکت می‌کند.",
     "sound": "دو ضربه کاغذی کوتاه؛ بدون موسیقی",
-    "voice_caption_onset_provisional": 0,
-    "visual_reveal_provisional": 0.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "می‌دونی چرا  A   THE؟",
-    "caption_end_provisional": 4,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 0.5,
-        "action": "دو کارت تصویری بدون نوشته؛ تاج میان دو امکان حرکت می‌کند."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 0
   },
   {
     "n": 2,
-    "start": 4,
-    "end": 7,
+    "start": 3.751458,
+    "end": 7.050875,
     "title": "Enter the archive",
     "narration": "برای جواب… هزار سال پیش",
     "visual": "برگه آرشیوی بدون نوشته به تالار تخت باز می‌شود.",
     "camera": "نمای بالا، عقب‌کشی به صفحه آرشیو",
     "action": "برگه آرشیوی بدون نوشته به تالار تخت باز می‌شود.",
     "sound": "خش‌خش ورق، دنباله تا شات بعد",
-    "voice_caption_onset_provisional": 4,
-    "visual_reveal_provisional": 4.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "برای جواب  هزار سال پیش",
-    "caption_end_provisional": 7,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 4.5,
-        "action": "برگه آرشیوی بدون نوشته به تالار تخت باز می‌شود."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 3.751458
   },
   {
     "n": 3,
-    "start": 7,
-    "end": 11,
+    "start": 7.050875,
+    "end": 11.490833,
     "title": "An empty throne",
     "narration": "سال ۱۰۶۶… بدون وارث",
     "visual": "تخت خالی، تاج روی بالشتک؛ قاب کوچک شاه پیشین رو به پایین تا می‌شود.",
     "camera": "مدیوم، زاویه پایین ملایم، پوش‌این",
     "action": "تخت خالی، تاج روی بالشتک؛ قاب کوچک شاه پیشین رو به پایین تا می‌شود.",
     "sound": "یک تماس چوبی، سپس قطع افکت‌ها زیر نریشن",
-    "voice_caption_onset_provisional": 7,
-    "visual_reveal_provisional": 7.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "سال ۱۰۶۶  بدون وارث",
-    "caption_end_provisional": 11,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 7.5,
-        "action": "تخت خالی، تاج روی بالشتک؛ قاب کوچک شاه پیشین رو به پایین تا می‌شود."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 7.050875
   },
   {
     "n": 4,
-    "start": 11,
-    "end": 15,
+    "start": 11.490833,
+    "end": 16.18625,
     "title": "England needs a king",
     "narration": "حالا انگلستان… England needs a king",
     "visual": "نقشه و جایگاه خالی شاه؛ یک سیلوئت ناشناس ظاهر می‌شود.",
     "camera": "واید، روبه‌رو، ثابت",
     "action": "نقشه و جایگاه خالی شاه؛ یک سیلوئت ناشناس ظاهر می‌شود.",
     "sound": "کلیک نرم همزمان با ورود a",
-    "voice_caption_onset_provisional": 11,
-    "visual_reveal_provisional": 11.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "حالا انگلستان  England needs a king",
-    "caption_end_provisional": 15,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 11.5,
-        "action": "نقشه و جایگاه خالی شاه؛ یک سیلوئت ناشناس ظاهر می‌شود."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 11.490833
   },
   {
     "n": 5,
-    "start": 15,
-    "end": 18,
+    "start": 16.18625,
+    "end": 19.81125,
     "title": "Three claimants",
     "narration": "ولی مشکل… سه نفر",
     "visual": "سه مدعی با نشان‌های متفاوت دور یک تاج.",
     "camera": "واید، نمای بالای میز، عقب‌کشی",
     "action": "سه مدعی با نشان‌های متفاوت دور یک تاج.",
     "sound": "سه تماس کاغذی با شدت کنترل‌شده",
-    "voice_caption_onset_provisional": 15,
-    "visual_reveal_provisional": 15.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "ولی مشکل  سه نفر",
-    "caption_end_provisional": 18,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 15.5,
-        "action": "سه مدعی با نشان‌های متفاوت دور یک تاج."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 16.18625
   },
   {
     "n": 6,
-    "start": 18,
-    "end": 21,
+    "start": 19.81125,
+    "end": 21.864208,
     "title": "Harold is crowned",
     "narration": "اول هارولد تاج‌گذاری می‌کنه",
     "visual": "هارولد مرکز قاب؛ دو مدعی دیگر در زمینه کوچک‌تر.",
     "camera": "مدیوم به کلوزآپ، هم‌سطح، پوش‌این",
     "action": "هارولد مرکز قاب؛ دو مدعی دیگر در زمینه کوچک‌تر.",
     "sound": "صدای تماس فلزی کوتاه",
-    "voice_caption_onset_provisional": 18,
-    "visual_reveal_provisional": 18.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "اول هارولد تاج‌گذاری می‌کنه",
-    "caption_end_provisional": 21,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 18.5,
-        "action": "هارولد مرکز قاب؛ دو مدعی دیگر در زمینه کوچک‌تر."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 19.81125
   },
   {
     "n": 7,
-    "start": 21,
-    "end": 24,
+    "start": 21.864208,
+    "end": 24.103875,
     "title": "The northern invasion",
     "narration": "اما پادشاه نروژ حمله می‌کنه",
     "visual": "نقشه شماتیک شمال انگلستان، کشتی از شمال وارد می‌شود.",
     "camera": "بالاسری، پن به شمال",
     "action": "نقشه شماتیک شمال انگلستان، کشتی از شمال وارد می‌شود.",
     "sound": "باد کوتاه و تک‌حرکت پارچه",
-    "voice_caption_onset_provisional": 21,
-    "visual_reveal_provisional": 21.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "اما پادشاه نروژ حمله می‌کنه",
-    "caption_end_provisional": 24,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 21.5,
-        "action": "نقشه شماتیک شمال انگلستان، کشتی از شمال وارد می‌شود."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 21.864208
   },
   {
     "n": 8,
-    "start": 24,
-    "end": 28,
+    "start": 24.103875,
+    "end": 27.0,
     "title": "A victory without rest",
     "narration": "هارولد شکستش می‌ده…",
     "visual": "نشان مهاجم از نقشه کنار می‌رود و نشان هارولد به جنوب حرکت می‌کند؛ مهر تصویری بدون نوشته.",
     "camera": "بالاسری، تراک شمال به جنوب",
     "action": "نشان مهاجم از نقشه کنار می‌رود و نشان هارولد به جنوب حرکت می‌کند؛ مهر تصویری بدون نوشته.",
     "sound": "ضربه مهر؛ افکت بعدی زودتر وارد می‌شود",
-    "voice_caption_onset_provisional": 24,
-    "visual_reveal_provisional": 24.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "هارولد شکستش می‌ده ",
-    "caption_end_provisional": 28,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 24.5,
-        "action": "نشان مهاجم از نقشه کنار می‌رود و نشان هارولد به جنوب حرکت می‌کند؛ مهر تصویری بدون نوشته."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 24.103875
   },
   {
     "n": 9,
-    "start": 28,
-    "end": 32,
+    "start": 27.0,
+    "end": 29.755917,
     "title": "William arrives",
     "narration": "ویلیام با یه لشکر دیگه…",
     "visual": "خط ساحل و بادبان‌ها؛ ویلیام با نشان مشخص وارد می‌شود.",
     "camera": "واید، زاویه پایین اندک، پارالاکس",
     "action": "خط ساحل و بادبان‌ها؛ ویلیام با نشان مشخص وارد می‌شود.",
     "sound": "پارچه و برخورد چوبی خفیف",
-    "voice_caption_onset_provisional": 28,
-    "visual_reveal_provisional": 28.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "ویلیام با یه لشکر دیگه ",
-    "caption_end_provisional": 32,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 28.5,
-        "action": "خط ساحل و بادبان‌ها؛ ویلیام با نشان مشخص وارد می‌شود."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 27.0
   },
   {
     "n": 10,
-    "start": 32,
-    "end": 35,
+    "start": 29.755917,
+    "end": 32.702792,
     "title": "The succession turns",
     "narration": "این بار هارولد کشته می‌شه…",
     "visual": "کارت هارولد از قاب خارج می‌شود و تاج بی‌صاحب می‌ماند.",
     "camera": "کلوزآپ تاج، ثابت",
     "action": "کارت هارولد از قاب خارج می‌شود و تاج بی‌صاحب می‌ماند.",
     "sound": "وقفه افکت، سپس تک‌ضربه مات",
-    "voice_caption_onset_provisional": 32,
-    "visual_reveal_provisional": 32.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "این بار هارولد کشته می‌شه ",
-    "caption_end_provisional": 35,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 32.5,
-        "action": "کارت هارولد از قاب خارج می‌شود و تاج بی‌صاحب می‌ماند."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 29.755917
   },
   {
     "n": 11,
-    "start": 35,
-    "end": 39,
+    "start": 32.702792,
+    "end": 34.531958,
     "title": "THE KING",
     "narration": "The king of England!",
     "visual": "تاج بر سر ویلیام؛ رقبا از عمق صحنه کنار می‌روند.",
     "camera": "لو انگل مدیوم، پوش‌این کوتاه",
     "action": "تاج بر سر ویلیام؛ رقبا از عمق صحنه کنار می‌روند.",
     "sound": "صدای نشستن تاج؛ بدون استینگر موسیقایی",
-    "voice_caption_onset_provisional": 35,
-    "visual_reveal_provisional": 35.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "The king of England!",
-    "caption_end_provisional": 39,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 35.5,
-        "action": "تاج بر سر ویلیام؛ رقبا از عمق صحنه کنار می‌روند."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 32.702792
   },
   {
     "n": 12,
-    "start": 39,
-    "end": 42,
+    "start": 34.531958,
+    "end": 40.533292,
     "title": "Compare the two states",
     "narration": "اول گفتیم A KING؛ یعنی یه پادشاه، هنوز مشخص نکردیم کدوم.",
     "visual": "سه سیلوئت نامشخص؛ دایره انتخاب میان آنها می‌گردد.",
     "camera": "دو نمای مدیوم روبه‌رو، ثابت",
     "action": "سه سیلوئت نامشخص؛ دایره انتخاب میان آنها می‌گردد.",
     "sound": "دو تماس سبک؛ سکوت افکت هنگام توضیح",
-    "voice_caption_onset_provisional": 39,
-    "visual_reveal_provisional": 39.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "اول گفتیم A KING؛ یعنی یه پادشاه، هنوز مشخص نکردیم کدوم.",
-    "caption_end_provisional": 42,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 39.5,
-        "action": "سه سیلوئت نامشخص؛ دایره انتخاب میان آنها می‌گردد."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 34.531958
   },
   {
     "n": 13,
-    "start": 42,
-    "end": 45,
+    "start": 40.533292,
+    "end": 44.17875,
     "title": "Compare the two states",
     "narration": "ولی THE KING یعنی اون پادشاه مشخص!",
     "visual": "دو گزینه کنار می‌روند و ویلیامِ تاج‌دار واضح می‌ماند.",
     "camera": "دو نمای مدیوم روبه‌رو، ثابت",
     "action": "دو گزینه کنار می‌روند و ویلیامِ تاج‌دار واضح می‌ماند.",
     "sound": "دو تماس سبک؛ سکوت افکت هنگام توضیح",
-    "voice_caption_onset_provisional": 42,
-    "visual_reveal_provisional": 42.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "ولی THE KING یعنی اون پادشاه مشخص!",
-    "caption_end_provisional": 45,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 42.5,
-        "action": "دو گزینه کنار می‌روند و ویلیامِ تاج‌دار واضح می‌ماند."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 40.533292
   },
   {
     "n": 14,
-    "start": 45,
-    "end": 49,
+    "start": 44.17875,
+    "end": 51.084417,
     "title": "A comes from one",
     "narration": "ریشه… A از ĀN… یک",
     "visual": "یک مهره از میان چند مهره جدا می‌شود؛ ریشه واژه فقط در زیرنویس.",
     "camera": "اینسرت بالاسری، ثابت",
     "action": "یک مهره از میان چند مهره جدا می‌شود؛ ریشه واژه فقط در زیرنویس.",
     "sound": "یک ضربه مداد کوتاه",
-    "voice_caption_onset_provisional": 45,
-    "visual_reveal_provisional": 45.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "ریشه  A از ĀN  یک",
-    "caption_end_provisional": 49,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 45.5,
-        "action": "یک مهره از میان چند مهره جدا می‌شود؛ ریشه واژه فقط در زیرنویس."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 44.17875
   },
   {
     "n": 15,
-    "start": 49,
-    "end": 54,
+    "start": 51.084417,
+    "end": 56.775958,
     "title": "THE and pointing",
     "narration": "اما THE… that … اون و همون",
     "visual": "دست کاغذی به تاج مشخص اشاره می‌کند؛ توضیح واژه فقط در زیرنویس.",
     "camera": "کلوزآپ کارت‌ها، پن کوتاه",
     "action": "دست کاغذی به تاج مشخص اشاره می‌کند؛ توضیح واژه فقط در زیرنویس.",
     "sound": "حرکت کاغذ و کلیک اشاره",
-    "voice_caption_onset_provisional": 49,
-    "visual_reveal_provisional": 49.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "اما THE  that   اون و همون",
-    "caption_end_provisional": 54,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 49.5,
-        "action": "دست کاغذی به تاج مشخص اشاره می‌کند؛ توضیح واژه فقط در زیرنویس."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 51.084417
   },
   {
     "n": 16,
-    "start": 54,
-    "end": 60,
+    "start": 56.775958,
+    "end": 63.356917,
     "title": "Can the listener identify it?",
     "narration": "پس فرق اصلی چیه؟… کدوم چیز…",
     "visual": "دو شخصیت به یک تاج نگاه می‌کنند؛ خطوط نگاه در یک نقطه همگرا می‌شوند.",
     "camera": "مدیوم دونفره، روبه‌رو، ثابت",
     "action": "دو شخصیت به یک تاج نگاه می‌کنند؛ خطوط نگاه در یک نقطه همگرا می‌شوند.",
     "sound": "افکت‌ها تقریباً ساکت برای فهم قاعده",
-    "voice_caption_onset_provisional": 54,
-    "visual_reveal_provisional": 54.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "پس فرق اصلی چیه؟  کدوم چیز ",
-    "caption_end_provisional": 60,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 54.5,
-        "action": "دو شخصیت به یک تاج نگاه می‌کنند؛ خطوط نگاه در یک نقطه همگرا می‌شوند."
-      },
-      {
-        "at": 57.5,
-        "action": "همگرایی نگاه‌ها و روشن‌شدن تاج؛ تغییر معنادار در همان صحنه"
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 56.775958
   },
   {
     "n": 17,
-    "start": 60,
-    "end": 64,
+    "start": 63.356917,
+    "end": 65.468583,
     "title": "Even on first mention",
     "narration": "حتی اگه قبلاً اسمش…",
     "visual": "اتاقی با تنها یک پنجره؛ نور توجه را به پنجره می‌برد، بدون برچسب.",
     "camera": "واید اتاق، پوش‌این به پنجره",
     "action": "اتاقی با تنها یک پنجره؛ نور توجه را به پنجره می‌برد، بدون برچسب.",
     "sound": "کلیک بسیار نرم؛ مثال تصویری افزوده به روایت",
-    "voice_caption_onset_provisional": 60,
-    "visual_reveal_provisional": 60.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "حتی اگه قبلاً اسمش ",
-    "caption_end_provisional": 64,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 60.5,
-        "action": "اتاقی با تنها یک پنجره؛ نور توجه را به پنجره می‌برد، بدون برچسب."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 63.356917
   },
   {
     "n": 18,
-    "start": 64,
-    "end": 69,
+    "start": 65.468583,
+    "end": 70.323,
     "title": "The practice sheet",
     "narration": "برای تمرین… چالش… ورک‌شیت",
     "visual": "برگه تمرین تصویری بدون تیتر و نوشته؛ جای پاسخ‌ها و اشکال مشخص‌اند.",
     "camera": "بالاسری، عقب‌کشی",
     "action": "برگه تمرین تصویری بدون تیتر و نوشته؛ جای پاسخ‌ها و اشکال مشخص‌اند.",
     "sound": "لغزش ورق و دو تماس سبک",
-    "voice_caption_onset_provisional": 64,
-    "visual_reveal_provisional": 64.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "برای تمرین  چالش  ورک‌شیت",
-    "caption_end_provisional": 69,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 64.5,
-        "action": "برگه تمرین تصویری بدون تیتر و نوشته؛ جای پاسخ‌ها و اشکال مشخص‌اند."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 65.468583
   },
   {
     "n": 19,
-    "start": 69,
-    "end": 72.744,
+    "start": 70.323,
+    "end": 72.766666667,
     "title": "Comment THE",
     "narration": "فقط THE رو کامنت کن…",
     "visual": "حباب کامنت بی‌نوشته و تاج کوچک؛ THE فقط در زیرنویس.",
     "camera": "کلوزآپ روبه‌رو، ثابت",
     "action": "حباب کامنت بی‌نوشته و تاج کوچک؛ THE فقط در زیرنویس.",
     "sound": "کلیک ثبت؛ پایان بدون موسیقی",
-    "voice_caption_onset_provisional": 69,
-    "visual_reveal_provisional": 69.5,
-    "timing_status": "provisional_not_speech_aligned",
+    "timing_status": "speech_anchored_v2",
     "caption": "فقط THE رو کامنت کن ",
-    "caption_end_provisional": 72.744,
-    "on_screen_text": "subtitle_only",
-    "events_provisional": [
-      {
-        "at": 69.5,
-        "action": "حباب کامنت بی‌نوشته و تاج کوچک؛ THE فقط در زیرنویس."
-      }
-    ],
-    "sound_policy": "نریشن و زیرنویس در زمان گفتار؛ تصویر مرتبط ۰٫۵ ثانیه بعد. فولی تماس روی رویداد تصویر؛ بدون موسیقی."
+    "on_screen_text": "captions + selected headlines; A/THE on first cards; THE in comment box",
+    "sound_policy": "Original voice unchanged; foley at visual events; no music.",
+    "visual_reveal": 70.323
   }
 ]

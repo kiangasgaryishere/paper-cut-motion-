@@ -1,266 +1,310 @@
 [
   {
-    "t0": 0,
-    "t1": 1.7778,
-    "text": "می‌دونی چرا توی انگلیسی",
-    "en": "Do you know why, in English,",
+    "t0": 0.2,
+    "t1": 3.181208,
+    "text": "می‌دونی چرا توی انگلیسی یه‌جا A میاریم، یه‌جا THE؟",
+    "en": "Why do we sometimes use A, and sometimes THE?",
     "scene": 0,
-    "timing": "estimated_unverified"
+    "speech_onset": 0.225167,
+    "speech_end": 3.121208,
+    "lead_ms": 25.17,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 1.7778,
-    "t1": 4.0,
-    "text": "یه‌جا A میاریم، یه‌جا THE؟",
-    "en": "we sometimes use A, and sometimes THE?",
-    "scene": 0,
-    "timing": "estimated_unverified"
-  },
-  {
-    "t0": 4,
-    "t1": 7.0,
+    "t0": 3.7,
+    "t1": 6.6495,
     "text": "برای جواب، بریم به انگلستانِ هزار سال پیش!",
     "en": "For the answer, let’s visit England a thousand years ago!",
     "scene": 1,
-    "timing": "estimated_unverified"
+    "speech_onset": 3.751458,
+    "speech_end": 6.5895,
+    "lead_ms": 51.46,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 7,
-    "t1": 8.7778,
-    "text": "سال ۱۰۶۶، پادشاه انگلستان",
-    "en": "In 1066, the king of England",
+    "t0": 7.0,
+    "t1": 11.15725,
+    "text": "سال ۱۰۶۶، پادشاه انگلستان بدون وارث از دنیا می‌ره.",
+    "en": "In 1066, the king of England dies without an heir.",
     "scene": 2,
-    "timing": "estimated_unverified"
+    "speech_onset": 7.050875,
+    "speech_end": 11.09725,
+    "lead_ms": 50.87,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 8.7778,
-    "t1": 11.0,
-    "text": "بدون وارث از دنیا می‌ره.",
-    "en": "dies without an heir.",
-    "scene": 2,
-    "timing": "estimated_unverified"
-  },
-  {
-    "t0": 11,
-    "t1": 13.5455,
+    "t0": 11.466667,
+    "t1": 13.470417,
     "text": "حالا انگلستان به یه پادشاه احتیاج داره:",
     "en": "Now England needs a king:",
     "scene": 3,
-    "timing": "estimated_unverified"
+    "speech_onset": 11.490833,
+    "speech_end": 13.410417,
+    "lead_ms": 24.17,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 13.5455,
-    "t1": 15.0,
+    "t0": 13.8,
+    "t1": 15.482708,
     "text": "England needs a king.",
     "en": "England needs a king.",
     "scene": 3,
-    "timing": "estimated_unverified"
+    "speech_onset": 13.839833,
+    "speech_end": 15.422708,
+    "lead_ms": 39.83,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 15,
-    "t1": 16.6364,
-    "text": "ولی مشکل اینجاست که سه نفر",
-    "en": "But there’s a problem: three men",
+    "t0": 16.133333,
+    "t1": 19.380708,
+    "text": "ولی مشکل اینجاست که سه نفر تاج‌وتخت رو برای خودشون می‌خوان!",
+    "en": "But three men each want the throne!",
     "scene": 4,
-    "timing": "estimated_unverified"
+    "speech_onset": 16.18625,
+    "speech_end": 19.320708,
+    "lead_ms": 52.92,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 16.6364,
-    "t1": 18.0,
-    "text": "تاج‌وتخت رو برای خودشون می‌خوان!",
-    "en": "each want the throne!",
-    "scene": 4,
-    "timing": "estimated_unverified"
-  },
-  {
-    "t0": 18,
-    "t1": 21.0,
+    "t0": 19.766667,
+    "t1": 21.59875,
     "text": "اول هارولد تاج‌گذاری می‌کنه.",
     "en": "First, Harold is crowned.",
     "scene": 5,
-    "timing": "estimated_unverified"
+    "speech_onset": 19.81125,
+    "speech_end": 21.53875,
+    "lead_ms": 44.58,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 21,
-    "t1": 24.0,
+    "t0": 21.833333,
+    "t1": 23.799958,
     "text": "اما پادشاه نروژ حمله می‌کنه!",
     "en": "But the king of Norway invades!",
     "scene": 6,
-    "timing": "estimated_unverified"
+    "speech_onset": 21.864208,
+    "speech_end": 23.739958,
+    "lead_ms": 30.87,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 24,
-    "t1": 25.3333,
+    "t0": 24.066667,
+    "t1": 25.066667,
     "text": "هارولد شکستش می‌ده،",
     "en": "Harold defeats him,",
     "scene": 7,
-    "timing": "estimated_unverified"
+    "speech_onset": 24.103875,
+    "speech_end": 25.1,
+    "lead_ms": 37.21,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 25.3333,
-    "t1": 28.0,
+    "t0": 25.066667,
+    "t1": 26.966667,
     "text": "ولی هنوز نفس راحت نکشیده که",
     "en": "but before he can catch his breath,",
     "scene": 7,
-    "timing": "estimated_unverified"
+    "speech_onset": 25.1,
+    "speech_end": 27.0,
+    "lead_ms": 33.33,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 28,
-    "t1": 32.0,
+    "t0": 26.966667,
+    "t1": 29.398958,
     "text": "ویلیام با یه لشکر دیگه از راه می‌رسه!",
     "en": "William arrives with another army!",
     "scene": 8,
-    "timing": "estimated_unverified"
+    "speech_onset": 27.0,
+    "speech_end": 29.338958,
+    "lead_ms": 33.33,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 32,
-    "t1": 33.875,
-    "text": "این بار هارولد کشته می‌شه",
-    "en": "This time, Harold is killed",
+    "t0": 29.733333,
+    "t1": 32.458458,
+    "text": "این بار هارولد کشته می‌شه و ویلیام می‌شه:",
+    "en": "This time, Harold is killed, and William becomes:",
     "scene": 9,
-    "timing": "estimated_unverified"
+    "speech_onset": 29.755917,
+    "speech_end": 32.398458,
+    "lead_ms": 22.58,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 33.875,
-    "t1": 35.0,
-    "text": "و ویلیام می‌شه:",
-    "en": "and William becomes:",
-    "scene": 9,
-    "timing": "estimated_unverified"
-  },
-  {
-    "t0": 35,
-    "t1": 39.0,
+    "t0": 32.666667,
+    "t1": 34.049542,
     "text": "The king of England!",
     "en": "The king of England!",
     "scene": 10,
-    "timing": "estimated_unverified"
+    "speech_onset": 32.702792,
+    "speech_end": 33.989542,
+    "lead_ms": 36.13,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 39,
-    "t1": 40.5,
-    "text": "حالا دقت کردی؟ اول گفتیم A KING؛",
-    "en": "Notice? First we said A KING:",
+    "t0": 34.5,
+    "t1": 35.483125,
+    "text": "حالا دقت کردی؟",
+    "en": "Notice what happened?",
     "scene": 11,
-    "timing": "estimated_unverified"
+    "speech_onset": 34.531958,
+    "speech_end": 35.423125,
+    "lead_ms": 31.96,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
+  },
+  {
+    "t0": 35.666667,
+    "t1": 37.415708,
+    "text": "اول گفتیم A KING؛",
+    "en": "First, we said A KING:",
+    "scene": 11,
+    "speech_onset": 35.697375,
+    "speech_end": 37.355708,
+    "lead_ms": 30.71,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
+  },
+  {
+    "t0": 37.533333,
+    "t1": 38.671792,
+    "text": "یعنی یه پادشاه،",
+    "en": "a king—",
+    "scene": 11,
+    "speech_onset": 37.57625,
+    "speech_end": 38.611792,
+    "lead_ms": 42.92,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
+  },
+  {
+    "t0": 38.766667,
+    "t1": 40.162667,
+    "text": "هنوز مشخص نکردیم کدوم.",
+    "en": "we haven’t specified which one.",
+    "scene": 11,
+    "speech_onset": 38.800625,
+    "speech_end": 40.102667,
+    "lead_ms": 33.96,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
     "t0": 40.5,
-    "t1": 42.0,
-    "text": "یعنی یه پادشاه، هنوز مشخص نکردیم کدوم.",
-    "en": "a king—we haven’t specified which one.",
-    "scene": 11,
-    "timing": "estimated_unverified"
-  },
-  {
-    "t0": 42,
-    "t1": 45.0,
+    "t1": 43.797792,
     "text": "ولی THE KING یعنی اون پادشاه مشخص!",
     "en": "But THE KING means that particular king!",
     "scene": 12,
-    "timing": "estimated_unverified"
+    "speech_onset": 40.533292,
+    "speech_end": 43.737792,
+    "lead_ms": 33.29,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 45,
-    "t1": 46.3333,
-    "text": "و جالبه که ریشهٔ این تفاوت",
-    "en": "Interestingly, the roots of this distinction",
+    "t0": 44.133333,
+    "t1": 47.728625,
+    "text": "و جالبه که ریشهٔ این تفاوت به انگلیسی قدیم برمی‌گرده!",
+    "en": "The roots of this distinction go back to Old English!",
     "scene": 13,
-    "timing": "estimated_unverified"
+    "speech_onset": 44.17875,
+    "speech_end": 47.668625,
+    "lead_ms": 45.42,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 46.3333,
-    "t1": 47.2222,
-    "text": "به انگلیسی قدیم برمی‌گرده!",
-    "en": "go back to Old English!",
-    "scene": 13,
-    "timing": "estimated_unverified"
-  },
-  {
-    "t0": 47.2222,
-    "t1": 49.0,
+    "t0": 48.066667,
+    "t1": 50.724917,
     "text": "A از کلمهٔ ĀN به معنی «یک» اومده.",
     "en": "A comes from ĀN, meaning “one.”",
     "scene": 13,
-    "timing": "estimated_unverified"
+    "speech_onset": 48.103875,
+    "speech_end": 50.664917,
+    "lead_ms": 37.21,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 49,
-    "t1": 51.6923,
+    "t0": 51.033333,
+    "t1": 53.777042,
     "text": "اما THE از خانوادهٔ کلمهٔ اشارهٔ that؛",
     "en": "THE belongs to the demonstrative family, like “that”:",
     "scene": 14,
-    "timing": "estimated_unverified"
+    "speech_onset": 51.084417,
+    "speech_end": 53.717042,
+    "lead_ms": 51.08,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 51.6923,
-    "t1": 54.0,
+    "t0": 53.9,
+    "t1": 56.134125,
     "text": "چیزی شبیه «اون» و «همون» خودمون!",
     "en": "something like “that one” or “the very one.”",
     "scene": 14,
-    "timing": "estimated_unverified"
+    "speech_onset": 53.947542,
+    "speech_end": 56.074125,
+    "lead_ms": 47.54,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 54,
-    "t1": 55.5,
+    "t0": 56.733333,
+    "t1": 57.772375,
     "text": "پس فرق اصلی چیه؟",
     "en": "So what’s the key difference?",
     "scene": 15,
-    "timing": "estimated_unverified"
+    "speech_onset": 56.775958,
+    "speech_end": 57.712375,
+    "lead_ms": 42.62,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 55.5,
-    "t1": 58.875,
+    "t0": 57.966667,
+    "t1": 61.633333,
     "text": "وقتی شنونده می‌تونه بفهمه دقیقاً کدوم چیز رو می‌گی،",
     "en": "When your listener can identify exactly which thing you mean,",
     "scene": 15,
-    "timing": "estimated_unverified"
+    "speech_onset": 58.017042,
+    "speech_end": 61.68,
+    "lead_ms": 50.38,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 58.875,
-    "t1": 60.0,
+    "t0": 61.633333,
+    "t1": 63.025542,
     "text": "معمولاً THE میاریم؛",
     "en": "we usually use THE;",
     "scene": 15,
-    "timing": "estimated_unverified"
+    "speech_onset": 61.68,
+    "speech_end": 62.965542,
+    "lead_ms": 46.67,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 60,
-    "t1": 64.0,
+    "t0": 63.333333,
+    "t1": 65.197208,
     "text": "حتی اگه قبلاً اسمش رو نشنیده باشه!",
     "en": "even if it hasn’t been mentioned before!",
     "scene": 16,
-    "timing": "estimated_unverified"
+    "speech_onset": 63.356917,
+    "speech_end": 65.137208,
+    "lead_ms": 23.58,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 64,
-    "t1": 65.5385,
-    "text": "برای تمرین این تفاوت،",
-    "en": "To practise this distinction,",
+    "t0": 65.433333,
+    "t1": 70.055583,
+    "text": "برای تمرین این تفاوت، یه چالش تصویری و یه ورک‌شیت کاربردی آماده کردیم.",
+    "en": "To practise, we’ve prepared a visual challenge and a practical worksheet.",
     "scene": 17,
-    "timing": "estimated_unverified"
+    "speech_onset": 65.468583,
+    "speech_end": 69.995583,
+    "lead_ms": 35.25,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   },
   {
-    "t0": 65.5385,
-    "t1": 69.0,
-    "text": "یه چالش تصویری و یه ورک‌شیت کاربردی آماده کردیم.",
-    "en": "we’ve prepared a visual challenge and a practical worksheet.",
-    "scene": 17,
-    "timing": "estimated_unverified"
-  },
-  {
-    "t0": 69,
-    "t1": 71.34,
-    "text": "فقط THE رو کامنت کن",
-    "en": "Just comment THE",
+    "t0": 70.3,
+    "t1": 72.452208,
+    "text": "فقط THE رو کامنت کن تا برات بفرستیم!",
+    "en": "Just comment THE and we’ll send them to you!",
     "scene": 18,
-    "timing": "estimated_unverified"
-  },
-  {
-    "t0": 71.34,
-    "t1": 72.744,
-    "text": "تا برات بفرستیم!",
-    "en": "and we’ll send them to you!",
-    "scene": 18,
-    "timing": "estimated_unverified"
+    "speech_onset": 70.323,
+    "speech_end": 72.392208,
+    "lead_ms": 23.0,
+    "timing_method": "Whisper native segments + silence-edge refinement; continuous boundaries approximate"
   }
 ]
