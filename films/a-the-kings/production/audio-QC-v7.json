@@ -1,0 +1,28 @@
+{
+  "events": 30,
+  "learning_strokes": 7,
+  "J_cuts": 4,
+  "L_cuts": 2,
+  "music": "none",
+  "duration": 79.1,
+  "voice_timing_shift_samples": -1,
+  "mix_reconstruction_max_error": 1.190443886731063e-07,
+  "speech_to_effect_dB": {
+    "minimum_100ms": 14.42492720315538,
+    "median_100ms": 26.197253630277487
+  },
+  "mix_peak_dBFS": -1.514415166281326,
+  "master_target_LUFS": -12,
+  "listening_review": "not performed",
+  "previous_encoded": {
+    "input_i": -14.02,
+    "input_tp": -1.49,
+    "input_lra": 3.2
+  },
+  "final_encoded": {
+    "input_i": -12.51,
+    "input_tp": -1.46,
+    "input_lra": 3.2
+  },
+  "loudness_increase_LU": 1.51
+}

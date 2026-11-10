@@ -1,0 +1,32 @@
+{
+  "encoded_palette_frames": [
+    {
+      "frame": 0,
+      "mean_pixel_error": 0.785
+    },
+    {
+      "frame": 111,
+      "mean_pixel_error": 0.779
+    },
+    {
+      "frame": 213,
+      "mean_pixel_error": 0.736
+    },
+    {
+      "frame": 831,
+      "mean_pixel_error": 0.959
+    },
+    {
+      "frame": 1104,
+      "mean_pixel_error": 0.86
+    },
+    {
+      "frame": 1740,
+      "mean_pixel_error": 0.861
+    },
+    {
+      "frame": 2340,
+      "mean_pixel_error": 0.913
+    }
+  ]
+}

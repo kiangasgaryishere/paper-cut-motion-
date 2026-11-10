@@ -1,0 +1,272 @@
+[
+  {
+    "type": "paper_card_accent",
+    "start": 2.062,
+    "end": 2.122,
+    "gain": 1,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "paper_card_accent",
+    "start": 3.4,
+    "end": 3.46,
+    "gain": 1,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "paper_unfold_pre_lap",
+    "start": 4.61725,
+    "end": 5.39725,
+    "gain": 1,
+    "pan": 0,
+    "edit": "J",
+    "cut": 4.91725
+  },
+  {
+    "type": "empty_throne_wood",
+    "start": 11.177958,
+    "end": 11.267958,
+    "gain": 1,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "claimants_three_cards",
+    "start": 21.3285,
+    "end": 21.7085,
+    "gain": 0.6,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "coronation_metal",
+    "start": 25.402792,
+    "end": 26.052792,
+    "gain": 1,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "norway_sail_before_picture",
+    "start": 26.679792,
+    "end": 27.629792,
+    "gain": 1,
+    "pan": 0.35,
+    "edit": "J",
+    "cut": 27.039792
+  },
+  {
+    "type": "norway_attack_rush",
+    "start": 26.919792,
+    "end": 29.669792,
+    "gain": 1,
+    "pan": 0.25,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "short_attack_cry",
+    "start": 27.279792,
+    "end": 28.029792,
+    "gain": 0.8,
+    "pan": 0.15,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "battle_tail_to_victory",
+    "start": 29.366208,
+    "end": 30.266208,
+    "gain": 1,
+    "pan": -0.2,
+    "edit": "L",
+    "cut": 29.546208
+  },
+  {
+    "type": "shield_falls",
+    "start": 30.596208,
+    "end": 30.686208,
+    "gain": 1,
+    "pan": 0.25,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "william_army_pre_lap",
+    "start": 32.295187,
+    "end": 33.895187,
+    "gain": 1,
+    "pan": -0.3,
+    "edit": "J",
+    "cut": 32.6751875
+  },
+  {
+    "type": "william_sail",
+    "start": 32.795187,
+    "end": 33.395187,
+    "gain": 1,
+    "pan": -0.2,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "harold_short_fall_breath",
+    "start": 35.961292,
+    "end": 36.391292,
+    "gain": 1,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "harold_ground_impact",
+    "start": 36.381292,
+    "end": 36.731292,
+    "gain": 1,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "single_game_over_effect",
+    "start": 36.531292,
+    "end": 37.151292,
+    "gain": 1,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "new_king_crown",
+    "start": 38.62225,
+    "end": 39.24225,
+    "gain": 1,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "old_book_page_tail",
+    "start": 56.645042,
+    "end": 57.405042,
+    "gain": 0.65,
+    "pan": 0,
+    "edit": "L",
+    "cut": 56.885042
+  },
+  {
+    "type": "worksheet_pencil",
+    "start": 73.195708,
+    "end": 73.645708,
+    "gain": 0.8,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "comment_interface_pre_lap",
+    "start": 76.691208,
+    "end": 77.111208,
+    "gain": 0.25,
+    "pan": 0,
+    "edit": "J",
+    "cut": 76.941208
+  },
+  {
+    "type": "cta_key_1",
+    "start": 77.3225,
+    "end": 77.3825,
+    "gain": 1,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "cta_key_2",
+    "start": 77.4525,
+    "end": 77.5125,
+    "gain": 1,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "cta_key_3",
+    "start": 77.5825,
+    "end": 77.6425,
+    "gain": 1,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "comment_send",
+    "start": 78.341208,
+    "end": 78.461208,
+    "gain": 1,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "a_comparison_underline",
+    "start": 41.739875,
+    "end": 42.189875,
+    "gain": 0.85,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "the_comparison_underline",
+    "start": 46.3745,
+    "end": 46.8245,
+    "gain": 0.85,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "an_to_a_pencil_arrow",
+    "start": 53.605917,
+    "end": 54.055917,
+    "gain": 0.85,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "the_family_pencil_branch",
+    "start": 57.535042,
+    "end": 58.085042,
+    "gain": 0.85,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "identified_crown_marker",
+    "start": 65.345333,
+    "end": 65.795333,
+    "gain": 0.85,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  },
+  {
+    "type": "shared_window_marker",
+    "start": 70.227833,
+    "end": 70.677833,
+    "gain": 0.85,
+    "pan": 0,
+    "edit": "sync",
+    "cut": null
+  }
+]
