@@ -54,3 +54,7 @@ The opening uses bright cream, an ivory A card and a burgundy THE card with whit
 Narration receives gentle presence EQ and compression without retiming. Mastering targets −12 LUFS with a true-peak guard below −1 dBTP. The encoded file measures −12.51 LUFS / −1.46 dBTP, 1.51 LU louder than v6. Speech-aware ducking and an overlapping-window effect limiter keep narration above the effects. Seven pencil/marker sounds follow animated learning strokes; 30 sound events retain the four J-cuts and two L-cuts. No music is added.
 
 Warm cream, gold, teal, navy, plum and pale blue distinguish the story beats. More saturated costumes preserve each character’s color identity. See [audio measurements](films/a-the-kings/production/audio-QC-v7.json), [palette checks](films/a-the-kings/production/palette-QC-v7.json) and [stroke synchronization checks](films/a-the-kings/production/learning-QC-v7.json). Independent listening review has not been performed.
+
+## Additional film: 1904 Olympic marathon
+
+A separate [10-second Welsh Valley Gouache style test](films/olympic-1904-gouache/README.md), with Persian text and sound effects, is available as [MP4](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-gouache-test-v1.mp4). This project uses painted assets and a limited run cycle; no voiceover or music.

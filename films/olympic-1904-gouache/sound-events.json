@@ -1,0 +1,126 @@
+[
+  {
+    "type": "dirt_footstep",
+    "at": 0.2
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 0.5927
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 0.9854
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 1.3781
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 1.7708
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 2.1635
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 2.5562
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 2.9489
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 3.125
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 3.375
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 3.625
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 3.875
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 4.125
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 4.375
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 4.625
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 4.875
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 5.125
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 5.375
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 5.625
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 5.875
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 6.15
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 6.55
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 6.95
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 7.35
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 7.75
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 8.15
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 8.55
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 8.95
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 9.35
+  },
+  {
+    "type": "dirt_footstep",
+    "at": 9.75
+  },
+  {
+    "type": "starter_crack",
+    "at": 3
+  }
+]
