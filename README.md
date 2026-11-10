@@ -2,15 +2,15 @@
 
 A 19-scene vertical film explaining English articles through the 1066 succession story, with the supplied Persian narration, Persian-only captions and procedural sound effects. **No background music.**
 
-[Download the video (MP4)](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/a-the-kings-v5.mp4)
+[Download the video (MP4)](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/a-the-kings-v6.mp4)
 
-[View the revised keyframes](films/a-the-kings/production/keyframes-v4.jpg) · [Director’s plan (Persian)](films/a-the-kings/DIRECTORS-PLAN.fa.md)
+[View the revised keyframes](films/a-the-kings/production/keyframes-v6.jpg) · [Director’s plan (Persian)](films/a-the-kings/DIRECTORS-PLAN.fa.md)
 
 ## Version status
 
-This is the **fifth motion version**. Phrase timing now uses Whisper speech segments refined against pauses in the recording, replacing the first version’s estimated scene table. Captions lead their detected phrase onset by approximately 23–53 ms at 30 fps. Visual changes follow narration rather than a fixed 0.5-second delay. Some continuous-speech boundaries remain approximate; independent listening review has not been performed. The artwork is original vector paper illustration, not archival photo collage. The user-approved 79.1-second narration prefix is included without retiming; extra unscripted speech after the CTA was removed by approval, and mastering adjusts its level.
+This is the **sixth motion version**. Phrase timing now uses Whisper speech segments refined against pauses in the recording, replacing the first version’s estimated scene table. Captions lead their detected phrase onset by approximately 23–53 ms at 30 fps. Visual changes follow narration rather than a fixed 0.5-second delay. Some continuous-speech boundaries remain approximate; independent listening review has not been performed. The artwork is original vector paper illustration, not archival photo collage. The user-approved 79.1-second narration prefix is included without retiming; extra unscripted speech after the CTA was removed by approval, and mastering adjusts its level.
 
-The delivered MP4 is 1080×1920, 30 fps, 79.1 seconds, H.264/AAC. Full decoding and black-frame checks passed. See [version 5 review notes](films/a-the-kings/production/REVIEW-v5.fa.md) and [QC](films/a-the-kings/production/QC-v5.json). The first version remains in `video/a-the-kings-v1-review.mp4` for comparison.
+The delivered MP4 is 1080×1920, 30 fps, 79.1 seconds, H.264/AAC. Full decoding and black-frame checks passed. See [version 6 review notes](films/a-the-kings/production/REVIEW-v6.fa.md) and [QC](films/a-the-kings/production/QC-v6.json). The first version remains in `video/a-the-kings-v1-review.mp4` for comparison.
 
 ## Run and rebuild
 
@@ -21,7 +21,7 @@ bash setup.sh
 bash films/a-the-kings/production/build.sh
 ```
 
-The build writes `video/a-the-kings-v5.mp4`. Run from an existing checkout; a separate Git worktree is unnecessary. Rendering can take several minutes. Dependencies and intermediate WAV/frame files are ignored; the finished MP4 is tracked for direct download.
+The build writes `video/a-the-kings-v6.mp4`. Run from an existing checkout; a separate Git worktree is unnecessary. Rendering can take several minutes. Dependencies and intermediate WAV/frame files are ignored; the finished MP4 is tracked for direct download.
 
 `production/index.html` and `data.js` contain the current motion and artwork. `captions.json` contains the speech-anchored bilingual cues; `mix.py` builds the sound mix. Earlier storyboard generators and boards are retained as design history; do not run them over the current motion page. The prepared production files rebuild without regenerating the storyboard.
 
@@ -43,4 +43,8 @@ The new script and voiceover have been aligned again. The user approved removing
 
 ## Version 5 — sound bridges and varied edits
 
-Four J-cut sound pre-laps and two L-cut tails bridge selected picture edits while narration and Persian captions retain their timing. Distinct battle, sail, fall and one brief game-over effect replace repeated transition sounds. THE types in three synchronized steps in the final comment box. No background score was added. The sound-event map and edit checks are in [sound-events-v5.json](films/a-the-kings/production/sound-events-v5.json) and [edit-QC-v5.json](films/a-the-kings/production/edit-QC-v5.json).
+Four J-cut sound pre-laps and two L-cut tails bridge selected picture edits while narration and Persian captions retain their timing. Distinct battle, sail, fall and one brief game-over effect replace repeated transition sounds. THE types in three synchronized steps in the final comment box. No background score was added. The sound-event map and edit checks are in [sound-events-v5.json](films/a-the-kings/production/sound-events-v5.json) and [edit-QC-v6.json](films/a-the-kings/production/edit-QC-v6.json).
+
+## Version 6 — narrative color palette
+
+The opening uses bright cream, an ivory A card and a burgundy THE card with white lettering. History uses warm paper; invasion and battle use slate navy; Harold’s death uses warm charcoal. The grammar section returns to cream, and the CTA repeats burgundy in the comment box. Text color adapts to dark backgrounds. The original speech, Persian captions and v5 sound design retain their timing. Computed palette contrast and hook checks are in [palette-QC-v6.json](films/a-the-kings/production/palette-QC-v6.json).

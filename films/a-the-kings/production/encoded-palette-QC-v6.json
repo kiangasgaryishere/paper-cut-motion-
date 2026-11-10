@@ -1,0 +1,35 @@
+{
+  "encoded_palette_frames": [
+    {
+      "frame": 0,
+      "mean_pixel_error": 0.887
+    },
+    {
+      "frame": 111,
+      "mean_pixel_error": 0.884
+    },
+    {
+      "frame": 213,
+      "mean_pixel_error": 0.546
+    },
+    {
+      "frame": 831,
+      "mean_pixel_error": 1.016
+    },
+    {
+      "frame": 1104,
+      "mean_pixel_error": 0.801
+    },
+    {
+      "frame": 1740,
+      "mean_pixel_error": 0.78
+    },
+    {
+      "frame": 2340,
+      "mean_pixel_error": 0.895
+    }
+  ],
+  "audio_payload_identical": true,
+  "v5_audio_hash": "SHA256=a7457255b61ee7f39189726a3a12b66465ba0aa40d3d573b891fc49ff8cbad95",
+  "v6_audio_hash": "SHA256=a7457255b61ee7f39189726a3a12b66465ba0aa40d3d573b891fc49ff8cbad95"
+}

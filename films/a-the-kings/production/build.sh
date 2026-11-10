@@ -7,5 +7,5 @@ export PLAYWRIGHT_CHROME=${PLAYWRIGHT_CHROME:-/usr/bin/chromium}
 export LEMO_ANGLE=${LEMO_ANGLE:-swiftshader}
 ffmpeg -v error -y -i "$HERE/narration-v4.mp3" -ar 48000 -ac 1 "$HERE/voice.wav"
 "$LIB/.venv/bin/python" "$HERE/mix_v5.py"
-node core/render/video.mjs "$HERE" --fps 30 --workers 3 --size 1080x1920 --out "$HERE/out/picture-v5.mp4"
-sh core/render/mux.sh "$HERE/out/picture-v5.mp4" "$HERE/mix-v5.wav" "$LIB/video/a-the-kings-v5.mp4" 30 0
+node core/render/video.mjs "$HERE" --fps 30 --workers 3 --size 1080x1920 --out "$HERE/out/picture-v6.mp4"
+sh core/render/mux.sh "$HERE/out/picture-v6.mp4" "$HERE/mix-v5.wav" "$LIB/video/a-the-kings-v6.mp4" 30 0
