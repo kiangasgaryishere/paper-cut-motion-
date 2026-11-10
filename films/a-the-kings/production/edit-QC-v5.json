@@ -1,0 +1,109 @@
+{
+  "encoded_frames": [
+    {
+      "frame": 329,
+      "kind": "transition",
+      "mean_pixel_error": 0.75
+    },
+    {
+      "frame": 639,
+      "kind": "transition",
+      "mean_pixel_error": 0.755
+    },
+    {
+      "frame": 815,
+      "kind": "transition",
+      "mean_pixel_error": 0.801
+    },
+    {
+      "frame": 890,
+      "kind": "transition",
+      "mean_pixel_error": 0.773
+    },
+    {
+      "frame": 984,
+      "kind": "transition",
+      "mean_pixel_error": 0.898
+    },
+    {
+      "frame": 1066,
+      "kind": "transition",
+      "mean_pixel_error": 0.714
+    },
+    {
+      "frame": 1151,
+      "kind": "transition",
+      "mean_pixel_error": 0.891
+    },
+    {
+      "frame": 1390,
+      "kind": "transition",
+      "mean_pixel_error": 0.901
+    },
+    {
+      "frame": 1710,
+      "kind": "transition",
+      "mean_pixel_error": 1.021
+    },
+    {
+      "frame": 2320,
+      "kind": "typing",
+      "mean_pixel_error": 0.921
+    },
+    {
+      "frame": 2324,
+      "kind": "typing",
+      "mean_pixel_error": 0.916
+    },
+    {
+      "frame": 2328,
+      "kind": "typing",
+      "mean_pixel_error": 0.921
+    }
+  ],
+  "audio_bridges": [
+    {
+      "type": "J",
+      "event": "paper_unfold_pre_lap",
+      "cut": 4.91725,
+      "before_rms": 0.020481639747609692,
+      "after_rms": 0.02180345443816318
+    },
+    {
+      "type": "J",
+      "event": "norway_sail_before_picture",
+      "cut": 27.039792,
+      "before_rms": 0.029939734119025934,
+      "after_rms": 0.022261127018640716
+    },
+    {
+      "type": "L",
+      "event": "battle_tail_to_victory",
+      "cut": 29.546208,
+      "before_rms": 0.017429845723456978,
+      "after_rms": 0.014699192430527913
+    },
+    {
+      "type": "J",
+      "event": "william_army_pre_lap",
+      "cut": 32.6751875,
+      "before_rms": 0.015955616899379865,
+      "after_rms": 0.0027728908222787152
+    },
+    {
+      "type": "L",
+      "event": "old_book_page_tail",
+      "cut": 56.885042,
+      "before_rms": 0.009571834893446098,
+      "after_rms": 0.007069232895643371
+    },
+    {
+      "type": "J",
+      "event": "comment_interface_pre_lap",
+      "cut": 76.941208,
+      "before_rms": 0.0058646727125631236,
+      "after_rms": 0.0029800974199973834
+    }
+  ],
+  "status": "passed"
+}
