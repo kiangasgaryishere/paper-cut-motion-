@@ -1,0 +1,13 @@
+{
+  "source_duration": 90.456,
+  "decoded_duration": 90.4,
+  "render_duration": 79.1,
+  "trim_end": 79.1,
+  "tail_decision": "trim_after_script_cta_user_approved",
+  "script_content_end": 78.863792,
+  "a_root_at": 53.605917,
+  "the_point_at": 60.309542,
+  "comment_keyword_at": 77.3225,
+  "hook_a_at": 2.062,
+  "hook_the_at": 3.4
+}

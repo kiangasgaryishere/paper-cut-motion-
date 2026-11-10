@@ -1,0 +1,44 @@
+{
+  "cue_frames_checked": 32,
+  "errors": [],
+  "encoded_reference_frames": [
+    0,
+    61,
+    88,
+    190,
+    1061,
+    1493,
+    2307
+  ],
+  "encoded_samples": [
+    {
+      "frame": 0,
+      "mean_caption_region_error": 0.699
+    },
+    {
+      "frame": 61,
+      "mean_caption_region_error": 0.677
+    },
+    {
+      "frame": 88,
+      "mean_caption_region_error": 0.677
+    },
+    {
+      "frame": 190,
+      "mean_caption_region_error": 0.839
+    },
+    {
+      "frame": 1061,
+      "mean_caption_region_error": 0.735
+    },
+    {
+      "frame": 1493,
+      "mean_caption_region_error": 0.897
+    },
+    {
+      "frame": 2307,
+      "mean_caption_region_error": 0.84
+    }
+  ],
+  "encoded_check": "passed"
+}

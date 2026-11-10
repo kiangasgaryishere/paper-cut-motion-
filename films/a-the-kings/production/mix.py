@@ -3,7 +3,8 @@ import sys,json,numpy as np,soundfile as sf
 from scipy.ndimage import maximum_filter1d,uniform_filter1d
 sys.path.insert(0,'core/audio');import sfx
 p=Path('films/a-the-kings/production');voice,sr=sf.read(p/'voice.wav');assert sr==48000
-length=round(72.744*sr);voice=np.pad(voice,(0,max(0,length-len(voice))))[:length]
+meta=json.loads((p/'meta-v4.json').read_text());assert meta['tail_decision']=='trim_after_script_cta_user_approved'
+length=round(meta['trim_end']*sr);voice=np.pad(voice,(0,max(0,length-len(voice))))[:length]
 # Keep the recording's timing; only a uniform gain and final loudness normalization are applied.
 voice=voice*(.78/max(.01,np.abs(voice).max()));fx=np.zeros((length,2),dtype=np.float32)
 shots=json.loads((p/'scenes.json').read_text());events=[]
@@ -15,7 +16,10 @@ for i,s in enumerate(shots):
  elif i in [1,7,17]:x=sfx.whoosh(.3)*.17;at=t+.1
  else:x=sfx.click(.8)*.14;at=t+.2
  sfx.add(fx,x,at,gain=1,pan=(i%3-1)*.25);events.append(dict(t=at,scene=i+1,type='paper/contact'))
-# Three new material-specific effects, anchored to the revised visual events.
+# Two card accents synchronize the new hook with A KING and THE KING.
+for at,pitch in [(meta['hook_a_at'],1.0),(meta['hook_the_at'],.85)]:
+ sfx.add(fx,sfx.click(pitch,.055),at,gain=1);events.append(dict(t=at,scene=1,type='hook_card_accent',new_in_v4=True))
+# Three material-specific effects, anchored to the revised visual events.
 def paper_fold():
  d=.48;tt=sfx.t_(d);x=sfx.bp(sfx.noise(d),850,6500);env=(np.sin(np.pi*tt/d)**2)*(0.35+.65*np.sin(2*np.pi*19*tt)**4)
  return sfx.norm(x*env)*.13

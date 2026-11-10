@@ -1,0 +1,19 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "duration": 79.1,
+  "video": "h264",
+  "audio": "aac",
+  "sample_rate": "48000",
+  "full_decode": "passed",
+  "black_frame_check": "passed",
+  "caption_layout": "32 Persian-only cues; 52 layout samples passed; reserved title and picture zones",
+  "music": "none",
+  "speech_alignment": "New-recording ASR phrase + pause refinement; continuous boundaries approximate",
+  "listening_review": "not performed",
+  "encoded_caption_samples": "7 selected boundary frames matched browser references",
+  "tail_cut_seconds": 79.1,
+  "trimmed_source_prefix_sample_identical": true,
+  "persian_only_subtitles": true
+}

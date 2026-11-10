@@ -5,86 +5,98 @@
     "type": "paper/contact"
   },
   {
-    "t": 3.851458,
+    "t": 5.01725,
     "scene": 2,
     "type": "paper/contact"
   },
   {
-    "t": 7.250875,
+    "t": 11.057958,
     "scene": 3,
     "type": "paper/contact"
   },
   {
-    "t": 11.690833,
+    "t": 15.973042,
     "scene": 4,
     "type": "paper/contact"
   },
   {
-    "t": 16.38625,
+    "t": 21.3785,
     "scene": 5,
     "type": "paper/contact"
   },
   {
-    "t": 20.21125,
+    "t": 25.422791999999998,
     "scene": 6,
     "type": "paper/contact"
   },
   {
-    "t": 21.864208,
+    "t": 27.039792,
     "scene": 7,
     "type": "paper/contact"
   },
   {
-    "t": 24.203875,
+    "t": 29.646208,
     "scene": 8,
     "type": "paper/contact"
   },
   {
-    "t": 27.0,
+    "t": 32.6751875,
     "scene": 9,
     "type": "paper/contact"
   },
   {
-    "t": 33.102792,
+    "t": 38.64225,
     "scene": 11,
     "type": "paper/contact"
   },
   {
-    "t": 65.56858299999999,
+    "t": 72.29570799999999,
     "scene": 18,
     "type": "paper/contact"
   },
   {
-    "t": 70.523,
+    "t": 77.141208,
     "scene": 19,
     "type": "paper/contact"
   },
   {
-    "t": 4.301458,
+    "t": 2.062,
+    "scene": 1,
+    "type": "hook_card_accent",
+    "new_in_v4": true
+  },
+  {
+    "t": 3.4,
+    "scene": 1,
+    "type": "hook_card_accent",
+    "new_in_v4": true
+  },
+  {
+    "t": 5.46725,
     "scene": 2,
     "type": "paper_fold",
     "new_in_v2": true
   },
   {
-    "t": 66.468583,
+    "t": 73.195708,
     "scene": 18,
     "type": "pencil_write",
     "new_in_v2": true
   },
   {
-    "t": 71.723,
+    "t": 78.34120800000001,
     "scene": 19,
     "type": "comment_send",
     "new_in_v2": true
   },
   {
-    "t": 25.153875,
+    "t": 30.596208,
     "scene": 8,
     "type": "defeated_shield",
     "new_in_v3": true
   },
   {
-    "t": 30.725917,
+    "t": 36.381292,
     "scene": 10,
     "type": "harold_landing",
     "new_in_v3": true
