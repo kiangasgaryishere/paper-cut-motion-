@@ -1,0 +1,67 @@
+{
+  "duration": 30,
+  "fps": 30,
+  "frames": 900,
+  "width": 1080,
+  "height": 1920,
+  "video": "h264",
+  "audio": "aac",
+  "audio_sample_rate": 48000,
+  "video_start_time": 0.0,
+  "audio_start_time": 0.0,
+  "full_decode": "passed",
+  "black_frames": "none",
+  "approved_prefix_seconds": 20,
+  "approved_prefix_frames": 600,
+  "approved_prefix_decoded_frames_identical": true,
+  "approved_prefix_mix_samples_identical": true,
+  "canonical_voice_master_unchanged": true,
+  "audio_encoded_once": true,
+  "seams_at_seconds": [
+    10,
+    20
+  ],
+  "seam_extra_audio_samples": 0,
+  "encoded_mix_lag_checks": [
+    {
+      "start": 1,
+      "duration": 2,
+      "lag_samples": 0
+    },
+    {
+      "start": 9.4,
+      "duration": 1.2,
+      "lag_samples": 0
+    },
+    {
+      "start": 19.4,
+      "duration": 1.2,
+      "lag_samples": 0
+    },
+    {
+      "start": 21,
+      "duration": 2,
+      "lag_samples": 0
+    },
+    {
+      "start": 24,
+      "duration": 2,
+      "lag_samples": 0
+    },
+    {
+      "start": 27.5,
+      "duration": 2,
+      "lag_samples": 0
+    }
+  ],
+  "narration_retimed": false,
+  "narration_boundary_fade": false,
+  "new_part_speech_over_effects_min_dB": 24.31,
+  "new_part_speech_over_effects_median_dB": 58.67,
+  "encoded_LUFS": -13.31,
+  "encoded_true_peak_dBTP": -2.41,
+  "music": "none",
+  "independent_listening_review": "not performed",
+  "sha256": "7064389720b29c1714cd647dadf3096b8f76ead940651a0234d058ccd36eb409",
+  "bytes": 21591602
+}
