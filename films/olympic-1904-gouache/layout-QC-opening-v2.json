@@ -1,0 +1,100 @@
+{
+  "frames_checked": 600,
+  "cuts": [
+    {
+      "frame": 0,
+      "time": 0,
+      "kind": "original"
+    },
+    {
+      "frame": 101,
+      "time": 3.3666666666666667,
+      "kind": "hook_j_cut"
+    },
+    {
+      "frame": 108,
+      "time": 3.6,
+      "kind": "olympic_gate"
+    },
+    {
+      "frame": 219,
+      "time": 7.3,
+      "kind": "nonfinishers"
+    },
+    {
+      "frame": 312,
+      "time": 10.4,
+      "kind": "original"
+    }
+  ],
+  "number": 18,
+  "tally_marks": 18,
+  "runner_travel": [
+    {
+      "id": 8,
+      "delta_u": 0.07499999999999996,
+      "delta_y": -36.32972625000002,
+      "height_change": -11.249999999999986
+    },
+    {
+      "id": 7,
+      "delta_u": 0.07499999999999996,
+      "delta_y": -36.92608875000019,
+      "height_change": -11.249999999999986
+    },
+    {
+      "id": 6,
+      "delta_u": 0.07500000000000007,
+      "delta_y": -37.43596124999999,
+      "height_change": -11.25
+    },
+    {
+      "id": 5,
+      "delta_u": 0.07500000000000001,
+      "delta_y": -37.85934374999988,
+      "height_change": -11.25
+    },
+    {
+      "id": 4,
+      "delta_u": 0.07500000000000001,
+      "delta_y": -38.19623624999963,
+      "height_change": -11.25
+    },
+    {
+      "id": 3,
+      "delta_u": 0.07500000000000001,
+      "delta_y": -38.446638750000375,
+      "height_change": -11.25
+    },
+    {
+      "id": 2,
+      "delta_u": 0.07499999999999998,
+      "delta_y": -38.610551250000526,
+      "height_change": -11.25
+    },
+    {
+      "id": 1,
+      "delta_u": 0.07499999999999998,
+      "delta_y": -38.687973749999855,
+      "height_change": -11.25
+    },
+    {
+      "id": 0,
+      "delta_u": 0.07500000000000001,
+      "delta_y": -38.6789062499995,
+      "height_change": -11.25
+    }
+  ],
+  "narrative_J_cuts": [
+    {
+      "shot": "hook_j_cut",
+      "caption": "المپیک ۱۹۰۴ آمریکا"
+    },
+    {
+      "shot": "olympic_gate",
+      "caption": "۱۸ نفر نتونستن\nمسابقه رو تموم کنن!"
+    }
+  ],
+  "errors": [],
+  "seek_determinism": true
+}

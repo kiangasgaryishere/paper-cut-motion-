@@ -1,0 +1,261 @@
+{
+  "narration_retimed": false,
+  "music": "none",
+  "bridges": [
+    {
+      "type": "J",
+      "sound": "Olympic narration",
+      "audio_start": 3.416708,
+      "visual_cut": 3.6,
+      "lead": 0.18329200000000023
+    },
+    {
+      "type": "J",
+      "sound": "stadium applause",
+      "audio_start": 3.1,
+      "visual_cut": 3.6,
+      "lead": 0.5
+    },
+    {
+      "type": "J",
+      "sound": "18 nonfinishers narration",
+      "audio_start": 7.142125,
+      "visual_cut": 7.3,
+      "lead": 0.15787499999999977
+    },
+    {
+      "type": "L",
+      "sound": "stadium applause",
+      "visual_cut": 7.3,
+      "audio_end": 7.84,
+      "tail": 0.54
+    },
+    {
+      "type": "J",
+      "sound": "approaching period engine",
+      "audio_start": 49.93,
+      "visual_cut": 50.7333333333,
+      "lead": 0.8033333333
+    },
+    {
+      "type": "L",
+      "sound": "Fred applause",
+      "visual_cut": 69.6,
+      "audio_end": 70.28,
+      "tail": 0.68
+    },
+    {
+      "type": "L",
+      "sound": "Hicks applause",
+      "visual_cut": 93.9666666667,
+      "audio_end": 94.53,
+      "tail": 0.5633333333
+    }
+  ],
+  "added_events": [
+    {
+      "type": "stadium_clap",
+      "start": 3.1,
+      "end": 3.2800000000000002,
+      "pan": -0.6480057950994786
+    },
+    {
+      "type": "stadium_clap",
+      "start": 3.29,
+      "end": 3.47,
+      "pan": 0.15688373576783132
+    },
+    {
+      "type": "stadium_clap",
+      "start": 3.48,
+      "end": 3.66,
+      "pan": -0.6467833896356967
+    },
+    {
+      "type": "stadium_clap",
+      "start": 3.67,
+      "end": 3.85,
+      "pan": -0.5564449085565282
+    },
+    {
+      "type": "stadium_clap",
+      "start": 3.86,
+      "end": 4.04,
+      "pan": 0.32087059141058694
+    },
+    {
+      "type": "stadium_clap",
+      "start": 4.05,
+      "end": 4.2299999999999995,
+      "pan": 0.6213942849576038
+    },
+    {
+      "type": "stadium_clap",
+      "start": 4.24,
+      "end": 4.42,
+      "pan": 0.25386595975508985
+    },
+    {
+      "type": "stadium_clap",
+      "start": 4.43,
+      "end": 4.609999999999999,
+      "pan": 0.10314201797460765
+    },
+    {
+      "type": "stadium_clap",
+      "start": 4.619999999999999,
+      "end": 4.799999999999999,
+      "pan": -0.5449450100879777
+    },
+    {
+      "type": "stadium_clap",
+      "start": 4.81,
+      "end": 4.989999999999999,
+      "pan": 0.023237438782046982
+    },
+    {
+      "type": "stadium_clap",
+      "start": 5.0,
+      "end": 5.18,
+      "pan": 0.4148182646404329
+    },
+    {
+      "type": "stadium_clap",
+      "start": 5.1899999999999995,
+      "end": 5.369999999999999,
+      "pan": -0.43450489382565916
+    },
+    {
+      "type": "stadium_clap",
+      "start": 5.379999999999999,
+      "end": 5.559999999999999,
+      "pan": -0.5863073443438106
+    },
+    {
+      "type": "stadium_clap",
+      "start": 5.569999999999999,
+      "end": 5.749999999999999,
+      "pan": 0.34927901381078474
+    },
+    {
+      "type": "stadium_clap",
+      "start": 5.76,
+      "end": 5.9399999999999995,
+      "pan": -0.16731741952481877
+    },
+    {
+      "type": "stadium_clap",
+      "start": 5.949999999999999,
+      "end": 6.129999999999999,
+      "pan": -0.022003828776672063
+    },
+    {
+      "type": "stadium_clap",
+      "start": 6.139999999999999,
+      "end": 6.3199999999999985,
+      "pan": -0.5675077982868376
+    },
+    {
+      "type": "stadium_clap",
+      "start": 6.329999999999999,
+      "end": 6.509999999999999,
+      "pan": 0.1447486757512889
+    },
+    {
+      "type": "stadium_clap",
+      "start": 6.52,
+      "end": 6.699999999999999,
+      "pan": 0.586529877983167
+    },
+    {
+      "type": "stadium_clap",
+      "start": 6.709999999999999,
+      "end": 6.889999999999999,
+      "pan": 0.5818817346391908
+    },
+    {
+      "type": "stadium_clap",
+      "start": 6.899999999999999,
+      "end": 7.079999999999998,
+      "pan": -0.4837049157071329
+    },
+    {
+      "type": "stadium_clap",
+      "start": 7.089999999999999,
+      "end": 7.269999999999999,
+      "pan": -0.4210900444321075
+    },
+    {
+      "type": "stadium_clap",
+      "start": 7.279999999999999,
+      "end": 7.459999999999999,
+      "pan": 0.3987848129484065
+    },
+    {
+      "type": "stadium_clap",
+      "start": 7.469999999999999,
+      "end": 7.649999999999999,
+      "pan": -0.13055069859724733
+    },
+    {
+      "type": "stadium_clap",
+      "start": 7.659999999999998,
+      "end": 7.839999999999998,
+      "pan": 0.5941957126961309
+    },
+    {
+      "type": "approaching_car_engine",
+      "start": 49.93,
+      "end": 51.03,
+      "pan": -0.22
+    },
+    {
+      "type": "fred_applause_tail",
+      "start": 69.32,
+      "end": 69.5,
+      "pan": 0.4
+    },
+    {
+      "type": "fred_applause_tail",
+      "start": 69.58,
+      "end": 69.76,
+      "pan": -0.4
+    },
+    {
+      "type": "fred_applause_tail",
+      "start": 69.84,
+      "end": 70.02000000000001,
+      "pan": 0.4
+    },
+    {
+      "type": "fred_applause_tail",
+      "start": 70.1,
+      "end": 70.28,
+      "pan": -0.4
+    },
+    {
+      "type": "hicks_applause_tail",
+      "start": 93.65,
+      "end": 93.83000000000001,
+      "pan": 0.4
+    },
+    {
+      "type": "hicks_applause_tail",
+      "start": 93.9,
+      "end": 94.08000000000001,
+      "pan": -0.4
+    },
+    {
+      "type": "hicks_applause_tail",
+      "start": 94.14,
+      "end": 94.32000000000001,
+      "pan": 0.4
+    },
+    {
+      "type": "hicks_applause_tail",
+      "start": 94.35,
+      "end": 94.53,
+      "pan": -0.4
+    }
+  ]
+}

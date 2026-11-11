@@ -1,0 +1,83 @@
+{
+  "output": "video/olympic-1904-final-v2.mp4",
+  "duration": 126,
+  "fps": 30,
+  "frames": 3780,
+  "picture_blocks": [
+    {
+      "source": "films/olympic-1904-gouache/out/opening-delivery-v2.mp4",
+      "start": 0,
+      "end": 20
+    },
+    {
+      "source": "video/olympic-1904-part03-v1.mp4",
+      "start": 20,
+      "end": 30
+    },
+    {
+      "source": "video/olympic-1904-part04-v1.mp4",
+      "start": 30,
+      "end": 40
+    },
+    {
+      "source": "video/olympic-1904-part05-v1.mp4",
+      "start": 40,
+      "end": 50
+    },
+    {
+      "source": "video/olympic-1904-part06-v1.mp4",
+      "start": 50,
+      "end": 60
+    },
+    {
+      "source": "video/olympic-1904-part07-v1.mp4",
+      "start": 60,
+      "end": 70
+    },
+    {
+      "source": "video/olympic-1904-part08-v1.mp4",
+      "start": 70,
+      "end": 80
+    },
+    {
+      "source": "video/olympic-1904-part09-v1.mp4",
+      "start": 80,
+      "end": 90
+    },
+    {
+      "source": "video/olympic-1904-part10-v1.mp4",
+      "start": 90,
+      "end": 100
+    },
+    {
+      "source": "video/olympic-1904-part11-v1.mp4",
+      "start": 100,
+      "end": 110
+    },
+    {
+      "source": "video/olympic-1904-part12-v1.mp4",
+      "start": 110,
+      "end": 120
+    },
+    {
+      "source": "video/olympic-1904-part13-v1.mp4",
+      "start": 120,
+      "end": 126
+    }
+  ],
+  "original_picture_unchanged_from": 20,
+  "audio": "out/revision-v2-mix.wav",
+  "effects": "out/revision-v2-sfx.wav",
+  "voice": "out/voice-master-v2.wav",
+  "narration_retimed": false,
+  "music": "none",
+  "sound_bridges": "sound-bridges-v2.json",
+  "opening_visual_cuts": [
+    3.6,
+    7.3,
+    10.4
+  ],
+  "historical_note": "No modern Olympic rings; the emblem postdates 1904.",
+  "status": "verified",
+  "sha256": "8287017f62c151a15939bb0f5cc4adc90c23f63796e6932ccae341cc7e38c879"
+}

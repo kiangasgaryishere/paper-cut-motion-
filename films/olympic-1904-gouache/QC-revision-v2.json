@@ -1,0 +1,107 @@
+{
+  "duration": 126,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 3780,
+  "full_decode": "passed",
+  "black_intervals": "none",
+  "video_start_time": 0.0,
+  "audio_start_time": 0.0,
+  "original_decoded_picture_identical_from": 20,
+  "original_identical_frames": 3180,
+  "canonical_narration_unchanged": true,
+  "narration_retimed": false,
+  "source_decoded_duration": 125.543875,
+  "final_silent_padding_seconds": 0.4561250000000001,
+  "encoded_mix_lag_checks": [
+    {
+      "center": 1,
+      "lag_samples": 0
+    },
+    {
+      "center": 3.6,
+      "lag_samples": 0
+    },
+    {
+      "center": 7.3,
+      "lag_samples": 0
+    },
+    {
+      "center": 10,
+      "lag_samples": 0
+    },
+    {
+      "center": 20,
+      "lag_samples": 0
+    },
+    {
+      "center": 30,
+      "lag_samples": 0
+    },
+    {
+      "center": 40,
+      "lag_samples": 0
+    },
+    {
+      "center": 49.93,
+      "lag_samples": 0
+    },
+    {
+      "center": 50.733333333,
+      "lag_samples": 0
+    },
+    {
+      "center": 60,
+      "lag_samples": 0
+    },
+    {
+      "center": 69.6,
+      "lag_samples": 0
+    },
+    {
+      "center": 80,
+      "lag_samples": 0
+    },
+    {
+      "center": 90,
+      "lag_samples": 0
+    },
+    {
+      "center": 93.9666666667,
+      "lag_samples": 0
+    },
+    {
+      "center": 100,
+      "lag_samples": 0
+    },
+    {
+      "center": 110,
+      "lag_samples": 0
+    },
+    {
+      "center": 120,
+      "lag_samples": 0
+    },
+    {
+      "center": 124.5,
+      "lag_samples": 0
+    }
+  ],
+  "speech_over_effects_min_dB": 19.11,
+  "speech_over_effects_median_dB": 56.11,
+  "encoded_LUFS": -13.4,
+  "encoded_true_peak_dBTP": -2.32,
+  "opening_visual_cuts": [
+    3.6,
+    7.3,
+    10.4
+  ],
+  "music": "none",
+  "audio_encoded_once": true,
+  "independent_listening_review": "not performed",
+  "opening_preview_duration": 10,
+  "opening_preview_frames": 300,
+  "sha256": "8287017f62c151a15939bb0f5cc4adc90c23f63796e6932ccae341cc7e38c879",
+  "bytes": 62697571
+}
