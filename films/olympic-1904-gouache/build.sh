@@ -21,4 +21,7 @@ node core/render/video.mjs "$HERE" --fps 30 --workers 3 --size 1080x1920 --q 'st
 ffmpeg -v error -y -i "$HERE/out/part03-picture-v1.mp4" -i "$HERE/out/part03-mix-v1.wav" -map 0:v -map 1:a -c:v libx264 -preset slow -crf 20 -pix_fmt yuv420p -c:a aac -b:a 256k -t 10 -movflags +faststart "$ROOT/video/olympic-1904-part03-v1.mp4"
 node core/render/video.mjs "$HERE" --fps 30 --workers 3 --size 1080x1920 --q 'start=30&end=40' --out "$HERE/out/part04-picture-v1.mp4"
 ffmpeg -v error -y -i "$HERE/out/part04-picture-v1.mp4" -i "$HERE/out/part04-mix-v1.wav" -map 0:v -map 1:a -c:v libx264 -preset slow -crf 20 -pix_fmt yuv420p -c:a aac -b:a 256k -t 10 -movflags +faststart "$ROOT/video/olympic-1904-part04-v1.mp4"
+"$PYTHON_BIN" "$HERE/mix_finish.py"
+node core/render/video.mjs "$HERE" --fps 30 --workers 3 --size 1080x1920 --q 'start=40&end=126' --out "$HERE/out/finish-picture-v1.mp4"
+"$PYTHON_BIN" "$HERE/encode_finish.py"
 "$PYTHON_BIN" "$HERE/assemble.py"

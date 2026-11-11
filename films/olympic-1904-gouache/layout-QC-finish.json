@@ -1,0 +1,318 @@
+{
+  "sampled_frames": 860,
+  "caption_start_frames": [
+    {
+      "start": 40,
+      "frame": 1200,
+      "visible": true,
+      "text": "با همهٔ این اتفاقات،\nچهارم شد!"
+    },
+    {
+      "start": 42.7,
+      "frame": 1281,
+      "visible": true,
+      "text": "اما برسیم به فرد لورز!"
+    },
+    {
+      "start": 45.1,
+      "frame": 1353,
+      "visible": true,
+      "text": "بعد از حدود ۹ مایل عضله‌اش گرفت\nو از مسابقه کنار کشید!"
+    },
+    {
+      "start": 49.266666666666666,
+      "frame": 1478,
+      "visible": true,
+      "text": "از مسابقه کنار کشید!"
+    },
+    {
+      "start": 50.733333333333334,
+      "frame": 1522,
+      "visible": true,
+      "text": "یه ماشین از راه رسید\nو سوارش کرد!"
+    },
+    {
+      "start": 53.43333333333333,
+      "frame": 1603,
+      "visible": true,
+      "text": "ماشین سوارش کرد!"
+    },
+    {
+      "start": 55.166666666666664,
+      "frame": 1655,
+      "visible": true,
+      "text": "چند مایل جلوتر..."
+    },
+    {
+      "start": 56.9,
+      "frame": 1707,
+      "visible": true,
+      "text": "ماشین خراب شد!"
+    },
+    {
+      "start": 58.733333333333334,
+      "frame": 1762,
+      "visible": true,
+      "text": "لورز پیاده شد\nو دوباره شروع کرد به دویدن!"
+    },
+    {
+      "start": 61.766666666666666,
+      "frame": 1853,
+      "visible": true,
+      "text": "پیاده شد و دوباره دوید!"
+    },
+    {
+      "start": 64.4,
+      "frame": 1932,
+      "visible": true,
+      "text": "باورکردنی نیست!"
+    },
+    {
+      "start": 65.63333333333334,
+      "frame": 1969,
+      "visible": true,
+      "text": "اول از همه وارد استادیوم شد!"
+    },
+    {
+      "start": 68.06666666666666,
+      "frame": 2042,
+      "visible": true,
+      "text": "همه تشویقش می‌کردن..."
+    },
+    {
+      "start": 69.6,
+      "frame": 2088,
+      "visible": true,
+      "text": "تا اینکه داورها فهمیدن..."
+    },
+    {
+      "start": 71,
+      "frame": 2130,
+      "visible": true,
+      "text": "بخش زیادی از مسیر رو\nبا ماشین اومده!"
+    },
+    {
+      "start": 73.3,
+      "frame": 2199,
+      "visible": true,
+      "text": "ماجرا رو فهمیدن!"
+    },
+    {
+      "start": 74.73333333333333,
+      "frame": 2242,
+      "visible": true,
+      "text": "اما قهرمان واقعی\nتوماس هیکس بود!"
+    },
+    {
+      "start": 77.13333333333334,
+      "frame": 2314,
+      "visible": true,
+      "text": "اون‌قدر خسته و کم‌آب شده بود..."
+    },
+    {
+      "start": 79.1,
+      "frame": 2373,
+      "visible": true,
+      "text": "که دچار توهم شده بود!"
+    },
+    {
+      "start": 81,
+      "frame": 2430,
+      "visible": true,
+      "text": "با اینکه نزدیک خط پایان بود،"
+    },
+    {
+      "start": 82.1,
+      "frame": 2463,
+      "visible": true,
+      "text": "فکر می‌کرد هنوز ۲۰ مایل دیگه\nباید بدوه!"
+    },
+    {
+      "start": 85.13333333333334,
+      "frame": 2554,
+      "visible": true,
+      "text": "مربی‌ها کمکش کردن ادامه بده..."
+    },
+    {
+      "start": 87.2,
+      "frame": 2616,
+      "visible": true,
+      "text": "و بالاخره به خط پایان رسید\nو قهرمان شد!"
+    },
+    {
+      "start": 90.2,
+      "frame": 2706,
+      "visible": true,
+      "text": "کمکش کردن ادامه بده!"
+    },
+    {
+      "start": 91.63333333333334,
+      "frame": 2749,
+      "visible": true,
+      "text": "و بالاخره قهرمان شد!"
+    },
+    {
+      "start": 93.96666666666667,
+      "frame": 2819,
+      "visible": true,
+      "text": "حالا دقت کردی؟"
+    },
+    {
+      "start": 95.4,
+      "frame": 2862,
+      "visible": true,
+      "text": "تمام‌شدنِ چیزی"
+    },
+    {
+      "start": 96.96666666666667,
+      "frame": 2909,
+      "visible": true,
+      "text": "پیداشدن"
+    },
+    {
+      "start": 98.1,
+      "frame": 2943,
+      "visible": true,
+      "text": "بریدن و جداکردن"
+    },
+    {
+      "start": 99.13333333333334,
+      "frame": 2974,
+      "visible": true,
+      "text": "درازکشیدن"
+    },
+    {
+      "start": 100.5,
+      "frame": 3015,
+      "visible": true,
+      "text": "کنارکشیدن"
+    },
+    {
+      "start": 101.66666666666667,
+      "frame": 3050,
+      "visible": true,
+      "text": "سوارکردن"
+    },
+    {
+      "start": 102.73333333333333,
+      "frame": 3082,
+      "visible": true,
+      "text": "خراب‌شدن"
+    },
+    {
+      "start": 104.06666666666666,
+      "frame": 3122,
+      "visible": true,
+      "text": "پیاده‌شدن"
+    },
+    {
+      "start": 105.13333333333334,
+      "frame": 3154,
+      "visible": true,
+      "text": "فهمیدن"
+    },
+    {
+      "start": 106.36666666666666,
+      "frame": 3191,
+      "visible": true,
+      "text": "ادامه‌دادن"
+    },
+    {
+      "start": 108.13333333333334,
+      "frame": 3244,
+      "visible": true,
+      "text": "این‌ها فعل‌های چندکلمه‌ای هستن."
+    },
+    {
+      "start": 110.43333333333334,
+      "frame": 3313,
+      "visible": true,
+      "text": "فعل‌هایی که با اضافه‌شدن\nیه کلمهٔ کوچیک..."
+    },
+    {
+      "start": 112.86666666666666,
+      "frame": 3386,
+      "visible": true,
+      "text": "معنی یا کاربرد تازه‌ای\nپیدا می‌کنن."
+    },
+    {
+      "start": 115.86666666666666,
+      "frame": 3476,
+      "visible": true,
+      "text": "اگه می‌خوای هر هفته\n۱۰ تا از این فعل‌ها رو..."
+    },
+    {
+      "start": 118.2,
+      "frame": 3546,
+      "visible": true,
+      "text": "با داستان، ویس و تمرین مکالمه\nیاد بگیری،"
+    },
+    {
+      "start": 121.56666666666666,
+      "frame": 3647,
+      "visible": true,
+      "text": "کلمهٔ «فریزال» رو کامنت کن..."
+    },
+    {
+      "start": 123.26666666666667,
+      "frame": 3698,
+      "visible": true,
+      "text": "تا بستهٔ هفتهٔ اول رو\nبرات بفرستیم!"
+    }
+  ],
+  "vocabulary_highlights": [
+    {
+      "term": "RUN OUT OF",
+      "start": 95.4,
+      "highlight_index": 0
+    },
+    {
+      "term": "SHOW UP",
+      "start": 96.96666666666667,
+      "highlight_index": 1
+    },
+    {
+      "term": "CUT OFF",
+      "start": 98.1,
+      "highlight_index": 2
+    },
+    {
+      "term": "LIE DOWN",
+      "start": 99.13333333333334,
+      "highlight_index": 3
+    },
+    {
+      "term": "DROP OUT",
+      "start": 100.5,
+      "highlight_index": 4
+    },
+    {
+      "term": "PICK UP",
+      "start": 101.66666666666667,
+      "highlight_index": 5
+    },
+    {
+      "term": "BREAK DOWN",
+      "start": 102.73333333333333,
+      "highlight_index": 6
+    },
+    {
+      "term": "GET OUT",
+      "start": 104.06666666666666,
+      "highlight_index": 7
+    },
+    {
+      "term": "FIND OUT",
+      "start": 105.13333333333334,
+      "highlight_index": 8
+    },
+    {
+      "term": "KEEP GOING",
+      "start": 106.36666666666666,
+      "highlight_index": 9
+    }
+  ],
+  "final_keyword": "PHRASAL",
+  "errors": [],
+  "seek_determinism": true
+}

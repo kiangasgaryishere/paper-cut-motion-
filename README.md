@@ -55,6 +55,8 @@ Narration receives gentle presence EQ and compression without retiming. Masterin
 
 Warm cream, gold, teal, navy, plum and pale blue distinguish the story beats. More saturated costumes preserve each character’s color identity. See [audio measurements](films/a-the-kings/production/audio-QC-v7.json), [palette checks](films/a-the-kings/production/palette-QC-v7.json) and [stroke synchronization checks](films/a-the-kings/production/learning-QC-v7.json). Independent listening review has not been performed.
 
-## Additional film: 1904 Olympic marathon
+## Completed film: 1904 Olympic marathon
 
-The [1904 Olympic marathon project](films/olympic-1904-gouache/README.md) now has a [combined 40-second video](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-40s-v1.mp4), using the uploaded narration and Persian captions. The latest part covers “He cut off his trouser legs”, the spoiled apples, the stomach-ache reaction and roadside rest with “He had to lie down!”. After each requested ten-second addition, deliver an updated cumulative video; the next part starts at recording time 40 seconds. No music. Separate parts and the original style test remain in the project notes.
+[Download the complete 2:06 gouache film](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-final-v1.mp4) · [Project and validation](films/olympic-1904-gouache/README.md)
+
+The full uploaded narration is now illustrated through the Fred Lorz car story, Thomas Hicks's finish, ten highlighted English expressions, practice examples and the PHRASAL comment prompt. Persian-only subtitles and narrator-first sound effects; no music. The first forty seconds remain unchanged, all audio joins are checked, and every earlier review version remains available.

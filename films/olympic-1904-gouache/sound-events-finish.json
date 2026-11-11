@@ -1,0 +1,653 @@
+[
+  {
+    "type": "outdoor_air",
+    "absolute_start": 40,
+    "absolute_end": 94.0,
+    "gain": 1,
+    "pan": 0
+  },
+  {
+    "type": "new_runner_clothes",
+    "absolute_start": 42.7,
+    "absolute_end": 43.05,
+    "gain": 0.55,
+    "pan": 0
+  },
+  {
+    "type": "cramped_leg_cloth",
+    "absolute_start": 45.15,
+    "absolute_end": 45.37,
+    "gain": 0.5,
+    "pan": 0
+  },
+  {
+    "type": "cramped_leg_cloth",
+    "absolute_start": 46.5,
+    "absolute_end": 46.72,
+    "gain": 0.5,
+    "pan": 0
+  },
+  {
+    "type": "car_engine_pre_lap",
+    "absolute_start": 50.55,
+    "absolute_end": 57.1,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "engine_stall_1",
+    "absolute_start": 57.0,
+    "absolute_end": 57.11,
+    "gain": 0.9,
+    "pan": 0
+  },
+  {
+    "type": "engine_stall_2",
+    "absolute_start": 57.13,
+    "absolute_end": 57.24,
+    "gain": 0.9,
+    "pan": 0
+  },
+  {
+    "type": "engine_stall_3",
+    "absolute_start": 57.29,
+    "absolute_end": 57.4,
+    "gain": 0.9,
+    "pan": 0
+  },
+  {
+    "type": "stalled_car_clunk",
+    "absolute_start": 57.48,
+    "absolute_end": 57.6,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "car_exit_cloth",
+    "absolute_start": 58.7,
+    "absolute_end": 59.02,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 58.95,
+    "absolute_end": 59.07,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 59.23,
+    "absolute_end": 59.35,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 59.51,
+    "absolute_end": 59.63,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 59.79,
+    "absolute_end": 59.91,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 60.07,
+    "absolute_end": 60.19,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 60.35,
+    "absolute_end": 60.47,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 60.63,
+    "absolute_end": 60.75,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 60.91,
+    "absolute_end": 61.03,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 61.19,
+    "absolute_end": 61.31,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 61.47,
+    "absolute_end": 61.59,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 61.75,
+    "absolute_end": 61.87,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 62.03,
+    "absolute_end": 62.15,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 62.31,
+    "absolute_end": 62.43,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 62.59,
+    "absolute_end": 62.71,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 62.87,
+    "absolute_end": 62.99,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 63.15,
+    "absolute_end": 63.27,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 63.43,
+    "absolute_end": 63.55,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 63.71,
+    "absolute_end": 63.83,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 63.99,
+    "absolute_end": 64.11,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 64.27,
+    "absolute_end": 64.39,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 64.55,
+    "absolute_end": 64.67,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 64.83,
+    "absolute_end": 64.95,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 65.11,
+    "absolute_end": 65.23,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 65.39,
+    "absolute_end": 65.51,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 65.67,
+    "absolute_end": 65.79,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 65.95,
+    "absolute_end": 66.07,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 66.23,
+    "absolute_end": 66.35,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 66.51,
+    "absolute_end": 66.63,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 66.79,
+    "absolute_end": 66.91,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 67.07,
+    "absolute_end": 67.19,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 67.35,
+    "absolute_end": 67.47,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 67.63,
+    "absolute_end": 67.75,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 67.91,
+    "absolute_end": 68.03,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 68.19,
+    "absolute_end": 68.31,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 68.47,
+    "absolute_end": 68.59,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 68.75,
+    "absolute_end": 68.87,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 69.03,
+    "absolute_end": 69.15,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "running_footstep",
+    "absolute_start": 69.31,
+    "absolute_end": 69.43,
+    "gain": 0.36,
+    "pan": 0.15
+  },
+  {
+    "type": "spectator_clap",
+    "absolute_start": 67.7,
+    "absolute_end": 67.86,
+    "gain": 0.55,
+    "pan": -0.3
+  },
+  {
+    "type": "spectator_clap",
+    "absolute_start": 68.08,
+    "absolute_end": 68.24,
+    "gain": 0.55,
+    "pan": -0.3
+  },
+  {
+    "type": "spectator_clap",
+    "absolute_start": 68.45,
+    "absolute_end": 68.61,
+    "gain": 0.55,
+    "pan": -0.3
+  },
+  {
+    "type": "spectator_clap",
+    "absolute_start": 68.82,
+    "absolute_end": 68.98,
+    "gain": 0.55,
+    "pan": -0.3
+  },
+  {
+    "type": "official_clipboard",
+    "absolute_start": 69.55,
+    "absolute_end": 69.95,
+    "gain": 0.75,
+    "pan": 0
+  },
+  {
+    "type": "truth_revealed_paper",
+    "absolute_start": 73.29,
+    "absolute_end": 73.54,
+    "gain": 0.6,
+    "pan": 0
+  },
+  {
+    "type": "weary_step",
+    "absolute_start": 77.4,
+    "absolute_end": 77.52,
+    "gain": 0.32,
+    "pan": 0
+  },
+  {
+    "type": "weary_step",
+    "absolute_start": 78.25,
+    "absolute_end": 78.37,
+    "gain": 0.32,
+    "pan": 0
+  },
+  {
+    "type": "weary_step",
+    "absolute_start": 79.1,
+    "absolute_end": 79.22,
+    "gain": 0.32,
+    "pan": 0
+  },
+  {
+    "type": "weary_step",
+    "absolute_start": 80.0,
+    "absolute_end": 80.12,
+    "gain": 0.32,
+    "pan": 0
+  },
+  {
+    "type": "assisted_finish_step",
+    "absolute_start": 85.35,
+    "absolute_end": 85.47,
+    "gain": 0.4,
+    "pan": 0
+  },
+  {
+    "type": "assisted_finish_step",
+    "absolute_start": 85.83,
+    "absolute_end": 85.95,
+    "gain": 0.4,
+    "pan": 0
+  },
+  {
+    "type": "assisted_finish_step",
+    "absolute_start": 86.31,
+    "absolute_end": 86.43,
+    "gain": 0.4,
+    "pan": 0
+  },
+  {
+    "type": "assisted_finish_step",
+    "absolute_start": 86.79,
+    "absolute_end": 86.91,
+    "gain": 0.4,
+    "pan": 0
+  },
+  {
+    "type": "assisted_finish_step",
+    "absolute_start": 87.27,
+    "absolute_end": 87.39,
+    "gain": 0.4,
+    "pan": 0
+  },
+  {
+    "type": "assisted_finish_step",
+    "absolute_start": 87.75,
+    "absolute_end": 87.87,
+    "gain": 0.4,
+    "pan": 0
+  },
+  {
+    "type": "assisted_finish_step",
+    "absolute_start": 88.23,
+    "absolute_end": 88.35,
+    "gain": 0.4,
+    "pan": 0
+  },
+  {
+    "type": "assisted_finish_step",
+    "absolute_start": 88.71,
+    "absolute_end": 88.83,
+    "gain": 0.4,
+    "pan": 0
+  },
+  {
+    "type": "assisted_finish_step",
+    "absolute_start": 89.19,
+    "absolute_end": 89.31,
+    "gain": 0.4,
+    "pan": 0
+  },
+  {
+    "type": "finish_ribbon_cloth",
+    "absolute_start": 88.75,
+    "absolute_end": 89.2,
+    "gain": 0.8,
+    "pan": 0
+  },
+  {
+    "type": "winner_applause",
+    "absolute_start": 91.8,
+    "absolute_end": 91.96,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "winner_applause",
+    "absolute_start": 92.05,
+    "absolute_end": 92.21,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "winner_applause",
+    "absolute_start": 92.32,
+    "absolute_end": 92.48,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "winner_applause",
+    "absolute_start": 92.6,
+    "absolute_end": 92.76,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "chalk_run_out_of",
+    "absolute_start": 95.4,
+    "absolute_end": 95.63,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "chalk_show_up",
+    "absolute_start": 96.966667,
+    "absolute_end": 97.196667,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "chalk_cut_off",
+    "absolute_start": 98.1,
+    "absolute_end": 98.33,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "chalk_lie_down",
+    "absolute_start": 99.133333,
+    "absolute_end": 99.363333,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "chalk_drop_out",
+    "absolute_start": 100.5,
+    "absolute_end": 100.73,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "chalk_pick_up",
+    "absolute_start": 101.666667,
+    "absolute_end": 101.896667,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "chalk_break_down",
+    "absolute_start": 102.733333,
+    "absolute_end": 102.963333,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "chalk_get_out",
+    "absolute_start": 104.066667,
+    "absolute_end": 104.296667,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "chalk_find_out",
+    "absolute_start": 105.133333,
+    "absolute_end": 105.363333,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "chalk_keep_going",
+    "absolute_start": 106.366667,
+    "absolute_end": 106.596667,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "lesson_combination_chalk",
+    "absolute_start": 110.6,
+    "absolute_end": 110.95,
+    "gain": 0.75,
+    "pan": 0
+  },
+  {
+    "type": "worksheet_page",
+    "absolute_start": 115.83,
+    "absolute_end": 116.38,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "practice_pencil",
+    "absolute_start": 119.25,
+    "absolute_end": 119.65,
+    "gain": 0.6,
+    "pan": 0
+  },
+  {
+    "type": "cta_key_1",
+    "absolute_start": 121.8,
+    "absolute_end": 121.87,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "cta_key_2",
+    "absolute_start": 121.885,
+    "absolute_end": 121.955,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "cta_key_3",
+    "absolute_start": 121.97,
+    "absolute_end": 122.04,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "cta_key_4",
+    "absolute_start": 122.055,
+    "absolute_end": 122.125,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "cta_key_5",
+    "absolute_start": 122.14,
+    "absolute_end": 122.21,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "cta_key_6",
+    "absolute_start": 122.225,
+    "absolute_end": 122.295,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "cta_key_7",
+    "absolute_start": 122.31,
+    "absolute_end": 122.38,
+    "gain": 0.7,
+    "pan": 0
+  },
+  {
+    "type": "comment_send",
+    "absolute_start": 123.25,
+    "absolute_end": 123.32,
+    "gain": 0.8,
+    "pan": 0
+  }
+]

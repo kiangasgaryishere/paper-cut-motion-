@@ -1,0 +1,129 @@
+{
+  "duration": 126,
+  "fps": 30,
+  "frames": 3780,
+  "width": 1080,
+  "height": 1920,
+  "video": "h264",
+  "audio": "aac",
+  "audio_sample_rate": 48000,
+  "video_start_time": 0.0,
+  "audio_start_time": 0.0,
+  "full_decode": "passed",
+  "black_frames": "none",
+  "approved_prefix_seconds": 40,
+  "approved_prefix_frames": 1200,
+  "approved_prefix_decoded_frames_identical": true,
+  "approved_prefix_mix_samples_identical": true,
+  "canonical_voice_master_unchanged": true,
+  "audio_encoded_once": true,
+  "seams_at_seconds": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120
+  ],
+  "seam_extra_audio_samples": 0,
+  "encoded_mix_lag_checks": [
+    {
+      "start": 1,
+      "duration": 2,
+      "lag_samples": 0
+    },
+    {
+      "start": 9.4,
+      "duration": 1.2,
+      "lag_samples": 0
+    },
+    {
+      "start": 19.4,
+      "duration": 1.2,
+      "lag_samples": 0
+    },
+    {
+      "start": 29.4,
+      "duration": 1.2,
+      "lag_samples": 0
+    },
+    {
+      "start": 39.4,
+      "duration": 1.2,
+      "lag_samples": 0
+    },
+    {
+      "start": 49.4,
+      "duration": 1.2,
+      "lag_samples": 0
+    },
+    {
+      "start": 59.4,
+      "duration": 1.2,
+      "lag_samples": 0
+    },
+    {
+      "start": 69.4,
+      "duration": 1.2,
+      "lag_samples": 0
+    },
+    {
+      "start": 79.4,
+      "duration": 1.2,
+      "lag_samples": 0
+    },
+    {
+      "start": 89.4,
+      "duration": 1.2,
+      "lag_samples": 0
+    },
+    {
+      "start": 99.4,
+      "duration": 1.2,
+      "lag_samples": 0
+    },
+    {
+      "start": 109.4,
+      "duration": 1.2,
+      "lag_samples": 0
+    },
+    {
+      "start": 119.4,
+      "duration": 1.2,
+      "lag_samples": 0
+    },
+    {
+      "start": 121,
+      "duration": 2,
+      "lag_samples": 0
+    },
+    {
+      "start": 124,
+      "duration": 2,
+      "lag_samples": 0
+    },
+    {
+      "start": 123.5,
+      "duration": 2,
+      "lag_samples": 0
+    }
+  ],
+  "narration_retimed": false,
+  "narration_boundary_fade": false,
+  "encoded_LUFS": -13.4,
+  "encoded_true_peak_dBTP": -2.32,
+  "source_decoded_duration": 125.543875,
+  "final_silent_padding_seconds": 0.456125,
+  "music": "none",
+  "independent_listening_review": "not performed",
+  "sha256": "26471604577f7b1d64869795bd86c8c50dfdb677f849922d73a141fce0e12cd0",
+  "bytes": 60917165,
+  "new_material_speech_over_effects_min_dB": 19.11,
+  "new_material_speech_over_effects_median_dB": 59.72
+}

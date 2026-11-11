@@ -1,89 +1,82 @@
-# 1904 Olympic marathon — cumulative video through 40 seconds
+# 1904 Olympic marathon — completed gouache film
 
-[Download the combined 40-second video](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-40s-v1.mp4) · [Preview](preview-through-40s.jpg)
+[Download the complete film (1080×1920 MP4)](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-final-v1.mp4) · [Encoded-frame contact sheet](preview-through-126s.jpg)
 
-Four ten-second parts, portrait 1080×1920 at 30 fps. The uploaded **running.mp3** supplies the original absolute recording interval **[0,40 seconds)**. No narration speed change, repeated audio or narration fade at a part boundary. Speech has priority over the restrained sound effects; **no background music**.
+**Complete: 2 minutes 6 seconds, 30 fps, 3,780 frames.** All of the uploaded **running.mp3** is included, through its decoded end at 125.543875 seconds. A 0.456125-second silent tail holds the completed comment prompt to 126 seconds; no narration is cut, stretched or faded. Narration and Persian-only subtitles accompany the painted illustrations and restrained procedural sound effects. **No background music.**
 
-**Delivery preference:** after every requested ten-second addition, append it to the previous parts and deliver the updated cumulative video. Retain the separate part for review. The next part starts at **40.000 seconds** of the same recording. Do not produce the remainder until requested.
+The first forty seconds are the approved material from the incremental reviews. The remaining narration, story, English examples, recap, explanation, practice preview and final **PHRASAL** comment prompt are now finished. The previous request to proceed one part at a time was superseded by the user's request to complete the entire video; no narration remains to be produced.
 
-| Recording time | Direction / speech |
+## Story and teaching beats
+
+| Recording time | Content |
 |---|---|
-| 0–10 s | Approved marathon opening, 1904 context, eighteen runners not finishing; rear-view runners follow the painted road into depth |
-| 10–10.4 s | Road motion continues through the narration pause |
-| 10.4–13.7 s | Félix introduced in his terracotta shirt and long trousers at the stadium |
-| 13.7–15.967 s | Cuban harbor, steamship and a small travel fund accumulating |
-| 15.967–18.267 s | Gambling table; three coins leave the frame and the purse stays empty |
-| 18.267–20 s | Gentle emphasis on the empty purse and **He ran out of money!**, with Persian translation below |
-| 20–20.367 s | Hold the previous image through the narration pause |
-| 20.367–24.167 s | Félix’s long trousers and long-sleeved shirt in the stadium |
-| 24.167–26.167 s | **He showed up like this!**, with Persian translation |
-| 26.167–28.85 s | A kneeling fellow runner cuts the trouser fabric with tailor scissors |
-| 28.85–30 s | Brief before/after painted transition reveals knee-length shorts; fabric offcuts fall |
-| 30–30.4 s | Hold the completed tailoring result through the pause |
-| 30.4–32.467 s | **He cut off his trouser legs!**, with Persian translation |
-| 32.467–34.9 s | Félix eats a visibly spoiled apple, keeping the cut shorts |
-| 34.9–36.2 s | Standing reaction: he bends forward and holds his stomach |
-| 36.2–38.5 s | He reclines on the grass under the roadside tree |
-| 38.5–40 s | **He had to lie down!**, with Persian translation |
+| 0–40 s | Approved opening; Félix, travel fund and gambling loss; clothing, tailor scissors, spoiled apples and roadside rest |
+| 40–50 s | Félix's fourth-place result; Fred Lorz introduced with a calf cramp; **He dropped out** |
+| 50–64 s | A period car picks Fred up; the car breaks down; he gets out and runs again |
+| 64–75 s | Fred reaches the stadium; officials discover the car shortcut; **They found out** |
+| 75–85 s | Thomas Hicks, exhaustion and the imagined twenty miles despite the nearby finish |
+| 85–94 s | Trainers support Hicks across the ribbon; **They kept him going**; the real winner |
+| 94–108 s | Ten useful expressions, highlighted individually as spoken, with Persian meanings |
+| 108–116 s | Multiword-verb explanation using **GET + OUT → GET OUT**, with contextual Persian meaning |
+| 116–122 s | Weekly story/voice/speaking practice and sample fill-in exercises |
+| 122–126 s | **PHRASAL** types into the comment box; final invitation and a readable end hold |
 
-The harbor, table, empty purse and hand are symbolic painted story illustrations, not an archival reconstruction. Félix retains the same generated portrait across his introduction and travel scene.
+The car and rear-view runner travel along the road into depth. Wheel accents stop at the breakdown, smoke rises briefly, and the passenger is removed from the car asset when Fred exits. Fred has an ivory shirt/navy band and no cap; Hicks has an olive singlet with terracotta trim; Félix retains his terracotta shirt, cap and cut shorts. The officials and finish scenes are symbolic painted illustrations, not archival reconstructions or exact portraits.
 
-The English sentence **He cut off his trouser legs** appears with its narration at about 30.45 seconds; **He had to lie down** follows at about 38.54 seconds. The fourth-place result is not introduced early: that narration begins just after 40 seconds. The tailoring action is an illustrated before/after transition with falling fabric, not a fully articulated scissors rig.
+Motion is deliberately limited and painterly: camera tracks/pushes, running poses, vehicle travel, short wheel/smoke actions, falling fabric, chalk highlights and typing. It is not full anatomical character animation. The first forty-second review versions and every separate part remain in `video/` for comparison.
 
-Separate review files:
+## Voice and caption timing
 
-- [Part 01, source 0–10 s](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-part01-v2.mp4)
-- [Part 02, source 10–20 s](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-part02-v1.mp4)
-- [Part 03, source 20–30 s](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-part03-v1.mp4)
-- [Part 04, source 30–40 s](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-part04-v1.mp4)
-- [Previous approved 30-second assembly](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-30s-v1.mp4)
-- [Previous approved 20-second assembly](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-20s-v1.mp4)
-- [Original unvoiced style test](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-gouache-test-v1.mp4), retained as design history; its page is `index-v1.html`.
+The full supplied recording is mastered once by `prepare_voice.py`. Every review part slices the same canonical 48 kHz master, whose waveform-file hash is checked before later mixes are built. There is no per-part narration normalization or narration edge fade.
 
-## Continuous timeline and assembly
+Captions use the supplied script, local Whisper segments and detected pauses. Raw ASR errors in names, spelling and numerals were corrected from the script; a failed automatic segment was recovered with an overlapping transcription. Continuous-speech caption splits remain estimates, rather than independently verified word-level alignment. English example sentences appear in the teaching headline or on the board; bottom subtitles remain Persian. The useful-expression list follows the supplied narration.
 
-`segments.json` records absolute recording time, source sample offsets, frame offsets and the cumulative delivery preference. At 48 kHz / 30 fps, each ten-second part contains **480,000 narration samples / 300 picture frames**. Part 02 starts at source sample 480,000 and frame 300; part 03 starts at sample 960,000 and frame 600; part 04 starts at sample 1,440,000 and frame 900; the next part starts at sample 1,920,000 and frame 1,200.
+`finish-data.json` contains the remaining absolute scene/caption times and ten recap highlights. Earlier cues are retained in `captions-part01.json` through `captions-part04.json`. No independent listening review was performed; validation includes waveform timing checks and visual inspection of encoded frames.
 
-`prepare_voice.py` masters the entire recording once. Every part slices that same canonical master; narration is never independently normalized per part. `mix_part01.py` through `mix_part04.py` build narrator-first PCM mixes with effects-only edge fades. The canonical master's hash must match the approved first part before producing later mixes.
+## Assembly and completion
 
-`assemble.py` joins the part mixes into one continuous PCM timeline and encodes AAC **once** for the combined video. It copies the picture streams, preserving the approved first part. Review-clip audio streams are removed before the video concat step so AAC encoder priming cannot shift the copied picture. Both final streams start at exactly zero.
+`segments.json` is the source of absolute recording intervals, audio sample offsets and video frame offsets. The first twelve review parts are ten seconds each; the final review part is six seconds. Only the final part includes silent padding beyond the actual recording end.
 
-The root page now previews the absolute **0–40 s** timeline. Render windows are `?start=0&end=10`, `?start=10&end=20` `?start=20&end=30` and `?start=30&end=40`; `part02.js` through `part04.js` extend the first-part drawing without replacing its scene functions. Later additions should extend `renderAbsolute`, maintain absolute cue times and append a manifest entry.
+`mix_part01.py` through `mix_part04.py` retain the approved initial mixes. `mix_finish.py` builds one continuous nonmusical effects mix for the remainder, applies speech-aware ducking and limits effect RMS under active speech, then slices it into review windows. Effects include cloth, scissors, apple/grass sounds, a period-car engine/stall, footsteps, short applause, chalk, paper, typing and send accents.
 
-## Validation and timing limits
+`encode_finish.py` extracts accurate frame windows from a continuous 40–126-second picture render. `assemble.py` copies all picture streams and encodes the continuous PCM narration/effects mix to AAC once. It removes review-clip AAC streams before video concatenation to prevent encoder priming from shifting the copied picture. Both final streams start at zero; no audio is concatenated in encoded AAC form.
 
-[Combined-file QC](QC-through-40s.json) verifies 40 seconds / 1,200 frames, full decoding, no detected black interval and identical decoded pictures for **all 900 approved frames of the previous 30-second assembly**. Its PCM mix prefix is also unchanged. Audio timing checks, including windows spanning the joins at 10, 20 and 30 seconds, found **zero sample lag** against the continuous mix. Video/audio start times are both zero.
+The page previews the complete **0–126 s** timeline. Renderer query parameters `?start=40&end=126` select the remainder. `part02.js` through `part04.js` and `finish.js` extend `renderAbsolute` without replacing the original scene functions.
 
-Final combined loudness is **−13.34 LUFS** and true peak **−2.41 dBTP**. Minimum measured speech/effects separation during active 100 ms windows in part 04 is **30.94 dB**. [Part 04 layout checks](layout-QC-part04.json) cover 300 new frames and the four caption-start frames; heading/kicker spacing uses actual glyph ink bounds. Encoded reference frames were visually inspected. No independent listening review was performed.
+## Final validation
 
-[First-part road checks](motion-layout-QC-v2.json) retain their 301 timeline samples / 2,107 runner positions; the rear three-quarter poses move along the road and shrink with depth. The painted run cycle remains deliberately limited, rather than fluid full character animation.
+[Final MP4 QC](QC-through-126s.json) confirms:
 
-Captions are Persian-only; the English phrase appears in the teaching headline. Cue timing uses the supplied script, local Whisper segment estimates and detected pauses. Raw ASR spelling/numeral errors were corrected from the script. This is phrase-level timing, not independently verified word-level alignment. First-part timing is in `captions-part01.json`, second-part timing in `captions-part02.json`, third-part timing in `captions-part03.json`, and fourth-part timing in `captions-part04.json`.
+- 126 seconds / 3,780 frames; full H.264/AAC decoding passed, no detected black interval.
+- **All 1,200 decoded pictures in the approved first forty seconds remain identical**, and its PCM mix prefix is unchanged.
+- Zero measured sample lag against the continuous mix in windows spanning **all twelve joins** and in the final CTA. No repeated/missing timeline samples.
+- Entire canonical narration included, with only 0.456125 seconds of final silence added for the ending hold.
+- Final encoded loudness **−13.40 LUFS**, true peak **−2.32 dBTP**.
+- At least **19.11 dB** measured speech/effects separation in active 100 ms windows across the newly completed material.
+
+[Remaining-scene layout checks](layout-QC-finish.json) sample 860 frames, check all 43 new caption starts, confirm all ten recap highlights and the complete **PHRASAL** keyword, and verify deterministic seeking back to the opening. Earlier layout and road checks remain in their versioned QC files. Selected encoded frames were visually inspected, including road travel, character identity, teaching text and the final prompt.
+
+The finished file is approximately 61 MB and is tracked directly for a working raw GitHub download; no LFS pointer is used. The previous [40-second assembly](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-40s-v1.mp4) and older reviews remain available.
 
 ## Rebuild
 
-After the repository setup, run from its root:
+After the existing repository setup, run from its root:
 
 ```bash
 bash films/olympic-1904-gouache/build.sh
 ```
 
-Set `FILM_PYTHON` if needed; the build uses the repository virtual environment or the prepared `/workspace/lemo-opuscar/.venv`. The build prepares the canonical voice, renders all four windows, exports the separate clips and assembles the cumulative video. It reuses the committed painted assets; no image-generation API is needed to rebuild.
+Set `FILM_PYTHON` if needed. The build uses the repository virtual environment or the prepared `/workspace/lemo-opuscar/.venv`, configured Chromium and FFmpeg. It prepares the voice, renders the initial windows and continuous remainder, exports review parts and assembles the final movie. All painted assets are committed; no image-generation API or transcription model is required to rebuild the included timeline.
 
-Relevant checks:
+Useful checks:
 
 ```bash
-node films/olympic-1904-gouache/check-part01-v2.mjs
-node films/olympic-1904-gouache/check-part02.mjs
-node films/olympic-1904-gouache/check-part03.mjs
-node films/olympic-1904-gouache/check-part04.mjs
+node films/olympic-1904-gouache/check-finish.mjs
 python films/olympic-1904-gouache/verify_assembly.py
 ```
 
-Use the configured Chromium and Python environment as in the build. Intermediate WAVs, picture-only extracts and frames live in ignored `out/` folders. They are recreated from the committed narration and assets. Local transcription models are optional analysis tools and are not needed for rendering.
+Use the same browser/Python configuration as the build. WAVs, raw picture renders, intermediate extracts and frame references live in ignored `out/` folders. `alignment/` retains optional analysis evidence. Rebuilding on a different audio-toolchain version may require checking the canonical master hash rather than silently changing the voice level between parts.
 
 ## Style and provenance
 
-The project adapts Lemo-Opuscar's **Welsh Valley Gouache**, Opuscar98 entry 14: opaque directional paint marks, gold light, olive fields and coal/slate darks. This is stylized illustration, not an exact historical portrait.
-
-The stadium, Félix, running-pose sheets, harbor, empty-purse table and before/after tailoring, spoiled-apple, stomach-ache and roadside-rest paintings were generated for this project with the image-generation tool. The small moving coins are procedural painted marks attached to their surfaces. `assets/narration.mp3` is the user's uploaded recording. Existing font licenses under the repository's `licenses/` remain in force. Shared renderer: Lemo-Opuscar (MIT).
+The film adapts Lemo-Opuscar's **Welsh Valley Gouache**, Opuscar98 entry 14: opaque directional paint, golden side-light, olive fields, coal/slate ridges and true-perspective roads. The character, landscape, car, officials, Hicks, finish and study-board paintings were generated for this project using the image-generation tool. Text, camera motion, wheel accents, smoke, chalk, rank graphics and typing are rendered programmatically in Canvas/HTML. The uploaded narration remains the user's project material. Existing font licenses under `licenses/` and the Lemo-Opuscar renderer's MIT credits are retained.
