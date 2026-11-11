@@ -20,3 +20,7 @@ The helper checks readiness, logical ranges, reading-layer policy and source-map
 Set `mode_confirmed` and `participation_confirmed` only from actual user choices. Mark plan sections `ready` when complete. Review status is `approved` for close/key-checkpoint modes, or `delegated` for independent mode. Include a decision reference. A key-checkpoint default is not automatic approval.
 
 Style invariants and at least two actual frame files must be recorded. Narration status must be `provided` with a real file/decoded count or explicitly `not-required`. Caption language must be resolved, even for silent/caption-free projects (`none`).
+
+## Repository delivery
+
+`brief.delivery` records the designated repo/remote/branch/visibility. `auto_commit`, `auto_push` and `push_requested_previews` default to true; `download_links` defaults to `commit-pinned`. Resolve actual destination/access once, not per revision. QC delivery records include video commit/path, download URL/hash, push verification and authentication requirements. These are agent-maintained records, not extra user forms.

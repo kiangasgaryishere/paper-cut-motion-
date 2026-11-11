@@ -1,14 +1,15 @@
 {
   "skill": "opuscar-short-video-director",
-  "version": "1.0.0",
-  "file_count": 30,
-  "zip_bytes": 48836,
+  "version": "1.1.0",
+  "file_count": 33,
+  "zip_bytes": 57730,
   "zip_integrity": "passed",
   "manifest_hashes": "passed",
-  "extracted_helper_tests": 9,
+  "extracted_helper_tests": 12,
   "local_links_and_shell_syntax": "passed",
   "read_only_setup_does_not_create_folders": "passed",
   "source_ast_parse": "passed",
   "no_external_media_or_dependencies_bundled": true,
-  "sha256": "f3d8ec2cda001378deaf71c9503feec9db650f34e778728eeb78f35763c095fa"
+  "sha256": "6a08aa04c7170c7505639a6bf0b6ce85116c9bb7bf7da7f32cf4c8de2fab6621",
+  "live_public_video_remote_and_download_hash": "passed"
 }

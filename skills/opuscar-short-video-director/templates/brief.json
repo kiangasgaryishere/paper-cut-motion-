@@ -5,7 +5,7 @@
   "goal": "",
   "audience": {"type": "language-learners", "level": "", "target_language": "", "accent": "", "learning_outcome": ""},
   "style": {"identifier": "", "source": "", "upstream_commit": "", "invariants_recorded": false, "style_frames": []},
-  "delivery": {"platform": "Instagram Reels", "width": 1080, "height": 1920, "fps": 30, "publication": "download-only"},
+  "delivery": {"platform": "Instagram Reels", "width": 1080, "height": 1920, "fps": 30, "publication": "designated-project-repo", "repository": "", "remote": "origin", "branch": "", "visibility": "unknown", "auto_commit": true, "auto_push": true, "push_requested_previews": true, "video_directory": "video", "download_links": "commit-pinned"},
   "production": {"mode": "full", "mode_confirmed": false, "participation": "key-checkpoints", "participation_confirmed": false},
   "audio": {"sample_rate": 48000, "music": "none", "narration": {"required": true, "status": "pending", "path": "", "decoded_samples": null, "sha256": ""}},
   "text": {"captions": {"language": "", "allow_target_language": false, "lead_ms": 0}, "teaching_examples_language": "", "heading_density": "low"},

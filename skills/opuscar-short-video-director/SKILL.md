@@ -1,6 +1,6 @@
 ---
 name: opuscar-short-video-director
-description: Direct and produce polished short videos from a supplied script, primarily using Lemo Opuscar. Specializes in educational, story-led Instagram Reels for language learners. Use for video production, reference analysis, art direction, storyboards, cinematic shots, restrained transitions, sound design, synchronized captions, ten-second review workflows, and revisions. Requires an existing script; does not write scripts.
+description: Direct and produce polished short videos from a supplied script, primarily using Lemo Opuscar. Specializes in educational, story-led Instagram Reels for language learners. Use for reference analysis, storyboards, cinematic direction, sound design, captions, ten-second/full production and revisions. Commit and push completed changes to the user's project repo and deliver verified version-specific video download links. Requires an existing script; does not write scripts.
 ---
 
 # Opuscar Short Video Director
@@ -21,6 +21,7 @@ Act as a director, motion designer, editor and sound designer. Produce the actua
 8. **One canonical timeline.** Drive image, voice, captions, effects and teaching highlights from shared frame/sample timing. Edits update them together. See [production](references/production.md).
 9. **Deliver Instagram-ready quality.** Default: 1080×1920, 9:16, 30 fps, H.264 MP4 with AAC 48 kHz and fast start. Adapt explicitly for other formats. Check readability and UI-safe placement on mobile; do not assume platform overlays are fixed forever.
 10. **Do not confuse checks with experience.** Report actual rendered, decoded, watched and listened-to checks separately. Loudness numbers do not prove an effect sounds natural. Do not claim a listening review if none was possible.
+11. **Save and deliver automatically.** Commit and push every completed meaningful project change/revision to the user's designated project repository, including requested preview exports. Do not wait for a separate “commit/push” request. After a video is pushed, provide a download link to that exact committed MP4, not a local path, source folder or old version. Read [repository delivery](references/repository-delivery.md).
 
 ## Start a project
 
@@ -74,6 +75,8 @@ Always prepare the full plan. Whether to pause is determined by the chosen invol
 
 User approval or delegation already given persists. Do not ask again for approved decisions. Once approved, freeze the plan baseline and record later changes. If a local/upstream rule truly requires a pause, identify the exact rule and source; do not invent an approval gate.
 
+Participation controls creative reviews, not whether changes are saved. All modes automatically commit/push completed changes to the selected project repo. Confirm or discover the repo/branch/visibility once; do not ask permission again for routine saves, preview uploads or download links within that scope. Pushing a task branch does not require merging it first and does not authorize merging a protected/shared branch.
+
 ## Produce and revise
 
 Maintain a single project folder; keep user work outside upstream `styles/` and `core/`. Use time-driven deterministic rendering, self-hosted fonts and one world-to-screen transform. Characters, flags/maps, typography, lighting and props must stay consistent and contextually correct.
@@ -88,7 +91,7 @@ Use [templates](templates/README.md) and keep `brief.json`, `timeline.json`, `ST
 
 Follow [quality](references/quality.md). Review mobile-scale contact sheets, key action strips, the hook and CTA, full-file decode, voice/caption timing, visual continuity, audio peaks and joins. Watch/listen at full speed if tools permit. Verify cumulative boundaries and corrected edits. Perform the subtraction pass.
 
-Deliver the actual high-quality MP4 with a working download and a concise change summary. Include a lighter preview if useful, sources/build instructions and unresolved limitations that materially affect use. Publish/push only when authorized; never make a public repository a prerequisite for delivery. Verify downloaded bytes when publishing. Do not automatically create a cover, caption, worksheet, post or outreach message unless requested.
+Commit/push the completed changes, verify the remote commit, and deliver the actual high-quality MP4 with a working download and concise change summary. When the user asks for a downloadable preview, export it, push it to the same repo and return its own version-specific video link automatically. In ten-second mode, give the latest cumulative MP4 link. Public GitHub repos use raw URLs pinned to the video commit; private repos use authenticated download links and remain private. Verify downloaded bytes where access permits; never claim a private link was tested without the right access. Do not automatically create a cover, caption, worksheet, post or outreach message unless requested.
 
 ## Packaged helpers
 
@@ -96,5 +99,6 @@ Deliver the actual high-quality MP4 with a working download and a concise change
 - `scripts/doctor.py`: report local tool/library readiness without modifying the environment.
 - `scripts/init_project.py`: initialize project memory from an existing script; refuses overwrites.
 - `scripts/validate_plan.py`: check timing, coverage, 3–4-second events, captions, sound placement and preproduction readiness.
+- `scripts/video_link.py`: check a committed video against the remote branch and generate a pinned GitHub download link; optionally verify the public download hash. It never commits/pushes for the agent.
 
 Helpers are optional conveniences. Read their usage and relevant environment rules before executing. They do not replace Opuscar's current documentation, creative judgment or real media checks.

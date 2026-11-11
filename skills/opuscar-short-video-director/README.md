@@ -1,6 +1,6 @@
 # Opuscar Short Video Director
 
-Version **1.0.0**. A reusable agent skill for short-video production from an existing script, specializing in educational storytelling for language learners. [راهنمای فارسی](README.fa.md).
+Version **1.1.0**. A reusable agent skill for short-video production from an existing script, specializing in educational storytelling for language learners. [راهنمای فارسی](README.fa.md).
 
 ## Install and invoke
 
@@ -9,6 +9,10 @@ Extract the ZIP and place the `opuscar-short-video-director` directory in your a
 Example: “Use `$opuscar-short-video-director` with this supplied script. Make an Instagram Reel; ask how involved I want to be, then plan the storyboard, direction and audio.”
 
 The skill is not automatically registered by downloading it. It needs an agent with file/shell access, a working rendering environment, and any media-generation/transcription capabilities the chosen project requires. No API key, cloud account, model weights, video, font or sound library is bundled. Do not claim unavailable capabilities are installed.
+
+## Automatic repository saving and video downloads
+
+Every completed meaningful project change/revision is committed and pushed to the designated project repo, including requested previews. No repeated “commit/push” instruction is needed. Downloads point to the exact pushed video commit; ten-second reviews use the cumulative movie. Task-branch previews do not require PR merge. Private repos stay private and use authenticated downloads. See [repository delivery](references/repository-delivery.md).
 
 ## Sources
 
@@ -36,6 +40,9 @@ python3 scripts/init_project.py --project /path/to/my-film --script-file /path/t
 # Run after filling the plan; an untouched template intentionally fails readiness.
 python3 scripts/validate_plan.py /path/to/my-film
 
+# After the agent commits/pushes a real video: check its remote version and public download.
+python3 scripts/video_link.py --repo /path/to/repo --file video/my-film-v003.mp4 --visibility public --verify-download
+
 # Standard-library helper/packaging checks, no downloads or media generation.
 python3 scripts/selftest.py
 ```
@@ -51,6 +58,8 @@ System Git, Node/npm, Python, FFmpeg/ffprobe and browser OS dependencies may nee
 Templates keep decisions out of repeated chat questions. `brief.json` records audience, delivery, collaboration and audio/text policy. `timeline.json` stores frame-based shots/captions and sample-based narration source mapping, visual milestones and sound sync events. Markdown sheets explain creative decisions and review status. `QC.json` distinguishes technical checks from actual watching/listening.
 
 Historical details from the original production are not hardcoded: no mandatory gouache/paper-cut style, Persian subtitle language, English flags, championship story, comment keyword, audio provider or public GitHub delivery. Those are project choices.
+
+The video-link helper is read-only except for network requests. It never commits, pushes or merges. For private repositories, omit `--verify-download` and use an authorized browser/connector to verify the authenticated URL. It rejects uncommitted files and Git LFS pointers.
 
 ## License
 

@@ -28,7 +28,7 @@ Check final codec, dimensions, frame rate, frame count, duration, audio sample r
 
 Useful FFmpeg/ffprobe checks include stream metadata, full decode, `blackdetect`, loudness/true-peak analysis and waveform cross-correlation around joins. Use the current tools and actual project files; do not claim these checks ran merely because commands are documented.
 
-Test downloadability and compare hashes after publishing. A Git LFS pointer or permission page is not a video download. Instagram processing may change quality; local export QC is not proof of a successful platform upload.
+Check that the completed change and requested preview/final MP4 were committed and pushed to the intended repo/branch. Verify the actual remote video commit, a link pinned to that commit, and the downloaded bytes/hash where access permits. A Git LFS pointer or permission page is not a video download. For private repos, record authentication requirements and only claim checks actually performed. PR merge is not required to deliver a pushed preview. Instagram processing may change quality; local export QC is not proof of a successful platform upload.
 
 ## Subtraction pass
 

@@ -14,8 +14,9 @@
     "decode_metadata_black_intervals": {"status": "not performed", "evidence": ""},
     "joins_and_edit_map": {"status": "not performed", "evidence": ""},
     "subtraction_pass": {"status": "not performed", "evidence": ""},
+    "commit_and_remote_push": {"status": "not performed", "evidence": ""},
     "download_hash": {"status": "not performed", "evidence": ""}
   },
   "material_limitations": [],
-  "delivery": {"path_or_url": "", "sha256": "", "width": null, "height": null, "fps": null, "duration_seconds": null}
+  "delivery": {"path_or_url": "", "repository": "", "branch": "", "video_commit": "", "video_path": "", "download_url": "", "download_verified": false, "authentication_required": false, "sha256": "", "width": null, "height": null, "fps": null, "duration_seconds": null}
 }

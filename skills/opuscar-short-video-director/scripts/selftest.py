@@ -4,6 +4,7 @@ import copy,json,re,shutil,subprocess,tempfile,unittest,wave
 from pathlib import Path
 from init_project import initialize
 from validate_plan import validate
+from video_link import inspect_artifact,link_for,github_repository
 
 ROOT=Path(__file__).resolve().parents[1]
 class SkillTests(unittest.TestCase):
@@ -49,5 +50,25 @@ class SkillTests(unittest.TestCase):
         if shutil.which('bash'):subprocess.run(['bash','-n',str(ROOT/'scripts/setup.sh')],check=True)
     def test_malformed_json_is_reported(self):
         (self.project/'timeline.json').write_text('{bad');self.assertFalse(validate(self.project)['ready'])
+    def test_repo_delivery_defaults(self):
+        b=json.loads((self.project/'brief.json').read_text());delivery=b['delivery']
+        self.assertTrue(delivery['auto_commit'] and delivery['auto_push'] and delivery['push_requested_previews'])
+        self.assertEqual(delivery['download_links'],'commit-pinned')
+    def test_download_links_pin_commit_and_keep_private_access(self):
+        sha='a'*40;repo=github_repository('git@github.com:owner/my-film.git')
+        url=link_for(repo,sha,'video/preview 1.mp4','public');self.assertIn('/'+sha+'/',url);self.assertTrue(url.endswith('preview%201.mp4'))
+        private=link_for(repo,sha,'video/v1.mp4','private');self.assertTrue(private.startswith('https://github.com/'));self.assertTrue(private.endswith('?raw=true'))
+        with self.assertRaises(ValueError):link_for(repo,'main','video/v1.mp4','public')
+    @unittest.skipUnless(shutil.which('git'),'Git unavailable for local artifact-state test')
+    def test_video_link_rejects_unsaved_video_and_lfs_pointer(self):
+        repo=self.base/'local-git';repo.mkdir()
+        def git(*args):subprocess.run(['git','-C',str(repo),*args],check=True,capture_output=True)
+        git('init','-q');git('config','user.name','Skill Test');git('config','user.email','test@example.invalid');git('remote','add','origin','https://github.com/owner/film.git')
+        video=repo/'video.mp4';video.write_bytes(b'synthetic committed artifact fixture');git('add','video.mp4');git('commit','-qm','fixture')
+        _,_,record=inspect_artifact(repo,'video.mp4');self.assertEqual(record['bytes'],video.stat().st_size)
+        video.write_bytes(b'changed after commit')
+        with self.assertRaises(ValueError):inspect_artifact(repo,'video.mp4')
+        video.write_text('version https://git-lfs.github.com/spec/v1\noid sha256:'+('a'*64)+'\nsize 1000\n');git('add','video.mp4');git('commit','-qm','pointer fixture')
+        with self.assertRaises(ValueError):inspect_artifact(repo,'video.mp4')
 
 if __name__=='__main__':unittest.main(verbosity=2)

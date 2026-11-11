@@ -36,4 +36,4 @@ Ten-second mode is a review/render window, not a new film. Preserve world positi
 
 Translate feedback into a change list and affected time ranges. Preserve approved material where possible. Update the shared timeline and all dependent assets/cues. A sound-only change does not justify rerendering picture. Do not repeatedly broaden tests after appropriate checks pass.
 
-Run visual/audio/mobile/technical QC and a subtraction pass. Deliver a verified MP4/download, optionally a smaller preview, build/source package and relevant limitations. Respect the authorized publication destination. Retain prior versions and a concise change log.
+Run visual/audio/mobile/technical QC and a subtraction pass. Commit and push every completed project change/revision, including any requested preview, to the designated project repo. Verify the pushed artifact and return its commit-pinned video download automatically; PR merge is not required for review. In ten-second mode give the cumulative export. Follow repository-delivery.md for public/private access. Retain prior versions and a concise change log.

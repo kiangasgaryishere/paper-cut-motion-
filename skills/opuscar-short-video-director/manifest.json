@@ -1,11 +1,16 @@
 {
   "name": "opuscar-short-video-director",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "entrypoint": "SKILL.md",
   "license": "MIT",
   "primary_reference": "https://github.com/lemomo-ai/lemo-opuscar",
   "sound_reference": "https://github.com/wyzowl/sfx-kit",
   "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 819,
+      "sha256": "17b3e0cfbc6945ac351f7c6c7361be747ace783dd6b101785521c558193f3f61"
+    },
     {
       "path": "LICENSE",
       "bytes": 1098,
@@ -13,18 +18,18 @@
     },
     {
       "path": "README.fa.md",
-      "bytes": 4140,
-      "sha256": "6e2b29eee3da9df2e73c3ff972417a002dde2b61bcd26ec6587425575cdbd19f"
+      "bytes": 5061,
+      "sha256": "897a7c566c1d3be3b85ac0c5fb6e9cae53c10a14958db8554d360bb0417f5b90"
     },
     {
       "path": "README.md",
-      "bytes": 4470,
-      "sha256": "4e0f17ca677c49512b180bddd4bad0a69ea1a230f00019f09f95d179fde4a03e"
+      "bytes": 5465,
+      "sha256": "cde63364671d56bb08af37f36654eac537dee582eb69a3ce11249658a472272d"
     },
     {
       "path": "SKILL.md",
-      "bytes": 11649,
-      "sha256": "afb9fd85a6565e4e9a477f2249f1653f3472fcf143b459b6871653289edb3147"
+      "bytes": 13010,
+      "sha256": "90f2cc4afd72538274bcb859fa9fe940f1e72c2e9a94b32af0247a2bf4ef5a42"
     },
     {
       "path": "agents/openai.yaml",
@@ -43,18 +48,23 @@
     },
     {
       "path": "references/production.md",
-      "bytes": 4773,
-      "sha256": "0c47d2e1eedaed7eb569f8273e1941b72fb0e3b08c9799e3386544be221e70f4"
+      "bytes": 5066,
+      "sha256": "0db853c7416edb9314520129608a84b37a89a2931ffa15f6d2865655f9ab2473"
     },
     {
       "path": "references/quality.md",
-      "bytes": 3783,
-      "sha256": "99af23e9b13b1e60e3ab6cecea02ab107805f0359bb1ec9e2df702f0bf670d14"
+      "bytes": 4115,
+      "sha256": "b7aed4f7c0b5fa45a551caa0e4c537353b069e8bc76e76aed87ef3af004983d8"
     },
     {
       "path": "references/reference-analysis.md",
       "bytes": 3179,
       "sha256": "fe0d31acbbcb702a3f82b40eac44397d6f714d1562081ef5e57a84ddc37a0bd5"
+    },
+    {
+      "path": "references/repository-delivery.md",
+      "bytes": 5806,
+      "sha256": "eed0c23e9e9f73a4384e5a29abf5cd5fbe2dca201489a23b4a9c550f04ae2564"
     },
     {
       "path": "references/setup.md",
@@ -68,8 +78,8 @@
     },
     {
       "path": "references/workflow.md",
-      "bytes": 3881,
-      "sha256": "26a9c88938132eecfd145f05f3d6781ea1c22ef68f3827981d1b8e2760292fd6"
+      "bytes": 4072,
+      "sha256": "b38146cb1d1bfd9f9d576e41a84d2fb4327e6d38de63c02b0cdadc3510f87a11"
     },
     {
       "path": "scripts/doctor.py",
@@ -83,8 +93,8 @@
     },
     {
       "path": "scripts/selftest.py",
-      "bytes": 5705,
-      "sha256": "5864f55a315d10ecd6f1d365658783cb2fbd4f29568614f27edd5513a92e6dc3"
+      "bytes": 7747,
+      "sha256": "f8cd890d05de5ad4d736408cf024199f426d90cae5d9930fa535a03e72d86862"
     },
     {
       "path": "scripts/setup.sh",
@@ -95,6 +105,11 @@
       "path": "scripts/validate_plan.py",
       "bytes": 9899,
       "sha256": "b18a03eeca9e958983fae2d36f44a08f95ffcc740b689b7e2a913c56434bcbcd"
+    },
+    {
+      "path": "scripts/video_link.py",
+      "bytes": 5617,
+      "sha256": "297069e6ef698d48a8be042489ebb3a7c116098c5bc59eaf0e3ab4941fad5679"
     },
     {
       "path": "templates/ART_DIRECTION.md",
@@ -108,18 +123,18 @@
     },
     {
       "path": "templates/DECISIONS.md",
-      "bytes": 768,
-      "sha256": "7b991790575eb754f3a0500716ee79c7268817db581ce5c2c2c8067220f8279d"
+      "bytes": 1201,
+      "sha256": "b05c6d4983d8d7d373c3cfc60b33417b7ed6227ed773fe041f246fb03aef7899"
     },
     {
       "path": "templates/QC.json",
-      "bytes": 1199,
-      "sha256": "19a58fd6f750a6404bc647e74c5f50419c07d740add6d515eaef5ffcf808529b"
+      "bytes": 1426,
+      "sha256": "71ce966d53691fa1e4368e6ff504873de319f7b944cffe9a1245d6e3b4bf3690"
     },
     {
       "path": "templates/README.md",
-      "bytes": 3101,
-      "sha256": "686513b217b5b9abe4b38a7557cf95aabd784a848ead948669a3e855c29c5496"
+      "bytes": 3550,
+      "sha256": "15944340b0b92f8fe43453e758c12facab24120f4df1876cc45c2c8e4664d1dc"
     },
     {
       "path": "templates/REFERENCES.md",
@@ -143,8 +158,8 @@
     },
     {
       "path": "templates/brief.json",
-      "bytes": 1092,
-      "sha256": "516cecd38c1e59f793889845e0939e5aeedb2a6719d6aa7c5561fab4368b5e30"
+      "bytes": 1315,
+      "sha256": "f5c5f4d741af216a4984d3c38730ee74cc9b43b3d1ad2258a524530b350e7eee"
     },
     {
       "path": "templates/timeline.json",
