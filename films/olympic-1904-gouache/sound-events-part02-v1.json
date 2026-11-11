@@ -1,0 +1,72 @@
+[
+  {
+    "type": "portrait_cloth",
+    "absolute_start": 10.4,
+    "absolute_end": 10.700000000000001,
+    "gain": 0.6,
+    "pan": 0
+  },
+  {
+    "type": "dock_rope_pre_lap",
+    "absolute_start": 13.52,
+    "absolute_end": 14.07,
+    "gain": 0.6,
+    "pan": 0.35
+  },
+  {
+    "type": "travel_fund_coin_1",
+    "absolute_start": 13.95,
+    "absolute_end": 14.17,
+    "gain": 0.75,
+    "pan": 0.25
+  },
+  {
+    "type": "travel_fund_coin_2",
+    "absolute_start": 14.35,
+    "absolute_end": 14.57,
+    "gain": 0.75,
+    "pan": 0.25
+  },
+  {
+    "type": "travel_fund_coin_3",
+    "absolute_start": 14.75,
+    "absolute_end": 14.97,
+    "gain": 0.75,
+    "pan": 0.25
+  },
+  {
+    "type": "dice_table_rattle",
+    "absolute_start": 15.966666666666667,
+    "absolute_end": 16.30666666666667,
+    "gain": 0.75,
+    "pan": -0.3
+  },
+  {
+    "type": "lost_coin_1",
+    "absolute_start": 16.15,
+    "absolute_end": 16.369999999999997,
+    "gain": 0.85,
+    "pan": 0.3
+  },
+  {
+    "type": "lost_coin_2",
+    "absolute_start": 16.75,
+    "absolute_end": 16.97,
+    "gain": 0.85,
+    "pan": 0.44999999999999996
+  },
+  {
+    "type": "lost_coin_3",
+    "absolute_start": 17.35,
+    "absolute_end": 17.57,
+    "gain": 0.85,
+    "pan": 0.6
+  },
+  {
+    "type": "empty_purse_leather",
+    "absolute_start": 18.05,
+    "absolute_end": 18.400000000000002,
+    "gain": 0.6,
+    "pan": 0
+  }
+]

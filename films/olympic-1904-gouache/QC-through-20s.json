@@ -1,0 +1,62 @@
+{
+  "duration": 20,
+  "fps": 30,
+  "frames": 600,
+  "width": 1080,
+  "height": 1920,
+  "video": "h264",
+  "audio": "aac",
+  "audio_sample_rate": 48000,
+  "full_decode": "passed",
+  "black_frames": "none",
+  "approved_first_300_decoded_frames_identical": true,
+  "first_480000_mix_samples_identical": true,
+  "canonical_voice_master_unchanged": true,
+  "audio_encoded_once": true,
+  "seam_at_seconds": 10,
+  "seam_extra_audio_samples": 0,
+  "encoded_mix_lag_checks": [
+    {
+      "start": 1,
+      "duration": 2,
+      "lag_samples": 0
+    },
+    {
+      "start": 8,
+      "duration": 2,
+      "lag_samples": 0
+    },
+    {
+      "start": 9.4,
+      "duration": 1.2,
+      "lag_samples": 0
+    },
+    {
+      "start": 11,
+      "duration": 2,
+      "lag_samples": 0
+    },
+    {
+      "start": 14,
+      "duration": 2,
+      "lag_samples": 0
+    },
+    {
+      "start": 17.5,
+      "duration": 2,
+      "lag_samples": 0
+    }
+  ],
+  "narration_retimed": false,
+  "narration_boundary_fade": false,
+  "part02_speech_over_effects_min_dB": 21.02,
+  "part02_speech_over_effects_median_dB": 55.39,
+  "encoded_LUFS": -13.91,
+  "encoded_true_peak_dBTP": -2.41,
+  "music": "none",
+  "independent_listening_review": "not performed",
+  "sha256": "adf2a4ef6ff435bc047f6cf65e424d3c3ccf4193c8b135a4b96fc1cfcedd217a",
+  "bytes": 14056388,
+  "video_start_time": 0.0,
+  "audio_start_time": 0.0
+}

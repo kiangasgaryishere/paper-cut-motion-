@@ -15,14 +15,51 @@
       "source_sample_end_exclusive": 480000,
       "video_frame_start": 0,
       "video_frame_end_exclusive": 300,
-      "revision": "v2"
+      "revision": "v2",
+      "mix_wav": "out/part01-mix-v2.wav",
+      "effects_wav": "out/part01-sfx-v2.wav"
+    },
+    {
+      "id": "part02",
+      "start": 10,
+      "end": 20,
+      "status": "verified",
+      "revision": "v1",
+      "output": "video/olympic-1904-part02-v1.mp4",
+      "source_sample_start": 480000,
+      "source_sample_end_exclusive": 960000,
+      "video_frame_start": 300,
+      "video_frame_end_exclusive": 600,
+      "mix_wav": "out/part02-mix-v1.wav",
+      "effects_wav": "out/part02-sfx-v1.wav"
     }
   ],
-  "next_part_start": 10,
+  "next_part_start": 20,
   "narration_retimed": false,
   "notes": "Use one continuous full-recording voice master; slice by absolute sample/frame offsets. Do not add per-part narration fades.",
   "source_decoded_duration": 125.543875,
   "final_audio_strategy": "Concatenate picture parts on exact frame boundaries; assemble one continuous canonical narration plus absolute-time SFX and encode audio once. Do not concatenate separately AAC-encoded audio streams.",
   "canonical_voice_master": "out/voice-master-v2.wav",
-  "canonical_voice_recipe": "prepare_voice.py"
+  "canonical_voice_recipe": "prepare_voice.py",
+  "assembly_output": "video/olympic-1904-20s-v1.mp4",
+  "assembly_duration": 20,
+  "delivery_preference": "After each new ten-second part, deliver an updated cumulative video from 0 through the new end; also retain the separate part.",
+  "assemblies": [
+    {
+      "output": "video/olympic-1904-20s-v1.mp4",
+      "start": 0,
+      "end": 20,
+      "frames": 600,
+      "audio_encoded_once": true,
+      "picture_stream_copied": true,
+      "parts": [
+        "part01",
+        "part02"
+      ],
+      "status": "verified",
+      "sha256": "adf2a4ef6ff435bc047f6cf65e424d3c3ccf4193c8b135a4b96fc1cfcedd217a",
+      "video_start_time": 0,
+      "audio_start_time": 0
+    }
+  ]
 }

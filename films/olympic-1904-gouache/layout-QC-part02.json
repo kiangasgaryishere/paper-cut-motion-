@@ -1,0 +1,30 @@
+{
+  "samples": 300,
+  "caption_start_frames": [
+    {
+      "start": 10.4,
+      "frame": 312,
+      "visible": true,
+      "text": "اول، فلیکس کارواخال؛\nدوندهٔ کوبایی!"
+    },
+    {
+      "start": 13.7,
+      "frame": 411,
+      "visible": true,
+      "text": "برای سفر به آمریکا\nپول جمع کرده بود."
+    },
+    {
+      "start": 15.966666666666667,
+      "frame": 479,
+      "visible": true,
+      "text": "ولی همه‌ش رو\nتوی قمار باخت!"
+    },
+    {
+      "start": 18.266666666666666,
+      "frame": 548,
+      "visible": true,
+      "text": "پولش تموم شد!"
+    }
+  ],
+  "errors": []
+}
