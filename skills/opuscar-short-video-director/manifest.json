@@ -1,0 +1,155 @@
+{
+  "name": "opuscar-short-video-director",
+  "version": "1.0.0",
+  "entrypoint": "SKILL.md",
+  "license": "MIT",
+  "primary_reference": "https://github.com/lemomo-ai/lemo-opuscar",
+  "sound_reference": "https://github.com/wyzowl/sfx-kit",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1098,
+      "sha256": "a42622f6b73a2105870a732882b7a7533934bd19804522cf5ee34f712506ff6d"
+    },
+    {
+      "path": "README.fa.md",
+      "bytes": 4140,
+      "sha256": "6e2b29eee3da9df2e73c3ff972417a002dde2b61bcd26ec6587425575cdbd19f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4470,
+      "sha256": "4e0f17ca677c49512b180bddd4bad0a69ea1a230f00019f09f95d179fde4a03e"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11649,
+      "sha256": "afb9fd85a6565e4e9a477f2249f1653f3472fcf143b459b6871653289edb3147"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 361,
+      "sha256": "3ebad7f3ddfba3c26c4b0c156fc48e0d76ae1d646a26c3d2f47f55aa4c2d5354"
+    },
+    {
+      "path": "references/briefing.md",
+      "bytes": 3144,
+      "sha256": "b86b1a150b8067d7ff88e99e2f46a2cf17d77cf394e0da729151efb182110805"
+    },
+    {
+      "path": "references/direction.md",
+      "bytes": 4641,
+      "sha256": "6d6fedc47b0e6d570091cc03305a86a26ee3724f7d12a444c78fcb13e5466929"
+    },
+    {
+      "path": "references/production.md",
+      "bytes": 4773,
+      "sha256": "0c47d2e1eedaed7eb569f8273e1941b72fb0e3b08c9799e3386544be221e70f4"
+    },
+    {
+      "path": "references/quality.md",
+      "bytes": 3783,
+      "sha256": "99af23e9b13b1e60e3ab6cecea02ab107805f0359bb1ec9e2df702f0bf670d14"
+    },
+    {
+      "path": "references/reference-analysis.md",
+      "bytes": 3179,
+      "sha256": "fe0d31acbbcb702a3f82b40eac44397d6f714d1562081ef5e57a84ddc37a0bd5"
+    },
+    {
+      "path": "references/setup.md",
+      "bytes": 3727,
+      "sha256": "a201e1b5488ecdd8d68a59d952edc5acd2384d0faf809eb5fbb550c24abd4938"
+    },
+    {
+      "path": "references/sound-design.md",
+      "bytes": 4547,
+      "sha256": "6c090b94531040ece3b38f1f9e1ae173484c35e45204a91c8ae15a81f49f5bae"
+    },
+    {
+      "path": "references/workflow.md",
+      "bytes": 3881,
+      "sha256": "26a9c88938132eecfd145f05f3d6781ea1c22ef68f3827981d1b8e2760292fd6"
+    },
+    {
+      "path": "scripts/doctor.py",
+      "bytes": 4121,
+      "sha256": "a460dc93f5ac1825861afb9a7b6ca4773f2fce7864abacc34751193d9dfc92fd"
+    },
+    {
+      "path": "scripts/init_project.py",
+      "bytes": 1894,
+      "sha256": "58f52a0de9d4f41fb1841b48c9bcb74ce1d49856a1f52701cd1c1e639cf585b2"
+    },
+    {
+      "path": "scripts/selftest.py",
+      "bytes": 5705,
+      "sha256": "5864f55a315d10ecd6f1d365658783cb2fbd4f29568614f27edd5513a92e6dc3"
+    },
+    {
+      "path": "scripts/setup.sh",
+      "bytes": 3494,
+      "sha256": "bb2868acf6b49f206455e54ad4978d23c4c5509d4daf169b933cdaca41f19cc6"
+    },
+    {
+      "path": "scripts/validate_plan.py",
+      "bytes": 9899,
+      "sha256": "b18a03eeca9e958983fae2d36f44a08f95ffcc740b689b7e2a913c56434bcbcd"
+    },
+    {
+      "path": "templates/ART_DIRECTION.md",
+      "bytes": 1011,
+      "sha256": "481daeea0f9c9a247a955bb0250123308d166d394be1878d9f524a5a82a53e3a"
+    },
+    {
+      "path": "templates/CREDITS.md",
+      "bytes": 418,
+      "sha256": "197fef1d7261e1f9e3bc85b1c5aa695e28f5210ce030d06ab0af53adb91a05f1"
+    },
+    {
+      "path": "templates/DECISIONS.md",
+      "bytes": 768,
+      "sha256": "7b991790575eb754f3a0500716ee79c7268817db581ce5c2c2c8067220f8279d"
+    },
+    {
+      "path": "templates/QC.json",
+      "bytes": 1199,
+      "sha256": "19a58fd6f750a6404bc647e74c5f50419c07d740add6d515eaef5ffcf808529b"
+    },
+    {
+      "path": "templates/README.md",
+      "bytes": 3101,
+      "sha256": "686513b217b5b9abe4b38a7557cf95aabd784a848ead948669a3e855c29c5496"
+    },
+    {
+      "path": "templates/REFERENCES.md",
+      "bytes": 623,
+      "sha256": "e644d5aeac3cceabb3f57d3a151c98cda26caa702c360192c81c7aac49f13111"
+    },
+    {
+      "path": "templates/SOUND_PLAN.md",
+      "bytes": 1051,
+      "sha256": "ac1cf943f857b08bbfd11a7ec27fd6e93311738f75086d6e37fc6177ea797063"
+    },
+    {
+      "path": "templates/STORYBOARD.md",
+      "bytes": 1230,
+      "sha256": "232b1ca5b94af8d8380c8eef09add6f9a7d7d887942ccd8a6b96e215bf9df521"
+    },
+    {
+      "path": "templates/TREATMENT.md",
+      "bytes": 903,
+      "sha256": "a579ed5e90fae2be73a81ad75c9569ec86ee653e6bcfc5233a9b446594fa91c5"
+    },
+    {
+      "path": "templates/brief.json",
+      "bytes": 1092,
+      "sha256": "516cecd38c1e59f793889845e0939e5aeedb2a6719d6aa7c5561fab4368b5e30"
+    },
+    {
+      "path": "templates/timeline.json",
+      "bytes": 394,
+      "sha256": "3bfe717608f7032e94f4c03c0ad4c56fbe18979260d5ee92a5866a15ea5790ea"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "title": "",
+  "script": {"path": "script.md", "status": "supplied", "approved_version": "", "rewrite_allowed": false},
+  "goal": "",
+  "audience": {"type": "language-learners", "level": "", "target_language": "", "accent": "", "learning_outcome": ""},
+  "style": {"identifier": "", "source": "", "upstream_commit": "", "invariants_recorded": false, "style_frames": []},
+  "delivery": {"platform": "Instagram Reels", "width": 1080, "height": 1920, "fps": 30, "publication": "download-only"},
+  "production": {"mode": "full", "mode_confirmed": false, "participation": "key-checkpoints", "participation_confirmed": false},
+  "audio": {"sample_rate": 48000, "music": "none", "narration": {"required": true, "status": "pending", "path": "", "decoded_samples": null, "sha256": ""}},
+  "text": {"captions": {"language": "", "allow_target_language": false, "lead_ms": 0}, "teaching_examples_language": "", "heading_density": "low"},
+  "plan": {"art_direction": "draft", "storyboard": "draft", "sound_plan": "draft", "review_status": "pending", "decision_reference": ""}
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "fps": 30,
+  "sample_rate": 48000,
+  "duration_frames": null,
+  "shots": [],
+  "milestones": [],
+  "captions": [],
+  "teaching_highlights": [],
+  "sound_events": [],
+  "source_map": [],
+  "approved_audio_edits": [],
+  "notes": "Frame intervals are [start_frame,end_frame). Source-map intervals are integer audio samples. Fill after the actual narration is locked."
+}

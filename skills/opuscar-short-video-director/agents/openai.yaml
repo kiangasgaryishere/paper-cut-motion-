@@ -1,0 +1,4 @@
+interface:
+  display_name: "Opuscar Short Video Director"
+  short_description: "Direct polished, minimal short videos from your script."
+  default_prompt: "Use $opuscar-short-video-director to turn my supplied script into a short video. Start with the brief, ask my production mode and involvement preference, and plan the visuals and sound before production."
