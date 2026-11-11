@@ -5,3 +5,4 @@ __pycache__/
 films/**/out/
 films/**/stills/
 films/**/*.wav
+!films/olympic-1904-gouache/assets/sfx-kit/*.wav
