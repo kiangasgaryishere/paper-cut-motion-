@@ -46,17 +46,31 @@
       "video_frame_end_exclusive": 900,
       "mix_wav": "out/part03-mix-v1.wav",
       "effects_wav": "out/part03-sfx-v1.wav"
+    },
+    {
+      "id": "part04",
+      "start": 30,
+      "end": 40,
+      "status": "verified",
+      "revision": "v1",
+      "output": "video/olympic-1904-part04-v1.mp4",
+      "source_sample_start": 1440000,
+      "source_sample_end_exclusive": 1920000,
+      "video_frame_start": 900,
+      "video_frame_end_exclusive": 1200,
+      "mix_wav": "out/part04-mix-v1.wav",
+      "effects_wav": "out/part04-sfx-v1.wav"
     }
   ],
-  "next_part_start": 30,
+  "next_part_start": 40,
   "narration_retimed": false,
   "notes": "Use one continuous full-recording voice master; slice by absolute sample/frame offsets. Do not add per-part narration fades.",
   "source_decoded_duration": 125.543875,
   "final_audio_strategy": "Concatenate picture parts on exact frame boundaries; assemble one continuous canonical narration plus absolute-time SFX and encode audio once. Do not concatenate separately AAC-encoded audio streams.",
   "canonical_voice_master": "out/voice-master-v2.wav",
   "canonical_voice_recipe": "prepare_voice.py",
-  "assembly_output": "video/olympic-1904-30s-v1.mp4",
-  "assembly_duration": 30,
+  "assembly_output": "video/olympic-1904-40s-v1.mp4",
+  "assembly_duration": 40,
   "delivery_preference": "After each new ten-second part, deliver an updated cumulative video from 0 through the new end; also retain the separate part.",
   "assemblies": [
     {
@@ -89,6 +103,24 @@
       ],
       "status": "verified",
       "sha256": "7064389720b29c1714cd647dadf3096b8f76ead940651a0234d058ccd36eb409",
+      "video_start_time": 0,
+      "audio_start_time": 0
+    },
+    {
+      "output": "video/olympic-1904-40s-v1.mp4",
+      "start": 0,
+      "end": 40,
+      "frames": 1200,
+      "audio_encoded_once": true,
+      "picture_stream_copied": true,
+      "parts": [
+        "part01",
+        "part02",
+        "part03",
+        "part04"
+      ],
+      "status": "verified",
+      "sha256": "4b1ce94e53f2951c3255053967cf2f5e1d0e99deb8407e8ffd80d2b323e90241",
       "video_start_time": 0,
       "audio_start_time": 0
     }

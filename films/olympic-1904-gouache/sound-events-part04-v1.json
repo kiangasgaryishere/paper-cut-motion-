@@ -1,0 +1,58 @@
+[
+  {
+    "type": "finished_hem_cloth",
+    "absolute_start": 30.4,
+    "absolute_end": 30.65,
+    "gain": 0.6,
+    "pan": 0
+  },
+  {
+    "type": "orchard_leaves_pre_lap",
+    "absolute_start": 32.28,
+    "absolute_end": 32.83,
+    "gain": 0.6,
+    "pan": -0.4
+  },
+  {
+    "type": "spoiled_apple_bite",
+    "absolute_start": 34.18,
+    "absolute_end": 34.45,
+    "gain": 0.8,
+    "pan": -0.15
+  },
+  {
+    "type": "soft_stomach_grumble",
+    "absolute_start": 35.15,
+    "absolute_end": 35.699999999999996,
+    "gain": 0.65,
+    "pan": 0
+  },
+  {
+    "type": "grass_settle",
+    "absolute_start": 36.25,
+    "absolute_end": 36.55,
+    "gain": 0.75,
+    "pan": -0.25
+  },
+  {
+    "type": "resting_shirt_rustle",
+    "absolute_start": 36.5,
+    "absolute_end": 36.85,
+    "gain": 0.6,
+    "pan": 0
+  },
+  {
+    "type": "leaf_gust",
+    "absolute_start": 37.7,
+    "absolute_end": 38.2,
+    "gain": 0.5,
+    "pan": -0.4
+  },
+  {
+    "type": "lie_down_cloth_accent",
+    "absolute_start": 38.5,
+    "absolute_end": 38.8,
+    "gain": 0.5,
+    "pan": 0
+  }
+]

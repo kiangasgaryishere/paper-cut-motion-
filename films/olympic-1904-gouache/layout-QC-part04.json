@@ -1,0 +1,30 @@
+{
+  "samples": 300,
+  "caption_start_frames": [
+    {
+      "start": 30.4,
+      "frame": 912,
+      "visible": true,
+      "text": "پاچه‌های شلوارش رو کوتاه کرد!"
+    },
+    {
+      "start": 32.46666666666667,
+      "frame": 974,
+      "visible": true,
+      "text": "وسط مسابقه چند تا\nسیب خراب خورد!"
+    },
+    {
+      "start": 34.9,
+      "frame": 1047,
+      "visible": true,
+      "text": "دل‌درد گرفت و مجبور شد\nیه گوشه دراز بکشه!"
+    },
+    {
+      "start": 38.5,
+      "frame": 1155,
+      "visible": true,
+      "text": "مجبور شد دراز بکشه!"
+    }
+  ],
+  "errors": []
+}

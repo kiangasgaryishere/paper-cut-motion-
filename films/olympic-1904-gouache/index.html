@@ -30,4 +30,4 @@ window.render=t=>{t=Math.min(9.999999,Math.max(0,t));stage.style.transform=`scal
  const c=CUES.find(c=>t>=c.t0-.000001&&t<c.t1-.000001);cap.style.opacity=c?1:0;if(c)cap.textContent=c.text;
  if(query.has('debug')){g.save();const cam=cameraFor(t);g.translate(540+cam.dx,960+cam.dy);g.scale(cam.s,cam.s);g.translate(-540,-960);g.strokeStyle='#ef289b';g.lineWidth=4;g.beginPath();g.moveTo(...ROAD.p0);g.bezierCurveTo(...ROAD.p1,...ROAD.p2,...ROAD.p3);g.stroke();runnerStates(t).forEach(r=>{g.fillStyle='#ef289b';g.beginPath();g.arc(r.x,r.y,4,0,7);g.fill();});g.restore();}
 };Promise.all([bg.decode(),hero.decode(),sprites.decode(),document.fonts.load('700 50px Fa')]).then(()=>{window.render(0);window.READY=true});
-</script><script src="part02.js"></script><script src="part03.js"></script></body></html>
+</script><script src="part02.js"></script><script src="part03.js"></script><script src="part04.js"></script></body></html>

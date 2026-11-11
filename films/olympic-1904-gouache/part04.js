@@ -1,0 +1,20 @@
+/* Fourth review window: original recording [30,40), no narration retiming. */
+(()=>{
+ const previous=window.renderAbsolute,shorts=new Image(),apples=new Image(),rest=new Image(),pain=new Image();pain.src='assets/stomach-ache-part04.png';shorts.src='assets/tailoring-after-part03.png';apples.src='assets/spoiled-apples-part04.png';rest.src='assets/roadside-rest-part04.png';
+ const priorReady=Object.getOwnPropertyDescriptor(window,'READY');let loaded=false;Object.defineProperty(window,'READY',{configurable:true,get:()=>priorReady.get()&&loaded,set:v=>priorReady.set(v)});
+ const params=new URLSearchParams(location.search);window.TOTAL_DURATION=40;window.DUR=Number(params.get('end')||40)-Number(params.get('start')||0);
+ const cuts={cutoff:912/30,apples:974/30,pain:1047/30,rest:1086/30,lie:1155/30};
+ const cues=[{t0:cuts.cutoff,t1:32.2,text:'پاچه‌های شلوارش رو کوتاه کرد!',speech_onset:30.449208,speech_end:31.74175},{t0:cuts.apples,t1:34.866667,text:'وسط مسابقه چند تا\nسیب خراب خورد!',speech_onset:32.520458,speech_end:34.663833},{t0:cuts.pain,t1:38.2,text:'دل‌درد گرفت و مجبور شد\nیه گوشه دراز بکشه!',speech_onset:34.946583,speech_end:37.873792},{t0:cuts.lie,t1:40,text:'مجبور شد دراز بکشه!',speech_onset:38.542833,speech_end:39.407458}];
+ window.PART04_CUES=cues;window.PART04_CUTS=cuts;window.CUES=[...window.CUES,...cues];
+ function picture(img,s,dx=0,dy=0){g.save();g.translate(540+dx,960+dy);g.scale(s,s);g.drawImage(img,-540,-960,1080,1920);g.restore();}
+ function leaf(x,y,a,seed){g.save();g.translate(x,y);g.rotate(a);g.fillStyle='#647634';g.beginPath();g.moveTo(-11,0);g.lineTo(-4,-7);g.lineTo(6,-5);g.lineTo(13,0);g.lineTo(2,6);g.lineTo(-7,4);g.closePath();g.fill();for(let k=0;k<4;k++){g.strokeStyle=k%2?'#86A03F':'#48505E';g.lineWidth=2;g.beginPath();const xx=-7+k*4;g.moveTo(xx,-3+rnd(seed+k)*3);g.lineTo(xx+4,2);g.stroke();}g.restore();}
+ function leaves(t){for(let i=0;i<2;i++){const age=(t*.13+i*.47)%1;leaf(65+Math.sin(age*5+i)*30,470+age*280,age*4+i,200+i*11);}}
+ window.renderAbsolute=absolute=>{const t=Math.max(0,Math.min(39.999999,absolute));title.style.left='90px';if(t<30){title.style.lineHeight='1.52';previous(t);return;}if(t<cuts.cutoff){title.style.lineHeight='1.52';previous(29.999999);cap.style.opacity='0';return;}stage.style.transform=`scale(${innerWidth/1080},${innerHeight/1920})`;g.clearRect(0,0,1080,1920);title.style.fontFamily='Fa';title.style.direction='rtl';title.style.color='#1D1B1E';title.style.webkitTextStroke='1.5px #F1C565';title.style.lineHeight='1.52';kicker.style.color='#1D1B1E';rule.style.top='405px';
+ if(t<cuts.apples){const a=t-cuts.cutoff;picture(shorts,1.0077+a*.001,-2.7);title.style.fontFamily='Arial, sans-serif';title.style.direction='ltr';title.style.fontSize='64px';title.style.lineHeight='1.25';title.textContent='He cut off\nhis trouser legs!';kicker.textContent='پاچه‌های شلوارش رو برید';}
+ else if(t<cuts.pain){const a=t-cuts.apples;picture(apples,1.008+a*.004,-a*3);leaves(t);title.textContent='سیبِ دردسرساز!';title.style.fontSize='70px';title.style.left='230px';kicker.textContent='وسطِ مسیر ماراتون';}
+ else if(t<cuts.rest){const a=t-cuts.pain;picture(pain,1.009+a*.003,-a*2);leaves(t);title.textContent='دل‌درد ناگهانی!';title.style.fontSize='70px';title.style.left='230px';rule.style.top='330px';kicker.textContent='سیب‌ها کار دستش دادن';}
+ else{const a=t-cuts.rest,emphasis=ease((t-cuts.lie)/1.4);picture(rest,1.025-a*.002+emphasis*.009,-a*1.3);leaves(t);if(t<cuts.lie){title.textContent='یک توقفِ اجباری!';title.style.fontSize='72px';title.style.left='230px';kicker.textContent='استراحت کنار جاده';}else{title.style.fontFamily='Arial, sans-serif';title.style.direction='ltr';title.textContent='He had to\nlie down!';title.style.fontSize='76px';kicker.textContent='مجبور شد دراز بکشه';rule.style.top='455px';}}
+ const c=cues.find(c=>t>=c.t0-.000001&&t<c.t1-.000001);cap.style.opacity=c?1:0;if(c)cap.textContent=c.text;
+ };
+ Promise.all([shorts.decode(),apples.decode(),rest.decode(),pain.decode(),document.fonts.load('700 50px Fa')]).then(()=>{loaded=true;window.render(0);});
+})();
