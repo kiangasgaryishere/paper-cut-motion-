@@ -1,0 +1,21 @@
+{
+  "source": "assets/narration.mp3",
+  "scope": "whole recording, not each part",
+  "target_LUFS": -13,
+  "peak_ceiling_dBTP": -2.5,
+  "first_pass": {
+    "input_i": "-17.83",
+    "input_tp": "-0.12",
+    "input_lra": "4.30",
+    "input_thresh": "-28.57",
+    "output_i": "-16.20",
+    "output_tp": "-2.50",
+    "output_lra": "4.00",
+    "output_thresh": "-26.99",
+    "normalization_type": "dynamic",
+    "target_offset": "3.20"
+  },
+  "retiming": false,
+  "sample_rate": 48000,
+  "lookahead_latency_compensated": true
+}

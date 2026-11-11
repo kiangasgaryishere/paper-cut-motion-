@@ -57,4 +57,4 @@ Warm cream, gold, teal, navy, plum and pale blue distinguish the story beats. Mo
 
 ## Additional film: 1904 Olympic marathon
 
-A separate [10-second Welsh Valley Gouache style test](films/olympic-1904-gouache/README.md), with Persian text and sound effects, is available as [MP4](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-gouache-test-v1.mp4). This project uses painted assets and a limited run cycle; no voiceover or music.
+The [1904 Olympic marathon project](films/olympic-1904-gouache/README.md) now has a [revised first 10-second part](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-part01-v2.mp4), using the uploaded narration, Persian captions and runners following the painted road into depth. Parts use absolute recording time and exact 300-frame intervals for later assembly; no music. The original unvoiced style test remains available in the project notes.

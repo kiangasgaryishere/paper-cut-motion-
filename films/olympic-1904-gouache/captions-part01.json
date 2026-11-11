@@ -1,0 +1,31 @@
+[
+  {
+    "t0": 0,
+    "t1": 2.966667,
+    "text": "کمدی‌ترین مسابقهٔ\nتاریخ المپیک!",
+    "speech_onset": 0,
+    "speech_end": 2.784375,
+    "onset_note": "First cue starts at the recording origin; initial consonant precedes the short 0.075–0.187s low-energy interval."
+  },
+  {
+    "t0": 3.366667,
+    "t1": 5.8,
+    "text": "المپیک ۱۹۰۴ آمریکا",
+    "speech_onset": 3.416708,
+    "speech_end": 5.612292
+  },
+  {
+    "t0": 5.866667,
+    "t1": 6.966667,
+    "text": "دوی ماراتون!",
+    "speech_onset": 5.902875,
+    "speech_end": 6.70775
+  },
+  {
+    "t0": 7.1,
+    "t1": 10,
+    "text": "۱۸ نفر نتونستن\nمسابقه رو تموم کنن!",
+    "speech_onset": 7.142125,
+    "speech_end": 9.82225
+  }
+]

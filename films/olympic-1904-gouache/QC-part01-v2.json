@@ -1,0 +1,54 @@
+{
+  "duration": 10,
+  "fps": 30,
+  "frames": 300,
+  "width": 1080,
+  "height": 1920,
+  "video": "h264",
+  "audio": "aac",
+  "sample_rate": 48000,
+  "full_decode": "passed",
+  "black_frames": "none",
+  "narration": "uploaded running.mp3, original absolute interval [0,10)",
+  "narration_retimed": false,
+  "narration_boundary_fade": false,
+  "encoded_mix_lag_checks": [
+    {
+      "start": 1,
+      "lag_samples": 0
+    },
+    {
+      "start": 4,
+      "lag_samples": 0
+    },
+    {
+      "start": 7,
+      "lag_samples": 0
+    }
+  ],
+  "master_source_lag_checks": [
+    {
+      "start": 1,
+      "lag_samples": 0
+    },
+    {
+      "start": 4,
+      "lag_samples": 0
+    },
+    {
+      "start": 7,
+      "lag_samples": 0
+    }
+  ],
+  "speech_over_effects_min_dB": 22.19,
+  "speech_over_effects_median_dB": 47.99,
+  "encoded_LUFS": -13.52,
+  "encoded_true_peak_dBTP": -2.46,
+  "music": "none",
+  "independent_listening_review": "not performed",
+  "motion_check": "motion-layout-QC-v2.json",
+  "source_mp3_sha256": "71f09cb508dbe3fac9b06beb18b993d0fe2814c65a56bd66668278714eb1a52f",
+  "canonical_voice_master_sha256": "bb4bb8a8e92b3b0975d8220be1435e8c93e39f026b838fcf2d04a95fc4ee6436",
+  "sha256": "cc1a6981ddd627c60ee6ddc9933c8715c589ee29755829693ab507908328cbc6",
+  "bytes": 6572734
+}

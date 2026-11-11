@@ -1,0 +1,71 @@
+{
+  "samples": 301,
+  "feet_checked": 2107,
+  "road_corridor": [
+    [
+      380,
+      1130
+    ],
+    [
+      330,
+      1290
+    ],
+    [
+      540,
+      1390
+    ],
+    [
+      660,
+      1180
+    ],
+    [
+      900,
+      1010
+    ],
+    [
+      1080,
+      970
+    ],
+    [
+      1080,
+      850
+    ],
+    [
+      740,
+      940
+    ],
+    [
+      500,
+      1060
+    ]
+  ],
+  "min_forward_alignment": 0.9994285504167115,
+  "min_size_drop_per_50ms": 0.3262499999999591,
+  "caption_start_frames": [
+    {
+      "start": 0,
+      "first_frame": 0,
+      "visible": true,
+      "text": "کمدی‌ترین مسابقهٔ\nتاریخ المپیک!"
+    },
+    {
+      "start": 3.3666666666666667,
+      "first_frame": 101,
+      "visible": true,
+      "text": "المپیک ۱۹۰۴ آمریکا"
+    },
+    {
+      "start": 5.866666666666666,
+      "first_frame": 176,
+      "visible": true,
+      "text": "دوی ماراتون!"
+    },
+    {
+      "start": 7.1,
+      "first_frame": 213,
+      "visible": true,
+      "text": "۱۸ نفر نتونستن\nمسابقه رو تموم کنن!"
+    }
+  ],
+  "errors": []
+}

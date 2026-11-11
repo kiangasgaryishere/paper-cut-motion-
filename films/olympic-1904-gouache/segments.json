@@ -1,0 +1,28 @@
+{
+  "source": "assets/narration.mp3",
+  "source_container_duration": 125.592,
+  "part_duration": 10,
+  "fps": 30,
+  "audio_sample_rate": 48000,
+  "parts": [
+    {
+      "id": "part01",
+      "start": 0,
+      "end": 10,
+      "status": "verified",
+      "output": "video/olympic-1904-part01-v2.mp4",
+      "source_sample_start": 0,
+      "source_sample_end_exclusive": 480000,
+      "video_frame_start": 0,
+      "video_frame_end_exclusive": 300,
+      "revision": "v2"
+    }
+  ],
+  "next_part_start": 10,
+  "narration_retimed": false,
+  "notes": "Use one continuous full-recording voice master; slice by absolute sample/frame offsets. Do not add per-part narration fades.",
+  "source_decoded_duration": 125.543875,
+  "final_audio_strategy": "Concatenate picture parts on exact frame boundaries; assemble one continuous canonical narration plus absolute-time SFX and encode audio once. Do not concatenate separately AAC-encoded audio streams.",
+  "canonical_voice_master": "out/voice-master-v2.wav",
+  "canonical_voice_recipe": "prepare_voice.py"
+}
