@@ -55,8 +55,8 @@ Narration receives gentle presence EQ and compression without retiming. Masterin
 
 Warm cream, gold, teal, navy, plum and pale blue distinguish the story beats. More saturated costumes preserve each character’s color identity. See [audio measurements](films/a-the-kings/production/audio-QC-v7.json), [palette checks](films/a-the-kings/production/palette-QC-v7.json) and [stroke synchronization checks](films/a-the-kings/production/learning-QC-v7.json). Independent listening review has not been performed.
 
-## Completed film: 1904 Olympic marathon — v2
+## Completed film: 1904 Olympic marathon — v3
 
-[Download the complete 2:06 gouache film](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-final-v2.mp4) · [Revised first ten seconds](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-opening-v2.mp4) · [Project and validation](films/olympic-1904-gouache/README.md)
+[Download the complete gouache film](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-final-v3.mp4) · [New Hicks sequence](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-hicks-v3.mp4) · [Project and validation](films/olympic-1904-gouache/README.md)
 
-The opening now has two distinct animated shots for the 1904 Olympic venue and eighteen exhausted nonfinishers, plus short J-cut/L-cut sound bridges. The full narration, Persian subtitles, Fred Lorz car story, Thomas Hicks finish, English recap and PHRASAL comment prompt remain complete. Narration takes priority over effects; no background music. Every picture from twenty seconds onward is preserved, and earlier versions remain available.
+Three new moving compositions replace the repetitive Hicks passage. The repeated championship sentence after “They kept him going” is removed, with later captions and teaching animation shifted together. Footsteps, car, coins and teaching Foley are more audible; selected transitions, writing and typing use CC0 assets from Wyzowl's SFX Kit. Narration retains priority and its original gain. No background music. The approved opening and earlier versions remain available; the complete film now runs 123⅔ seconds.

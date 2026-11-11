@@ -1,0 +1,1329 @@
+{
+  "kit_source": "https://github.com/wyzowl/sfx-kit",
+  "license": "CC0-1.0",
+  "kit_manifest": "assets/sfx-kit/manifest.json",
+  "placement": "visual_moment - sync.at",
+  "music": "none",
+  "narrator_gain_changed": false,
+  "maximum_mix_sample_peak": 0.82,
+  "old_Foley_gain_dB": 6.0206,
+  "trimmed_writing_RMS_target_dBFS": -29.12,
+  "procedural_footstep_RMS_target_dBFS": -26.94,
+  "active_speech_effects_RMS_ceiling_dB": -6.0206,
+  "events": [
+    {
+      "id": "running_gravel",
+      "edited_start": 0.125,
+      "edited_end": 0.25,
+      "visual_moment": 0.125,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 0.375,
+      "edited_end": 0.5,
+      "visual_moment": 0.375,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 0.625,
+      "edited_end": 0.75,
+      "visual_moment": 0.625,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 0.875,
+      "edited_end": 1.0,
+      "visual_moment": 0.875,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 1.125,
+      "edited_end": 1.25,
+      "visual_moment": 1.125,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 1.375,
+      "edited_end": 1.5,
+      "visual_moment": 1.375,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 1.625,
+      "edited_end": 1.75,
+      "visual_moment": 1.625,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 1.875,
+      "edited_end": 2.0,
+      "visual_moment": 1.875,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 2.125,
+      "edited_end": 2.25,
+      "visual_moment": 2.125,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 2.375,
+      "edited_end": 2.5,
+      "visual_moment": 2.375,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 2.625,
+      "edited_end": 2.75,
+      "visual_moment": 2.625,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 2.875,
+      "edited_end": 3.0,
+      "visual_moment": 2.875,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 3.125,
+      "edited_end": 3.25,
+      "visual_moment": 3.125,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 3.375,
+      "edited_end": 3.5,
+      "visual_moment": 3.375,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 3.625,
+      "edited_end": 3.75,
+      "visual_moment": 3.625,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 3.875,
+      "edited_end": 4.0,
+      "visual_moment": 3.875,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 4.125,
+      "edited_end": 4.25,
+      "visual_moment": 4.125,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 4.375,
+      "edited_end": 4.5,
+      "visual_moment": 4.375,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 4.625,
+      "edited_end": 4.75,
+      "visual_moment": 4.625,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 4.875,
+      "edited_end": 5.0,
+      "visual_moment": 4.875,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 5.125,
+      "edited_end": 5.25,
+      "visual_moment": 5.125,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 5.375,
+      "edited_end": 5.5,
+      "visual_moment": 5.375,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 5.625,
+      "edited_end": 5.75,
+      "visual_moment": 5.625,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 5.875,
+      "edited_end": 6.0,
+      "visual_moment": 5.875,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 6.125,
+      "edited_end": 6.25,
+      "visual_moment": 6.125,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 6.375,
+      "edited_end": 6.5,
+      "visual_moment": 6.375,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 6.625,
+      "edited_end": 6.75,
+      "visual_moment": 6.625,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 6.875,
+      "edited_end": 7.0,
+      "visual_moment": 6.875,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 7.125,
+      "edited_end": 7.25,
+      "visual_moment": 7.125,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 58.95,
+      "edited_end": 59.075,
+      "visual_moment": 58.95,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 59.23,
+      "edited_end": 59.355,
+      "visual_moment": 59.230000000000004,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 59.51,
+      "edited_end": 59.635,
+      "visual_moment": 59.510000000000005,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 59.79,
+      "edited_end": 59.915,
+      "visual_moment": 59.790000000000006,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 60.07,
+      "edited_end": 60.195,
+      "visual_moment": 60.07000000000001,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 60.35,
+      "edited_end": 60.475,
+      "visual_moment": 60.35000000000001,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 60.63,
+      "edited_end": 60.755,
+      "visual_moment": 60.63000000000001,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 60.91,
+      "edited_end": 61.035,
+      "visual_moment": 60.91000000000001,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 61.19,
+      "edited_end": 61.315,
+      "visual_moment": 61.19000000000001,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 61.47,
+      "edited_end": 61.595,
+      "visual_moment": 61.47000000000001,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 61.75,
+      "edited_end": 61.875,
+      "visual_moment": 61.750000000000014,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 62.03,
+      "edited_end": 62.155,
+      "visual_moment": 62.030000000000015,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 62.31,
+      "edited_end": 62.435,
+      "visual_moment": 62.31000000000002,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 62.59,
+      "edited_end": 62.715,
+      "visual_moment": 62.59000000000002,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 62.87,
+      "edited_end": 62.995,
+      "visual_moment": 62.87000000000002,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 63.15,
+      "edited_end": 63.275,
+      "visual_moment": 63.15000000000002,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 63.43,
+      "edited_end": 63.555,
+      "visual_moment": 63.43000000000002,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 63.71,
+      "edited_end": 63.835,
+      "visual_moment": 63.71000000000002,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 63.99,
+      "edited_end": 64.115,
+      "visual_moment": 63.99000000000002,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 64.27,
+      "edited_end": 64.395,
+      "visual_moment": 64.27000000000002,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 64.55,
+      "edited_end": 64.675,
+      "visual_moment": 64.55000000000003,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 64.83,
+      "edited_end": 64.955,
+      "visual_moment": 64.83000000000003,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 65.11,
+      "edited_end": 65.235,
+      "visual_moment": 65.11000000000003,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 65.39,
+      "edited_end": 65.515,
+      "visual_moment": 65.39000000000003,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 65.67,
+      "edited_end": 65.795,
+      "visual_moment": 65.67000000000003,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 65.95,
+      "edited_end": 66.075,
+      "visual_moment": 65.95000000000003,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 66.23,
+      "edited_end": 66.355,
+      "visual_moment": 66.23000000000003,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 66.51,
+      "edited_end": 66.635,
+      "visual_moment": 66.51000000000003,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 66.79,
+      "edited_end": 66.915,
+      "visual_moment": 66.79000000000003,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 67.07,
+      "edited_end": 67.195,
+      "visual_moment": 67.07000000000004,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 67.35,
+      "edited_end": 67.475,
+      "visual_moment": 67.35000000000004,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 67.63,
+      "edited_end": 67.755,
+      "visual_moment": 67.63000000000004,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 67.91,
+      "edited_end": 68.035,
+      "visual_moment": 67.91000000000004,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 68.19,
+      "edited_end": 68.315,
+      "visual_moment": 68.19000000000004,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 68.47,
+      "edited_end": 68.595,
+      "visual_moment": 68.47000000000004,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 68.75,
+      "edited_end": 68.875,
+      "visual_moment": 68.75000000000004,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 69.03,
+      "edited_end": 69.155,
+      "visual_moment": 69.03000000000004,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "running_gravel",
+      "edited_start": 69.31,
+      "edited_end": 69.435,
+      "visual_moment": 69.31000000000004,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "weary_footstep",
+      "edited_start": 77.4,
+      "edited_end": 77.525,
+      "visual_moment": 77.4,
+      "sync_at": 0,
+      "under_voiceover_db": -3,
+      "gain_db": -3,
+      "origin": "procedural"
+    },
+    {
+      "id": "weary_footstep",
+      "edited_start": 78.25,
+      "edited_end": 78.375,
+      "visual_moment": 78.25,
+      "sync_at": 0,
+      "under_voiceover_db": -3,
+      "gain_db": -3,
+      "origin": "procedural"
+    },
+    {
+      "id": "weary_footstep",
+      "edited_start": 79.1,
+      "edited_end": 79.225,
+      "visual_moment": 79.1,
+      "sync_at": 0,
+      "under_voiceover_db": -3,
+      "gain_db": -3,
+      "origin": "procedural"
+    },
+    {
+      "id": "weary_footstep",
+      "edited_start": 80.0,
+      "edited_end": 80.125,
+      "visual_moment": 80.0,
+      "sync_at": 0,
+      "under_voiceover_db": -3,
+      "gain_db": -3,
+      "origin": "procedural"
+    },
+    {
+      "id": "assisted_footstep",
+      "edited_start": 85.35,
+      "edited_end": 85.475,
+      "visual_moment": 85.35,
+      "sync_at": 0,
+      "under_voiceover_db": -3,
+      "gain_db": -2,
+      "origin": "procedural"
+    },
+    {
+      "id": "assisted_footstep",
+      "edited_start": 85.83,
+      "edited_end": 85.955,
+      "visual_moment": 85.83,
+      "sync_at": 0,
+      "under_voiceover_db": -3,
+      "gain_db": -2,
+      "origin": "procedural"
+    },
+    {
+      "id": "assisted_footstep",
+      "edited_start": 86.31,
+      "edited_end": 86.435,
+      "visual_moment": 86.31,
+      "sync_at": 0,
+      "under_voiceover_db": -3,
+      "gain_db": -2,
+      "origin": "procedural"
+    },
+    {
+      "id": "assisted_footstep",
+      "edited_start": 86.79,
+      "edited_end": 86.915,
+      "visual_moment": 86.79,
+      "sync_at": 0,
+      "under_voiceover_db": -3,
+      "gain_db": -2,
+      "origin": "procedural"
+    },
+    {
+      "id": "assisted_footstep",
+      "edited_start": 87.27,
+      "edited_end": 87.395,
+      "visual_moment": 87.27000000000001,
+      "sync_at": 0,
+      "under_voiceover_db": -3,
+      "gain_db": -2,
+      "origin": "procedural"
+    },
+    {
+      "id": "assisted_footstep",
+      "edited_start": 87.75,
+      "edited_end": 87.875,
+      "visual_moment": 87.75000000000001,
+      "sync_at": 0,
+      "under_voiceover_db": -3,
+      "gain_db": -2,
+      "origin": "procedural"
+    },
+    {
+      "id": "assisted_footstep",
+      "edited_start": 88.23,
+      "edited_end": 88.355,
+      "visual_moment": 88.23000000000002,
+      "sync_at": 0,
+      "under_voiceover_db": -3,
+      "gain_db": -2,
+      "origin": "procedural"
+    },
+    {
+      "id": "assisted_footstep",
+      "edited_start": 88.71,
+      "edited_end": 88.835,
+      "visual_moment": 88.71000000000002,
+      "sync_at": 0,
+      "under_voiceover_db": -3,
+      "gain_db": -2,
+      "origin": "procedural"
+    },
+    {
+      "id": "assisted_footstep",
+      "edited_start": 89.19,
+      "edited_end": 89.315,
+      "visual_moment": 89.19000000000003,
+      "sync_at": 0,
+      "under_voiceover_db": -3,
+      "gain_db": -2,
+      "origin": "procedural"
+    },
+    {
+      "id": "period_car_engine",
+      "edited_start": 49.93,
+      "edited_end": 56.9,
+      "visual_moment": 50.7333333333,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "engine_stall",
+      "edited_start": 57.0,
+      "edited_end": 57.11,
+      "visual_moment": 57.0,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "engine_stall",
+      "edited_start": 57.13,
+      "edited_end": 57.24,
+      "visual_moment": 57.13,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "engine_stall",
+      "edited_start": 57.29,
+      "edited_end": 57.4,
+      "visual_moment": 57.29,
+      "sync_at": 0,
+      "under_voiceover_db": -2,
+      "gain_db": 0,
+      "origin": "procedural"
+    },
+    {
+      "id": "money-coin-drop",
+      "edited_start": 13.94,
+      "edited_end": 14.621,
+      "visual_moment": 13.95,
+      "sync_at": 0.01,
+      "under_voiceover_db": -3,
+      "gain_db": 2,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "money-coin-drop",
+      "edited_start": 14.34,
+      "edited_end": 15.021,
+      "visual_moment": 14.35,
+      "sync_at": 0.01,
+      "under_voiceover_db": -3,
+      "gain_db": 2,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "money-coin-drop",
+      "edited_start": 14.74,
+      "edited_end": 15.421,
+      "visual_moment": 14.75,
+      "sync_at": 0.01,
+      "under_voiceover_db": -3,
+      "gain_db": 2,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "money-coin-drop",
+      "edited_start": 16.14,
+      "edited_end": 16.821,
+      "visual_moment": 16.15,
+      "sync_at": 0.01,
+      "under_voiceover_db": -3,
+      "gain_db": 2,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "money-coin-drop",
+      "edited_start": 16.74,
+      "edited_end": 17.421,
+      "visual_moment": 16.75,
+      "sync_at": 0.01,
+      "under_voiceover_db": -3,
+      "gain_db": 2,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "money-coin-drop",
+      "edited_start": 17.34,
+      "edited_end": 18.021,
+      "visual_moment": 17.35,
+      "sync_at": 0.01,
+      "under_voiceover_db": -3,
+      "gain_db": 2,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "props-scissors",
+      "edited_start": 26.392,
+      "edited_end": 26.582,
+      "visual_moment": 26.55,
+      "sync_at": 0.158,
+      "under_voiceover_db": -3,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "props-scissors",
+      "edited_start": 27.042,
+      "edited_end": 27.232,
+      "visual_moment": 27.2,
+      "sync_at": 0.158,
+      "under_voiceover_db": -3,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "props-scissors",
+      "edited_start": 27.692,
+      "edited_end": 27.882,
+      "visual_moment": 27.85,
+      "sync_at": 0.158,
+      "under_voiceover_db": -3,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "props-scissors",
+      "edited_start": 28.242,
+      "edited_end": 28.432,
+      "visual_moment": 28.4,
+      "sync_at": 0.158,
+      "under_voiceover_db": -3,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "props-scissors",
+      "edited_start": 28.692,
+      "edited_end": 28.882,
+      "visual_moment": 28.85,
+      "sync_at": 0.158,
+      "under_voiceover_db": -3,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "props-scissors",
+      "edited_start": 28.892,
+      "edited_end": 29.082,
+      "visual_moment": 29.05,
+      "sync_at": 0.158,
+      "under_voiceover_db": -3,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "whoosh-fast-medium",
+      "edited_start": 3.504,
+      "edited_end": 3.7555,
+      "visual_moment": 3.6,
+      "sync_at": 0.096,
+      "under_voiceover_db": -3,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "whoosh-fast-soft",
+      "edited_start": 7.201,
+      "edited_end": 7.451,
+      "visual_moment": 7.3,
+      "sync_at": 0.099,
+      "under_voiceover_db": -2,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "whoosh-medium-soft",
+      "edited_start": 13.471,
+      "edited_end": 14.0135,
+      "visual_moment": 13.7,
+      "sync_at": 0.229,
+      "under_voiceover_db": -2,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "whoosh-fast-medium",
+      "edited_start": 26.104,
+      "edited_end": 26.3555,
+      "visual_moment": 26.2,
+      "sync_at": 0.096,
+      "under_voiceover_db": -3,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "whoosh-medium-soft",
+      "edited_start": 42.471,
+      "edited_end": 43.0135,
+      "visual_moment": 42.7,
+      "sync_at": 0.229,
+      "under_voiceover_db": -2,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "whoosh-fast-soft",
+      "edited_start": 58.63433333333333,
+      "edited_end": 58.88433333333333,
+      "visual_moment": 58.7333333333,
+      "sync_at": 0.099,
+      "under_voiceover_db": -2,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "whoosh-medium-soft",
+      "edited_start": 74.50433333333334,
+      "edited_end": 75.04683333333334,
+      "visual_moment": 74.73333333333333,
+      "sync_at": 0.229,
+      "under_voiceover_db": -2,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "whoosh-fast-soft",
+      "edited_start": 80.901,
+      "edited_end": 81.151,
+      "visual_moment": 81,
+      "sync_at": 0.099,
+      "under_voiceover_db": -2,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "whoosh-fast-medium",
+      "edited_start": 85.03733333333334,
+      "edited_end": 85.28883333333333,
+      "visual_moment": 85.13333333333334,
+      "sync_at": 0.096,
+      "under_voiceover_db": -3,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "whoosh-fast-medium",
+      "edited_start": 91.53733333333334,
+      "edited_end": 91.78883333333333,
+      "visual_moment": 91.63333333333334,
+      "sync_at": 0.096,
+      "under_voiceover_db": -3,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "writing-chalk-draw",
+      "edited_start": 93.06666666666666,
+      "edited_end": 93.31666666666666,
+      "visual_moment": 93.06666666666668,
+      "sync_at": 0,
+      "under_voiceover_db": -1,
+      "gain_db": 3,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "writing-pencil-draw",
+      "edited_start": 94.63333333333334,
+      "edited_end": 94.88333333333334,
+      "visual_moment": 94.63333333333334,
+      "sync_at": 0,
+      "under_voiceover_db": -1,
+      "gain_db": 3,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "writing-chalk-draw",
+      "edited_start": 95.76666666666667,
+      "edited_end": 96.01666666666667,
+      "visual_moment": 95.76666666666667,
+      "sync_at": 0,
+      "under_voiceover_db": -1,
+      "gain_db": 3,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "writing-pencil-draw",
+      "edited_start": 96.8,
+      "edited_end": 97.05,
+      "visual_moment": 96.80000000000001,
+      "sync_at": 0,
+      "under_voiceover_db": -1,
+      "gain_db": 3,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "writing-chalk-draw",
+      "edited_start": 98.16666666666667,
+      "edited_end": 98.41666666666667,
+      "visual_moment": 98.16666666666667,
+      "sync_at": 0,
+      "under_voiceover_db": -1,
+      "gain_db": 3,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "writing-pencil-draw",
+      "edited_start": 99.33333333333333,
+      "edited_end": 99.58333333333333,
+      "visual_moment": 99.33333333333334,
+      "sync_at": 0,
+      "under_voiceover_db": -1,
+      "gain_db": 3,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "writing-chalk-draw",
+      "edited_start": 100.4,
+      "edited_end": 100.65,
+      "visual_moment": 100.4,
+      "sync_at": 0,
+      "under_voiceover_db": -1,
+      "gain_db": 3,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "writing-pencil-draw",
+      "edited_start": 101.73333333333333,
+      "edited_end": 101.98333333333333,
+      "visual_moment": 101.73333333333333,
+      "sync_at": 0,
+      "under_voiceover_db": -1,
+      "gain_db": 3,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "writing-chalk-draw",
+      "edited_start": 102.8,
+      "edited_end": 103.05,
+      "visual_moment": 102.80000000000001,
+      "sync_at": 0,
+      "under_voiceover_db": -1,
+      "gain_db": 3,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "writing-pencil-draw",
+      "edited_start": 104.03333333333333,
+      "edited_end": 104.28333333333333,
+      "visual_moment": 104.03333333333333,
+      "sync_at": 0,
+      "under_voiceover_db": -1,
+      "gain_db": 3,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "writing-pencil-write",
+      "edited_start": 108.26666666666667,
+      "edited_end": 108.91666666666667,
+      "visual_moment": 108.26666666666667,
+      "sync_at": 0,
+      "under_voiceover_db": -1,
+      "gain_db": 3,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "props-page-turn",
+      "edited_start": 113.49666666666667,
+      "edited_end": 114.03666666666666,
+      "visual_moment": 113.49666666666667,
+      "sync_at": 0,
+      "under_voiceover_db": -3,
+      "gain_db": 1,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "writing-pencil-draw",
+      "edited_start": 116.91666666666667,
+      "edited_end": 117.36666666666666,
+      "visual_moment": 116.91666666666667,
+      "sync_at": 0,
+      "under_voiceover_db": -1,
+      "gain_db": 3,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "keyboard-letter-firm",
+      "edited_start": 119.45766666666667,
+      "edited_end": 119.53816666666667,
+      "visual_moment": 119.46666666666667,
+      "sync_at": 0.009,
+      "under_voiceover_db": -1,
+      "gain_db": 2,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "keyboard-letter-firm",
+      "edited_start": 119.55766666666666,
+      "edited_end": 119.63816666666666,
+      "visual_moment": 119.56666666666666,
+      "sync_at": 0.009,
+      "under_voiceover_db": -1,
+      "gain_db": 2,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "keyboard-letter-firm",
+      "edited_start": 119.65766666666667,
+      "edited_end": 119.73816666666667,
+      "visual_moment": 119.66666666666667,
+      "sync_at": 0.009,
+      "under_voiceover_db": -1,
+      "gain_db": 2,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "keyboard-letter-firm",
+      "edited_start": 119.72433333333333,
+      "edited_end": 119.80483333333333,
+      "visual_moment": 119.73333333333333,
+      "sync_at": 0.009,
+      "under_voiceover_db": -1,
+      "gain_db": 2,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "keyboard-letter-firm",
+      "edited_start": 119.82433333333333,
+      "edited_end": 119.90483333333333,
+      "visual_moment": 119.83333333333333,
+      "sync_at": 0.009,
+      "under_voiceover_db": -1,
+      "gain_db": 2,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "keyboard-letter-firm",
+      "edited_start": 119.891,
+      "edited_end": 119.9715,
+      "visual_moment": 119.9,
+      "sync_at": 0.009,
+      "under_voiceover_db": -1,
+      "gain_db": 2,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "keyboard-letter-firm",
+      "edited_start": 119.991,
+      "edited_end": 120.0715,
+      "visual_moment": 120.0,
+      "sync_at": 0.009,
+      "under_voiceover_db": -1,
+      "gain_db": 2,
+      "origin": "SFX Kit CC0"
+    },
+    {
+      "id": "keyboard-return-firm",
+      "edited_start": 120.92433333333334,
+      "edited_end": 121.01433333333334,
+      "visual_moment": 120.93333333333334,
+      "sync_at": 0.009,
+      "under_voiceover_db": -1,
+      "gain_db": 2,
+      "origin": "SFX Kit CC0"
+    }
+  ],
+  "audibility_comparisons": [
+    {
+      "type": "running",
+      "source_time": 1.125,
+      "edited_time": 1.125,
+      "effects_RMS_dBFS": -29.67,
+      "gain_vs_v2_dB": 32.64
+    },
+    {
+      "type": "coins",
+      "source_time": 13.95,
+      "edited_time": 13.95,
+      "effects_RMS_dBFS": -31.33,
+      "gain_vs_v2_dB": 18.71
+    },
+    {
+      "type": "engine",
+      "source_time": 53.0,
+      "edited_time": 53.0,
+      "effects_RMS_dBFS": -26.49,
+      "gain_vs_v2_dB": 28.12
+    },
+    {
+      "type": "chalk",
+      "source_time": 95.4,
+      "edited_time": 93.06666666666668,
+      "effects_RMS_dBFS": -30.0,
+      "gain_vs_v2_dB": 18.88
+    },
+    {
+      "type": "pencil",
+      "source_time": 119.25,
+      "edited_time": 116.91666666666667,
+      "effects_RMS_dBFS": -32.07,
+      "gain_vs_v2_dB": 21.88
+    },
+    {
+      "type": "typing",
+      "source_time": 121.8,
+      "edited_time": 119.46666666666667,
+      "effects_RMS_dBFS": -29.55,
+      "gain_vs_v2_dB": 29.16
+    }
+  ]
+}

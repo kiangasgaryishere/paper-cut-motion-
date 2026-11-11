@@ -1,0 +1,117 @@
+{
+  "output": "video/olympic-1904-final-v3.mp4",
+  "duration": 123.66666666666667,
+  "frames": 3710,
+  "fps": 30,
+  "picture_blocks": [
+    {
+      "source": "films/olympic-1904-gouache/out/opening-delivery-v2.mp4",
+      "output_start": 0,
+      "output_end": 20,
+      "source_start": 0,
+      "source_end": 20
+    },
+    {
+      "source": "video/olympic-1904-part03-v1.mp4",
+      "output_start": 20,
+      "output_end": 30,
+      "source_start": 20,
+      "source_end": 30
+    },
+    {
+      "source": "video/olympic-1904-part04-v1.mp4",
+      "output_start": 30,
+      "output_end": 40,
+      "source_start": 30,
+      "source_end": 40
+    },
+    {
+      "source": "video/olympic-1904-part05-v1.mp4",
+      "output_start": 40,
+      "output_end": 50,
+      "source_start": 40,
+      "source_end": 50
+    },
+    {
+      "source": "video/olympic-1904-part06-v1.mp4",
+      "output_start": 50,
+      "output_end": 60,
+      "source_start": 50,
+      "source_end": 60
+    },
+    {
+      "source": "video/olympic-1904-part07-v1.mp4",
+      "output_start": 60,
+      "output_end": 70,
+      "source_start": 60,
+      "source_end": 70
+    },
+    {
+      "source": "films/olympic-1904-gouache/out/hicks-delivery-v3.mp4",
+      "output_start": 70,
+      "output_end": 97.66666666666667,
+      "source_start": 70,
+      "source_end": 100
+    },
+    {
+      "source": "video/olympic-1904-part11-v1.mp4",
+      "output_start": 97.66666666666667,
+      "output_end": 107.66666666666667,
+      "source_start": 100,
+      "source_end": 110
+    },
+    {
+      "source": "video/olympic-1904-part12-v1.mp4",
+      "output_start": 107.66666666666667,
+      "output_end": 117.66666666666667,
+      "source_start": 110,
+      "source_end": 120
+    },
+    {
+      "source": "video/olympic-1904-part13-v1.mp4",
+      "output_start": 117.66666666666667,
+      "output_end": 123.66666666666667,
+      "source_start": 120,
+      "source_end": 126
+    }
+  ],
+  "patch_output_start": 70,
+  "patch_output_end": 97.66666666666667,
+  "three_new_source_shots": [
+    {
+      "kind": "close",
+      "start": 74.73333333333333,
+      "end": 81
+    },
+    {
+      "kind": "pov",
+      "start": 81,
+      "end": 85.13333333333334
+    },
+    {
+      "kind": "assisted",
+      "start": 85.13333333333334,
+      "end": 91.63333333333334
+    }
+  ],
+  "removed_source_interval": [
+    91.63333333333334,
+    93.96666666666667
+  ],
+  "removed_frames": 70,
+  "removed_samples": 112000,
+  "audio_edit": "audio-edit-v3.json",
+  "audio": "out/revision-v3-mix.wav",
+  "effects": "out/revision-v3-sfx.wav",
+  "voice": "out/revision-v3-voice.wav",
+  "music": "none",
+  "audio_encoded_once": true,
+  "narration_speed_changed": false,
+  "sound_design": "sound-design-v3.json",
+  "sound_kit": "SFX Kit by Wyzowl, CC0-1.0",
+  "review_output": "video/olympic-1904-hicks-v3.mp4",
+  "review_start": 74.73333333333333,
+  "review_duration": 18.9,
+  "status": "verified",
+  "sha256": "0cfce8392c90744f7c20054fa24baeeaab9bd0441399ffd3e50c9d90e440f8c5"
+}

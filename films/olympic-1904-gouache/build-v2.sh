@@ -14,6 +14,6 @@ if [ ! -f "$HERE/out/part03-sfx-v1.wav" ]; then "$PYTHON_BIN" "$HERE/mix_part03.
 if [ ! -f "$HERE/out/part04-sfx-v1.wav" ]; then "$PYTHON_BIN" "$HERE/mix_part04.py"; fi
 if [ ! -f "$HERE/out/part13-sfx-v1.wav" ]; then "$PYTHON_BIN" "$HERE/mix_finish.py"; fi
 "$PYTHON_BIN" "$HERE/mix_revision_v2.py"
-node core/render/video.mjs "$HERE" --fps 30 --workers 3 --size 1080x1920 --q 'start=0&end=20' --out "$HERE/out/opening-picture-v2.mp4"
+node core/render/video.mjs "$HERE" --fps 30 --workers 3 --size 1080x1920 --q 'start=0&end=20&edit=v2' --out "$HERE/out/opening-picture-v2.mp4"
 ffmpeg -v error -y -i "$HERE/out/opening-picture-v2.mp4" -an -c:v libx264 -preset slow -crf 20 -pix_fmt yuv420p -movflags +faststart "$HERE/out/opening-delivery-v2.mp4"
 "$PYTHON_BIN" "$HERE/assemble_revision_v2.py"

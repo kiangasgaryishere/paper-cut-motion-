@@ -1,0 +1,769 @@
+{
+  "source": "https://github.com/wyzowl/sfx-kit",
+  "version": "1.0.0",
+  "commit": "92780e7ab0cdfb557497a988089c47f46e8c7412",
+  "license": "CC0-1.0",
+  "credit": "SFX Kit by Wyzowl",
+  "placement": "timeline start = visual moment - sync.at; asset-specific under_voiceover_db",
+  "sounds": [
+    {
+      "id": "whoosh-fast-medium",
+      "name": "Whoosh, fast and medium",
+      "category": "whooshes",
+      "file": "sounds/whooshes/whoosh-fast-medium.wav",
+      "variant": {
+        "speed": "fast",
+        "intensity": "medium"
+      },
+      "description": "A quick, clean swish of air with a defined middle.",
+      "use_for": [
+        "Cards flicking in or out",
+        "Carousel and tab swipes",
+        "Menus and drawers opening",
+        "Quick text slides"
+      ],
+      "avoid_for": [
+        "Very subtle micro-interactions (use soft)",
+        "Slow, calm moves"
+      ],
+      "tags": [
+        "whoosh",
+        "swish",
+        "transition",
+        "movement",
+        "air",
+        "natural",
+        "quick",
+        "balanced"
+      ],
+      "duration": 0.252,
+      "channels": 2,
+      "sync": {
+        "at": 0.096,
+        "meets": "move-peak",
+        "how": "Ease-in-out: put the sync point at the middle of the move. Ease-out (fast start, slowing to a stop): about a quarter of the way in. Ease-in (slow start, fast exit): about three quarters of the way in."
+      },
+      "timing": {
+        "audible_start": 0.012,
+        "onset": 0.053,
+        "peak": 0.096,
+        "body_end": 0.163,
+        "audible_end": 0.23
+      },
+      "fits_seconds": [
+        0.12,
+        0.44
+      ],
+      "level": {
+        "lufs": -20.5,
+        "true_peak_dbtp": -8.1,
+        "tier": "medium"
+      },
+      "under_voiceover_db": -3,
+      "adapt": {
+        "rate": [
+          0.85,
+          1.2
+        ],
+        "notes": "To fit a move up to about 15% shorter or 20% longer, play it faster or slower (its pitch moves with it); beyond that, use the next speed. Adjust level with gain, but for a clearly softer or harder sound use the other intensity rather than a big gain change."
+      },
+      "pairs_with": [
+        {
+          "category": "impacts",
+          "how": "Something landing: the whoosh on the move (its sync point at the move's fastest point) and the impact on the frame it lands. A whoosh that suits the move's length dies away just before the landing; use one a step softer than the impact."
+        },
+        {
+          "category": "pops",
+          "how": "Something arriving and appearing: the whoosh during the move, the pop as it lands, at a lower gain than the whoosh."
+        },
+        {
+          "category": "shimmers",
+          "how": "A reveal: the whoosh into the reveal, the shimmer starting at the whoosh's sync point."
+        }
+      ],
+      "character": "balanced, airy",
+      "sha256": "b3cf3c589e738a62c1cc9bd3f620b69c831b64616427fdce57ba073d2a357a0d"
+    },
+    {
+      "id": "whoosh-fast-soft",
+      "name": "Whoosh, fast and soft",
+      "category": "whooshes",
+      "file": "sounds/whooshes/whoosh-fast-soft.wav",
+      "variant": {
+        "speed": "fast",
+        "intensity": "soft"
+      },
+      "description": "A quick, gentle puff of air with a soft edge and no weight.",
+      "use_for": [
+        "Small icons or text sliding in",
+        "A line of text changing",
+        "Tooltips, chips and small UI panels moving",
+        "List items arriving one after another (at a lower gain)"
+      ],
+      "avoid_for": [
+        "Heavy objects",
+        "Big scene changes"
+      ],
+      "tags": [
+        "whoosh",
+        "swish",
+        "transition",
+        "movement",
+        "air",
+        "natural",
+        "quick",
+        "subtle"
+      ],
+      "duration": 0.25,
+      "channels": 2,
+      "sync": {
+        "at": 0.099,
+        "meets": "move-peak",
+        "how": "Ease-in-out: put the sync point at the middle of the move. Ease-out (fast start, slowing to a stop): about a quarter of the way in. Ease-in (slow start, fast exit): about three quarters of the way in."
+      },
+      "timing": {
+        "audible_start": 0.011,
+        "onset": 0.048,
+        "peak": 0.099,
+        "body_end": 0.178,
+        "audible_end": 0.238
+      },
+      "fits_seconds": [
+        0.12,
+        0.44
+      ],
+      "level": {
+        "lufs": -24,
+        "true_peak_dbtp": -13.5,
+        "tier": "soft"
+      },
+      "under_voiceover_db": -2,
+      "adapt": {
+        "rate": [
+          0.85,
+          1.2
+        ],
+        "notes": "To fit a move up to about 15% shorter or 20% longer, play it faster or slower (its pitch moves with it); beyond that, use the next speed. Adjust level with gain, but for a clearly softer or harder sound use the other intensity rather than a big gain change."
+      },
+      "pairs_with": [
+        {
+          "category": "impacts",
+          "how": "Something landing: the whoosh on the move (its sync point at the move's fastest point) and the impact on the frame it lands. A whoosh that suits the move's length dies away just before the landing; use one a step softer than the impact."
+        },
+        {
+          "category": "pops",
+          "how": "Something arriving and appearing: the whoosh during the move, the pop as it lands, at a lower gain than the whoosh."
+        },
+        {
+          "category": "shimmers",
+          "how": "A reveal: the whoosh into the reveal, the shimmer starting at the whoosh's sync point."
+        }
+      ],
+      "character": "warm, airy",
+      "sha256": "ecc83a9cab2342eba9fa71dc321776156ffefbdcda2c672298fda385a4e0a103"
+    },
+    {
+      "id": "whoosh-medium-soft",
+      "name": "Whoosh, medium and soft",
+      "category": "whooshes",
+      "file": "sounds/whooshes/whoosh-medium-soft.wav",
+      "variant": {
+        "speed": "medium",
+        "intensity": "soft"
+      },
+      "description": "A smooth, gentle sweep of air that rises and fades without an edge.",
+      "use_for": [
+        "Panels sliding in",
+        "Gentle card reveals",
+        "Backgrounds shifting",
+        "Calm transitions between explainer scenes"
+      ],
+      "avoid_for": [
+        "Snappy, quick moves",
+        "Energetic edits"
+      ],
+      "tags": [
+        "whoosh",
+        "swish",
+        "transition",
+        "movement",
+        "air",
+        "natural",
+        "standard",
+        "subtle"
+      ],
+      "duration": 0.543,
+      "channels": 2,
+      "sync": {
+        "at": 0.229,
+        "meets": "move-peak",
+        "how": "Ease-in-out: put the sync point at the middle of the move. Ease-out (fast start, slowing to a stop): about a quarter of the way in. Ease-in (slow start, fast exit): about three quarters of the way in."
+      },
+      "timing": {
+        "audible_start": 0.02,
+        "onset": 0.1,
+        "peak": 0.229,
+        "body_end": 0.375,
+        "audible_end": 0.506
+      },
+      "fits_seconds": [
+        0.28,
+        0.81
+      ],
+      "level": {
+        "lufs": -24,
+        "true_peak_dbtp": -15.2,
+        "tier": "soft"
+      },
+      "under_voiceover_db": -2,
+      "adapt": {
+        "rate": [
+          0.85,
+          1.2
+        ],
+        "notes": "To fit a move up to about 15% shorter or 20% longer, play it faster or slower (its pitch moves with it); beyond that, use the next speed. Adjust level with gain, but for a clearly softer or harder sound use the other intensity rather than a big gain change."
+      },
+      "pairs_with": [
+        {
+          "category": "impacts",
+          "how": "Something landing: the whoosh on the move (its sync point at the move's fastest point) and the impact on the frame it lands. A whoosh that suits the move's length dies away just before the landing; use one a step softer than the impact."
+        },
+        {
+          "category": "pops",
+          "how": "Something arriving and appearing: the whoosh during the move, the pop as it lands, at a lower gain than the whoosh."
+        },
+        {
+          "category": "shimmers",
+          "how": "A reveal: the whoosh into the reveal, the shimmer starting at the whoosh's sync point."
+        }
+      ],
+      "character": "dark, airy",
+      "sha256": "a114611a09e02ab26cfbd8d796279eac358b6df4c3923db3f269ac34c340eeac"
+    },
+    {
+      "id": "keyboard-letter-firm",
+      "name": "Letter key, firm",
+      "category": "keyboard",
+      "file": "sounds/keyboard/keyboard-letter-firm.wav",
+      "variant": {
+        "key": "letter",
+        "intensity": "firm"
+      },
+      "description": "A firm, crisp keypress.",
+      "use_for": [
+        "One character appearing",
+        "A keyboard shortcut being pressed",
+        "Building your own typing to match on-screen text"
+      ],
+      "avoid_for": [
+        "Long runs of typing (use a typing run)",
+        "Quiet, delicate scenes"
+      ],
+      "tags": [
+        "keyboard",
+        "typing",
+        "key",
+        "letter",
+        "firm",
+        "natural"
+      ],
+      "duration": 0.081,
+      "channels": 1,
+      "sync": {
+        "at": 0.009,
+        "meets": "instant",
+        "how": "Put the sync point on the frame the character appears."
+      },
+      "timing": {
+        "audible_start": 0,
+        "onset": 0,
+        "peak": 0.009,
+        "body_end": 0.078,
+        "audible_end": 0.08
+      },
+      "level": {
+        "lufs": -25,
+        "true_peak_dbtp": -7.4,
+        "tier": "firm"
+      },
+      "under_voiceover_db": -1,
+      "adapt": {
+        "rate": [
+          0.92,
+          1.08
+        ],
+        "notes": "For your own typing, place single keys per character with uneven gaps (\u00b130%) and a little gain variation (\u00b11.5 dB)."
+      },
+      "pairs_with": [
+        {
+          "category": "interface",
+          "how": "Pressing Enter to send or submit: the Return key, then a button click 80\u2013150 ms later."
+        },
+        {
+          "category": "notifications",
+          "how": "A message being typed and sent: the typing run, then a message-out sound."
+        }
+      ],
+      "character": "firm, low-profile key",
+      "sha256": "29ca1099cb8b546a08a0a8b38f02e8996ce0324a1b0934f870b18b35161bdd3f"
+    },
+    {
+      "id": "keyboard-return-firm",
+      "name": "Return key, firm",
+      "category": "keyboard",
+      "file": "sounds/keyboard/keyboard-return-firm.wav",
+      "variant": {
+        "key": "return",
+        "intensity": "firm"
+      },
+      "description": "A firm, decisive Return: send, submit, done.",
+      "use_for": [
+        "Pressing Enter to send, submit or search",
+        "The end of a typed line",
+        "A decisive keyboard moment"
+      ],
+      "avoid_for": [
+        "Long runs of typing (use a typing run)",
+        "Quiet, delicate scenes"
+      ],
+      "tags": [
+        "keyboard",
+        "typing",
+        "key",
+        "return",
+        "firm",
+        "natural"
+      ],
+      "duration": 0.09,
+      "channels": 1,
+      "sync": {
+        "at": 0.009,
+        "meets": "instant",
+        "how": "Put the sync point on the frame the character appears."
+      },
+      "timing": {
+        "audible_start": 0,
+        "onset": 0,
+        "peak": 0.009,
+        "body_end": 0.09,
+        "audible_end": 0.09
+      },
+      "level": {
+        "lufs": -25,
+        "true_peak_dbtp": -9.1,
+        "tier": "firm"
+      },
+      "under_voiceover_db": -1,
+      "adapt": {
+        "rate": [
+          0.92,
+          1.08
+        ],
+        "notes": "For your own typing, place single keys per character with uneven gaps (\u00b130%) and a little gain variation (\u00b11.5 dB)."
+      },
+      "pairs_with": [
+        {
+          "category": "interface",
+          "how": "Pressing Enter to send or submit: the Return key, then a button click 80\u2013150 ms later."
+        },
+        {
+          "category": "notifications",
+          "how": "A message being typed and sent: the typing run, then a message-out sound."
+        }
+      ],
+      "character": "firm, low-profile key",
+      "sha256": "5ddb7ab2be9076997f370911b22395ee636f458dcb99f915e82975aa08fce4cd"
+    },
+    {
+      "id": "writing-chalk-draw",
+      "name": "Chalk drawing",
+      "category": "writing-and-drawing",
+      "file": "sounds/writing-and-drawing/writing-chalk-draw.wav",
+      "variant": {
+        "tool": "chalk",
+        "action": "draw"
+      },
+      "description": "Chalk on a blackboard, drawing a few long strokes.",
+      "use_for": [
+        "Lines, arrows, shapes and diagrams being drawn",
+        "Whiteboard animations",
+        "Sketching an idea"
+      ],
+      "avoid_for": [
+        "Typed text (use keyboard)",
+        "Loud moments: it's a quiet, close sound"
+      ],
+      "tags": [
+        "writing",
+        "drawing",
+        "chalk",
+        "draw",
+        "handwriting",
+        "whiteboard",
+        "natural"
+      ],
+      "duration": 1.008,
+      "channels": 1,
+      "sync": {
+        "at": 0,
+        "meets": "action-start",
+        "how": "Start it as the line starts to draw; trim or fade to the length of the stroke."
+      },
+      "timing": {
+        "audible_start": 0,
+        "onset": 0,
+        "peak": 0.217,
+        "body_end": 0.964,
+        "audible_end": 1.001
+      },
+      "span_seconds": 0.964,
+      "fits_seconds": [
+        0.8,
+        1.13
+      ],
+      "level": {
+        "lufs": -25,
+        "true_peak_dbtp": -11.8,
+        "tier": "chalk"
+      },
+      "under_voiceover_db": -1,
+      "adapt": {
+        "rate": [
+          0.85,
+          1.2
+        ],
+        "notes": "For longer writing, chain two runs with a short gap; for shorter, fade the end at a gap between strokes."
+      },
+      "pairs_with": [
+        {
+          "category": "tones",
+          "how": "Items written in turn: each word or line with its step tone at \u22126 dB."
+        }
+      ],
+      "character": "chalk, draw",
+      "sha256": "d63ca5af381f0ef3914d4221aa0610de566c6acc9e8ae0b4bbb2fcb4a17b2e3e"
+    },
+    {
+      "id": "writing-pencil-draw",
+      "name": "Pencil drawing",
+      "category": "writing-and-drawing",
+      "file": "sounds/writing-and-drawing/writing-pencil-draw.wav",
+      "variant": {
+        "tool": "pencil",
+        "action": "draw"
+      },
+      "description": "A pencil on paper, drawing a few long strokes.",
+      "use_for": [
+        "Lines, arrows, shapes and diagrams being drawn",
+        "Whiteboard animations",
+        "Sketching an idea"
+      ],
+      "avoid_for": [
+        "Typed text (use keyboard)",
+        "Loud moments: it's a quiet, close sound"
+      ],
+      "tags": [
+        "writing",
+        "drawing",
+        "pencil",
+        "draw",
+        "handwriting",
+        "natural"
+      ],
+      "duration": 1.448,
+      "channels": 1,
+      "sync": {
+        "at": 0,
+        "meets": "action-start",
+        "how": "Start it as the line starts to draw; trim or fade to the length of the stroke."
+      },
+      "timing": {
+        "audible_start": 0,
+        "onset": 0,
+        "peak": 0.822,
+        "body_end": 1.446,
+        "audible_end": 1.447
+      },
+      "span_seconds": 1.446,
+      "fits_seconds": [
+        1.21,
+        1.7
+      ],
+      "level": {
+        "lufs": -26,
+        "true_peak_dbtp": -17.4,
+        "tier": "pencil"
+      },
+      "under_voiceover_db": -1,
+      "adapt": {
+        "rate": [
+          0.85,
+          1.2
+        ],
+        "notes": "For longer writing, chain two runs with a short gap; for shorter, fade the end at a gap between strokes."
+      },
+      "pairs_with": [
+        {
+          "category": "tones",
+          "how": "Items written in turn: each word or line with its step tone at \u22126 dB."
+        }
+      ],
+      "character": "pencil, draw",
+      "sha256": "d70df183a5267ad0434bc51e1477b089aadbf6690b383ebd8a4014843dbaaff9"
+    },
+    {
+      "id": "writing-pencil-write",
+      "name": "Pencil writing",
+      "category": "writing-and-drawing",
+      "file": "sounds/writing-and-drawing/writing-pencil-write.wav",
+      "variant": {
+        "tool": "pencil",
+        "action": "write"
+      },
+      "description": "A pencil on paper, writing a word or two.",
+      "use_for": [
+        "Handwritten words appearing",
+        "Whiteboard and hand-drawn explainers",
+        "Notes, signatures and labels being written"
+      ],
+      "avoid_for": [
+        "Typed text (use keyboard)",
+        "Loud moments: it's a quiet, close sound"
+      ],
+      "tags": [
+        "writing",
+        "drawing",
+        "pencil",
+        "write",
+        "handwriting",
+        "natural"
+      ],
+      "duration": 1.191,
+      "channels": 1,
+      "sync": {
+        "at": 0,
+        "meets": "action-start",
+        "how": "Start it as the line starts to draw; trim or fade to the length of the stroke."
+      },
+      "timing": {
+        "audible_start": 0,
+        "onset": 0,
+        "peak": 0.313,
+        "body_end": 1.178,
+        "audible_end": 1.187
+      },
+      "span_seconds": 1.178,
+      "fits_seconds": [
+        0.98,
+        1.39
+      ],
+      "level": {
+        "lufs": -26,
+        "true_peak_dbtp": -14.9,
+        "tier": "pencil"
+      },
+      "under_voiceover_db": -1,
+      "adapt": {
+        "rate": [
+          0.85,
+          1.2
+        ],
+        "notes": "For longer writing, chain two runs with a short gap; for shorter, fade the end at a gap between strokes."
+      },
+      "pairs_with": [
+        {
+          "category": "tones",
+          "how": "Items written in turn: each word or line with its step tone at \u22126 dB."
+        }
+      ],
+      "character": "pencil, write",
+      "sha256": "dc8cea2bc8a605ceb60b043de7a524d4125acf6f66d5334789d4f2352ef1ed29"
+    },
+    {
+      "id": "props-page-turn",
+      "name": "Page turn",
+      "category": "everyday-props",
+      "file": "sounds/everyday-props/props-page-turn.wav",
+      "variant": {
+        "item": "page-turn"
+      },
+      "description": "A page turning: lifted at the corner, swung over and falling flat.",
+      "use_for": [
+        "Turning to the next page or chapter",
+        "Reports, documents and guides",
+        "Moving on to the next step"
+      ],
+      "avoid_for": [
+        "Abstract ideas better shown with a UI or motion sound"
+      ],
+      "tags": [
+        "props",
+        "objects",
+        "foley",
+        "page turn",
+        "natural"
+      ],
+      "duration": 0.54,
+      "channels": 1,
+      "sync": {
+        "at": 0,
+        "meets": "action-start",
+        "how": "Sync point on the frame it happens; for a gesture, start it with the move."
+      },
+      "timing": {
+        "audible_start": 0,
+        "onset": 0.003,
+        "peak": 0.431,
+        "body_end": 0.484,
+        "audible_end": 0.523
+      },
+      "span_seconds": 0.484,
+      "fits_seconds": [
+        0.42,
+        0.57
+      ],
+      "level": {
+        "lufs": -26,
+        "true_peak_dbtp": -12.4,
+        "tier": "page-turn"
+      },
+      "under_voiceover_db": -3,
+      "adapt": {
+        "rate": [
+          0.85,
+          1.15
+        ],
+        "notes": "Small rate changes to fit the move."
+      },
+      "pairs_with": [
+        {
+          "category": "foley",
+          "how": "A fuller handling sound: the prop with a foley touch on the same frame at \u22126 dB."
+        }
+      ],
+      "character": "paper turning",
+      "sha256": "816a38d1987dbb1cb3ca5a712a74675c819fabeea058f81f18835443a16fa6ef"
+    },
+    {
+      "id": "props-scissors",
+      "name": "Scissors",
+      "category": "everyday-props",
+      "file": "sounds/everyday-props/props-scissors.wav",
+      "variant": {
+        "item": "scissors"
+      },
+      "description": "Scissors sliding and snipping through paper.",
+      "use_for": [
+        "Cutting costs, prices or red tape",
+        "Cutting something out or to size",
+        "Crafts and making"
+      ],
+      "avoid_for": [
+        "Abstract ideas better shown with a UI or motion sound"
+      ],
+      "tags": [
+        "props",
+        "objects",
+        "foley",
+        "scissors",
+        "natural"
+      ],
+      "duration": 0.19,
+      "channels": 1,
+      "sync": {
+        "at": 0.158,
+        "meets": "instant",
+        "how": "Sync point on the frame it happens; for a gesture, start it with the move."
+      },
+      "timing": {
+        "audible_start": 0.004,
+        "onset": 0.06,
+        "peak": 0.158,
+        "body_end": 0.175,
+        "audible_end": 0.186
+      },
+      "level": {
+        "lufs": -25,
+        "true_peak_dbtp": -10.6,
+        "tier": "scissors"
+      },
+      "under_voiceover_db": -3,
+      "adapt": {
+        "rate": [
+          0.85,
+          1.15
+        ],
+        "notes": "Small rate changes to fit the move."
+      },
+      "pairs_with": [
+        {
+          "category": "foley",
+          "how": "A fuller handling sound: the prop with a foley touch on the same frame at \u22126 dB."
+        }
+      ],
+      "character": "slide and snip",
+      "sha256": "748f90fdc649bce100907306363017aa8444b2779c3ad767cc74af829c9dd7d1"
+    },
+    {
+      "id": "money-coin-drop",
+      "name": "Coin drop",
+      "category": "money",
+      "file": "sounds/money/money-coin-drop.wav",
+      "variant": {
+        "item": "coin-drop"
+      },
+      "description": "A coin dropped on a table: it rings, bounces and rattles flat.",
+      "use_for": [
+        "A saving or a small payment",
+        "Tips, change, a coin of the realm",
+        "One coin landing on a graph or pile"
+      ],
+      "avoid_for": [
+        "Abstract money moments that are better as a chart or a number (use data sounds)"
+      ],
+      "tags": [
+        "money",
+        "cash",
+        "payment",
+        "coin drop",
+        "coin",
+        "natural"
+      ],
+      "duration": 0.681,
+      "channels": 1,
+      "sync": {
+        "at": 0.01,
+        "meets": "instant",
+        "how": "Sync point on the frame the coin lands."
+      },
+      "timing": {
+        "audible_start": 0,
+        "onset": 0,
+        "peak": 0.01,
+        "body_end": 0.527,
+        "audible_end": 0.668
+      },
+      "level": {
+        "lufs": -24,
+        "true_peak_dbtp": -12.8,
+        "tier": "coin-drop"
+      },
+      "under_voiceover_db": -3,
+      "adapt": {
+        "rate": [
+          0.9,
+          1.12
+        ],
+        "notes": "Small rate changes only: the coins' pitch moves with the rate."
+      },
+      "pairs_with": [
+        {
+          "category": "data",
+          "how": "A total counting up: the count-up, then the register or a coin drop as it lands."
+        }
+      ],
+      "character": "ringing coin",
+      "sha256": "618325d7d3a72b17a5768c43bc7dc85087abcd10e0450106e19bc34ca601e579"
+    }
+  ]
+}

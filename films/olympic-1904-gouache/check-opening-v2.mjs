@@ -1,5 +1,5 @@
 import fs from 'fs';import crypto from 'crypto';import{openDemo,closeServer}from '../../core/render/page.mjs';
-const base='films/olympic-1904-gouache';const{page,browser}=await openDemo(base,{w:1080,h:1920});
+const base='films/olympic-1904-gouache';const{page,browser}=await openDemo(base,{w:1080,h:1920,q:'edit=v2'});
 const q=await page.evaluate(()=>{const errors=[],cuts=[];let last='';
  for(let f=0;f<600;f++){const t=f/30;window.render(t);const s=window.OPENING_V2_STATE,c=document.querySelector('#caption'),h=document.querySelector('#title'),hr=h.getBoundingClientRect();if(s.kind!==last){cuts.push({frame:f,time:t,kind:s.kind});last=s.kind;}
  if(hr.bottom>555||h.scrollWidth>h.clientWidth+1)errors.push({frame:f,type:'heading_overflow'});

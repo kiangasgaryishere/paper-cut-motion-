@@ -1,0 +1,55 @@
+{
+  "source_master_sha256": "bb4bb8a8e92b3b0975d8220be1435e8c93e39f026b838fcf2d04a95fc4ee6436",
+  "removed_sentence": "\u0648 \u0628\u0627\u0644\u0627\u062e\u0631\u0647 \u0642\u0647\u0631\u0645\u0627\u0646 \u0634\u062f! (the repeated sentence after They kept him going)",
+  "removed_source_start": 91.63333333333334,
+  "removed_source_end": 93.96666666666667,
+  "removed_source_samples": 112000,
+  "removed_video_frames": 70,
+  "removed_duration": 2.3333333333333335,
+  "duration": 123.66666666666667,
+  "output_samples": 5936000,
+  "splice_quiet_RMS": [
+    0.0003009976200660843,
+    0.0002857223709089079
+  ],
+  "narration_speed_changed": false,
+  "retained_voice_samples_unchanged": true,
+  "ambience_splice_fade_ms": 10,
+  "added_sound_events": [
+    {
+      "type": "finish_applause_L_cut",
+      "edited_start": 91.3,
+      "edited_end": 91.48
+    },
+    {
+      "type": "finish_applause_L_cut",
+      "edited_start": 91.52,
+      "edited_end": 91.7
+    },
+    {
+      "type": "finish_applause_L_cut",
+      "edited_start": 91.74,
+      "edited_end": 91.92
+    },
+    {
+      "type": "finish_applause_L_cut",
+      "edited_start": 91.96,
+      "edited_end": 92.14
+    }
+  ],
+  "music": "none",
+  "source_map": [
+    {
+      "output_start": 0,
+      "output_end": 91.63333333333334,
+      "source_start": 0,
+      "source_end": 91.63333333333334
+    },
+    {
+      "output_start": 91.63333333333334,
+      "output_end": 123.66666666666667,
+      "source_start": 93.96666666666667,
+      "source_end": 126
+    }
+  ]
+}

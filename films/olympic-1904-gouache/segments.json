@@ -302,6 +302,7 @@
   "source_exhausted": true,
   "final_silent_padding_seconds": 0.4561250000000001,
   "remaining_narration_seconds": 0,
-  "latest_revision": "revision-v2.json",
-  "latest_delivery": "video/olympic-1904-final-v2.mp4"
+  "latest_revision": "revision-v3.json",
+  "latest_delivery": "video/olympic-1904-final-v3.mp4",
+  "latest_delivery_duration": 123.66666666666667
 }

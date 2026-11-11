@@ -1,5 +1,5 @@
 import fs from 'fs';import {openDemo,closeServer} from '../../core/render/page.mjs';
-const base='films/olympic-1904-gouache';const{page,browser}=await openDemo(base,{w:1080,h:1920});
+const base='films/olympic-1904-gouache';const{page,browser}=await openDemo(base,{w:1080,h:1920,q:'edit=original'});
 const result=await page.evaluate(()=>{
  // Independently traced corridor of dirt in the painted stadium, in painting coordinates.
  const corridor=[[380,1130],[330,1290],[540,1390],[660,1180],[900,1010],[1080,970],[1080,850],[740,940],[500,1060]];

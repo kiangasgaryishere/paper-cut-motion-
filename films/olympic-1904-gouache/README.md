@@ -1,71 +1,66 @@
-# 1904 Olympic marathon — completed gouache film, v2
+# 1904 Olympic marathon — completed gouache film, v3
 
-[Download the complete film (1080×1920 MP4)](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-final-v2.mp4) · [Watch only the revised first ten seconds](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-opening-v2.mp4) · [Encoded-frame contact sheet](preview-revision-v2.jpg)
+[Download the complete film (1080×1920 MP4)](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-final-v3.mp4) · [Hicks and recap-transition preview](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-hicks-v3.mp4) · [Encoded-frame contact sheet](preview-hicks-v3.jpg)
 
-**2 minutes 6 seconds, 30 fps, 3,780 frames.** All of the uploaded **running.mp3** is included, through its decoded end at 125.543875 seconds. A 0.456125-second silent tail holds the completed comment prompt to 126 seconds. Persian-only subtitles accompany the painted illustrations and narrator-first sound effects. **No background music.**
+**123⅔ seconds, 30 fps, 3,710 frames.** This revision adds three distinct moving Hicks compositions, removes the repeated championship sentence after **They kept him going**, and makes the action/teaching sound effects substantially more audible. Persian-only subtitles remain synchronized to the edited narration. **No background music.**
 
-## Revised opening and editorial sound bridges
+## Three new Hicks shots
 
-The opening now cuts to two distinct painted compositions rather than repeatedly reframing the same stadium:
-
-| Recording time | Picture and motion |
+| Output time | Picture and motion |
 |---|---|
-| 0–3.60 s | Original hook; the Olympic sentence begins over the outgoing hook |
-| 3.60–7.30 s | New 1904 St Louis stadium entrance, tracking/pushing camera, waving American flag, nine rear-view runners following the road into depth; marathon accent appears on its spoken cue |
-| 7.30–10.40 s | New exhausted-runner foreground, independently tracking valley, restrained breathing motion, animated **۱۸** emphasis and exactly eighteen pigment tally marks |
-| 10.40 s onward | Félix and the rest of the completed story |
+| 74.733–81.000 s | Close-up of the exhausted, thirsty Hicks with an empty bottle; slow camera push, restrained breathing sway and drifting dust |
+| 81.000–85.133 s | Subjective view of the seemingly endless road despite the nearby finish; slow tilt/push and small landscape-only heat shimmer |
+| 85.133–91.633 s | Three-quarter side view of trainers supporting Hicks through the finish; lateral camera track, loose-ribbon motion and dust |
 
-The two new narrative J-cuts let the incoming sentence begin before its picture, while captions retain their original relationship to the voice. Stadium applause starts before the entrance cut and trails onto the exhausted runners. A period engine is heard 0.80 seconds before the car appears. Fred's applause continues 0.68 seconds into the officials' reveal; Hicks's celebration continues about 0.56 seconds into the recap. These are short sound bridges, not a continuous music bed. See [absolute sound/visual timings](sound-bridges-v2.json).
+The olive singlet, terracotta trim, tousled light-brown hair and thin moustache preserve Hicks's identity. The top title area is kept separate from the scene. At 91.633 seconds, the English example now leads directly into **حالا دقت کردی؟**, with a short trailing celebration and transition whoosh. The earlier sentence saying that he reached the finish and won is retained.
 
-Bottom captions remain Persian-only. The new title area has clear space above the scene. The US flag is confined to the Olympic venue; no modern Olympic rings are added to a 1904 setting. The eighteen tally marks emphasize the narrated number; the three illustrated resting men are representative, not a claim that only three people stopped.
+The original Olympic opening from v2 is preserved: venue cut at 3.60 seconds, exhausted nonfinishers at 7.30 seconds, then Félix at 10.40 seconds. Earlier sound bridges remain, including the approaching engine before the car appears and applause trailing across the officials' reveal.
 
-## Complete story
+## Exact sentence removal
 
-| Recording time | Content |
+Only original source time **91.633333–93.966667 s** is removed: the second **و بالاخره قهرمان شد!** and its surrounding pause. That is exactly **70 video frames / 112,000 audio samples**, reducing the film by 2⅓ seconds. Both cut points fall in quiet gaps. No retained narrator sample is normalized, faded or played at a different speed.
+
+| Output time | Original recording time |
 |---|---|
-| 0–10 s | Olympic hook, St Louis 1904, eighteen nonfinishers |
-| 10–40 s | Félix, gambling loss, clothing and scissors, spoiled apples and roadside rest |
-| 40–50 s | Félix's fourth place; Fred Lorz, calf cramp; **He dropped out** |
-| 50–64 s | Car pickup, breakdown, getting out and running again |
-| 64–75 s | Stadium arrival; officials discover the shortcut; **They found out** |
-| 75–94 s | Thomas Hicks, exhaustion, imagined distance, assisted finish and championship |
-| 94–108 s | Ten expressions highlighted as spoken with Persian meanings |
-| 108–116 s | **GET + OUT → GET OUT** and a contextual Persian explanation |
-| 116–126 s | Story/voice/speaking practice, sample exercises, typed **PHRASAL** comment prompt and ending hold |
+| 0–91.633333 s | Same time |
+| 91.633333–123.666667 s | Output time + 2.333333 s |
 
-The car and rear-view runners follow the road into depth. Fred's passenger disappears after he gets out. Character identities remain distinct. The scenes are symbolic painted illustrations, not archival reconstructions or exact portraits. Motion combines camera tracks/pushes, running poses, vehicle travel, smoke, falling fabric, paint accents, chalk and typing; it is not full anatomical character animation.
+`hicks-v3.js` maps the edited clock back to the existing source timeline, so later captions, vocabulary highlights, teaching animation and PHRASAL typing all advance together. The duplicate caption/title is skipped. The original 0.456125-second silent ending hold remains. [Audio edit and source map](audio-edit-v3.json).
 
-## Voice and timing
+## More audible sound design
 
-`prepare_voice.py` masters the entire recording once. The canonical 48 kHz waveform hash is checked before mixing. Narration is not cut, stretched, moved, repeated or faded at review-part boundaries. `mix_revision_v2.py` retains the existing Foley and adds the sparse sound bridges, then applies speech-aware ducking and an overlapping-window effect limiter. The continuous full mix is encoded to AAC once.
+[**SFX Kit by Wyzowl**](https://github.com/wyzowl/sfx-kit) supplies eleven selected **CC0-1.0** assets: three whoosh variants, coin drop, scissors, page turn, chalk drawing, pencil drawing/writing and keyboard letter/return. The files, their hashes, source revision and metadata are committed under `assets/sfx-kit/`; the CC0 text is under `licenses/`.
 
-Captions use the supplied script, local Whisper segments and detected pauses. ASR errors in names, spelling and numerals were corrected against the script; an automatic transcription failure was recovered with an overlapping transcription. Continuous-speech caption splits remain estimates rather than independently verified word-level alignment. English examples appear in teaching headlines or on the board; bottom subtitles remain Persian. No independent listening review was performed; validation includes waveform checks and encoded-frame visual inspection.
+The kit's `sync.at` places each event at **visual moment − sync.at**. Each asset uses its specified `under_voiceover_db` rather than the previous heavy global duck. Short writing excerpts receive fades and level compensation after trimming. Keyboard peaks meet the actual frame on which each typed letter appears. Ten selected scene changes receive short whooshes; caption-only changes do not.
 
-## Assembly and validation
+Gravel footsteps and the period-car engine/stall are synthesized separately, since the kit does not contain those actions. They have stronger audible transients and midrange detail for phone speakers. Coins, writing strokes and keys now use the kit assets over the quieter existing Foley. Existing material receives a restrained 6 dB lift; new effects are mixed by event rather than raising a continuous ambience bed.
 
-[Version 2 manifest](revision-v2.json) records the delivery blocks. Only the first twenty seconds are rendered again to accommodate the new 3.60/7.30/10.40-second cuts. All **3,180 decoded pictures from 20 seconds through the ending remain identical** to the completed v1. `assemble_revision_v2.py` removes AAC from source picture blocks, copies the picture packets and encodes the continuous PCM audio once, avoiding individual AAC priming gaps.
+Speech remains in front: effect RMS is limited below active speech, each asset ducks locally, and a final headroom guard changes **effects only**. The narrator's gain is unchanged. There are no musical stings, drones or background music. [Sound design, events and same-window level comparisons](sound-design-v3.json).
 
-[Opening layout checks](layout-QC-opening-v2.json) inspect all 600 frames of the first twenty seconds, check Persian captions, foreground/caption separation, both narrative J-cuts, the number eighteen, forward movement along the road, and deterministic seeking. [Delivered MP4 checks](QC-revision-v2.json) cover duration, frame count, complete decoding, black intervals, unchanged later pictures, canonical narration, waveform lag around the edits/joins, speech/effect separation and encoded loudness/true peak. The ten-second preview is checked separately for exact duration and frame count. The delivered movie measures **−13.40 LUFS / −2.32 dBTP**; measured speech/effect separation stays at least **19.11 dB** in active speech windows. All eighteen encoded waveform checks report zero sample lag.
+## Assembly and checks
 
-The full movie is tracked directly for a working raw GitHub download, without an LFS pointer. [Completed v1](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-final-v1.mp4), [its QC](QC-through-126s.json), the earlier incremental assemblies and all review parts remain available. `segments.json` retains those original thirteen review intervals and points to the latest revision manifest.
+[Latest manifest](revision-v3.json) records the edited blocks. Only the **70–97.666667-second** patch is rendered again. All **2,100 decoded pictures before 70 seconds** match v2, including its approved opening. The last **780 pictures** match original source time 100–126 seconds, shifted earlier by the removed sentence. Audio is assembled as continuous PCM and encoded to AAC once; source review-clip AAC is discarded before picture concatenation.
+
+[Browser checks](layout-QC-hicks-v3.json) inspect all 830 patch frames, verify three new shots with visible motion, caption safe regions, 28 later caption starts, the direct transition after the English sentence, all ten shifted vocabulary highlights, final PHRASAL and deterministic seeking.
+
+[Delivered-file QC](QC-revision-v3.json) checks full decoding, black intervals, duration/frame count, unchanged picture regions, exact retained narrator samples, waveform timing around edits and joins, encoded loudness/true peak, speech/effect separation, increased Foley levels and the kit assets' hashes/sync points. The delivered file measures **−13.33 LUFS / −1.67 dBTP**; all nineteen encoded waveform checks report zero sample lag. Selected encoded frames are inspected visually. No independent listening review was performed; audibility comparisons are waveform measurements, not a listening test.
+
+Captions retain the existing script/ASR/pause alignment. Continuous-speech splits remain estimates rather than independently verified word-level timing. English examples appear in teaching headlines or on the board; bottom subtitles remain Persian.
 
 ## Rebuild
 
-After the repository setup, run from its root:
+From the configured repository root:
 
 ```bash
-bash films/olympic-1904-gouache/build-v2.sh
+bash films/olympic-1904-gouache/build-v3.sh
+PLAYWRIGHT_CHROME=/usr/bin/chromium LEMO_ANGLE=swiftshader node films/olympic-1904-gouache/check-hicks-v3.mjs
+/workspace/lemo-opuscar/.venv/bin/python films/olympic-1904-gouache/verify_revision_v3.py
 ```
 
-The build uses Chromium, FFmpeg, the prepared Python environment and the committed painted assets. Set `FILM_PYTHON` if the environment path differs. It reuses the committed later review videos, regenerates missing canonical Foley WAVs, renders the opening and assembles the complete v2 and ten-second preview. No image-generation API or transcription model is needed to rebuild this timeline.
+Set `FILM_PYTHON` if the prepared Python environment path differs. The build uses the committed assets and later review videos, canonical voice master, Chromium and FFmpeg. It rebuilds missing v2 intermediates if required, makes a fresh edited voice/Foley base, applies the louder sound pass, renders the Hicks patch, and exports the full film plus an 18.9-second Hicks/transition preview. No image-generation API or transcription model is required.
 
-```bash
-PLAYWRIGHT_CHROME=/usr/bin/chromium LEMO_ANGLE=swiftshader node films/olympic-1904-gouache/check-opening-v2.mjs
-/workspace/lemo-opuscar/.venv/bin/python films/olympic-1904-gouache/verify_revision_v2.py
-```
-
-`build.sh` rebuilds the original v1 using `edit=original` for its opening windows. `segments.json`, `mix_part01.py` through `mix_part04.py`, `mix_finish.py`, `encode_finish.py`, `assemble.py` and `verify_assembly.py` retain the original incremental workflow. Raw pictures, WAVs, logs and temporary frame extracts are ignored in `out/`. Different audio-toolchain versions should check the canonical waveform hash before replacing narration.
+`build-v2.sh` and `build.sh` retain the earlier versions with explicit `edit=v2` / `edit=original` renderer queries. `segments.json` retains the original thirteen review intervals and points to this latest revision. [Completed v2](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/main/video/olympic-1904-final-v2.mp4), [v2 QC](QC-revision-v2.json), v1 and earlier review files remain available. WAVs, raw renders, logs and temporary frame extracts remain ignored under `out/`.
 
 ## Style and provenance
 
-The film adapts Lemo-Opuscar's **Welsh Valley Gouache**, Opuscar98 entry 14: opaque directional paint, golden side-light, olive fields, coal/slate ridges and true-perspective roads. The character, landscape, stadium entrance, exhausted runners, car, officials, Hicks, finish and study-board assets were generated for this project using the image-generation tool. Text, camera motion, flag animation, wheels, smoke, chalk, rank graphics and typing are rendered in Canvas/HTML. The uploaded narration remains the user's project material. Font licenses under `licenses/` and the Lemo-Opuscar renderer's MIT credits are retained.
+The film adapts Lemo-Opuscar's **Welsh Valley Gouache**, Opuscar98 entry 14: opaque directional paint, pale-gold light, olive fields, coal/slate ridges and perspective roads. Painted assets, including the three new Hicks compositions, were generated for this project with the image-generation tool. Camera motion, dust, heat shimmer, ribbon/flag accents, wheels, text, chalk highlights and typing are rendered in Canvas/HTML. The scenes are illustrative, not archival reconstructions or exact portraits; motion is painterly rather than full anatomical character animation. User narration, existing font licenses and the renderer's MIT credits remain retained.

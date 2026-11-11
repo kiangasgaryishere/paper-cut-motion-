@@ -1,0 +1,165 @@
+{
+  "duration": 123.66666666666667,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 3710,
+  "full_decode": "passed",
+  "black_intervals": "none",
+  "video_start_time": 0.0,
+  "audio_start_time": 0.0,
+  "unchanged_prefix_seconds": 70,
+  "unchanged_prefix_decoded_frames": 2100,
+  "unchanged_tail_source_start": 100,
+  "unchanged_tail_output_start": 97.66666666666667,
+  "unchanged_tail_decoded_frames": 780,
+  "canonical_master_unchanged": true,
+  "retained_narrator_samples_unchanged": true,
+  "narration_speed_changed": false,
+  "removed_sentence": "\u0648 \u0628\u0627\u0644\u0627\u062e\u0631\u0647 \u0642\u0647\u0631\u0645\u0627\u0646 \u0634\u062f! (second occurrence after They kept him going)",
+  "removed_source_interval": [
+    91.63333333333334,
+    93.96666666666667
+  ],
+  "removed_samples": 112000,
+  "removed_frames": 70,
+  "edited_narration_duration": 123.21054166666667,
+  "final_silent_padding_seconds": 0.456125,
+  "encoded_mix_lag_checks": [
+    {
+      "center": 1,
+      "lag_samples": 0
+    },
+    {
+      "center": 3.6,
+      "lag_samples": 0
+    },
+    {
+      "center": 7.3,
+      "lag_samples": 0
+    },
+    {
+      "center": 10,
+      "lag_samples": 0
+    },
+    {
+      "center": 20,
+      "lag_samples": 0
+    },
+    {
+      "center": 30,
+      "lag_samples": 0
+    },
+    {
+      "center": 40,
+      "lag_samples": 0
+    },
+    {
+      "center": 49.93,
+      "lag_samples": 0
+    },
+    {
+      "center": 60,
+      "lag_samples": 0
+    },
+    {
+      "center": 69.6,
+      "lag_samples": 0
+    },
+    {
+      "center": 74.7333333333,
+      "lag_samples": 0
+    },
+    {
+      "center": 81,
+      "lag_samples": 0
+    },
+    {
+      "center": 85.1333333333,
+      "lag_samples": 0
+    },
+    {
+      "center": 90.6,
+      "lag_samples": 0
+    },
+    {
+      "center": 91.63333333333334,
+      "lag_samples": 0
+    },
+    {
+      "center": 97.66666666666667,
+      "lag_samples": 0
+    },
+    {
+      "center": 110,
+      "lag_samples": 0
+    },
+    {
+      "center": 119.5,
+      "lag_samples": 0
+    },
+    {
+      "center": 123,
+      "lag_samples": 0
+    }
+  ],
+  "speech_over_effects_min_dB": 6.02,
+  "speech_over_effects_median_dB": 43.95,
+  "encoded_LUFS": -13.33,
+  "encoded_true_peak_dBTP": -1.67,
+  "sfx_kit_license": "CC0-1.0",
+  "sfx_kit_asset_hashes_verified": 11,
+  "sfx_kit_sync_points_checked": 43,
+  "transition_whooshes": 10,
+  "audibility_comparisons": [
+    {
+      "type": "running",
+      "source_time": 1.125,
+      "edited_time": 1.125,
+      "effects_RMS_dBFS": -29.67,
+      "gain_vs_v2_dB": 32.64
+    },
+    {
+      "type": "coins",
+      "source_time": 13.95,
+      "edited_time": 13.95,
+      "effects_RMS_dBFS": -31.33,
+      "gain_vs_v2_dB": 18.71
+    },
+    {
+      "type": "engine",
+      "source_time": 53.0,
+      "edited_time": 53.0,
+      "effects_RMS_dBFS": -26.49,
+      "gain_vs_v2_dB": 28.12
+    },
+    {
+      "type": "chalk",
+      "source_time": 95.4,
+      "edited_time": 93.06666666666668,
+      "effects_RMS_dBFS": -30.0,
+      "gain_vs_v2_dB": 18.88
+    },
+    {
+      "type": "pencil",
+      "source_time": 119.25,
+      "edited_time": 116.91666666666667,
+      "effects_RMS_dBFS": -32.07,
+      "gain_vs_v2_dB": 21.88
+    },
+    {
+      "type": "typing",
+      "source_time": 121.8,
+      "edited_time": 119.46666666666667,
+      "effects_RMS_dBFS": -29.55,
+      "gain_vs_v2_dB": 29.16
+    }
+  ],
+  "music": "none",
+  "audio_encoded_once": true,
+  "independent_listening_review": "not performed",
+  "review_duration": 18.9,
+  "review_frames": 567,
+  "sha256": "0cfce8392c90744f7c20054fa24baeeaab9bd0441399ffd3e50c9d90e440f8c5",
+  "bytes": 62536339
+}
