@@ -1,0 +1,85 @@
+{
+  "version": "preproduction-direction-v1",
+  "checks": {
+    "preproduction_plan": {
+      "status": "not performed",
+      "evidence": "Plan prepared for the user-selected review; creative approval pending, final caption and pen-event alignment remain production work."
+    },
+    "style_frames": {
+      "status": "passed",
+      "evidence": "Three original 1080x1920 frames rendered with native marker/density engine; English glyph skeletons generated, not a final animation."
+    },
+    "mobile_layout": {
+      "status": "passed",
+      "evidence": "review/layout-check.json: three prototype frames, text extents and subtitle zones checked; contact sheet and individual frames visually inspected. Final-film layout not yet checked."
+    },
+    "visual_continuity": {
+      "status": "not performed",
+      "evidence": ""
+    },
+    "caption_voice_timing": {
+      "status": "not performed",
+      "evidence": ""
+    },
+    "teaching_highlights": {
+      "status": "not performed",
+      "evidence": ""
+    },
+    "sound_action_sync": {
+      "status": "not performed",
+      "evidence": ""
+    },
+    "sound_audibility_listening": {
+      "status": "not performed",
+      "evidence": ""
+    },
+    "full_speed_playback": {
+      "status": "not performed",
+      "evidence": ""
+    },
+    "encoded_loudness_true_peak": {
+      "status": "not performed",
+      "evidence": ""
+    },
+    "decode_metadata_black_intervals": {
+      "status": "not performed",
+      "evidence": ""
+    },
+    "joins_and_edit_map": {
+      "status": "not performed",
+      "evidence": ""
+    },
+    "subtraction_pass": {
+      "status": "not performed",
+      "evidence": ""
+    },
+    "commit_and_remote_push": {
+      "status": "not performed",
+      "evidence": ""
+    },
+    "download_hash": {
+      "status": "not performed",
+      "evidence": ""
+    }
+  },
+  "material_limitations": [
+    "Full film and final mix have not been produced.",
+    "No independent listening review performed.",
+    "ASR timings are preliminary; raw transcript contains errors and overlap recoveries."
+  ],
+  "delivery": {
+    "path_or_url": "",
+    "repository": "",
+    "branch": "",
+    "video_commit": "",
+    "video_path": "",
+    "download_url": "",
+    "download_verified": false,
+    "authentication_required": false,
+    "sha256": "",
+    "width": null,
+    "height": null,
+    "fps": null,
+    "duration_seconds": null
+  }
+}

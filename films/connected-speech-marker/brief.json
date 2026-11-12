@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "title": "Connected Speech — Marker on Paper",
+  "script": {
+    "path": "script.md",
+    "status": "supplied",
+    "approved_version": "",
+    "rewrite_allowed": false
+  },
+  "goal": "Teach why familiar English words become harder to hear in natural connected speech; give a three-pass practice routine and LISTEN CTA.",
+  "audience": {
+    "type": "language-learners",
+    "level": "A2–B1 (proposed)",
+    "target_language": "English",
+    "accent": "As in supplied voice; do not replace actor/narrator audio",
+    "learning_outcome": "Recognize connected speech and practise without/with/without subtitles."
+  },
+  "style": {
+    "identifier": "Marker on Paper / marker-paper",
+    "source": "https://lemomo-ai.github.io/lemo-opuscar/styles/marker-paper/",
+    "upstream_commit": "3a7132b996be0241c1ea0ab180d519f06e6f10b6",
+    "invariants_recorded": true,
+    "style_frames": [
+      "review/styleframe-01-hook.png",
+      "review/styleframe-02-did-you.png",
+      "review/styleframe-03-cta.png"
+    ]
+  },
+  "delivery": {
+    "platform": "Instagram Reels",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "publication": "designated-project-repo",
+    "repository": "https://github.com/kiangasgaryishere/paper-cut-motion-",
+    "remote": "origin",
+    "branch": "main",
+    "visibility": "public",
+    "auto_commit": true,
+    "auto_push": true,
+    "push_requested_previews": true,
+    "video_directory": "video",
+    "download_links": "commit-pinned"
+  },
+  "production": {
+    "mode": "full",
+    "mode_confirmed": true,
+    "participation": "key-checkpoints",
+    "participation_confirmed": true
+  },
+  "audio": {
+    "sample_rate": 48000,
+    "music": "none",
+    "narration": {
+      "required": true,
+      "status": "provided",
+      "path": "assets/narration.mp3",
+      "decoded_samples": 2745420,
+      "sha256": "f2cc9a49f5116e8635dd8b97d0a4321e9b0050f04522d41efeb4659d2288ce18"
+    }
+  },
+  "text": {
+    "captions": {
+      "language": "fa",
+      "allow_target_language": false,
+      "lead_ms": 30
+    },
+    "teaching_examples_language": "en",
+    "heading_density": "low"
+  },
+  "plan": {
+    "art_direction": "ready",
+    "storyboard": "draft",
+    "sound_plan": "draft",
+    "review_status": "pending",
+    "decision_reference": "User chose marker reconstruction; full production after reviewing plan/style frames; execute independently after approval."
+  }
+}

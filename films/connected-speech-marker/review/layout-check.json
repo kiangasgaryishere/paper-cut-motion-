@@ -1,0 +1,173 @@
+{
+  "kind": "preproduction frames only",
+  "width": 1080,
+  "height": 1920,
+  "frames": [
+    {
+      "name": "01-hook",
+      "text": [
+        {
+          "text": "1",
+          "left": 928.6009979248047,
+          "right": 943.3990020751953,
+          "baseline": 231,
+          "size": 49
+        },
+        {
+          "text": "What did",
+          "left": 105,
+          "right": 516.2639770507812,
+          "baseline": 275,
+          "size": 102
+        },
+        {
+          "text": "you hear?",
+          "left": 105,
+          "right": 551.5559692382812,
+          "baseline": 402,
+          "size": 102
+        },
+        {
+          "text": "First, just listen.",
+          "left": 351.02734375,
+          "right": 728.97265625,
+          "baseline": 1420,
+          "size": 54
+        },
+        {
+          "text": "?",
+          "left": 703.3839721679688,
+          "right": 766.6160278320312,
+          "baseline": 747,
+          "size": 104
+        }
+      ],
+      "ink_coverage_percent": {
+        "black": 98.59,
+        "red": 1.41,
+        "blue": 0
+      },
+      "caption": {
+        "text": "فهمیدی چی گفت؟",
+        "top": 1581.8125,
+        "overflow": false
+      }
+    },
+    {
+      "name": "02-did-you",
+      "text": [
+        {
+          "text": "5",
+          "left": 923.6029968261719,
+          "right": 948.3970031738281,
+          "baseline": 231,
+          "size": 49
+        },
+        {
+          "text": "How does it",
+          "left": 100,
+          "right": 577.5684204101562,
+          "baseline": 262,
+          "size": 91
+        },
+        {
+          "text": "sound?",
+          "left": 100,
+          "right": 417.2200012207031,
+          "baseline": 379,
+          "size": 102
+        },
+        {
+          "text": "Did",
+          "left": 270,
+          "right": 439.9399108886719,
+          "baseline": 687,
+          "size": 116
+        },
+        {
+          "text": "you",
+          "left": 510,
+          "right": 679.5919036865234,
+          "baseline": 687,
+          "size": 116
+        },
+        {
+          "text": "written",
+          "left": 477.0209045410156,
+          "right": 602.9790954589844,
+          "baseline": 767,
+          "size": 42
+        },
+        {
+          "text": "Didja",
+          "left": 360.90240478515625,
+          "right": 667.0975952148438,
+          "baseline": 1183,
+          "size": 137
+        },
+        {
+          "text": "heard",
+          "left": 486.30257415771484,
+          "right": 593.6974258422852,
+          "baseline": 1326,
+          "size": 47
+        }
+      ],
+      "ink_coverage_percent": {
+        "black": 89.98,
+        "red": 7.61,
+        "blue": 2.41
+      },
+      "caption": {
+        "text": "مثلاً «دید یو» توی گفتار سریع\nممکنه شبیه «دیدجا» شنیده بشه!",
+        "top": 1506.625,
+        "overflow": false
+      }
+    },
+    {
+      "name": "03-cta",
+      "text": [
+        {
+          "text": "10",
+          "left": 916.0324935913086,
+          "right": 955.9675064086914,
+          "baseline": 231,
+          "size": 49
+        },
+        {
+          "text": "Ready to",
+          "left": 104,
+          "right": 498.9996337890625,
+          "baseline": 275,
+          "size": 100
+        },
+        {
+          "text": "practise?",
+          "left": 104,
+          "right": 521.2995910644531,
+          "baseline": 399,
+          "size": 100
+        },
+        {
+          "text": "LISTEN",
+          "left": 352.0201721191406,
+          "right": 727.9798278808594,
+          "baseline": 1045,
+          "size": 120
+        }
+      ],
+      "ink_coverage_percent": {
+        "black": 95.02,
+        "red": 4.98,
+        "blue": 0
+      },
+      "caption": {
+        "text": "کلمهٔ «لیسن» رو کامنت کن\nتا برات بفرستیم!",
+        "top": 1506.625,
+        "overflow": false
+      }
+    }
+  ],
+  "errors": [],
+  "deterministic_seek": true
+}

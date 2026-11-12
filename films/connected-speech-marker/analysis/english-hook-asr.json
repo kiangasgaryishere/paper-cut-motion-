@@ -1,0 +1,33 @@
+{
+  "offset": 1.85,
+  "end": 4.25,
+  "language": "en",
+  "result": {
+    "lang": "en",
+    "emotion": "",
+    "event": "",
+    "text": "Darling, what are you doing?",
+    "timestamps": [],
+    "durations": [],
+    "tokens": [
+      " Darling",
+      ",",
+      " what",
+      " are",
+      " you",
+      " doing",
+      "?"
+    ],
+    "ys_log_probs": [],
+    "words": [],
+    "segment_timestamps": [
+      0.0
+    ],
+    "segment_durations": [
+      2.0
+    ],
+    "segment_texts": [
+      " Darling, what are you doing?"
+    ]
+  }
+}

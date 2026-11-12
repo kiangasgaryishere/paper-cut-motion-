@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "fps": 24,
+  "sample_rate": 48000,
+  "duration_frames": 1392,
+  "status": "proposed; narration-aligned shot windows still need fine alignment before production",
+  "shots": [
+    {
+      "id": "p01-listening-hook",
+      "page": 1,
+      "start_frame": 0,
+      "end_frame": 158,
+      "heading": "What did you hear?",
+      "visual": "Marker adventure interaction; retain existing English dialogue without showing its text on the first hearing.",
+      "action": "Draw in black, mark known information in blue, finish one red focus and hold.",
+      "camera": "Follow drawn frame/person, then hold; no desk or pen.",
+      "transition_out": "peel",
+      "sound_direction": "Felt marker tied to pen-downs; paper peel/soft air as applicable; protect voice/examples; no music."
+    },
+    {
+      "id": "p02-dialogue-reveal",
+      "page": 2,
+      "start_frame": 158,
+      "end_frame": 283,
+      "heading": "Read it.",
+      "visual": "Write the actual supplied phrase: Darling, what are you doing? Reveal meaning after listening.",
+      "action": "Draw in black, mark known information in blue, finish one red focus and hold.",
+      "camera": "Locked then gentle lean-in; all words wholly visible.",
+      "transition_out": "push-through",
+      "sound_direction": "Felt marker tied to pen-downs; paper peel/soft air as applicable; protect voice/examples; no music."
+    },
+    {
+      "id": "p03-subtitles-contrast",
+      "page": 3,
+      "start_frame": 283,
+      "end_frame": 408,
+      "heading": "Words or sounds?",
+      "visual": "One screen drawn twice as subtitles ON/OFF; known words vs missing recognition.",
+      "action": "Draw in black, mark known information in blue, finish one red focus and hold.",
+      "camera": "Top-down reframing within same paper.",
+      "transition_out": "peel",
+      "sound_direction": "Felt marker tied to pen-downs; paper peel/soft air as applicable; protect voice/examples; no music."
+    },
+    {
+      "id": "p04-connected-speech",
+      "page": 4,
+      "start_frame": 408,
+      "end_frame": 629,
+      "heading": "Connected Speech",
+      "visual": "Join speech blocks with arcs; illustrate linking, shortening and change as distinct simple actions.",
+      "action": "Draw in black, mark known information in blue, finish one red focus and hold.",
+      "camera": "Follow the marker path, then pull back.",
+      "transition_out": "push-through",
+      "sound_direction": "Felt marker tied to pen-downs; paper peel/soft air as applicable; protect voice/examples; no music."
+    },
+    {
+      "id": "p05-did-you",
+      "page": 5,
+      "start_frame": 629,
+      "end_frame": 792,
+      "heading": "How does it sound?",
+      "visual": "Did you -> Didja; written/heard comparison, final red focus.",
+      "action": "Draw in black, mark known information in blue, finish one red focus and hold.",
+      "camera": "Gentle <=1.5x lean-in; comparison held >=2.5 sec.",
+      "transition_out": "peel",
+      "sound_direction": "Felt marker tied to pen-downs; paper peel/soft air as applicable; protect voice/examples; no music."
+    },
+    {
+      "id": "p06-practice-listen",
+      "page": 6,
+      "start_frame": 792,
+      "end_frame": 912,
+      "heading": "Listen first.",
+      "visual": "Choose a short line; headphones and subtitles OFF.",
+      "action": "Draw in black, mark known information in blue, finish one red focus and hold.",
+      "camera": "Locked; one blue given then one red target.",
+      "transition_out": "peel",
+      "sound_direction": "Felt marker tied to pen-downs; paper peel/soft air as applicable; protect voice/examples; no music."
+    },
+    {
+      "id": "p07-practice-check",
+      "page": 7,
+      "start_frame": 912,
+      "end_frame": 1008,
+      "heading": "Check the words.",
+      "visual": "Subtitles ON; show the missing word in context.",
+      "action": "Draw in black, mark known information in blue, finish one red focus and hold.",
+      "camera": "Small top-down push into relevant word.",
+      "transition_out": "push-through",
+      "sound_direction": "Felt marker tied to pen-downs; paper peel/soft air as applicable; protect voice/examples; no music."
+    },
+    {
+      "id": "p08-practice-repeat",
+      "page": 8,
+      "start_frame": 1008,
+      "end_frame": 1176,
+      "heading": "Listen. Repeat.",
+      "visual": "Subtitles OFF again; follow rhythm and repeat, then listening-loop summary.",
+      "action": "Draw in black, mark known information in blue, finish one red focus and hold.",
+      "camera": "Follow rhythm marks then pull back.",
+      "transition_out": "peel",
+      "sound_direction": "Felt marker tied to pen-downs; paper peel/soft air as applicable; protect voice/examples; no music."
+    },
+    {
+      "id": "p09-practice-pack",
+      "page": 9,
+      "start_frame": 1176,
+      "end_frame": 1296,
+      "heading": "5 short conversations",
+      "visual": "Three small icons for audio, text and listening; five-conversation practice package.",
+      "action": "Draw in black, mark known information in blue, finish one red focus and hold.",
+      "camera": "Locked; icons drawn sequentially.",
+      "transition_out": "peel",
+      "sound_direction": "Felt marker tied to pen-downs; paper peel/soft air as applicable; protect voice/examples; no music."
+    },
+    {
+      "id": "p10-comment-cta",
+      "page": 10,
+      "start_frame": 1296,
+      "end_frame": 1392,
+      "heading": "Ready to practise?",
+      "visual": "Comment box containing LISTEN, final red underline held through the ending.",
+      "action": "Draw in black, mark known information in blue, finish one red focus and hold.",
+      "camera": "Locked final frame; no extra end slate.",
+      "transition_out": "hold",
+      "sound_direction": "Felt marker tied to pen-downs; paper peel/soft air as applicable; protect voice/examples; no music."
+    }
+  ],
+  "milestones": [
+    {
+      "frame": 0,
+      "event": "Film-frame outline starts"
+    },
+    {
+      "frame": 36,
+      "event": "Character pose resolves"
+    },
+    {
+      "frame": 103,
+      "event": "Listening question is written"
+    },
+    {
+      "frame": 120,
+      "event": "Final red question mark"
+    },
+    {
+      "frame": 158,
+      "event": "New sheet / actual phrase reveal"
+    },
+    {
+      "frame": 233,
+      "event": "Final answer emphasis"
+    },
+    {
+      "frame": 283,
+      "event": "ON/OFF contrast sheet"
+    },
+    {
+      "frame": 355,
+      "event": "Red listening-gap focus"
+    },
+    {
+      "frame": 408,
+      "event": "Definition sheet"
+    },
+    {
+      "frame": 485,
+      "event": "Link between two words"
+    },
+    {
+      "frame": 557,
+      "event": "Shortening/change illustration"
+    },
+    {
+      "frame": 590,
+      "event": "Final red connected-speech focus"
+    },
+    {
+      "frame": 629,
+      "event": "Did-you comparison"
+    },
+    {
+      "frame": 701,
+      "event": "Spoken form and linking"
+    },
+    {
+      "frame": 744,
+      "event": "Final red answer focus"
+    },
+    {
+      "frame": 792,
+      "event": "Select a short line"
+    },
+    {
+      "frame": 866,
+      "event": "Headphones / first listen"
+    },
+    {
+      "frame": 912,
+      "event": "Subtitles reveal"
+    },
+    {
+      "frame": 962,
+      "event": "Missing-word answer"
+    },
+    {
+      "frame": 1008,
+      "event": "Return to listening without subtitles"
+    },
+    {
+      "frame": 1085,
+      "event": "Rhythm marks and repetition"
+    },
+    {
+      "frame": 1130,
+      "event": "Final practice-loop focus"
+    },
+    {
+      "frame": 1176,
+      "event": "Practice pack"
+    },
+    {
+      "frame": 1255,
+      "event": "Final pack emphasis"
+    },
+    {
+      "frame": 1296,
+      "event": "Comment box"
+    },
+    {
+      "frame": 1344,
+      "event": "LISTEN final red underline"
+    }
+  ],
+  "captions": [],
+  "teaching_highlights": [],
+  "sound_events": [],
+  "source_map": [
+    {
+      "kind": "source",
+      "output_start_sample": 0,
+      "output_end_sample": 2745420,
+      "source_start_sample": 0,
+      "source_end_sample": 2745420
+    },
+    {
+      "kind": "silence",
+      "output_start_sample": 2745420,
+      "output_end_sample": 2784000,
+      "reason": "Proposed final readable CTA hold; source voice remains complete"
+    }
+  ],
+  "approved_audio_edits": [],
+  "notes": "No source words removed or new narration generated. Creative plan pending user review. Bottom Persian captions will be aligned after approval; English dialogue is intentionally withheld during first hearing."
+}
