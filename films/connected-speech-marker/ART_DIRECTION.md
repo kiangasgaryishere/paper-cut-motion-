@@ -15,3 +15,7 @@ Primary style: Marker on Paper, Lemo-Opuscar `3a7132b996be0241c1ea0ab180d519f06e
 - Native motion cadence: 24 fps output, 12 drawing updates/s, smooth camera. This chosen style-specific cadence overrides the generic 30 fps default.
 
 Three real style frames are in review/. The prototype is a gallery, not the full film. Original treatment was written before reading demo story/code. No LemoLab demo end-card/branding or plot is copied.
+
+## Production adaptations
+
+The fixed supplied narration takes priority over stretching pages. Most red foci hold at least 1.5 seconds; the practice-pack underline has approximately 1.4 seconds before the peel. Final LISTEN underline holds 1.52 seconds. This minor timing adaptation is recorded rather than extending or slowing the supplied voice. Shape pushes are moderate portrait reframings, with matched mark position/scale and a full first incoming mark; text is wholly retained or omitted during the move.

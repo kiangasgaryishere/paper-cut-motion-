@@ -1,0 +1,18 @@
+{
+  "sample_rate": 48000,
+  "duration": 58,
+  "source_voice_samples": 2745420,
+  "silence_tail_samples": 38580,
+  "source_retained_complete": true,
+  "retiming": false,
+  "music": false,
+  "effects_events": 233,
+  "voice_peak_dbfs": -1.796416163444519,
+  "mix_peak_dbfs": -3.623795747756958,
+  "protected_english_interval": [
+    2.12,
+    3.98
+  ],
+  "pronunciation_effect_gain": 0.22,
+  "listening_review": "not performed"
+}

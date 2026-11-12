@@ -24,3 +24,9 @@ Source: assets/narration.mp3, uploaded mommy.mp3. Complete decoded length: 57.19
 Visual transition moments are in timeline.json/REVIEW.fa.md. Individual pen-down sound events depend on the approved final drawing animation, so exact asset/sample events and final mix remain production work, not completed QC. Do not claim these sounds have been auditioned or mixed already.
 
 Target final output: around -14 LUFS, true peak <= -1 dBTP with AAC margin; measure the encoded MP4. Listen in context if playback tools allow. Preserve clear, identifiable marker/paper cues without masking teaching. No background music, chalk, typing, coins, engine or unrelated effects.
+
+## Implemented production mix
+
+`tools/mix.py` consumes exported line/write/peel/push events. Deterministic felt-tip friction, soft nib taps and paper/air transitions are synthesized from the selected style's native algorithm. No music, typing, chalk or unrelated effects. Foley is panned subtly by its paper position, smoothly ducked under narration and capped independently.
+
+The English first hearing at 2.12–3.98 seconds is free of effects; pronunciation explanation at 26.45–30.60 seconds reduces effects to 22%. Narration is high-passed, gently compressed and mastered once across the full source. The stereo mix receives a -2 dB calibration toward -14 LUFS. Voice is not cut, re-timed or re-normalized at page boundaries. Final encoded loudness/peak and AAC alignment are recorded in analysis/production-output-check.json. No independent listening review is claimed.

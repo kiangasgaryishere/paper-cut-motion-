@@ -4,7 +4,7 @@
   "script": {
     "path": "script.md",
     "status": "supplied",
-    "approved_version": "",
+    "approved_version": "supplied script.md",
     "rewrite_allowed": false
   },
   "goal": "Teach why familiar English words become harder to hear in natural connected speech; give a three-pass practice routine and LISTEN CTA.",
@@ -63,16 +63,19 @@
     "captions": {
       "language": "fa",
       "allow_target_language": false,
-      "lead_ms": 30
+      "lead_ms": 30,
+      "allowed_latin": [
+        "LISTEN"
+      ]
     },
     "teaching_examples_language": "en",
     "heading_density": "low"
   },
   "plan": {
     "art_direction": "ready",
-    "storyboard": "draft",
-    "sound_plan": "draft",
-    "review_status": "pending",
-    "decision_reference": "User chose marker reconstruction; full production after reviewing plan/style frames; execute independently after approval."
+    "storyboard": "approved",
+    "sound_plan": "approved",
+    "review_status": "approved",
+    "decision_reference": "User approved full production and specified English LISTEN in final scene."
   }
 }

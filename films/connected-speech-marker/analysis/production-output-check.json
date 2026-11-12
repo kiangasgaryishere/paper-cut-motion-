@@ -1,0 +1,56 @@
+{
+  "file": "video/connected-speech-marker-v1.mp4",
+  "sha256": "6d241fc47d44afeed1c28fce18e4a5f43d56488dd2d829b095efd32252bb082f",
+  "bytes": 28969488,
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "frame_count": 1392,
+  "duration": 58.0,
+  "audio_sample_rate": 48000,
+  "full_decode": "passed",
+  "black_intervals": [],
+  "loudness": {
+    "input_i": "-14.08",
+    "input_tp": "-3.64",
+    "input_lra": "3.00",
+    "input_thresh": "-24.71",
+    "output_i": "-13.99",
+    "output_tp": "-2.73",
+    "output_lra": "3.10",
+    "output_thresh": "-24.62",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.01"
+  },
+  "aac_alignment": [
+    {
+      "time": 2.5,
+      "lag_samples": 0
+    },
+    {
+      "time": 10,
+      "lag_samples": 0
+    },
+    {
+      "time": 26.7,
+      "lag_samples": 0
+    },
+    {
+      "time": 38.5,
+      "lag_samples": 0
+    },
+    {
+      "time": 42.7,
+      "lag_samples": 0
+    },
+    {
+      "time": 55.6,
+      "lag_samples": 0
+    }
+  ],
+  "caption_policy": "Persian except final LISTEN; first English hearing withheld",
+  "max_visual_milestone_gap_seconds": 3.1666666666666665,
+  "deterministic_seek": true,
+  "listening_review": "not performed",
+  "real_time_full_playback": "not performed"
+}

@@ -1,0 +1,7 @@
+import fs from 'fs';import path from 'path';import crypto from 'crypto';import{fileURLToPath}from'url';import{openDemo,closeServer}from'../../../core/render/page.mjs';
+const dir=fileURLToPath(new URL('../',import.meta.url));fs.mkdirSync(path.join(dir,'out'),{recursive:true});const{page,browser}=await openDemo(dir,{w:1080,h:1920});
+const meta=await page.evaluate(()=>({events:EV,text:FILM_TEXTS,pages:PAGES,duration:DUR}));fs.writeFileSync(path.join(dir,'out/events.json'),JSON.stringify(meta,null,2));
+let report={duration:meta.duration,frames:[],errors:[]};
+for(const t of[1.9,5.8,10.3,15.2,24.7,31.1,37.4,41.1,47.5,53.8,57.8]){await page.evaluate(t=>render(t),t);const state=await page.evaluate(()=>({...FILM_STATE,captionBox:(()=>{let c=document.querySelector('#caption'),r=c.getBoundingClientRect();return{top:r.top,bottom:r.bottom,overflow:c.scrollWidth>c.clientWidth+1}})()}));report.frames.push(state);if(state.captionBox.overflow)report.errors.push({t,issue:'caption overflow'});await page.screenshot({path:path.join(dir,`out/frame-${t}.jpg`),type:'jpeg',quality:92});}
+await page.evaluate(()=>render(10.3));let a=await page.screenshot();await page.evaluate(()=>render(57.8));await page.evaluate(()=>render(10.3));let b=await page.screenshot();report.deterministic_seek=crypto.createHash('sha256').update(a).digest('hex')===crypto.createHash('sha256').update(b).digest('hex');
+fs.writeFileSync(path.join(dir,'out/browser-check.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));await browser.close();closeServer();

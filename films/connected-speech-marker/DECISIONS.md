@@ -8,5 +8,9 @@
 - Proposed learner level A2–B1; no change to script or speaker wording.
 - Native selected style uses 24 fps camera / 12 drawing updates per second; portrait 1080×1920 is the project adaptation.
 - Original treatment written before demo study. Official style, demo docs, poster, pen engine, skeleton tool and sound algorithm inspected; no demo story or soundtrack copied.
-- Current state: source analysis, proposed timed storyboard, sound direction and three real style frames ready for user review. Approval pending. No full film, no final mix, no claim of final word-level alignment or listening review.
-- Automatic commit/push applies to this completed preproduction change only. Cancelled Olympic v4 working files are not part of it.
+- User approved the plan and requested full production; final keyword must be English LISTEN. Ten pages are animated on one continuous 58-second timeline.
+- Automatic scoped commit/push covers this completed production. Cancelled Olympic v4 working files remain excluded.
+
+- LISTEN is also retained in English in the final bottom caption, an explicit exception to the Persian-caption policy.
+- No voice words removed, no new narration, no music. Native felt-marker and paper foley only; first English sample protected.
+- Captions use script wording with Persian equivalents for spoken technical terms, onsets derived from pauses with about 30 ms lead. Word-level listening audit was not performed.

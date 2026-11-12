@@ -1,0 +1,238 @@
+{
+  "duration": 58,
+  "frames": [
+    {
+      "time": 1.9,
+      "page": 1,
+      "heading": "What did you hear?",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1.0032561912555433,
+        0,
+        0,
+        1.0032561912555433,
+        -1.104984470586146,
+        -3.125943605321595
+      ],
+      "transition": "none",
+      "captionBox": {
+        "top": 1581.8125,
+        "bottom": 1700,
+        "overflow": false
+      }
+    },
+    {
+      "time": 5.8,
+      "page": 1,
+      "heading": "What did you hear?",
+      "caption": "فهمیدی چی گفت؟",
+      "keyword": "",
+      "camera": [
+        1.0249983977773018,
+        0,
+        0,
+        1.0249983977773018,
+        -8.374471265996135,
+        -23.99846186620971
+      ],
+      "transition": "none",
+      "captionBox": {
+        "top": 1581.8125,
+        "bottom": 1700,
+        "overflow": false
+      }
+    },
+    {
+      "time": 10.3,
+      "page": 2,
+      "heading": "Read it.",
+      "caption": "اما چرا وقتی زیرنویس انگلیسی روشنه،",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "captionBox": {
+        "top": 1581.8125,
+        "bottom": 1700,
+        "overflow": false
+      }
+    },
+    {
+      "time": 15.2,
+      "page": 3,
+      "heading": "Words or sounds?",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "captionBox": {
+        "top": 1581.8125,
+        "bottom": 1700,
+        "overflow": false
+      }
+    },
+    {
+      "time": 24.7,
+      "page": 4,
+      "heading": "Connected Speech",
+      "caption": "کوتاه می‌شن یا تغییر می‌کنن.",
+      "keyword": "",
+      "camera": [
+        1.0249402162327534,
+        0,
+        0,
+        1.0249402162327534,
+        -25.737587462562033,
+        -23.942607583443305
+      ],
+      "transition": "none",
+      "captionBox": {
+        "top": 1581.8125,
+        "bottom": 1700,
+        "overflow": false
+      }
+    },
+    {
+      "time": 31.1,
+      "page": 5,
+      "heading": "How does it sound?",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1.0243812216323331,
+        0,
+        0,
+        1.0243812216323331,
+        -8.17072656133621,
+        -23.40597276703977
+      ],
+      "transition": "none",
+      "captionBox": {
+        "top": 1581.8125,
+        "bottom": 1700,
+        "overflow": false
+      }
+    },
+    {
+      "time": 37.4,
+      "page": 6,
+      "heading": "Listen first.",
+      "caption": "اول بدون زیرنویس گوش بده.",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "captionBox": {
+        "top": 1581.8125,
+        "bottom": 1700,
+        "overflow": false
+      }
+    },
+    {
+      "time": 41.1,
+      "page": 7,
+      "heading": "Check the words.",
+      "caption": "بعد زیرنویس رو روشن کن\nو ببین کجاش رو نشنیدی.",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "captionBox": {
+        "top": 1506.625,
+        "bottom": 1700,
+        "overflow": false
+      }
+    },
+    {
+      "time": 47.5,
+      "page": 8,
+      "heading": "Listen. Repeat.",
+      "caption": "این‌طوری گوشت کم‌کم\nبه انگلیسی واقعی عادت می‌کنه!",
+      "keyword": "",
+      "camera": [
+        1.024856080695512,
+        0,
+        0,
+        1.024856080695512,
+        -8.327502486965727,
+        -23.861837467691544
+      ],
+      "transition": "none",
+      "captionBox": {
+        "top": 1506.625,
+        "bottom": 1700,
+        "overflow": false
+      }
+    },
+    {
+      "time": 53.8,
+      "page": 9,
+      "heading": "5 short conversations",
+      "caption": "با فایل صوتی، متن و تمرین شنیداری\nآماده کردیم.",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "captionBox": {
+        "top": 1506.625,
+        "bottom": 1700,
+        "overflow": false
+      }
+    },
+    {
+      "time": 57.8,
+      "page": 10,
+      "heading": "Ready to practise?",
+      "caption": "کلمهٔ «LISTEN» رو کامنت کن\nتا برات بفرستیم!",
+      "keyword": "LISTEN",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "captionBox": {
+        "top": 1506.625,
+        "bottom": 1700,
+        "overflow": false
+      }
+    }
+  ],
+  "errors": [],
+  "deterministic_seek": true
+}

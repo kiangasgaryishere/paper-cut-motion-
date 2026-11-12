@@ -1,29 +1,29 @@
 {
-  "version": "preproduction-direction-v1",
+  "version": "connected-speech-marker-v1",
   "checks": {
     "preproduction_plan": {
-      "status": "not performed",
-      "evidence": "Plan prepared for the user-selected review; creative approval pending, final caption and pen-event alignment remain production work."
+      "status": "passed",
+      "evidence": "User approved consolidated direction/style frames and full production; final LISTEN correction recorded."
     },
     "style_frames": {
       "status": "passed",
-      "evidence": "Three original 1080x1920 frames rendered with native marker/density engine; English glyph skeletons generated, not a final animation."
+      "evidence": "Three historical direction frames plus actual film contact sheets reviewed with native marker engine."
     },
     "mobile_layout": {
       "status": "passed",
-      "evidence": "review/layout-check.json: three prototype frames, text extents and subtitle zones checked; contact sheet and individual frames visually inspected. Final-film layout not yet checked."
+      "evidence": "Actual 1080x1920 film frames inspected; caption boxes do not overflow; main headings separated from diagrams and captions. analysis/production-browser-check.json"
     },
     "visual_continuity": {
-      "status": "not performed",
-      "evidence": ""
+      "status": "passed",
+      "evidence": "Ten original pages and sampled peel/push strips inspected. Full incoming match marks corrected for quantized ink clock. Deterministic seek hash matches."
     },
     "caption_voice_timing": {
-      "status": "not performed",
-      "evidence": ""
+      "status": "passed",
+      "evidence": "24 phrase cues based on script and source pauses with about 30 ms lead, quantized to 24fps. AAC reference correlation lag <=2 samples at six anchors. No word-level listening audit claimed."
     },
     "teaching_highlights": {
-      "status": "not performed",
-      "evidence": ""
+      "status": "passed",
+      "evidence": "Did you / Didja comparison, ON/OFF practice and final English LISTEN inspected. Only LISTEN Latin allowed in bottom captions; first English hearing uncaptioned."
     },
     "sound_action_sync": {
       "status": "not performed",
@@ -35,51 +35,51 @@
     },
     "full_speed_playback": {
       "status": "not performed",
-      "evidence": ""
+      "evidence": "Representative rendered/encoded frames and transition strips inspected; no real-time full-file playback or independent listening review performed."
     },
     "encoded_loudness_true_peak": {
-      "status": "not performed",
-      "evidence": ""
+      "status": "passed",
+      "evidence": "Encoded loudness -14.08 LUFS; true peak -3.64 dBTP. No music; speech-priority foley. See analysis/production-output-check.json."
     },
     "decode_metadata_black_intervals": {
-      "status": "not performed",
-      "evidence": ""
+      "status": "passed",
+      "evidence": "1392 frames, 58s, H.264 1080x1920 24fps, AAC stereo 48kHz; stream starts zero; complete decode; no black intervals."
     },
     "joins_and_edit_map": {
-      "status": "not performed",
-      "evidence": ""
+      "status": "passed",
+      "evidence": "Complete source retained, 2745420 samples plus 38580 silent tail samples. No source cuts or retiming; no page-wise narration gains. Encoded audio alignment checked."
     },
     "subtraction_pass": {
-      "status": "not performed",
-      "evidence": ""
+      "status": "passed",
+      "evidence": "Native marker/paper material only. No music, decorative sound packs, chalk, keyboard, desk, hands or extra text layers. Simple black/blue/red hierarchy retained."
     },
     "commit_and_remote_push": {
       "status": "not performed",
-      "evidence": ""
+      "evidence": "Completed file ready for scoped commit/push; will be recorded after remote verification."
     },
     "download_hash": {
       "status": "not performed",
-      "evidence": ""
+      "evidence": "Pending push and download-byte verification."
     }
   },
   "material_limitations": [
-    "Full film and final mix have not been produced.",
-    "No independent listening review performed.",
-    "ASR timings are preliminary; raw transcript contains errors and overlap recoveries."
+    "No independent real-time listening/full-playback review performed.",
+    "Captions are phrase-aligned from source pauses, not a manually audited word-level transcript.",
+    "Portrait timing adaptation: practice-pack red emphasis holds approximately 1.4 seconds; most others >=1.5 seconds."
   ],
   "delivery": {
-    "path_or_url": "",
-    "repository": "",
-    "branch": "",
+    "path_or_url": "video/connected-speech-marker-v1.mp4",
+    "repository": "https://github.com/kiangasgaryishere/paper-cut-motion-",
+    "branch": "main",
     "video_commit": "",
-    "video_path": "",
+    "video_path": "video/connected-speech-marker-v1.mp4",
     "download_url": "",
     "download_verified": false,
     "authentication_required": false,
-    "sha256": "",
-    "width": null,
-    "height": null,
-    "fps": null,
-    "duration_seconds": null
+    "sha256": "6d241fc47d44afeed1c28fce18e4a5f43d56488dd2d829b095efd32252bb082f",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration_seconds": 58
   }
 }
