@@ -18,5 +18,17 @@
   "audio_packet_equality_with_v1": true,
   "aac_payload_sha256": "402d5967b2cd9683126ea0845262cb89e40587431325752a4bc8cd0ef6d1365c",
   "audio_checks": "Inherited from verified v1: unchanged AAC packets.",
-  "listening_review": "not performed; audio unchanged"
+  "listening_review": "not performed; audio unchanged",
+  "delivery": {
+    "repository": "kiangasgaryishere/paper-cut-motion-",
+    "video_path": "video/connected-speech-real-footage-v2.mp4",
+    "video_commit": "f5093faacef0d79e10d6ba5991ef204747c8ed77",
+    "bytes": 22979431,
+    "sha256": "0bea0581d807bb4937a2c499de1199565e11b1159d103e2fff496a9ff90daa6c",
+    "branch": "main",
+    "remote_push_verified": true,
+    "download_url": "https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/f5093faacef0d79e10d6ba5991ef204747c8ed77/video/connected-speech-real-footage-v2.mp4",
+    "download_verified": true,
+    "authentication_required": false
+  }
 }
