@@ -1,0 +1,57 @@
+{
+  "version": "real-footage-v1",
+  "duration_frames": 1449,
+  "fps": 24,
+  "duration_seconds": 60.375,
+  "sample_rate": 48000,
+  "source_clip": "assets/mummy-real-clip.mp4",
+  "transcript": "Honey, what you doing?",
+  "first_screening": {
+    "start_frame": 45,
+    "end_frame": 102,
+    "start_seconds": 1.875,
+    "end_seconds": 4.25,
+    "subtitles": false,
+    "audio": "supplied clip only; narrator quote and existing foley completely replaced"
+  },
+  "second_screening": {
+    "start_frame": 144,
+    "end_frame": 201,
+    "start_seconds": 6,
+    "end_seconds": 8.375,
+    "subtitles": "English: Honey, what you doing?",
+    "audio": "same supplied clip audio"
+  },
+  "edit_map": [
+    {
+      "kind": "base",
+      "source_start_frame": 0,
+      "source_end_frame": 144,
+      "output_start_frame": 0,
+      "output_end_frame": 144
+    },
+    {
+      "kind": "clip_replay",
+      "clip_start_frame": 0,
+      "output_start_frame": 144,
+      "output_end_frame": 201
+    },
+    {
+      "kind": "base",
+      "source_start_frame": 144,
+      "source_end_frame": 1392,
+      "output_start_frame": 201,
+      "output_end_frame": 1449
+    }
+  ],
+  "removed_narrator_quote_source_interval": [
+    1.875,
+    4.25
+  ],
+  "clip_decoded_samples": 111232,
+  "clip_audio_padding_samples": 2768,
+  "music": "none added; supplied movie audio retained",
+  "captions": "white on charcoal; Persian for lesson, English for replay and teaching examples, final LISTEN retained",
+  "voice_after_insert_shift_frames": 57,
+  "original_illustrated_video_preserved": true
+}

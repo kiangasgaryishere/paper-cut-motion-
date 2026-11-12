@@ -1,0 +1,105 @@
+{
+  "variant": "real-footage",
+  "frames": [
+    {
+      "state": {
+        "time": 1,
+        "page": 1,
+        "heading": "What did you hear?",
+        "caption": "این صحنه از فیلم مومیایی رو ببین",
+        "keyword": "",
+        "camera": [
+          1.0004747326513403,
+          0,
+          0,
+          1.0004747326513403,
+          -0.16136402723759602,
+          -0.4557433452866917
+        ],
+        "transition": "none"
+      },
+      "caption_style": "rgb(27, 28, 32)",
+      "caption_color": "rgb(255, 255, 255)"
+    },
+    {
+      "state": {
+        "time": 5.8,
+        "page": 1,
+        "heading": "What did you hear?",
+        "caption": "فهمیدی چی گفت؟",
+        "keyword": "",
+        "camera": [
+          1.0249983977773018,
+          0,
+          0,
+          1.0249983977773018,
+          -8.374471265996135,
+          -23.99846186620971
+        ],
+        "transition": "none"
+      },
+      "caption_style": "rgb(27, 28, 32)",
+      "caption_color": "rgb(255, 255, 255)"
+    },
+    {
+      "state": {
+        "time": 10.3,
+        "page": 2,
+        "heading": "Read it.",
+        "caption": "اما چرا وقتی زیرنویس انگلیسی روشنه،",
+        "keyword": "",
+        "camera": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "transition": "none"
+      },
+      "caption_style": "rgb(27, 28, 32)",
+      "caption_color": "rgb(255, 255, 255)"
+    },
+    {
+      "state": {
+        "time": 15.2,
+        "page": 3,
+        "heading": "Words or sounds?",
+        "caption": "",
+        "keyword": "",
+        "camera": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "transition": "none"
+      },
+      "caption_style": "rgb(27, 28, 32)",
+      "caption_color": "rgb(255, 255, 255)"
+    },
+    {
+      "state": {
+        "time": 57.8,
+        "page": 10,
+        "heading": "Ready to practise?",
+        "caption": "کلمهٔ «LISTEN» رو کامنت کن\nتا برات بفرستیم!",
+        "keyword": "LISTEN",
+        "camera": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "transition": "none"
+      },
+      "caption_style": "rgb(27, 28, 32)",
+      "caption_color": "rgb(255, 255, 255)"
+    }
+  ]
+}

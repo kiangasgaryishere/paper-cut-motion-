@@ -17,3 +17,7 @@ OPUSCAR_PYTHON=/workspace/lemo-opuscar/.venv/bin/python bash films/connected-spe
 Override PLAYWRIGHT_CHROME if required. The build exports rendering events, creates the mix, renders 1392 frames and muxes the versioned MP4. Fonts and glyph skeletons are included. Temporary renders/WAVs are ignored. `review.html` is the historical three-frame preproduction gallery, not the film.
 
 See QC.json and analysis/production-* for actual checks and their limits. Representative frames and transitions were inspected; no independent real-time listening review is claimed. Captions are phrase-aligned from script and source pauses, not a manually audited word-level transcript. See CREDITS.md and licenses/ for attribution.
+
+## Real-footage edition
+
+A separate [real-footage revision](real-footage/README.md) uses the supplied movie picture and actor sound twice, first without captions, then with English captions. The later lesson captions are white on charcoal. Export: `../../video/connected-speech-real-footage-v1.mp4` (60.375 seconds). Original illustrated v1 is preserved.

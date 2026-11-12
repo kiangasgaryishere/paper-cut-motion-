@@ -16,3 +16,6 @@
 - Captions use script wording with Persian equivalents for spoken technical terms, onsets derived from pauses with about 30 ms lead. Word-level listening audit was not performed.
 
 - Completed MP4 pushed in 98d1dfaeb1c866e4115fd308014f49e5e00d4922; commit-pinned download verified byte-for-byte (28,969,488 bytes). Delivery metadata is a later save; the video link remains pinned to its own production commit.
+
+- User requested a separate real-footage edition using the supplied movie clip. Replace narrator English quote with supplied clip audio, first screening uncaptioned and second captioned; lesson caption panels changed to charcoal with white text. Original illustrated export preserved.
+- Insert captioned replay at source 6.0 seconds, after the listening question, then shift all remaining streams by 57 frames. Actual movie wording Honey, what you doing? replaces earlier Darling wording in this variant only.

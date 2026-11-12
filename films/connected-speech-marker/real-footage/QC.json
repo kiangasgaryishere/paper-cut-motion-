@@ -1,0 +1,70 @@
+{
+  "file": "video/connected-speech-real-footage-v1.mp4",
+  "sha256": "dc9708e5a2a4bdeb49c6fbeb19f309424f510e17361dd337bb69d27b18228c3b",
+  "bytes": 23835408,
+  "duration": 60.375,
+  "frames": 1449,
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "sample_rate": 48000,
+  "full_decode": "passed",
+  "black_intervals": [],
+  "loudness": {
+    "input_i": "-14.16",
+    "input_tp": "-2.09",
+    "input_lra": "3.10",
+    "input_thresh": "-24.72",
+    "output_i": "-13.94",
+    "output_tp": "-1.32",
+    "output_lra": "3.00",
+    "output_thresh": "-24.47",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.06"
+  },
+  "aac_alignment": [
+    {
+      "t": 2.1,
+      "lag_samples": 0
+    },
+    {
+      "t": 3.2,
+      "lag_samples": 0
+    },
+    {
+      "t": 6.2,
+      "lag_samples": 0
+    },
+    {
+      "t": 7.3,
+      "lag_samples": 0
+    },
+    {
+      "t": 8.6,
+      "lag_samples": 0
+    },
+    {
+      "t": 29.1,
+      "lag_samples": 0
+    },
+    {
+      "t": 44.6,
+      "lag_samples": 0
+    },
+    {
+      "t": 58.1,
+      "lag_samples": 0
+    }
+  ],
+  "first_screening_subtitles": false,
+  "second_screening_subtitle": "Honey, what you doing?",
+  "narrator_quote_replaced": "passed: PCM exactly matches supplied clip audio, no voice mixed underneath",
+  "screening_audio_equality": "passed: two screenings sample-identical before AAC",
+  "downstream_shift": "passed: source mix from 6.0s onward retained sample-identical after 57-frame insert",
+  "caption_contrast": {
+    "foreground": "#FFFFFF",
+    "background": "#1B1C20"
+  },
+  "listening_review": "not performed",
+  "real_time_full_playback": "not performed"
+}

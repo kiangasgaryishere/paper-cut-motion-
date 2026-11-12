@@ -14,3 +14,5 @@
 Reference poster belongs to the upstream demo, CC BY 4.0, not an original frame of this film. It stays local for analysis. All review/styleframe PNGs here are original project compositions rendered with the marker engine. The user's film has no upstream demo sign-off or watermark.
 
 Production foley: deterministic felt-tip marker, nib tap, paper slide and soft-air synthesis adapted from upstream marker-paper/demo/mix.py (MIT); no upstream music or demo narration is used. Original page compositions and portrait timing by this project.
+
+Real-footage edition: user-supplied `honey-what-you-doing_clip.mp4`, described by user as a film excerpt from The Mummy; audio and picture are third-party movie material, not covered by this project’s original-code or upstream MIT licences. Movie identification/year not independently established. No new movie speech generated.
