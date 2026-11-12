@@ -7,3 +7,7 @@ Original generated cover: `connected-speech-marker-cover-v1.png`. Headline: **ب
 ## v2
 
 User requested a slightly higher headline and a more perceptible paper texture. Edited v1 with the image-generation tool: lifted headline/underline, retained the illustration placement and exact Persian wording, and added clear fine-fibre matte paper tooth. Original v1 preserved. Export: `connected-speech-marker-cover-v2.png`.
+
+## v3
+
+User requested a further increase in paper texture. Edited v2 with the image-generation tool: stronger visible cotton fibres, pulp flecks and tactile paper tooth; retained headline placement, wording, illustration and palette. Export: `connected-speech-marker-cover-v3.png`. Earlier versions preserved.
