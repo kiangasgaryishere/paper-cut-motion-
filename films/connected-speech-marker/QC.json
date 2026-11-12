@@ -54,12 +54,12 @@
       "evidence": "Native marker/paper material only. No music, decorative sound packs, chalk, keyboard, desk, hands or extra text layers. Simple black/blue/red hierarchy retained."
     },
     "commit_and_remote_push": {
-      "status": "not performed",
-      "evidence": "Completed file ready for scoped commit/push; will be recorded after remote verification."
+      "status": "passed",
+      "evidence": "Video commit 98d1dfaeb1c866e4115fd308014f49e5e00d4922 verified on origin/main."
     },
     "download_hash": {
-      "status": "not performed",
-      "evidence": "Pending push and download-byte verification."
+      "status": "passed",
+      "evidence": "28969488 downloaded bytes match SHA-256 6d241fc47d44afeed1c28fce18e4a5f43d56488dd2d829b095efd32252bb082f"
     }
   },
   "material_limitations": [
@@ -68,13 +68,13 @@
     "Portrait timing adaptation: practice-pack red emphasis holds approximately 1.4 seconds; most others >=1.5 seconds."
   ],
   "delivery": {
-    "path_or_url": "video/connected-speech-marker-v1.mp4",
+    "path_or_url": "https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/98d1dfaeb1c866e4115fd308014f49e5e00d4922/video/connected-speech-marker-v1.mp4",
     "repository": "https://github.com/kiangasgaryishere/paper-cut-motion-",
     "branch": "main",
-    "video_commit": "",
+    "video_commit": "98d1dfaeb1c866e4115fd308014f49e5e00d4922",
     "video_path": "video/connected-speech-marker-v1.mp4",
-    "download_url": "",
-    "download_verified": false,
+    "download_url": "https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/98d1dfaeb1c866e4115fd308014f49e5e00d4922/video/connected-speech-marker-v1.mp4",
+    "download_verified": true,
     "authentication_required": false,
     "sha256": "6d241fc47d44afeed1c28fce18e4a5f43d56488dd2d829b095efd32252bb082f",
     "width": 1080,

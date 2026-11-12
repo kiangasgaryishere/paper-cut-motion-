@@ -14,3 +14,5 @@
 - LISTEN is also retained in English in the final bottom caption, an explicit exception to the Persian-caption policy.
 - No voice words removed, no new narration, no music. Native felt-marker and paper foley only; first English sample protected.
 - Captions use script wording with Persian equivalents for spoken technical terms, onsets derived from pauses with about 30 ms lead. Word-level listening audit was not performed.
+
+- Completed MP4 pushed in 98d1dfaeb1c866e4115fd308014f49e5e00d4922; commit-pinned download verified byte-for-byte (28,969,488 bytes). Delivery metadata is a later save; the video link remains pinned to its own production commit.
