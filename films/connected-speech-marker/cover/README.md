@@ -11,3 +11,7 @@ User requested a slightly higher headline and a more perceptible paper texture. 
 ## v3
 
 User requested a further increase in paper texture. Edited v2 with the image-generation tool: stronger visible cotton fibres, pulp flecks and tactile paper tooth; retained headline placement, wording, illustration and palette. Export: `connected-speech-marker-cover-v3.png`. Earlier versions preserved.
+
+## v4
+
+User requested a bilingual headline: Persian `بلدی، ولی` above English `CAN’T HEAR?`. Edited v3 with the image-generation tool, preserving the high headline placement, tactile paper texture, illustration and colour palette. Export: `connected-speech-marker-cover-v4.png`. Earlier versions preserved.
