@@ -1,0 +1,12 @@
+{
+  "repository": "kiangasgaryishere/paper-cut-motion-",
+  "video_path": "video/connected-speech-real-footage-v1.mp4",
+  "video_commit": "2da8beadd365b615a0513004c556a9e6f49b21a3",
+  "bytes": 23835408,
+  "sha256": "dc9708e5a2a4bdeb49c6fbeb19f309424f510e17361dd337bb69d27b18228c3b",
+  "branch": "main",
+  "remote_push_verified": true,
+  "download_url": "https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/2da8beadd365b615a0513004c556a9e6f49b21a3/video/connected-speech-real-footage-v1.mp4",
+  "download_verified": true,
+  "authentication_required": false
+}

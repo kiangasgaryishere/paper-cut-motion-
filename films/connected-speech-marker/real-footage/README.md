@@ -1,5 +1,7 @@
 # Real-footage edition
 
+[Download the completed real-footage MP4](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/2da8beadd365b615a0513004c556a9e6f49b21a3/video/connected-speech-real-footage-v1.mp4). Verified downloaded bytes match the committed export.
+
 User requested a separate version using the supplied movie clip and its own dialogue sound, replacing the English narrator sample. The original illustrated v1 MP4 remains available unchanged.
 
 - First screening: 1.875–4.250 seconds, no subtitles and no underlying narrator sample or foley.
