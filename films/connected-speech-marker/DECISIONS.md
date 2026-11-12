@@ -19,3 +19,5 @@
 
 - User requested a separate real-footage edition using the supplied movie clip. Replace narrator English quote with supplied clip audio, first screening uncaptioned and second captioned; lesson caption panels changed to charcoal with white text. Original illustrated export preserved.
 - Insert captioned replay at source 6.0 seconds, after the listening question, then shift all remaining streams by 57 frames. Actual movie wording Honey, what you doing? replaces earlier Darling wording in this variant only.
+
+- Real-footage v2: user requested the large opening text «این صحنه رو ببین». Added at frame zero through frame 44, above footage. Audio stream copied without encoding; v1 retained.

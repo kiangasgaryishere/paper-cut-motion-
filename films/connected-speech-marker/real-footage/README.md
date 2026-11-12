@@ -28,3 +28,7 @@ PLAYWRIGHT_CHROME=/usr/bin/chromium LEMO_ANGLE=swiftshader node core/render/vide
 After building, run `/workspace/lemo-opuscar/.venv/bin/python films/connected-speech-marker/tools/verify-real.py`.
 
 Final export: `video/connected-speech-real-footage-v1.mp4`. QC and delivery verification are recorded alongside this file. Representative frames are reviewed; no independent real-time listening review is claimed.
+
+## v2 — opening hook
+
+User requested a large Persian hook in the first frame. `این صحنه رو ببین` appears above the movie at 92px, fully visible from frame 0 until the first clip begins at frame 45 (1.875s). `tools/add-real-hook.mjs` creates the transparent text overlay with correctly shaped Persian and exports `video/connected-speech-real-footage-v2.mp4`. Duration and complete AAC sound are preserved. `tools/verify-hook.py` checks dimensions, frame count, full decoding and packet-identical audio, and exports review stills.

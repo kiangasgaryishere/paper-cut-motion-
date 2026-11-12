@@ -1,0 +1,22 @@
+{
+  "version": "real-footage-v2",
+  "file": "video/connected-speech-real-footage-v2.mp4",
+  "sha256": "0bea0581d807bb4937a2c499de1199565e11b1159d103e2fff496a9ff90daa6c",
+  "bytes": 22979431,
+  "duration": 60.375,
+  "frame_count": 1449,
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "hook_text": "این صحنه رو ببین",
+  "hook_interval_frames": [
+    0,
+    45
+  ],
+  "hook_font_size": 92,
+  "full_decode": "passed",
+  "audio_packet_equality_with_v1": true,
+  "aac_payload_sha256": "402d5967b2cd9683126ea0845262cb89e40587431325752a4bc8cd0ef6d1365c",
+  "audio_checks": "Inherited from verified v1: unchanged AAC packets.",
+  "listening_review": "not performed; audio unchanged"
+}
