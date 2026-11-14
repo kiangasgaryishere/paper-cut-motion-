@@ -1,0 +1,311 @@
+[
+  {
+    "offset": 22,
+    "end": 29.4,
+    "lang": "fa",
+    "result": {
+      "lang": "fa",
+      "emotion": "",
+      "event": "",
+      "text": "و از ای قسمتها رو کتا میکنن و شاید دنتجه تلفوز جوملها جوره دییه",
+      "timestamps": [],
+      "durations": [],
+      "tokens": [
+        " و",
+        " ا",
+        "ز",
+        " ا",
+        "ی",
+        " ق",
+        "سم",
+        "ت",
+        "ها",
+        " ر",
+        "و",
+        " ک",
+        "ت",
+        "ا",
+        " م",
+        "یک",
+        "ن",
+        "ن",
+        " و",
+        " ش",
+        "ا",
+        "ی",
+        "د",
+        " د",
+        "ن",
+        "ت",
+        "ج",
+        "ه",
+        " ت",
+        "لف",
+        "و",
+        "ز",
+        " ج",
+        "وم",
+        "ل",
+        "ها",
+        " ج",
+        "ور",
+        "ه",
+        " د",
+        "ی",
+        "ی",
+        "ه"
+      ],
+      "ys_log_probs": [],
+      "words": [],
+      "segment_timestamps": [
+        0.0
+      ],
+      "segment_durations": [
+        0.0
+      ],
+      "segment_texts": [
+        " و از ای قسمتها رو کتا میکنن و شاید دنتجه تلفوز جوملها جوره دییه"
+      ]
+    }
+  },
+  {
+    "offset": 12.4,
+    "end": 13.9,
+    "lang": "en",
+    "result": {
+      "lang": "en",
+      "emotion": "",
+      "event": "",
+      "text": "Honey, what are you doing?",
+      "timestamps": [],
+      "durations": [],
+      "tokens": [
+        " Honey",
+        ",",
+        " what",
+        " are",
+        " you",
+        " doing",
+        "?"
+      ],
+      "ys_log_probs": [],
+      "words": [],
+      "segment_timestamps": [
+        0.0
+      ],
+      "segment_durations": [
+        2.0
+      ],
+      "segment_texts": [
+        " Honey, what are you doing?"
+      ]
+    }
+  },
+  {
+    "offset": 38.5,
+    "end": 40.15,
+    "lang": "en",
+    "result": {
+      "lang": "en",
+      "emotion": "",
+      "event": "",
+      "text": "How do you do it?",
+      "timestamps": [],
+      "durations": [],
+      "tokens": [
+        " How",
+        " do",
+        " you",
+        " do",
+        " it",
+        "?"
+      ],
+      "ys_log_probs": [],
+      "words": [],
+      "segment_timestamps": [
+        0.0
+      ],
+      "segment_durations": [
+        2.0
+      ],
+      "segment_texts": [
+        " How do you do it?"
+      ]
+    }
+  },
+  {
+    "offset": 40.2,
+    "end": 46,
+    "lang": "fa",
+    "result": {
+      "lang": "fa",
+      "emotion": "",
+      "event": "",
+      "text": "این بار راحتزر بود نه؟ چون حالا میتونی کلمهای روک ب",
+      "timestamps": [],
+      "durations": [],
+      "tokens": [
+        " ا",
+        "ین",
+        " ب",
+        "ار",
+        " ر",
+        "ا",
+        "حت",
+        "ز",
+        "ر",
+        " ب",
+        "ود",
+        " ن",
+        "ه",
+        "؟",
+        " چ",
+        "ون",
+        " ح",
+        "ال",
+        "ا",
+        " می",
+        "ت",
+        "ون",
+        "ی",
+        " ک",
+        "لم",
+        "ها",
+        "ی",
+        " ر",
+        "و",
+        "ک",
+        " ب"
+      ],
+      "ys_log_probs": [],
+      "words": [],
+      "segment_timestamps": [
+        0.0,
+        1.4
+      ],
+      "segment_durations": [
+        1.4,
+        0.0
+      ],
+      "segment_texts": [
+        " این بار راحتزر بود نه؟",
+        " چون حالا میتونی کلمهای روک ب"
+      ]
+    }
+  },
+  {
+    "offset": 51,
+    "end": 56.6,
+    "lang": "fa",
+    "result": {
+      "lang": "fa",
+      "emotion": "",
+      "event": "",
+      "text": "همراخ با Transcript وورکشیتهایتی کومکت می کنن ان تغیلات",
+      "timestamps": [],
+      "durations": [],
+      "tokens": [
+        " ه",
+        "م",
+        "را",
+        "خ",
+        " ب",
+        "ا",
+        " Trans",
+        "cript",
+        " و",
+        "ور",
+        "ک",
+        "ش",
+        "ی",
+        "ت",
+        "ها",
+        "ی",
+        "ت",
+        "ی",
+        " ک",
+        "وم",
+        "ک",
+        "ت",
+        " می",
+        " ک",
+        "ن",
+        "ن",
+        " ان",
+        " ت",
+        "غ",
+        "ی",
+        "ل",
+        "ات"
+      ],
+      "ys_log_probs": [],
+      "words": [],
+      "segment_timestamps": [
+        0.0
+      ],
+      "segment_durations": [
+        0.0
+      ],
+      "segment_texts": [
+        " همراخ با Transcript وورکشیتهایتی کومکت می کنن ان تغیلات"
+      ]
+    }
+  },
+  {
+    "offset": 56.6,
+    "end": 62.02,
+    "lang": "fa",
+    "result": {
+      "lang": "fa",
+      "emotion": "",
+      "event": "",
+      "text": "اگه میخوای باشی تمرین کنی, کلمه یه \"Listend\" رو کام",
+      "timestamps": [],
+      "durations": [],
+      "tokens": [
+        " ا",
+        "گ",
+        "ه",
+        " می",
+        "خ",
+        "وا",
+        "ی",
+        " ب",
+        "اش",
+        "ی",
+        " ت",
+        "مر",
+        "ین",
+        " ک",
+        "ن",
+        "ی",
+        ",",
+        " ک",
+        "لم",
+        "ه",
+        " ی",
+        "ه",
+        " \"",
+        "L",
+        "ist",
+        "end",
+        "\"",
+        " ر",
+        "و",
+        " ک",
+        "ام"
+      ],
+      "ys_log_probs": [],
+      "words": [],
+      "segment_timestamps": [
+        0.0
+      ],
+      "segment_durations": [
+        0.0
+      ],
+      "segment_texts": [
+        " اگه میخوای باشی تمرین کنی, کلمه یه \"Listend\" رو کام"
+      ]
+    }
+  }
+]

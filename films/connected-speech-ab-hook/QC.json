@@ -1,0 +1,86 @@
+{
+  "version": "connected-speech-ab-hook-v1",
+  "file": "video/connected-speech-ab-hook-v1.mp4",
+  "sha256": "eed8b538a03b15f81fa2f3018119d88236e57b48a4463b52ae8537e8d3d7ded8",
+  "bytes": 32043590,
+  "duration": 69,
+  "frames": 1656,
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "sample_rate": 48000,
+  "full_decode": "passed",
+  "black_intervals": [],
+  "loudness": {
+    "input_i": "-14.73",
+    "input_tp": "-2.12",
+    "input_lra": "3.00",
+    "input_thresh": "-24.96",
+    "output_i": "-14.23",
+    "output_tp": "-1.22",
+    "output_lra": "2.60",
+    "output_thresh": "-24.46",
+    "normalization_type": "dynamic",
+    "target_offset": "0.23"
+  },
+  "aac_alignment": [
+    {
+      "time": 0.3,
+      "lag_samples": 0
+    },
+    {
+      "time": 3,
+      "lag_samples": 0
+    },
+    {
+      "time": 7.1,
+      "lag_samples": 0
+    },
+    {
+      "time": 10,
+      "lag_samples": 0
+    },
+    {
+      "time": 17.4,
+      "lag_samples": 0
+    },
+    {
+      "time": 20.3,
+      "lag_samples": 0
+    },
+    {
+      "time": 31.2,
+      "lag_samples": 0
+    },
+    {
+      "time": 42.4,
+      "lag_samples": 0
+    },
+    {
+      "time": 44.5,
+      "lag_samples": 0
+    },
+    {
+      "time": 47.1,
+      "lag_samples": 0
+    },
+    {
+      "time": 63.5,
+      "lag_samples": 0
+    },
+    {
+      "time": 67.3,
+      "lag_samples": 0
+    }
+  ],
+  "movie_screenings": 4,
+  "first_two_fullscreen": "passed: all sampled active movie rects fill 1080x1920",
+  "narrator_quote_replacement": "passed: zero narrator stem during every screening; master screening samples equal actual movie stem",
+  "screening_audio_equality": "passed: all four movie screenings sample-identical before AAC",
+  "other_narration_retention": "passed: every mapped non-replaced narration sample retained",
+  "seek_deterministic": true,
+  "subtitle_layout": "passed: no overflow; charcoal background; first movie uncaptioned; second English captioned",
+  "caption_alignment": "phrase-level estimates from script and pauses, not manual word-level listening audit",
+  "full_speed_playback": "not performed",
+  "listening_review": "not performed"
+}

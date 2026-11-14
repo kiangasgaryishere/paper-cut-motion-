@@ -1,0 +1,22 @@
+{
+  "duration": 69,
+  "samples": 3312000,
+  "source_voice_samples": 2976960,
+  "clip_samples": 111232,
+  "screenings": 4,
+  "first_two_fullscreen": true,
+  "replaced_source_quote_frames": [
+    [
+      298,
+      333
+    ],
+    [
+      926,
+      963
+    ]
+  ],
+  "music": "none added; supplied movie audio retained",
+  "peak_dbfs": -2.1182830127064016,
+  "narration_retained": "all samples except the two authorized English sample intervals",
+  "listening_review": "not performed"
+}

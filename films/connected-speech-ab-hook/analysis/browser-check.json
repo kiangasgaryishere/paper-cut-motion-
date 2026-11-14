@@ -1,0 +1,636 @@
+{
+  "frames": [
+    {
+      "time": 0,
+      "page": 1,
+      "heading": "Guess first",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 1,
+        "playing": true,
+        "layout": "full",
+        "frame": 0,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1657
+    },
+    {
+      "time": 0.5,
+      "page": 1,
+      "heading": "Guess first",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 1,
+        "playing": true,
+        "layout": "full",
+        "frame": 12,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1657
+    },
+    {
+      "time": 1.4,
+      "page": 1,
+      "heading": "Guess first",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 1,
+        "playing": true,
+        "layout": "full",
+        "frame": 33,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1657
+    },
+    {
+      "time": 2.6,
+      "page": 1,
+      "heading": "Guess first",
+      "caption": "چی گفت؟",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 1,
+        "playing": false,
+        "layout": "shrink/hold",
+        "frame": 55,
+        "rect": [
+          14.011183320349355,
+          150.8537404157614,
+          1051.9776333593013,
+          1566.9181803271963
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1581.8125
+    },
+    {
+      "time": 4.5,
+      "page": 1,
+      "heading": "Guess first",
+      "caption": "قبل از اینکه دوباره پخشش کنم،\nحدست رو بزن!",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 1,
+        "playing": false,
+        "layout": "shrink/hold",
+        "frame": 55,
+        "rect": [
+          60,
+          646,
+          960,
+          408
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1506.625
+    },
+    {
+      "time": 7.2,
+      "page": 1,
+      "heading": "Guess first",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 2,
+        "playing": true,
+        "layout": "full",
+        "frame": 7,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1506.625
+    },
+    {
+      "time": 8.3,
+      "page": 1,
+      "heading": "Guess first",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 2,
+        "playing": true,
+        "layout": "full",
+        "frame": 34,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1506.625
+    },
+    {
+      "time": 9.5,
+      "page": 2,
+      "heading": "Subtitles",
+      "caption": "متوجه شدی؟",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "peel",
+      "movie": {
+        "id": 2,
+        "playing": false,
+        "layout": "shrink/hold",
+        "frame": 55,
+        "rect": [
+          19.21973020624052,
+          190.9159867153225,
+          1041.5605395875189,
+          1435.662798802739
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1581.8125
+    },
+    {
+      "time": 13.5,
+      "page": 2,
+      "heading": "Subtitles",
+      "caption": "جالبه بدونی جمله‌ای که شنیدی،",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 2,
+        "playing": false,
+        "layout": "shrink/hold",
+        "frame": 55,
+        "rect": [
+          60,
+          596,
+          960,
+          408
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1581.8125
+    },
+    {
+      "time": 18,
+      "page": 3,
+      "heading": "Rick said",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 3,
+        "playing": true,
+        "layout": "panel",
+        "frame": 19,
+        "rect": [
+          60,
+          546,
+          960,
+          408
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1581.8125
+    },
+    {
+      "time": 22.6,
+      "page": 3,
+      "heading": "Rick said",
+      "caption": "این کلمه‌ها رو که بلدی!",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 3,
+        "playing": false,
+        "layout": "shrink/hold",
+        "frame": 55,
+        "rect": [
+          60,
+          546,
+          960,
+          408
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1581.8125
+    },
+    {
+      "time": 27,
+      "page": 4,
+      "heading": "Known words",
+      "caption": "انگلیسی‌زبان‌ها صداها رو به هم وصل می‌کنن،",
+      "keyword": "",
+      "camera": [
+        1.0215058887118798,
+        0,
+        0,
+        1.0215058887118798,
+        -22.158008045775546,
+        -20.645653163404518
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 3,
+        "playing": false,
+        "layout": "shrink/hold",
+        "frame": 55,
+        "rect": [
+          60,
+          546,
+          960,
+          408
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1506.625
+    },
+    {
+      "time": 33.5,
+      "page": 5,
+      "heading": "Natural speech",
+      "caption": "جور دیگه‌ای شنیده شه.",
+      "keyword": "",
+      "camera": [
+        1.0242931044966552,
+        0,
+        0,
+        1.0242931044966552,
+        -8.141624543645662,
+        -23.321380316789032
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 3,
+        "playing": false,
+        "layout": "shrink/hold",
+        "frame": 55,
+        "rect": [
+          60,
+          546,
+          960,
+          408
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1581.8125
+    },
+    {
+      "time": 37.5,
+      "page": 6,
+      "heading": "Connected Speech",
+      "caption": "گفتار پیوسته!",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 3,
+        "playing": false,
+        "layout": "shrink/hold",
+        "frame": 55,
+        "rect": [
+          60,
+          546,
+          960,
+          408
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1581.8125
+    },
+    {
+      "time": 41.7,
+      "page": 7,
+      "heading": "Did you",
+      "caption": "شبیه «دیدجا» شنیده بشه!",
+      "keyword": "",
+      "camera": [
+        1.0211884281121986,
+        0,
+        0,
+        1.0211884281121986,
+        -7.114275660974386,
+        -20.340890987710623
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 3,
+        "playing": false,
+        "layout": "shrink/hold",
+        "frame": 55,
+        "rect": [
+          60,
+          546,
+          960,
+          408
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1581.8125
+    },
+    {
+      "time": 45,
+      "page": 8,
+      "heading": "Listen again",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 4,
+        "playing": true,
+        "layout": "panel",
+        "frame": 18,
+        "rect": [
+          60,
+          596,
+          960,
+          408
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1581.8125
+    },
+    {
+      "time": 48.7,
+      "page": 8,
+      "heading": "Listen again",
+      "caption": "چون حالا می‌تونی کلمه‌هایی رو که بلدی،",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 4,
+        "playing": false,
+        "layout": "shrink/hold",
+        "frame": 55,
+        "rect": [
+          60,
+          596,
+          960,
+          408
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1581.8125
+    },
+    {
+      "time": 51.9,
+      "page": 9,
+      "heading": "Recognize speech",
+      "caption": "توی مکالمهٔ طبیعی هم تشخیص بدی.",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 4,
+        "playing": false,
+        "layout": "shrink/hold",
+        "frame": 55,
+        "rect": [
+          60,
+          596,
+          960,
+          408
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1581.8125
+    },
+    {
+      "time": 57.9,
+      "page": 10,
+      "heading": "Five conversations",
+      "caption": "همراه با متن مکالمه و ورک‌شیت‌هایی",
+      "keyword": "",
+      "camera": [
+        1.0249739942016702,
+        0,
+        0,
+        1.0249739942016702,
+        -8.366417951290828,
+        -23.97503443360347
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 4,
+        "playing": false,
+        "layout": "shrink/hold",
+        "frame": 55,
+        "rect": [
+          60,
+          596,
+          960,
+          408
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1581.8125
+    },
+    {
+      "time": 62.2,
+      "page": 11,
+      "heading": "Text and practice",
+      "caption": "بهتر تشخیص بدی.",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 4,
+        "playing": false,
+        "layout": "shrink/hold",
+        "frame": 55,
+        "rect": [
+          60,
+          596,
+          960,
+          408
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1581.8125
+    },
+    {
+      "time": 68.5,
+      "page": 12,
+      "heading": "LISTEN",
+      "caption": "",
+      "keyword": "LISTEN",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "id": 4,
+        "playing": false,
+        "layout": "shrink/hold",
+        "frame": 55,
+        "rect": [
+          60,
+          596,
+          960,
+          408
+        ]
+      },
+      "overflow": false,
+      "captionTop": 1581.8125
+    }
+  ],
+  "errors": [],
+  "seek_deterministic": true
+}

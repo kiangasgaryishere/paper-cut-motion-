@@ -1,0 +1,42 @@
+{
+  "title": "Connected Speech — new-hook A/B edition",
+  "script": "script.md",
+  "narration": "assets/narration.mp3",
+  "style": {
+    "identifier": "marker-paper",
+    "primary_reference": "https://lemomo-ai.github.io/lemo-opuscar/styles/marker-paper/",
+    "upstream_commit": "3a7132b996be0241c1ea0ab180d519f06e6f10b6"
+  },
+  "audience": "English-language learners",
+  "production": {
+    "mode": "full",
+    "participation": "independent revision within approved direction",
+    "authorization": "User supplied new script/voice and explicitly requested new full-screen movie hook and real movie at third utterance."
+  },
+  "delivery": {
+    "repository": "https://github.com/kiangasgaryishere/paper-cut-motion-",
+    "branch": "main",
+    "visibility": "public",
+    "auto_commit": true,
+    "auto_push": true,
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 69,
+    "video_path": "video/connected-speech-ab-hook-v1.mp4"
+  },
+  "audio": {
+    "music": "none added",
+    "source_samples_48k": 2976960,
+    "source_sha256": "74b9e7f8a4c88ce3eca2b819fd4af74ffbba3284b28e132027325dc2d746bddb",
+    "edits": "Two inserted screenings; replace source frames 298:333 and 926:963 with actual movie audio. Other narration retained unchanged in time."
+  },
+  "captions": {
+    "language": "fa",
+    "english_exceptions": [
+      "LISTEN",
+      "second movie screening and separate teaching labels"
+    ]
+  },
+  "plan_status": "original storyboard and actual representative frames prepared before full render; user-authorized revision executed independently"
+}
