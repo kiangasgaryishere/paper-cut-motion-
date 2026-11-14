@@ -153,5 +153,18 @@
   "caption_alignment": "phrase-level estimates, not manual word-level listening audit",
   "real_time_full_playback": "not performed",
   "listening_review": "not performed",
-  "maximum_visual_milestone_gap_seconds": 2.4750000000000014
+  "maximum_visual_milestone_gap_seconds": 2.4750000000000014,
+  "delivery": {
+    "repository": "kiangasgaryishere/paper-cut-motion-",
+    "video_path": "video/connected-speech-shrek-v1.mp4",
+    "video_commit": "3bdbd2e12f8cf5953c0e4a9ddb34d300dee5e008",
+    "bytes": 53787604,
+    "sha256": "33b101f093e7b7d3075e73600a4e4eb138913093d4091689fc5ca291f38ac80d",
+    "branch": "main",
+    "remote_push_verified": true,
+    "download_url": "https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/3bdbd2e12f8cf5953c0e4a9ddb34d300dee5e008/video/connected-speech-shrek-v1.mp4",
+    "download_verified": true,
+    "authentication_required": false
+  },
+  "encoded_contact_sheet_reviewed": true
 }

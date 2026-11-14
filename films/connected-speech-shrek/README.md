@@ -17,3 +17,5 @@ bash films/connected-speech-shrek/tools/build.sh
 ```
 
 Use OPUSCAR_PYTHON and PLAYWRIGHT_CHROME to select existing runtimes. Output: `video/connected-speech-shrek-v1.mp4`. Review frames, storyboard, source analysis and QC evidence are included. Captions are phrase-level script/ASR/pause estimates, not an independently audited word-level transcript; no real-time listening review is claimed.
+
+[Download the completed Shrek + Mummy edition](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/3bdbd2e12f8cf5953c0e4a9ddb34d300dee5e008/video/connected-speech-shrek-v1.mp4). Remote commit and downloaded bytes verified; actual encoded contact sheet inspected.
