@@ -1,0 +1,1006 @@
+{
+  "frames": [
+    {
+      "time": 0,
+      "page": 1,
+      "heading": "Guess first",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "shrek1",
+        "id": "opening",
+        "kind": "movie",
+        "frame": 60,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "subtitles": false
+      },
+      "ink": {
+        "counts": {
+          "black": 0,
+          "red": 0,
+          "blue": 0
+        },
+        "blue_red_share": 0
+      },
+      "overflow": false,
+      "captionTop": 1607,
+      "captionBottom": 1650
+    },
+    {
+      "time": 0.8,
+      "page": 1,
+      "heading": "Guess first",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "shrek1",
+        "id": "opening",
+        "kind": "movie",
+        "frame": 79,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "subtitles": false
+      },
+      "ink": {
+        "counts": {
+          "black": 0,
+          "red": 0,
+          "blue": 0
+        },
+        "blue_red_share": 0
+      },
+      "overflow": false,
+      "captionTop": 1607,
+      "captionBottom": 1650
+    },
+    {
+      "time": 2.7,
+      "page": 1,
+      "heading": "Guess first",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "shrek1",
+        "id": "hold",
+        "kind": "hold",
+        "frame": 120,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "subtitles": false
+      },
+      "ink": {
+        "counts": {
+          "black": 0,
+          "red": 0,
+          "blue": 0
+        },
+        "blue_red_share": 0
+      },
+      "overflow": false,
+      "captionTop": 1607,
+      "captionBottom": 1650
+    },
+    {
+      "time": 4.2,
+      "page": 1,
+      "heading": "Guess first",
+      "caption": "شاید تو هم مثل شرک",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "shrek1",
+        "id": "opening-held",
+        "kind": "poster",
+        "frame": 120,
+        "rect": [
+          60,
+          596,
+          960,
+          540
+        ],
+        "subtitles": false
+      },
+      "ink": {
+        "counts": {
+          "black": 127,
+          "red": 0,
+          "blue": 1552
+        },
+        "blue_red_share": 0.9243597379392495
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 6.7,
+      "page": 1,
+      "heading": "Guess first",
+      "caption": "یه بار دیگه گوش کن،\nببین می‌تونی تشخیصش بدی.",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "shrek1",
+        "id": "opening-held",
+        "kind": "poster",
+        "frame": 120,
+        "rect": [
+          60,
+          596,
+          960,
+          540
+        ],
+        "subtitles": false
+      },
+      "ink": {
+        "counts": {
+          "black": 127,
+          "red": 126,
+          "blue": 1927
+        },
+        "blue_red_share": 0.941743119266055
+      },
+      "overflow": false,
+      "captionTop": 1456.625,
+      "captionBottom": 1650
+    },
+    {
+      "time": 8.85,
+      "page": 1,
+      "heading": "Guess first",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "shrek1",
+        "id": "reverse",
+        "kind": "reverse",
+        "frame": 114,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "subtitles": false
+      },
+      "ink": {
+        "counts": {
+          "black": 132,
+          "red": 126,
+          "blue": 1921
+        },
+        "blue_red_share": 0.9394217530977512
+      },
+      "overflow": false,
+      "captionTop": 1456.625,
+      "captionBottom": 1650
+    },
+    {
+      "time": 9.2,
+      "page": 1,
+      "heading": "Guess first",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "shrek1",
+        "id": "reverse",
+        "kind": "reverse",
+        "frame": 78,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "subtitles": false
+      },
+      "ink": {
+        "counts": {
+          "black": 127,
+          "red": 126,
+          "blue": 1927
+        },
+        "blue_red_share": 0.941743119266055
+      },
+      "overflow": false,
+      "captionTop": 1456.625,
+      "captionBottom": 1650
+    },
+    {
+      "time": 9.8,
+      "page": 1,
+      "heading": "Guess first",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "shrek1",
+        "id": "repeat-donkey",
+        "kind": "movie",
+        "frame": 70,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "subtitles": false
+      },
+      "ink": {
+        "counts": {
+          "black": 132,
+          "red": 126,
+          "blue": 1932
+        },
+        "blue_red_share": 0.9397260273972603
+      },
+      "overflow": false,
+      "captionTop": 1456.625,
+      "captionBottom": 1650
+    },
+    {
+      "time": 13.7,
+      "page": 2,
+      "heading": "Easy words",
+      "caption": "جالبه بدونی جمله‌ای که شنیدی",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "shrek1",
+        "id": "first-line-held",
+        "kind": "poster",
+        "frame": 92,
+        "rect": [
+          60,
+          596,
+          960,
+          540
+        ],
+        "subtitles": false
+      },
+      "ink": {
+        "counts": {
+          "black": 2364,
+          "red": 359,
+          "blue": 1066
+        },
+        "blue_red_share": 0.3760886777513856
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 19.3,
+      "page": 3,
+      "heading": "Listen at the end",
+      "caption": "آخر ویدیو دوباره با هم گوشش می‌کنیم!",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": null,
+      "ink": {
+        "counts": {
+          "black": 560,
+          "red": 756,
+          "blue": 2068
+        },
+        "blue_red_share": 0.83451536643026
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 24.6,
+      "page": 4,
+      "heading": "Natural speech",
+      "caption": "و بعضی صداها کوتاه یا حذف می‌شن.",
+      "keyword": "",
+      "camera": [
+        1.0247919536133612,
+        0,
+        0,
+        1.0247919536133612,
+        -25.58282034833269,
+        -23.800275468826726
+      ],
+      "transition": "none",
+      "movie": null,
+      "ink": {
+        "counts": {
+          "black": 1143,
+          "red": 1096,
+          "blue": 2086
+        },
+        "blue_red_share": 0.7357225433526011
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 28.4,
+      "page": 5,
+      "heading": "Connected Speech",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": null,
+      "ink": {
+        "counts": {
+          "black": 400,
+          "red": 1113,
+          "blue": 1508
+        },
+        "blue_red_share": 0.867593512082092
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 31.7,
+      "page": 6,
+      "heading": "Expected",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "mummy",
+        "id": "mummy-first",
+        "kind": "movie",
+        "frame": 22,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "subtitles": false
+      },
+      "ink": {
+        "counts": {
+          "black": 146,
+          "red": 0,
+          "blue": 0
+        },
+        "blue_red_share": 0
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 35.9,
+      "page": 6,
+      "heading": "Expected",
+      "caption": "«عزیزم، داری چیکار می‌کنی؟»",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "mummy",
+        "id": "mummy-held",
+        "kind": "poster",
+        "frame": 55,
+        "rect": [
+          60,
+          546,
+          960,
+          408
+        ],
+        "subtitles": false
+      },
+      "ink": {
+        "counts": {
+          "black": 146,
+          "red": 517,
+          "blue": 3481
+        },
+        "blue_red_share": 0.9647683397683398
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 40.8,
+      "page": 7,
+      "heading": "What you hear",
+      "caption": "اینجا «وات آر یو» توی گفتار سریع",
+      "keyword": "",
+      "camera": [
+        1.018643603180376,
+        0,
+        0,
+        1.018643603180376,
+        -6.269308293418362,
+        -17.897859053161028
+      ],
+      "transition": "none",
+      "movie": null,
+      "ink": {
+        "counts": {
+          "black": 316,
+          "red": 2083,
+          "blue": 2249
+        },
+        "blue_red_share": 0.9320137693631669
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 46.8,
+      "page": 8,
+      "heading": "Reduced sounds",
+      "caption": "صدای «آر» دیگه مشخص نیست",
+      "keyword": "",
+      "camera": [
+        1.0109750768033365,
+        0,
+        0,
+        1.0109750768033365,
+        -3.7074356509666586,
+        -10.536073731203032
+      ],
+      "transition": "none",
+      "movie": null,
+      "ink": {
+        "counts": {
+          "black": 160,
+          "red": 718,
+          "blue": 1895
+        },
+        "blue_red_share": 0.9423007573025604
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 51.9,
+      "page": 9,
+      "heading": "Mummy replay",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "mummy",
+        "id": "mummy-captioned",
+        "kind": "movie",
+        "frame": 24,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "subtitles": true
+      },
+      "ink": {
+        "counts": {
+          "black": 141,
+          "red": 0,
+          "blue": 1432
+        },
+        "blue_red_share": 0.9103623649078194
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 55.5,
+      "page": 10,
+      "heading": "Back to Shrek",
+      "caption": "حالا برگردیم سراغ شرک",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "shrek2",
+        "id": "return-poster",
+        "kind": "poster",
+        "frame": 0,
+        "rect": [
+          60,
+          596,
+          960,
+          540
+        ],
+        "subtitles": false
+      },
+      "ink": {
+        "counts": {
+          "black": 172,
+          "red": 587,
+          "blue": 2389
+        },
+        "blue_red_share": 0.9453621346886912
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 57,
+      "page": 10,
+      "heading": "Back to Shrek",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "shrek2",
+        "id": "shrek-complete",
+        "kind": "movie",
+        "frame": 12,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "subtitles": false
+      },
+      "ink": {
+        "counts": {
+          "black": 172,
+          "red": 587,
+          "blue": 2389
+        },
+        "blue_red_share": 0.9453621346886912
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 59.4,
+      "page": 10,
+      "heading": "Back to Shrek",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "shrek2",
+        "id": "shrek-complete",
+        "kind": "movie",
+        "frame": 69,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "subtitles": true
+      },
+      "ink": {
+        "counts": {
+          "black": 173,
+          "red": 587,
+          "blue": 2404
+        },
+        "blue_red_share": 0.945322376738306
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 61.3,
+      "page": 10,
+      "heading": "Back to Shrek",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "shrek2",
+        "id": "shrek-complete",
+        "kind": "movie",
+        "frame": 115,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "subtitles": true
+      },
+      "ink": {
+        "counts": {
+          "black": 172,
+          "red": 587,
+          "blue": 2389
+        },
+        "blue_red_share": 0.9453621346886912
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 63.3,
+      "page": 10,
+      "heading": "Back to Shrek",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "shrek2",
+        "id": "shrek-complete",
+        "kind": "movie",
+        "frame": 163,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "subtitles": true
+      },
+      "ink": {
+        "counts": {
+          "black": 172,
+          "red": 587,
+          "blue": 2389
+        },
+        "blue_red_share": 0.9453621346886912
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 64.9,
+      "page": 10,
+      "heading": "Back to Shrek",
+      "caption": "",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": {
+        "asset": "shrek2",
+        "id": "shrek-complete",
+        "kind": "movie",
+        "frame": 201,
+        "rect": [
+          0,
+          0,
+          1080,
+          1920
+        ],
+        "subtitles": true
+      },
+      "ink": {
+        "counts": {
+          "black": 173,
+          "red": 587,
+          "blue": 2404
+        },
+        "blue_red_share": 0.945322376738306
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 68.5,
+      "page": 11,
+      "heading": "Can I stay with you",
+      "caption": "«می‌تونم پیشت بمونم؟»",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": null,
+      "ink": {
+        "counts": {
+          "black": 145,
+          "red": 1378,
+          "blue": 2279
+        },
+        "blue_red_share": 0.9618621778011572
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 73.8,
+      "page": 12,
+      "heading": "With you",
+      "caption": "جداجدا تلفظ نمی‌شن\nو صداها به هم وصل می‌شن.",
+      "keyword": "",
+      "camera": [
+        1.0245543963053632,
+        0,
+        0,
+        1.0245543963053632,
+        -8.227911068239337,
+        -23.57222045314859
+      ],
+      "transition": "none",
+      "movie": null,
+      "ink": {
+        "counts": {
+          "black": 1172,
+          "red": 1095,
+          "blue": 1773
+        },
+        "blue_red_share": 0.7099009900990099
+      },
+      "overflow": false,
+      "captionTop": 1456.625,
+      "captionBottom": 1650
+    },
+    {
+      "time": 79.8,
+      "page": 13,
+      "heading": "Five conversations",
+      "caption": "ما پنج تا مکالمهٔ صوتی\nتوی سطح‌های مختلف آماده کردیم،",
+      "keyword": "",
+      "camera": [
+        1.025,
+        0,
+        0,
+        1.025,
+        -8.375,
+        -23.999999999999886
+      ],
+      "transition": "none",
+      "movie": null,
+      "ink": {
+        "counts": {
+          "black": 4273,
+          "red": 1262,
+          "blue": 2002
+        },
+        "blue_red_share": 0.4330635531378533
+      },
+      "overflow": false,
+      "captionTop": 1456.625,
+      "captionBottom": 1650
+    },
+    {
+      "time": 82.9,
+      "page": 14,
+      "heading": "Text and listening",
+      "caption": "همراه با متن کامل و تمرین‌های شنیداری.",
+      "keyword": "",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": null,
+      "ink": {
+        "counts": {
+          "black": 1678,
+          "red": 562,
+          "blue": 1373
+        },
+        "blue_red_share": 0.5355660116246886
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    },
+    {
+      "time": 86.5,
+      "page": 15,
+      "heading": "LISTEN",
+      "caption": "",
+      "keyword": "LISTEN",
+      "camera": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "transition": "none",
+      "movie": null,
+      "ink": {
+        "counts": {
+          "black": 1046,
+          "red": 1231,
+          "blue": 1266
+        },
+        "blue_red_share": 0.7047699689528648
+      },
+      "overflow": false,
+      "captionTop": 1531.8125,
+      "captionBottom": 1650
+    }
+  ],
+  "errors": [],
+  "seek_deterministic": true
+}

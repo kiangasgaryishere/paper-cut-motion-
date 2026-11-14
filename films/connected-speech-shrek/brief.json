@@ -1,0 +1,50 @@
+{
+  "title": "Connected Speech — Shrek + Mummy",
+  "script": "script.md",
+  "narration": "assets/narration.mp3",
+  "audience": "English language learners",
+  "style": {
+    "reference": "https://lemomo-ai.github.io/lemo-opuscar/styles/marker-paper/",
+    "identifier": "marker-paper with user-requested expanded blue/red ink",
+    "palette": [
+      "#FAF9F5",
+      "#1B1C20",
+      "#2456D6",
+      "#E23B2E"
+    ],
+    "caption_bottom_px": 270
+  },
+  "production": {
+    "mode": "full",
+    "participation": "independent authorized revision",
+    "approval": "User explicitly requested changes with new script, voice and Shrek clips; prior approved art direction retained except requested palette weighting."
+  },
+  "delivery": {
+    "repository": "https://github.com/kiangasgaryishere/paper-cut-motion-",
+    "branch": "main",
+    "visibility": "public",
+    "auto_commit": true,
+    "auto_push": true,
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 87,
+    "video_path": "video/connected-speech-shrek-v1.mp4"
+  },
+  "audio": {
+    "music": "none added",
+    "source_samples_48k": 3335314,
+    "source_sha256": "6fd3a16132f5478e57c7bacbba6bcb776483ad38152a067b90874e7f81687304",
+    "word_removals": false,
+    "retiming": false,
+    "pause_cut_seconds": [
+      47.5,
+      48.875
+    ]
+  },
+  "captions": {
+    "lesson": "Persian, final LISTEN remains English",
+    "movies": "first listens uncaptioned; Mummy replay and complete Shrek English-captioned"
+  },
+  "plan": "STORYBOARD.md and actual review frames prepared before full render"
+}

@@ -1,0 +1,157 @@
+{
+  "version": "connected-speech-shrek-v1",
+  "file": "video/connected-speech-shrek-v1.mp4",
+  "sha256": "33b101f093e7b7d3075e73600a4e4eb138913093d4091689fc5ca291f38ac80d",
+  "bytes": 53787604,
+  "duration": 87,
+  "frames": 2088,
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "sample_rate": 48000,
+  "full_decode": "passed",
+  "black_intervals": [],
+  "loudness": {
+    "input_i": "-14.22",
+    "input_tp": "-2.05",
+    "input_lra": "3.70",
+    "input_thresh": "-24.86",
+    "output_i": "-13.55",
+    "output_tp": "-1.00",
+    "output_lra": "3.60",
+    "output_thresh": "-24.13",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.45"
+  },
+  "aac_alignment": [
+    {
+      "time": 0.3,
+      "lag_samples": 0
+    },
+    {
+      "time": 3.3,
+      "lag_samples": 0
+    },
+    {
+      "time": 8.9,
+      "lag_samples": 0
+    },
+    {
+      "time": 9.7,
+      "lag_samples": 0
+    },
+    {
+      "time": 15.3,
+      "lag_samples": 0
+    },
+    {
+      "time": 31.2,
+      "lag_samples": 0
+    },
+    {
+      "time": 36.1,
+      "lag_samples": 0
+    },
+    {
+      "time": 40.2,
+      "lag_samples": 0
+    },
+    {
+      "time": 51.2,
+      "lag_samples": 0
+    },
+    {
+      "time": 56.7,
+      "lag_samples": 0
+    },
+    {
+      "time": 59.5,
+      "lag_samples": 0
+    },
+    {
+      "time": 64.9,
+      "lag_samples": 0
+    },
+    {
+      "time": 68.2,
+      "lag_samples": 0
+    },
+    {
+      "time": 73.3,
+      "lag_samples": 0
+    },
+    {
+      "time": 85.5,
+      "lag_samples": 0
+    }
+  ],
+  "reverse": "passed: actual source frame index descends, repeat is first Donkey sentence only; reverse audio stem present",
+  "freeze": "passed: identical source frame retained before rewind",
+  "movies": "opening/repeat uncaptioned; Mummy uncaptioned then captioned; complete Shrek2 source retained and captioned",
+  "voice": "all mapped narration words retained; only measured silent interval removed; actor dialogue never overlaps narration",
+  "caption_panel_raise_px": 50,
+  "caption_layout": "passed: no overflow or collision with diagram region",
+  "marker_colour_checks": [
+    {
+      "time": 4.2,
+      "blue_red_share_of_marker_coverage": 0.9243597379392495
+    },
+    {
+      "time": 13.7,
+      "blue_red_share_of_marker_coverage": 0.3760886777513856
+    },
+    {
+      "time": 19.3,
+      "blue_red_share_of_marker_coverage": 0.83451536643026
+    },
+    {
+      "time": 24.6,
+      "blue_red_share_of_marker_coverage": 0.7357225433526011
+    },
+    {
+      "time": 28.4,
+      "blue_red_share_of_marker_coverage": 0.867593512082092
+    },
+    {
+      "time": 35.9,
+      "blue_red_share_of_marker_coverage": 0.9647683397683398
+    },
+    {
+      "time": 40.8,
+      "blue_red_share_of_marker_coverage": 0.9320137693631669
+    },
+    {
+      "time": 46.8,
+      "blue_red_share_of_marker_coverage": 0.9423007573025604
+    },
+    {
+      "time": 55.5,
+      "blue_red_share_of_marker_coverage": 0.9453621346886912
+    },
+    {
+      "time": 68.5,
+      "blue_red_share_of_marker_coverage": 0.9618621778011572
+    },
+    {
+      "time": 73.8,
+      "blue_red_share_of_marker_coverage": 0.7099009900990099
+    },
+    {
+      "time": 79.8,
+      "blue_red_share_of_marker_coverage": 0.4330635531378533
+    },
+    {
+      "time": 82.9,
+      "blue_red_share_of_marker_coverage": 0.5355660116246886
+    },
+    {
+      "time": 86.5,
+      "blue_red_share_of_marker_coverage": 0.7047699689528648
+    }
+  ],
+  "seek_deterministic": true,
+  "caption_alignment": "phrase-level estimates, not manual word-level listening audit",
+  "real_time_full_playback": "not performed",
+  "listening_review": "not performed",
+  "maximum_visual_milestone_gap_seconds": 2.4750000000000014
+}

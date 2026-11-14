@@ -1,0 +1,25 @@
+{
+  "duration": 87,
+  "samples": 4176000,
+  "source_voice_samples": 3335314,
+  "shrek_constant_gain_db": -0.6251398674500174,
+  "silent_source_cut_seconds": [
+    47.5,
+    48.875
+  ],
+  "word_removals": false,
+  "voice_retiming": false,
+  "full_scene_voice_overlap": "final Shrek first 0.5s ambient lead only; actor dialogue starts after voice ends",
+  "rewind_frames": [
+    211,
+    225
+  ],
+  "first_donkey_repeat_source_frames": [
+    60,
+    93
+  ],
+  "music": "none added; film soundtrack retained",
+  "peak_dbfs": -2.1182830127064016,
+  "safety_limiter_minimum_gain": 1.0,
+  "listening_review": "not performed"
+}
