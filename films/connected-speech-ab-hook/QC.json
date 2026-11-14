@@ -82,5 +82,19 @@
   "subtitle_layout": "passed: no overflow; charcoal background; first movie uncaptioned; second English captioned",
   "caption_alignment": "phrase-level estimates from script and pauses, not manual word-level listening audit",
   "full_speed_playback": "not performed",
-  "listening_review": "not performed"
+  "listening_review": "not performed",
+  "delivery": {
+    "repository": "kiangasgaryishere/paper-cut-motion-",
+    "video_path": "video/connected-speech-ab-hook-v1.mp4",
+    "video_commit": "2002455333c5cc8089985f5047e9375b1a5c1046",
+    "bytes": 32043590,
+    "sha256": "eed8b538a03b15f81fa2f3018119d88236e57b48a4463b52ae8537e8d3d7ded8",
+    "branch": "main",
+    "remote_push_verified": true,
+    "download_url": "https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/2002455333c5cc8089985f5047e9375b1a5c1046/video/connected-speech-ab-hook-v1.mp4",
+    "download_verified": true,
+    "authentication_required": false
+  },
+  "encoded_contact_sheet_reviewed": true,
+  "maximum_visual_milestone_gap_seconds": 3.4166666666666665
 }

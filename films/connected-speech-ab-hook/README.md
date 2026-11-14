@@ -19,3 +19,5 @@ bash films/connected-speech-ab-hook/tools/build.sh
 The supplied movie source is the previously authorized `../connected-speech-marker/assets/mummy-real-clip.mp4`. Generated full-resolution JPEG frames and temporary WAV/render files stay in ignored out/. Only final MP4 and review evidence are published.
 
 See STORYBOARD.md, brief.json, CREDITS.md, analysis/ and QC.json for actual direction and validation. Output: `video/connected-speech-ab-hook-v1.mp4`.
+
+[Download the new-hook A/B film](https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/2002455333c5cc8089985f5047e9375b1a5c1046/video/connected-speech-ab-hook-v1.mp4). Remote commit and downloaded bytes verified; encoded contact sheet reviewed.
