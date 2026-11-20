@@ -30,7 +30,7 @@ def place(x,t,gain,pan=0):
  if len(x):fx[i:i+len(x)]+=x[:,None]*np.array([np.sqrt((1-pan)/2),np.sqrt((1+pan)/2)])
 for e in E['events']:
  ty=e['type'];t=e['t'];c=camera(t);x=e.get('x',c['x']);y=e.get('y',c['y']);sx=540+(x-c['x'])*c['z'];sy=960+(y-c['y'])*c['z'];on=-80<sx<1160 and -100<sy<1460
- pan=float(np.clip((sx/1080-.5)*.9,-.6,.6));gain=.38 if on else .10
+ pan=float(np.clip((sx/1080-.5)*.9,-.6,.6));gain=1.20 if on else .10
  if ty in ('write','stroke','dash'):
   snd=fxlib['marker'](e['dur'],e['len'],ty,{'coal':'black','coral':'orange'}.get(e['pen'],e['pen']),c['z']);place(snd,t,gain*(.8 if ty=='write' else 1),pan)
  elif ty=='tap':place(fxlib['tap'](c['z']),t,gain*.7,pan)
@@ -41,7 +41,7 @@ for t in [5.7,19.2,31.2,42.9,53.9,66.5,69.4]:place(fxlib['whoosh'](.55,.35),t,.2
 # A smooth speech sidechain and effects-only peak guard keep the supplied voice intelligible.
 def low(x,f):return sosfilt(butter(2,f,fs=SR,output='sos'),x)
 env=np.sqrt(np.maximum(0,low(voice.astype(float)**2,6)));duck=np.clip(.035/(env+.015),.28,1);fx*=duck[:,None]
-fx*=min(1,.15/(np.max(np.abs(fx))+1e-9))
+fxpeak=np.max(abs(fx),axis=1);fxguard=minimum_filter1d(np.minimum(1,.18/(fxpeak+1e-9)),size=241,mode='nearest');fx*=fxguard[:,None]
 mix=voice[:,None]+fx
 pk=np.max(abs(mix),axis=1);gain=minimum_filter1d(np.minimum(1,.82/(pk+1e-9)),size=481,mode='nearest');mix*=gain[:,None]
 sf.write(O/'effects.wav',fx,SR,subtype='PCM_24');sf.write(O/'mix.wav',mix,SR,subtype='PCM_24')

@@ -26,6 +26,9 @@ SFX Kit https://github.com/wyzowl/sfx-kit remains installed as a fallback refere
 - 24fps explicitly chosen for native Whiteboard motion and existing project cadence; portrait dimensions and caption-safe placement retained.
 - No cover, Instagram caption or worksheet generated because user requested the video only.
 - Preserve unrelated untracked cancelled Olympic v4 files and previous film versions; stage only this new project and its final MP4.
+- Use CPU-backed Canvas2D for this 2D-only film to avoid software-GPU bottlenecks. Native geometry/material retained; cached surfaces are reused only while camera, ink, eraser and pen poses are completely static.
+- Clamp subtitle tail padding against the next phrase onset, preventing adjacent-phrase overlap.
+- Raise foreground writing after objective stem checks; locally limit effect transients instead of reducing the whole effects stem. Speech ducking remains active.
 ''')
 (P/'CREDITS.md').write_text('''# Credits / rights
 

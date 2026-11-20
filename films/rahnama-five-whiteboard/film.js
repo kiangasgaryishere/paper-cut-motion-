@@ -86,7 +86,10 @@ board.objs.push({draw:(g,t,c)=>{for(const p of[K,B,R])W.drawMarker(g,p,W.penPose
 const canvas=document.querySelector('canvas'),g=canvas.getContext('2d'),caption=document.querySelector('#caption');
 const blur=new OffscreenCanvas(1080,1920),bg=blur.getContext('2d');
 window.DUR=76;window.EV=tl.ev;window.CAMERA=cam.k;window.CAPTIONS=captions;
+let lastSurface=null;
 window.render=t=>{const c=cam.at(t),d=cam.at(t+1/24),travel=Math.hypot((d.x-c.x)*c.z,(d.y-c.y)*c.z)+Math.abs(d.z-c.z)*1500;
- if(travel>14){g.clearRect(0,0,1080,1920);for(let i=0;i<3;i++){board.render(bg,t+i/(24*3),cam);g.globalAlpha=1/(i+1);g.drawImage(blur,0,0);}g.globalAlpha=1;}else board.render(g,t,cam);
+ const stable=travel<1e-8&&[K,B,R].every(p=>!W.penPose(p,t,cam))&&tl.erasers.every(e=>t<e.t0-.45||t>e.t1+.45);const state=stable?JSON.stringify([c.x,c.y,c.z,c.r,tl.strokes.filter(s=>s.t0<=t).length,tl.erasers.filter(e=>e.t1<t).length,t>28,t>65.65]):null;
+ if(stable&&lastSurface===state){}else if(travel>14){g.clearRect(0,0,1080,1920);for(let i=0;i<3;i++){board.render(bg,t+i/(24*3),cam);g.globalAlpha=1/(i+1);g.drawImage(blur,0,0);}g.globalAlpha=1;}else board.render(g,t,cam);
+ lastSurface=state;
  const q=captions.find(c=>t>=c.start&&t<c.end);caption.textContent=q?.text||'';
 };window.render(0);window.READY=true;

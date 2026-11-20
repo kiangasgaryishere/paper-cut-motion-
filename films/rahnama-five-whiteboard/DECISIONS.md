@@ -11,3 +11,7 @@
 - 24fps explicitly chosen for native Whiteboard motion and existing project cadence; portrait dimensions and caption-safe placement retained.
 - No cover, Instagram caption or worksheet generated because user requested the video only.
 - Preserve unrelated untracked cancelled Olympic v4 files and previous film versions; stage only this new project and its final MP4.
+
+- For this 2D-only film, request CPU-backed Canvas2D with willReadFrequently to avoid slow software-GPU rasterization in this cloud environment. Native geometry/material/viewport are retained. Benchmark frames differed by less than 0.6 average 8-bit channel value (antialiasing), visually checked. Reuse a rendered surface only while camera, ink, eraser and pen poses are fully static; captions update independently.
+- Caption padding is clamped against the next phrase onset, so adjacent phrases do not overlap or delay the next subtitle.
+- Effects are limited locally rather than scaling the complete stem from its loudest transient; foreground writing raised after objective stem check. Speech sidechain remains active.
