@@ -1,0 +1,25 @@
+{
+  "status": "ready for supplied content",
+  "scope": "technical setup and native portrait smoke test, not a production video",
+  "style": "https://lemomo-ai.github.io/lemo-opuscar/styles/whiteboard/",
+  "official_style_verified": "Fetched official raw STYLE.md; byte-identical to local style guide. Gallery blocked by proxy HTTP 403.",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "duration_seconds": 3,
+  "frames": 72,
+  "codec": "h264",
+  "full_decode": "passed",
+  "native_engine": "portrait viewport adapted; native stroke, gloss, writing, floating markers and shadows rendered",
+  "fonts": "EMS Tech paths, Architects Daughter and joined Persian caption loaded and visually inspected",
+  "tools": "Node, Chromium/Playwright, FFmpeg, Opuscar Python core and SFX Kit present",
+  "music": "none requested or installed",
+  "production_input_pending": [
+    "final supplied script",
+    "narration if available",
+    "clips/images/references if used"
+  ],
+  "review": "Rendered still inspected; no independent listening review claimed"
+}
