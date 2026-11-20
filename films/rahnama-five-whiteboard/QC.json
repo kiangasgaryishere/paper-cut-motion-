@@ -1,0 +1,397 @@
+{
+  "video": "video/rahnama-five-whiteboard-v1.mp4",
+  "duration": 76,
+  "frames": 1824,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "sample_rate": 48000,
+  "channels": 2,
+  "complete_file_decode": true,
+  "black_intervals": [],
+  "faststart": true,
+  "loudness": {
+    "input_i": "-13.98",
+    "input_tp": "-1.63",
+    "input_lra": "2.20",
+    "input_thresh": "-24.13",
+    "output_i": "-13.99",
+    "output_tp": "-1.51",
+    "output_lra": "2.30",
+    "output_thresh": "-24.11",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.01"
+  },
+  "encoded_audio_alignment": [
+    {
+      "time": 1,
+      "aac_offset_samples": 0,
+      "correlation": 0.9999522520915601
+    },
+    {
+      "time": 14,
+      "aac_offset_samples": 0,
+      "correlation": 0.9999279834120323
+    },
+    {
+      "time": 27,
+      "aac_offset_samples": 0,
+      "correlation": 0.9998213956195718
+    },
+    {
+      "time": 40,
+      "aac_offset_samples": 0,
+      "correlation": 0.9998040276065434
+    },
+    {
+      "time": 53,
+      "aac_offset_samples": 0,
+      "correlation": 0.9997868072934565
+    },
+    {
+      "time": 65,
+      "aac_offset_samples": 0,
+      "correlation": 0.9996219769052661
+    },
+    {
+      "time": 73,
+      "aac_offset_samples": 0,
+      "correlation": 0.9996674553142748
+    }
+  ],
+  "source_voice_alignment": [
+    {
+      "time": 1,
+      "master_offset_samples": -1
+    },
+    {
+      "time": 14,
+      "master_offset_samples": -1
+    },
+    {
+      "time": 27,
+      "master_offset_samples": 0
+    },
+    {
+      "time": 40,
+      "master_offset_samples": 0
+    },
+    {
+      "time": 53,
+      "master_offset_samples": 0
+    },
+    {
+      "time": 65,
+      "master_offset_samples": 0
+    },
+    {
+      "time": 73,
+      "master_offset_samples": -1
+    }
+  ],
+  "source_voice_samples": 3604000,
+  "voice_speed_unchanged": true,
+  "voice_tail_samples": 44000,
+  "caption_count": 30,
+  "caption_layout_preflight": {
+    "caption_layouts": [
+      {
+        "text": "کلاس زبان ثبت‌نام نکن،",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "اگه قراره این ۵ تا چیز رو از دست بدی!",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "مخصوصاً آخری!",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "اول، فقط تعیین سطح؟",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "اینکه بگن سطحت چیه",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "و برو بشین تو فلان ترم که کاری نداره!",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "تو رهنما، براساس نیازت",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "یه نقشهٔ راه یادگیری می‌چینیم؛",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "با برنامهٔ ترمی و هفتگی مخصوص خودت.",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "دوم، همون محتوای تکراری برای همه؟",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "هر هفته محتوای مخصوص خودت رو می‌گیری؛",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "فیلم، پادکست، بازی و تمرین‌هایی",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "که برای نیازهای تو انتخاب یا طراحی شدن.",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "سوم، گرامر بخون، تمرین حل کن؟",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "اینجا گرامر رو توی بازی استفاده می‌کنی،",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "توی بحث بقیه رو قانع می‌کنی،",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "نقش بازی می‌کنی",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "و با زبان مسئله حل می‌کنی.",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "چهارم، یادگیری فقط توی کلاس؟",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "بیرون کلاس هم تمرین می‌کنی،",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "سؤال می‌پرسی",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "و روی کارهات بازخورد می‌گیری.",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "حتی می‌تونی توی یک ترم از چند مدرس یاد بگیری.",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "پنجم، این یکی رو احتمالاً نشنیدی!",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "تمرین‌ها، اشتباهات و پیشرفتت ثبت می‌شن.",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "چند نفر از تیم آموزشی با هم بررسی‌شون می‌کنن",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "تا برنامهٔ هفتهٔ بعدت دقیق‌تر طراحی بشه.",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "این چیزیه که داریم تو آکادمی رهنما اجرا می‌کنیم.",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      },
+      {
+        "text": "اگه می‌خوای ببینی برنامهٔ مخصوص خودت چه شکلیه،",
+        "x": 94,
+        "y": 1466,
+        "w": 892,
+        "h": 184,
+        "scroll": 180,
+        "client": 180
+      },
+      {
+        "text": "کلمهٔ «برنامه» رو کامنت کن!",
+        "x": 94,
+        "y": 1539,
+        "w": 892,
+        "h": 111,
+        "scroll": 107,
+        "client": 107
+      }
+    ],
+    "deterministic_seek": true,
+    "event_count": 325,
+    "invalid_events": [],
+    "no_latin_captions": true
+  },
+  "visual_stills_reviewed": [
+    0.8,
+    4.9,
+    18.7,
+    30.5,
+    42.6,
+    53.6,
+    66.2,
+    68.8,
+    74.5
+  ],
+  "full_speed_watched": false,
+  "perceptual_audio_listening_review": false,
+  "font": "Noto Sans Arabic fallback, not Morabba",
+  "music": false,
+  "bytes": 16937101,
+  "sha256": "dff620db4768e4db59aa88ad9419fdcf1c70df63e139bd412c2df48590484a20"
+}

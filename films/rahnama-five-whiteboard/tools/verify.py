@@ -10,6 +10,7 @@ p=json.loads(run(['ffprobe','-v','error','-count_frames','-show_streams','-show_
 v=next(s for s in p['streams'] if s['codec_type']=='video');a=next(s for s in p['streams'] if s['codec_type']=='audio')
 assert (v['width'],v['height'],v['avg_frame_rate'],v['codec_name'],v['pix_fmt'],int(v['nb_read_frames']))==(1080,1920,'24/1','h264','yuv420p',1824),v
 assert (a['codec_name'],a['sample_rate'],a['channels'])==('aac','48000',2)
+assert (v['color_range'],v['color_space'],v['color_transfer'],v['color_primaries'])==('tv','bt709','bt709','bt709')
 assert abs(float(p['format']['duration'])-76)<.01
 run(['ffmpeg','-v','error','-i',str(V),'-f','null','-'])
 l=run(['ffmpeg','-hide_banner','-nostats','-i',str(V),'-af','loudnorm=I=-14:TP=-1:LRA=7:print_format=json','-f','null','-']).stderr
@@ -35,5 +36,5 @@ caps=json.loads((P/'captions.json').read_text());assert len(caps)==30 and 'بر�
 assert V.stat().st_size<100_000_000
 with V.open('rb') as f:data=f.read()
 assert data.find(b'moov')<data.find(b'mdat'),'faststart missing'
-qc={'video':str(V.relative_to(root)),'duration':76,'frames':1824,'resolution':[1080,1920],'fps':24,'codecs':['h264','aac'],'sample_rate':48000,'channels':2,'complete_file_decode':True,'black_intervals':blacklines,'faststart':True,'loudness':loud,'encoded_audio_alignment':anchors,'source_voice_alignment':source_align,'source_voice_samples':len(source),'voice_speed_unchanged':True,'voice_tail_samples':44000,'caption_count':len(caps),'caption_layout_preflight':pre,'visual_stills_reviewed':[0.8,4.9,18.7,30.5,42.6,53.6,66.2,68.8,74.5],'full_speed_watched':False,'perceptual_audio_listening_review':False,'font':'Noto Sans Arabic fallback, not Morabba','music':False,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()}
+qc={'video':str(V.relative_to(root)),'duration':76,'frames':1824,'resolution':[1080,1920],'pixel_format':v['pix_fmt'],'color_range':v['color_range'],'color_space':v['color_space'],'transfer':v['color_transfer'],'primaries':v['color_primaries'],'fps':24,'codecs':['h264','aac'],'sample_rate':48000,'channels':2,'complete_file_decode':True,'black_intervals':blacklines,'faststart':True,'loudness':loud,'encoded_audio_alignment':anchors,'source_voice_alignment':source_align,'source_voice_samples':len(source),'voice_speed_unchanged':True,'voice_tail_samples':44000,'caption_count':len(caps),'caption_layout_preflight':pre,'visual_stills_reviewed':[0.8,4.9,18.7,30.5,42.6,53.6,66.2,68.8,74.5],'full_speed_watched':False,'perceptual_audio_listening_review':False,'font':'Noto Sans Arabic fallback, not Morabba','music':False,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()}
 (P/'QC.json').write_text(json.dumps(qc,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:qc[k] for k in ['duration','frames','loudness','bytes','sha256']},indent=2))

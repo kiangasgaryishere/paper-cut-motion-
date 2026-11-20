@@ -26,6 +26,7 @@ SFX Kit https://github.com/wyzowl/sfx-kit remains installed as a fallback refere
 - 24fps explicitly chosen for native Whiteboard motion and existing project cadence; portrait dimensions and caption-safe placement retained.
 - No cover, Instagram caption or worksheet generated because user requested the video only.
 - Preserve unrelated untracked cancelled Olympic v4 files and previous film versions; stage only this new project and its final MP4.
+- Delivery converts the native full-range BT.601 JPEG-based render to limited-range BT.709 YUV420 H.264 with correct metadata for Instagram; it does not merely relabel the source range.
 - Use CPU-backed Canvas2D for this 2D-only film to avoid software-GPU bottlenecks. Native geometry/material retained; cached surfaces are reused only while camera, ink, eraser and pen poses are completely static.
 - Clamp subtitle tail padding against the next phrase onset, preventing adjacent-phrase overlap.
 - Raise foreground writing after objective stem checks; locally limit effect transients instead of reducing the whole effects stem. Speech ducking remains active.
@@ -51,7 +52,7 @@ Rebuild from repository root (Node/Chromium/FFmpeg and Opuscar Python dependenci
 PLAYWRIGHT_CHROME=/usr/bin/chromium LEMO_ANGLE=swiftshader node films/rahnama-five-whiteboard/tools/check-film.mjs
 /workspace/lemo-opuscar/.venv/bin/python films/rahnama-five-whiteboard/tools/mix.py
 PLAYWRIGHT_CHROME=/usr/bin/chromium LEMO_ANGLE=swiftshader node core/render/video.mjs films/rahnama-five-whiteboard --fps 24 --workers 3 --size 1080x1920 --out films/rahnama-five-whiteboard/out/picture.mp4
-ffmpeg -y -i films/rahnama-five-whiteboard/out/picture.mp4 -i films/rahnama-five-whiteboard/out/mix.wav -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 256k -ar 48000 -movflags +faststart -t 76 video/rahnama-five-whiteboard-v1.mp4
+ffmpeg -y -i films/rahnama-five-whiteboard/out/picture.mp4 -i films/rahnama-five-whiteboard/out/mix.wav -map 0:v:0 -map 1:a:0 -vf scale=in_range=pc:out_range=tv:in_color_matrix=bt601:out_color_matrix=bt709,format=yuv420p -c:v libx264 -crf 14 -preset medium -pix_fmt yuv420p -color_range tv -colorspace bt709 -color_primaries bt709 -color_trc bt709 -c:a aac -b:a 256k -ar 48000 -map_metadata -1 -movflags +faststart -t 76 video/rahnama-five-whiteboard-v1.mp4
 /workspace/lemo-opuscar/.venv/bin/python films/rahnama-five-whiteboard/tools/document.py
 /workspace/lemo-opuscar/.venv/bin/python films/rahnama-five-whiteboard/tools/verify.py
 ```
