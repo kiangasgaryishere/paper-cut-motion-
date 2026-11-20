@@ -6,6 +6,11 @@
     1080,
     1920
   ],
+  "pixel_format": "yuv420p",
+  "color_range": "tv",
+  "color_space": "bt709",
+  "transfer": "bt709",
+  "primaries": "bt709",
   "fps": 24,
   "codecs": [
     "h264",
@@ -392,6 +397,7 @@
   "perceptual_audio_listening_review": false,
   "font": "Noto Sans Arabic fallback, not Morabba",
   "music": false,
-  "bytes": 16937101,
-  "sha256": "dff620db4768e4db59aa88ad9419fdcf1c70df63e139bd412c2df48590484a20"
+  "bytes": 16936652,
+  "sha256": "4a595a03b16eaa0ae950b4b4b8a32d6b4c1c91ba4806ad51c9bdddd4278c9eb5",
+  "encoded_contact_sheet_reviewed": true
 }
