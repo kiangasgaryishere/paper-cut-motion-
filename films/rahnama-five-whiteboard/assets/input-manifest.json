@@ -1,0 +1,18 @@
+[
+  {
+    "original_name": "script.md",
+    "source_pointer": "sediment://file_00000000f84881f5a43bd4c4c9a73969",
+    "path": "script.md",
+    "bytes": 1763,
+    "sha256": "a3634262079794add9065e486d03da3771b2662a2554c2128ce45d91b59a6563",
+    "retained_byte_identical": true
+  },
+  {
+    "original_name": "new class.mp3",
+    "source_pointer": "sediment://file_00000000afb081f59aeb9cb51ffa1197",
+    "path": "assets/narration.mp3",
+    "bytes": 1202511,
+    "sha256": "428c8ff46e01ee0877db0065ee9877942f6c5d71b5eae1dc89a4016e18224142",
+    "retained_byte_identical": true
+  }
+]

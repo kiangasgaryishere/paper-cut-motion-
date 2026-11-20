@@ -1,0 +1,25 @@
+{
+  "project": "rahnama-five-whiteboard",
+  "audience": "adult language learners considering classes",
+  "purpose": "explain five personalized Rahnama learning features; CTA comment برنامه",
+  "script_required": true,
+  "script": "script.md",
+  "narration": "assets/narration.mp3",
+  "style": "Lemo Opuscar Whiteboard",
+  "style_url": "https://lemomo-ai.github.io/lemo-opuscar/styles/whiteboard/",
+  "mode": "complete production",
+  "involvement": "prior independent-production authorization persists",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 76,
+    "fps_reason": "native selected style / prior project cadence; explicit 24fps adaptation of skill 30fps default"
+  },
+  "music": false,
+  "repository": "kiangasgaryishere/paper-cut-motion-",
+  "branch": "main",
+  "auto_commit_push": true,
+  "font_fallback": "Noto Sans Arabic; authorized Morabba binary unavailable",
+  "official_logo_supplied": false
+}
