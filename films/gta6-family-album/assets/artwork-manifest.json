@@ -1,0 +1,38 @@
+[
+  {
+    "file": "assets/hosts.png",
+    "source": "generated artwork",
+    "original_generated_file": "exec-9277e1ec-bd63-4bc4-9ef2-38baf2310d08.png",
+    "identity_reference": null,
+    "sha256": "ab696b57a2d95d497f946adbf253f95c06af5f542078d9b7488f458bab683bc3",
+    "bytes": 2525449,
+    "official_gameplay": false
+  },
+  {
+    "file": "assets/events-a.png",
+    "source": "generated artwork",
+    "original_generated_file": "exec-3dc9f42f-bd5b-47f8-a848-1f0bbe9ac8f7.png",
+    "identity_reference": null,
+    "sha256": "bb7d3bd025e718f332797c1adcc0d565bc694db8cb5f3960c120599190cb02fc",
+    "bytes": 2579195,
+    "official_gameplay": false
+  },
+  {
+    "file": "assets/events-b.png",
+    "source": "generated artwork",
+    "original_generated_file": "exec-27404333-9ab9-4cfa-8ed0-5ff88db10bc2.png",
+    "identity_reference": null,
+    "sha256": "c54652545c946b72b6794f4dd4ff1500923b72f76140881459e5ed3338ffa40e",
+    "bytes": 2725922,
+    "official_gameplay": false
+  },
+  {
+    "file": "assets/retirement.png",
+    "source": "generated artwork",
+    "original_generated_file": "exec-6173502f-1770-4c18-b310-00edb41ac0e5.png",
+    "identity_reference": "assets/hosts.png",
+    "sha256": "50add4b5022eacae2ec902c23dffefe688a30919bc21edbee97605ed5e0a66c9",
+    "bytes": 2843510,
+    "official_gameplay": false
+  }
+]

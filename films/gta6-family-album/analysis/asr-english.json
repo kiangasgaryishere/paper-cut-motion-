@@ -1,0 +1,257 @@
+[
+  {
+    "offset": 14.16,
+    "end": 16.65,
+    "result": {
+      "lang": "en",
+      "emotion": "",
+      "event": "",
+      "text": "We got aliens before GTA 6.",
+      "timestamps": [],
+      "durations": [],
+      "tokens": [
+        " We",
+        " got",
+        " aliens",
+        " before",
+        " GTA",
+        " 6",
+        "."
+      ],
+      "ys_log_probs": [],
+      "words": [],
+      "segment_timestamps": [
+        0.0
+      ],
+      "segment_durations": [
+        2.44
+      ],
+      "segment_texts": [
+        " We got aliens before GTA 6."
+      ]
+    }
+  },
+  {
+    "offset": 20.4,
+    "end": 23.7,
+    "result": {
+      "lang": "en",
+      "emotion": "",
+      "event": "",
+      "text": "We got Twitter turning into X before GTA 6.",
+      "timestamps": [],
+      "durations": [],
+      "tokens": [
+        " We",
+        " got",
+        " Twitter",
+        " turning",
+        " into",
+        " X",
+        " before",
+        " GTA",
+        " 6",
+        "."
+      ],
+      "ys_log_probs": [],
+      "words": [],
+      "segment_timestamps": [
+        0.0
+      ],
+      "segment_durations": [
+        3.32
+      ],
+      "segment_texts": [
+        " We got Twitter turning into X before GTA 6."
+      ]
+    }
+  },
+  {
+    "offset": 26.81,
+    "end": 30.1,
+    "result": {
+      "lang": "en",
+      "emotion": "",
+      "event": "",
+      "text": "We got messy winning the World Cup before GTA 6.",
+      "timestamps": [],
+      "durations": [],
+      "tokens": [
+        " We",
+        " got",
+        " messy",
+        " winning",
+        " the",
+        " World",
+        " Cup",
+        " before",
+        " GTA",
+        " 6",
+        "."
+      ],
+      "ys_log_probs": [],
+      "words": [],
+      "segment_timestamps": [
+        0.0
+      ],
+      "segment_durations": [
+        3.28
+      ],
+      "segment_texts": [
+        " We got messy winning the World Cup before GTA 6."
+      ]
+    }
+  },
+  {
+    "offset": 33.05,
+    "end": 38.6,
+    "result": {
+      "lang": "en",
+      "emotion": "",
+      "event": "",
+      "text": "We got Ronaldo leaving Manchester United, joining Al Nasser and even coming to Tehran.",
+      "timestamps": [],
+      "durations": [],
+      "tokens": [
+        " We",
+        " got",
+        " Ronaldo",
+        " leaving",
+        " Manchester",
+        " United",
+        ",",
+        " joining",
+        " Al",
+        " N",
+        "asser",
+        " and",
+        " even",
+        " coming",
+        " to",
+        " Te",
+        "hr",
+        "an",
+        "."
+      ],
+      "ys_log_probs": [],
+      "words": [],
+      "segment_timestamps": [
+        0.0
+      ],
+      "segment_durations": [
+        5.44
+      ],
+      "segment_texts": [
+        " We got Ronaldo leaving Manchester United, joining Al Nasser and even coming to Tehran."
+      ]
+    }
+  },
+  {
+    "offset": 42.2,
+    "end": 47.6,
+    "result": {
+      "lang": "en",
+      "emotion": "",
+      "event": "",
+      "text": "all before GTA 6. We even got a new Pope before GTA 6.",
+      "timestamps": [],
+      "durations": [],
+      "tokens": [
+        " all",
+        " before",
+        " GTA",
+        " 6",
+        ".",
+        " We",
+        " even",
+        " got",
+        " a",
+        " new",
+        " Pope",
+        " before",
+        " GTA",
+        " 6",
+        "."
+      ],
+      "ys_log_probs": [],
+      "words": [],
+      "segment_timestamps": [
+        0.0
+      ],
+      "segment_durations": [
+        5.34
+      ],
+      "segment_texts": [
+        " all before GTA 6. We even got a new Pope before GTA 6."
+      ]
+    }
+  },
+  {
+    "offset": 52.27,
+    "end": 57.25,
+    "result": {
+      "lang": "en",
+      "emotion": "",
+      "event": "",
+      "text": "We got GTA 6 nominated for an award before GTA 6.",
+      "timestamps": [],
+      "durations": [],
+      "tokens": [
+        " We",
+        " got",
+        " GTA",
+        " 6",
+        " nominated",
+        " for",
+        " an",
+        " award",
+        " before",
+        " GTA",
+        " 6",
+        "."
+      ],
+      "ys_log_probs": [],
+      "words": [],
+      "segment_timestamps": [
+        0.0
+      ],
+      "segment_durations": [
+        5.0
+      ],
+      "segment_texts": [
+        " We got GTA 6 nominated for an award before GTA 6."
+      ]
+    }
+  },
+  {
+    "offset": 68.0,
+    "end": 69.79,
+    "result": {
+      "lang": "en",
+      "emotion": "",
+      "event": "",
+      "text": "Rest in peace, legend.",
+      "timestamps": [],
+      "durations": [],
+      "tokens": [
+        " Rest",
+        " in",
+        " peace",
+        ",",
+        " legend",
+        "."
+      ],
+      "ys_log_probs": [],
+      "words": [],
+      "segment_timestamps": [
+        0.0
+      ],
+      "segment_durations": [
+        2.0
+      ],
+      "segment_texts": [
+        " Rest in peace, legend."
+      ]
+    }
+  }
+]

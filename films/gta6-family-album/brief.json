@@ -1,6 +1,6 @@
 {
   "project": "gta6-family-album",
-  "status": "style-analyzed-awaiting-script",
+  "status": "preproduction-in-progress",
   "topic": "GTA 6",
   "style": {
     "name": "Family Album Polaroids",
@@ -13,9 +13,9 @@
     "official_thumbnail_inspected": true,
     "reference_video_watched": false
   },
-  "script_supplied": false,
-  "narration_supplied": false,
-  "footage_approach": "unresolved",
+  "script_supplied": true,
+  "narration_supplied": true,
+  "footage_approach": "Original generated photographic illustrations; no official gameplay or news-photo claims",
   "inherited_preferences": {
     "width": 1080,
     "height": 1920,
@@ -31,9 +31,17 @@
     "auto_commit_push": true
   },
   "not_started": [
-    "storyboard",
-    "asset_generation",
-    "animation",
-    "render"
-  ]
+    "full_render"
+  ],
+  "publication_condition": "User confirmed on2026-11-21: publish only after actual confirmed release; not independent verification of current release",
+  "humour": "selective meme beats and user-authorized over-the-top moments",
+  "characters": [
+    "Lucia Caminos",
+    "Jason Duval"
+  ],
+  "source_voice_duration": 69.7991875,
+  "output_duration": 71,
+  "fps": 24,
+  "narration_retimed": false,
+  "music": false
 }

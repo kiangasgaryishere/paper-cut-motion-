@@ -1,0 +1,16 @@
+[
+  {
+    "path": "script.md",
+    "original_name": "script.md",
+    "sha256": "568cc6f2a9fa488f10ca2afd9bc13c1eb559c04f8a60823b61d8d3e189de1cf9",
+    "bytes": 1365,
+    "retained_complete": true
+  },
+  {
+    "path": "assets/narration.mp3",
+    "original_name": "ElevenLabs_2026-11-21T10_48_34_Daniel - Steady Broadcaster_pre_s56_sim75_v4.mp3",
+    "sha256": "00a8d9430e9ee80b9b96af81f43a1dabd9dac741a40fab42c2e2c8ddc969a9d5",
+    "bytes": 1133723,
+    "retained_complete": true
+  }
+]

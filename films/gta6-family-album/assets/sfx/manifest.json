@@ -1,0 +1,44 @@
+[
+  {
+    "file": "assets/sfx/mechanical-shutter-light.wav",
+    "source": "https://github.com/wyzowl/sfx-kit",
+    "license": "CC0-1.0",
+    "sha256": "e2f95d0345aeb91871f74ba26d9618031d6f50e8bc7359acf9a8d28e6b3be000",
+    "original_duration": 0.11
+  },
+  {
+    "file": "assets/sfx/impact-light-firm.wav",
+    "source": "https://github.com/wyzowl/sfx-kit",
+    "license": "CC0-1.0",
+    "sha256": "751a1ec3b67f4f11a90e410d0ada78c0f0e64859fb06352994181abe737725c5",
+    "original_duration": 0.0985
+  },
+  {
+    "file": "assets/sfx/whoosh-fast-soft.wav",
+    "source": "https://github.com/wyzowl/sfx-kit",
+    "license": "CC0-1.0",
+    "sha256": "ecc83a9cab2342eba9fa71dc321776156ffefbdcda2c672298fda385a4e0a103",
+    "original_duration": 0.25
+  },
+  {
+    "file": "assets/sfx/foley-paper-slide.wav",
+    "source": "https://github.com/wyzowl/sfx-kit",
+    "license": "CC0-1.0",
+    "sha256": "5c46a7e86caeb6f71249fa294b5e654866f283c0470d39ab756b671f7c4c2e17",
+    "original_duration": 0.4915
+  },
+  {
+    "file": "assets/sfx/celebration-applause-small.wav",
+    "source": "https://github.com/wyzowl/sfx-kit",
+    "license": "CC0-1.0",
+    "sha256": "6c6c9da1c56a22d28fb889a2a369538a672f5513ca82b5693411aac459d78e4c",
+    "original_duration": 2.9375
+  },
+  {
+    "file": "assets/sfx/props-page-turn.wav",
+    "source": "https://github.com/wyzowl/sfx-kit",
+    "license": "CC0-1.0",
+    "sha256": "816a38d1987dbb1cb3ca5a712a74675c819fabeea058f81f18835443a16fa6ef",
+    "original_duration": 0.54
+  }
+]

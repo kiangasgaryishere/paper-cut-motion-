@@ -1,0 +1,13 @@
+import fs from 'fs';import path from 'path';import {openDemo,closeServer} from '../../../core/render/page.mjs';
+const dir=path.resolve('films/gta6-family-album');fs.mkdirSync(dir+'/out',{recursive:true});
+const {browser,page}=await openDemo(dir,{w:1080,h:1920,warnings:true});
+const report=await page.evaluate(()=>({duration:window.DUR,frames:window.DUR*24,events:window.EV,shots:window.SHOTS,milestones:window.MILESTONES,captions:window.CAPTIONS}));
+const layouts=await page.evaluate(()=>{const e=document.querySelector('#caption');return window.CAPTIONS.map(c=>{e.textContent=c.text;return {text:c.text,x:e.offsetLeft,y:e.offsetTop,w:e.offsetWidth,h:e.offsetHeight,scroll:e.scrollHeight,client:e.clientHeight};});});
+if(layouts.some(x=>x.y<1410||x.y+x.h>1652||x.scroll>x.client+2))throw Error('subtitle layout overflow');
+if(report.captions.some(x=>/[A-Za-z]/.test(x.text)))throw Error('Latin in Persian subtitles');
+for(let i=1;i<report.captions.length;i++)if(report.captions[i-1].end>report.captions[i].start)throw Error('caption overlap');
+const ev=[0,...report.milestones,report.duration].sort((a,b)=>a-b);const maxGap=Math.max(...ev.slice(1).map((v,i)=>v-ev[i]));if(maxGap>4)throw Error('visual event spacing >4s');
+if(report.events.some(x=>x.t<0||x.t+x.dur>71||x.dur<=0))throw Error('invalid sound event');
+await page.evaluate(()=>window.render(65.9));const a=await page.screenshot();await page.evaluate(()=>window.render(.7));await page.evaluate(()=>window.render(65.9));const b=await page.screenshot();if(!a.equals(b))throw Error('non-deterministic time seek');
+fs.writeFileSync(dir+'/out/events.json',JSON.stringify(report,null,2));
+fs.writeFileSync(dir+'/out/preflight.json',JSON.stringify({deterministic_seek:true,no_latin_captions:true,no_caption_overlap:true,caption_layouts:layouts,max_meaningful_event_gap:maxGap,event_count:report.events.length,frame_count:report.frames},null,2));console.log('PRECHECK PASS',report.frames,'frames;',report.events.length,'sound cues;',report.captions.length,'captions; max event gap',maxGap);await browser.close();closeServer();

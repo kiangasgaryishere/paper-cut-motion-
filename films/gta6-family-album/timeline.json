@@ -1,0 +1,467 @@
+{
+  "duration_seconds": 71,
+  "duration_frames": 1704,
+  "fps": 24,
+  "sample_rate": 48000,
+  "voice_source_samples": 3350361,
+  "voice_duration": 69.7991875,
+  "voice_edits": [],
+  "tail_samples": 57639,
+  "caption_lead_seconds": 0.03,
+  "captions": [
+    {
+      "start": 0.11,
+      "end": 3.91,
+      "text": "یکی از افسانه‌ای‌ترین میم‌های اینترنت بالاخره مُرد!"
+    },
+    {
+      "start": 5.24,
+      "end": 7.86,
+      "text": "فکر کنم بگم، خودت می‌فهمی منظورم چیه."
+    },
+    {
+      "start": 8.59,
+      "end": 10.75,
+      "text": "بریم چندتا از بهتریناشو ببینیم؛"
+    },
+    {
+      "start": 10.96,
+      "end": 13.65,
+      "text": "آخریش دیگه واقعاً یه چیز دیگه‌ست!"
+    },
+    {
+      "start": 14.13,
+      "end": 16.6,
+      "text": "حتی فضایی‌ها هم قبل از جی‌تی‌ای شش رسیدن!"
+    },
+    {
+      "start": 16.89,
+      "end": 19.88,
+      "text": "حتی فضایی‌ها هم زودتر از جی‌تی‌ای شش رسیدن!"
+    },
+    {
+      "start": 20.37,
+      "end": 23.67,
+      "text": "حتی توییتر هم قبل از جی‌تی‌ای شش، ایکس شد!"
+    },
+    {
+      "start": 23.92,
+      "end": 26.26,
+      "text": "توییتر کلاً هویتش عوض شد!"
+    },
+    {
+      "start": 26.78,
+      "end": 30.06,
+      "text": "مسی هم قبل از جی‌تی‌ای شش جام جهانی رو برد!"
+    },
+    {
+      "start": 30.3,
+      "end": 32.57,
+      "text": "مسی بالاخره جام جهانی رو برد!"
+    },
+    {
+      "start": 33.02,
+      "end": 35.38,
+      "text": "رونالدو از منچستریونایتد رفت…"
+    },
+    {
+      "start": 35.58,
+      "end": 36.74,
+      "text": "به النصر پیوست…"
+    },
+    {
+      "start": 36.88,
+      "end": 38.52,
+      "text": "و حتی به تهران هم اومد!"
+    },
+    {
+      "start": 38.83,
+      "end": 41.8,
+      "text": "رونالدو تو این مدت یه زندگی کامل کرد!"
+    },
+    {
+      "start": 42.17,
+      "end": 44.37,
+      "text": "همهٔ این‌ها قبل از جی‌تی‌ای شش!"
+    },
+    {
+      "start": 44.74,
+      "end": 47.55,
+      "text": "حتی پاپ جدید هم قبل از جی‌تی‌ای شش اومد!"
+    },
+    {
+      "start": 47.74,
+      "end": 49.39,
+      "text": "حتی پاپ هم عوض شد!"
+    },
+    {
+      "start": 49.78,
+      "end": 51.82,
+      "text": "ولی آخری از همه عجیب‌تره…"
+    },
+    {
+      "start": 52.24,
+      "end": 55.12,
+      "text": "خود جی‌تی‌ای شش هم نامزد جایزه شد…"
+    },
+    {
+      "start": 55.35,
+      "end": 57.18,
+      "text": "قبل از اینکه جی‌تی‌ای شش بیاد!"
+    },
+    {
+      "start": 57.44,
+      "end": 59.57,
+      "text": "یعنی خود جی‌تی‌ای شش هم قبل از جی‌تی‌ای شش"
+    },
+    {
+      "start": 59.57,
+      "end": 61.72,
+      "text": "نامزد جایزه شد!"
+    },
+    {
+      "start": 62.17,
+      "end": 64.28,
+      "text": "ولی بالاخره انتظار تموم شد…"
+    },
+    {
+      "start": 64.81,
+      "end": 67.41,
+      "text": "و این میم افسانه‌ای هم بازنشسته شد."
+    },
+    {
+      "start": 68.15,
+      "end": 69.3,
+      "text": "در آرامش بخواب، افسانه."
+    }
+  ],
+  "shots": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 14,
+      "visual": "memorial photo and hosts reaction",
+      "camera": "push into photograph then album pullback"
+    },
+    {
+      "id": "aliens",
+      "start": 14,
+      "end": 20.15,
+      "visual": "UFO photo with directional background smear",
+      "camera": "match push then return"
+    },
+    {
+      "id": "twitter",
+      "start": 20.15,
+      "end": 26.6,
+      "visual": "blue bird and X physical identity gag",
+      "camera": "comparison and focus"
+    },
+    {
+      "id": "messi",
+      "start": 26.6,
+      "end": 32.85,
+      "visual": "trophy and Argentina jersey",
+      "camera": "slow push"
+    },
+    {
+      "id": "ronaldo",
+      "start": 32.85,
+      "end": 44.55,
+      "visual": "three suitcase/journey photos",
+      "camera": "arrivals then three-card reveal"
+    },
+    {
+      "id": "pope",
+      "start": 44.55,
+      "end": 49.6,
+      "visual": "white cap/conclave keepsake",
+      "camera": "photo reveal and host insert"
+    },
+    {
+      "id": "tease",
+      "start": 49.6,
+      "end": 52,
+      "visual": "hosts reaction",
+      "camera": "anticipation push"
+    },
+    {
+      "id": "award",
+      "start": 52,
+      "end": 62,
+      "visual": "recursive awards/game photograph",
+      "camera": "nested inset then explaining pullback"
+    },
+    {
+      "id": "ending",
+      "start": 62,
+      "end": 71,
+      "visual": "hosts retirement portrait with enormous watch",
+      "camera": "photo comes alive then final album pullback"
+    }
+  ],
+  "meaningful_milestones": [
+    0.14,
+    2.85,
+    5.27,
+    8.4,
+    10.7,
+    13.2,
+    14.16,
+    16.2,
+    18,
+    20.4,
+    22.05,
+    24.2,
+    26.81,
+    29.7,
+    31,
+    33.05,
+    35.61,
+    36.91,
+    39.2,
+    42.2,
+    44.77,
+    47.8,
+    49.81,
+    52.27,
+    55.38,
+    58.2,
+    60.1,
+    62.2,
+    65.15,
+    68.2,
+    70
+  ],
+  "sound_events": [
+    {
+      "t": 0.05,
+      "type": "photo",
+      "dur": 0.42,
+      "gain": 0.52
+    },
+    {
+      "t": 2.85,
+      "type": "stamp",
+      "dur": 0.18,
+      "gain": 0.58
+    },
+    {
+      "t": 5,
+      "type": "air",
+      "dur": 0.45,
+      "gain": 0.14
+    },
+    {
+      "t": 8.15,
+      "type": "page",
+      "dur": 0.72,
+      "gain": 0.42
+    },
+    {
+      "t": 9.6,
+      "type": "photo",
+      "dur": 0.36,
+      "gain": 0.35
+    },
+    {
+      "t": 10.65,
+      "type": "photo",
+      "dur": 0.34,
+      "gain": 0.3
+    },
+    {
+      "t": 11.5,
+      "type": "tap",
+      "dur": 0.12,
+      "gain": 0.28
+    },
+    {
+      "t": 13.92,
+      "type": "page",
+      "dur": 0.52,
+      "gain": 0.4
+    },
+    {
+      "t": 14.2,
+      "type": "ufo",
+      "dur": 0.65,
+      "gain": 0.28
+    },
+    {
+      "t": 16.2,
+      "type": "air",
+      "dur": 0.45,
+      "gain": 0.17
+    },
+    {
+      "t": 18,
+      "type": "stamp",
+      "dur": 0.17,
+      "gain": 0.36
+    },
+    {
+      "t": 20,
+      "type": "page",
+      "dur": 0.56,
+      "gain": 0.44
+    },
+    {
+      "t": 22.05,
+      "type": "stamp",
+      "dur": 0.18,
+      "gain": 0.5
+    },
+    {
+      "t": 24.2,
+      "type": "tap",
+      "dur": 0.1,
+      "gain": 0.3
+    },
+    {
+      "t": 26.55,
+      "type": "photo",
+      "dur": 0.38,
+      "gain": 0.4
+    },
+    {
+      "t": 27.15,
+      "type": "applause",
+      "dur": 1.25,
+      "gain": 0.35
+    },
+    {
+      "t": 30.4,
+      "type": "shutter",
+      "dur": 0.2,
+      "gain": 0.22
+    },
+    {
+      "t": 31.05,
+      "type": "stamp",
+      "dur": 0.15,
+      "gain": 0.28
+    },
+    {
+      "t": 32.85,
+      "type": "slide",
+      "dur": 0.45,
+      "gain": 0.43
+    },
+    {
+      "t": 35.43,
+      "type": "slide",
+      "dur": 0.36,
+      "gain": 0.35
+    },
+    {
+      "t": 36.75,
+      "type": "slide",
+      "dur": 0.36,
+      "gain": 0.38
+    },
+    {
+      "t": 38.65,
+      "type": "page",
+      "dur": 0.65,
+      "gain": 0.34
+    },
+    {
+      "t": 42.13,
+      "type": "stamp",
+      "dur": 0.22,
+      "gain": 0.57
+    },
+    {
+      "t": 44.35,
+      "type": "page",
+      "dur": 0.6,
+      "gain": 0.43
+    },
+    {
+      "t": 44.82,
+      "type": "bell",
+      "dur": 0.9,
+      "gain": 0.28
+    },
+    {
+      "t": 47.8,
+      "type": "photo",
+      "dur": 0.32,
+      "gain": 0.3
+    },
+    {
+      "t": 49.45,
+      "type": "slide",
+      "dur": 0.32,
+      "gain": 0.3
+    },
+    {
+      "t": 51.8,
+      "type": "page",
+      "dur": 0.62,
+      "gain": 0.42
+    },
+    {
+      "t": 52.35,
+      "type": "shutter",
+      "dur": 0.2,
+      "gain": 0.3
+    },
+    {
+      "t": 54.15,
+      "type": "applause",
+      "dur": 0.8,
+      "gain": 0.25
+    },
+    {
+      "t": 55.4,
+      "type": "photo",
+      "dur": 0.25,
+      "gain": 0.4
+    },
+    {
+      "t": 56,
+      "type": "shutter",
+      "dur": 0.18,
+      "gain": 0.22
+    },
+    {
+      "t": 59.85,
+      "type": "stamp",
+      "dur": 0.2,
+      "gain": 0.43
+    },
+    {
+      "t": 61.8,
+      "type": "page",
+      "dur": 0.65,
+      "gain": 0.44
+    },
+    {
+      "t": 62.25,
+      "type": "coast",
+      "dur": 2.6,
+      "gain": 0.2
+    },
+    {
+      "t": 65.15,
+      "type": "stamp",
+      "dur": 0.2,
+      "gain": 0.38
+    },
+    {
+      "t": 67.65,
+      "type": "air",
+      "dur": 0.5,
+      "gain": 0.15
+    },
+    {
+      "t": 68.2,
+      "type": "photo",
+      "dur": 0.4,
+      "gain": 0.3
+    }
+  ],
+  "drawing_source": "film.js"
+}
