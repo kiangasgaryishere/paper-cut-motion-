@@ -1,6 +1,6 @@
 {
   "project": "gta6-family-album",
-  "status": "rendered-and-technical-qc-passed",
+  "status": "delivered-verified-download",
   "topic": "GTA 6",
   "style": {
     "name": "Family Album Polaroids",
@@ -42,5 +42,6 @@
   "fps": 24,
   "narration_retimed": false,
   "music": false,
-  "output_file": "video/gta6-family-album-v1.mp4"
+  "output_file": "video/gta6-family-album-v1.mp4",
+  "download_url": "https://raw.githubusercontent.com/kiangasgaryishere/paper-cut-motion-/5b8e67b05400caf213ef42ef630a19125e6876dc/video/gta6-family-album-v1.mp4"
 }
