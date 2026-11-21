@@ -1,0 +1,414 @@
+{
+  "video": "video/gta6-family-album-v1.mp4",
+  "duration": 71,
+  "frames": 1704,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "pixel_format": "yuv420p",
+  "color_range": "tv",
+  "color_space": "bt709",
+  "primaries": "bt709",
+  "transfer": "bt709",
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "sample_rate": 48000,
+  "channels": 2,
+  "complete_file_decode": true,
+  "faststart": true,
+  "black_intervals": [],
+  "loudness": {
+    "input_i": "-14.08",
+    "input_tp": "-1.93",
+    "input_lra": "4.40",
+    "input_thresh": "-24.49",
+    "output_i": "-14.14",
+    "output_tp": "-1.96",
+    "output_lra": "3.30",
+    "output_thresh": "-24.48",
+    "normalization_type": "dynamic",
+    "target_offset": "0.14"
+  },
+  "source_voice_samples": 3350361,
+  "source_retained_complete": true,
+  "retiming": false,
+  "tail_samples": 57639,
+  "source_voice_alignment": [
+    {
+      "time": 1,
+      "master_offset_samples_after_matching_highpass": 0,
+      "correlation": 0.9946166899188585,
+      "raw_phase_comparison_offset_samples": -19
+    },
+    {
+      "time": 14,
+      "master_offset_samples_after_matching_highpass": 0,
+      "correlation": 0.9555994397400741,
+      "raw_phase_comparison_offset_samples": 0
+    },
+    {
+      "time": 22,
+      "master_offset_samples_after_matching_highpass": 0,
+      "correlation": 0.9934862659538714,
+      "raw_phase_comparison_offset_samples": 0
+    },
+    {
+      "time": 29,
+      "master_offset_samples_after_matching_highpass": 0,
+      "correlation": 0.9969486473615238,
+      "raw_phase_comparison_offset_samples": 0
+    },
+    {
+      "time": 37,
+      "master_offset_samples_after_matching_highpass": 0,
+      "correlation": 0.981574563105014,
+      "raw_phase_comparison_offset_samples": -1
+    },
+    {
+      "time": 46,
+      "master_offset_samples_after_matching_highpass": 0,
+      "correlation": 0.9966058492386962,
+      "raw_phase_comparison_offset_samples": 0
+    },
+    {
+      "time": 54,
+      "master_offset_samples_after_matching_highpass": 0,
+      "correlation": 0.9983621842900349,
+      "raw_phase_comparison_offset_samples": 0
+    },
+    {
+      "time": 60,
+      "master_offset_samples_after_matching_highpass": 0,
+      "correlation": 0.9940926519312684,
+      "raw_phase_comparison_offset_samples": 0
+    },
+    {
+      "time": 65,
+      "master_offset_samples_after_matching_highpass": 0,
+      "correlation": 0.9947805753612917,
+      "raw_phase_comparison_offset_samples": 0
+    },
+    {
+      "time": 68,
+      "master_offset_samples_after_matching_highpass": 0,
+      "correlation": 0.9998640161042143,
+      "raw_phase_comparison_offset_samples": 0
+    }
+  ],
+  "source_alignment_method": "Compare after matching known mastering high-pass; unfiltered EQ-phase offsets recorded separately.",
+  "encoded_audio_alignment": [
+    {
+      "time": 1,
+      "encoded_offset_samples": 0,
+      "correlation": 0.9999880047145168
+    },
+    {
+      "time": 14,
+      "encoded_offset_samples": 0,
+      "correlation": 0.9999711464036392
+    },
+    {
+      "time": 22,
+      "encoded_offset_samples": 0,
+      "correlation": 0.9999867160397359
+    },
+    {
+      "time": 29,
+      "encoded_offset_samples": 0,
+      "correlation": 0.9999788014130012
+    },
+    {
+      "time": 37,
+      "encoded_offset_samples": 0,
+      "correlation": 0.9999696694806604
+    },
+    {
+      "time": 46,
+      "encoded_offset_samples": 0,
+      "correlation": 0.9999887685376996
+    },
+    {
+      "time": 54,
+      "encoded_offset_samples": 0,
+      "correlation": 0.9999784275619893
+    },
+    {
+      "time": 60,
+      "encoded_offset_samples": 0,
+      "correlation": 0.9999820024928594
+    },
+    {
+      "time": 65,
+      "encoded_offset_samples": 0,
+      "correlation": 0.9999847975227898
+    },
+    {
+      "time": 68,
+      "encoded_offset_samples": 0,
+      "correlation": 0.9998737893025845
+    }
+  ],
+  "preflight": {
+    "deterministic_seek": true,
+    "no_latin_captions": true,
+    "no_caption_overlap": true,
+    "caption_layouts": [
+      {
+        "text": "یکی از افسانه‌ای‌ترین میم‌های اینترنت بالاخره مُرد!",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "فکر کنم بگم، خودت می‌فهمی منظورم چیه.",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "بریم چندتا از بهتریناشو ببینیم؛",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "آخریش دیگه واقعاً یه چیز دیگه‌ست!",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "حتی فضایی‌ها هم قبل از جی‌تی‌ای شش رسیدن!",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "حتی فضایی‌ها هم زودتر از جی‌تی‌ای شش رسیدن!",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "حتی توییتر هم قبل از جی‌تی‌ای شش، ایکس شد!",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "توییتر کلاً هویتش عوض شد!",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "مسی هم قبل از جی‌تی‌ای شش جام جهانی رو برد!",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "مسی بالاخره جام جهانی رو برد!",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "رونالدو از منچستریونایتد رفت…",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "به النصر پیوست…",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "و حتی به تهران هم اومد!",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "رونالدو تو این مدت یه زندگی کامل کرد!",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "همهٔ این‌ها قبل از جی‌تی‌ای شش!",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "حتی پاپ جدید هم قبل از جی‌تی‌ای شش اومد!",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "حتی پاپ هم عوض شد!",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "ولی آخری از همه عجیب‌تره…",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "خود جی‌تی‌ای شش هم نامزد جایزه شد…",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "قبل از اینکه جی‌تی‌ای شش بیاد!",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "یعنی خود جی‌تی‌ای شش هم قبل از جی‌تی‌ای شش",
+        "x": 94,
+        "y": 1472,
+        "w": 892,
+        "h": 178,
+        "scroll": 176,
+        "client": 176
+      },
+      {
+        "text": "نامزد جایزه شد!",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "ولی بالاخره انتظار تموم شد…",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "و این میم افسانه‌ای هم بازنشسته شد.",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      },
+      {
+        "text": "در آرامش بخواب، افسانه.",
+        "x": 94,
+        "y": 1543,
+        "w": 892,
+        "h": 107,
+        "scroll": 105,
+        "client": 105
+      }
+    ],
+    "max_meaningful_event_gap": 3.130000000000001,
+    "event_count": 38,
+    "frame_count": 1704
+  },
+  "music": false,
+  "supplied_source_hashes_match": true,
+  "artwork": "original generated illustrative snapshots, not gameplay/news photos",
+  "publication_condition": "after actual confirmed release, as user expressly requested; not independent current-release verification",
+  "style_frames_inspected": [
+    0.7,
+    6.4,
+    12,
+    15.7,
+    22.8,
+    31.4,
+    40.3,
+    43.3,
+    48.2,
+    56.6,
+    60.8,
+    65.9,
+    69.4
+  ],
+  "full_speed_watched": false,
+  "perceptual_listening_review": false,
+  "bytes": 47879933,
+  "sha256": "508ddf297f13b280de033545af0ab5bbc84164aadb8b94a5b5ef20acad1c57a4",
+  "encoded_contact_sheet_reviewed": true
+}

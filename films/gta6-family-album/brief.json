@@ -1,6 +1,6 @@
 {
   "project": "gta6-family-album",
-  "status": "preproduction-in-progress",
+  "status": "rendered-and-technical-qc-passed",
   "topic": "GTA 6",
   "style": {
     "name": "Family Album Polaroids",
@@ -30,9 +30,7 @@
     "participation": "independent execution under prior authorization",
     "auto_commit_push": true
   },
-  "not_started": [
-    "full_render"
-  ],
+  "not_started": [],
   "publication_condition": "User confirmed on2026-11-21: publish only after actual confirmed release; not independent verification of current release",
   "humour": "selective meme beats and user-authorized over-the-top moments",
   "characters": [
@@ -43,5 +41,6 @@
   "output_duration": 71,
   "fps": 24,
   "narration_retimed": false,
-  "music": false
+  "music": false,
+  "output_file": "video/gta6-family-album-v1.mp4"
 }
