@@ -22,6 +22,16 @@ try {
     await page.evaluate(time=>window.render(time),t);
     await page.screenshot({path:dir+'/out/v3-'+name+'.jpg',type:'jpeg',quality:90});
   }
+  const observedFaces=await page.evaluate(()=>{
+    for(const t of [2.7,4.0,14.65,15.3,51.05,52.35,57.9,59.8,62.68])window.render(t);
+    return window.USED_FACES().map(faces=>faces.sort());
+  });
+  const expectedFaces=[
+    ['neutral','weaver-delight','weaver-focus','weaver-question'],
+    ['merchant-sheepish','merchant-shock','merchant-thinking','neutral']
+  ];
+  if(JSON.stringify(observedFaces)!==JSON.stringify(expectedFaces))throw Error('Expected four rendered faces per character: '+JSON.stringify(observedFaces));
+  result.observedFaces=observedFaces;
   fs.writeFileSync(dir+'/out/preflight.json',JSON.stringify(result,null,2));
   console.log('Checked subtitle layout, deterministic render and representative shots',result.captions,result.shots);
 } finally {await browser.close();closeServer();}

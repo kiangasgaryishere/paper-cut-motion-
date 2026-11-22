@@ -12,7 +12,7 @@ P=films/carpet-comic-history
 /workspace/lemo-opuscar/.venv/bin/python "$P/tools/key.py"
 PLAYWRIGHT_CHROME=/usr/bin/chromium LEMO_ANGLE=swiftshader node "$P/tools/preflight.mjs"
 /workspace/lemo-opuscar/.venv/bin/python "$P/tools/mix.py"
-PLAYWRIGHT_CHROME=/usr/bin/chromium LEMO_ANGLE=swiftshader node core/render/video.mjs "$P" --fps 24 --workers 3 --size 1080x1920 --out "$P/out/picture-v3.mp4"
+PLAYWRIGHT_CHROME=/usr/bin/chromium LEMO_ANGLE=swiftshader node core/render/video.mjs "$P" --fps 24 --workers 3 --size 1080x1920 --out "$P/out/picture-v4.mp4"
 bash "$P/tools/export.sh"
 /workspace/lemo-opuscar/.venv/bin/python "$P/tools/verify.py"
 ```
@@ -20,3 +20,5 @@ bash "$P/tools/export.sh"
 The original framed cut is retained as `video/carpet-comic-history-v1.mp4`. The revised cut is `video/carpet-comic-history-v2.mp4`. See `review/v2-frames.jpg` for selected revision frames.
 
 Version 3 retains the magnified knot only in the hook (approximately 4.8–6.8s). A weaving shuttle passes through the warp and pulls the red weft at 10.8s, with a different composition for the overseas workshop at 54.32s. A beater comb compacts three rows at 23.6s. The pattern chart unfolds at 74.62s, and the tools reappear together at 83.37s. Four new keyed heads depict focus, delight, sheepishness and thoughtfulness. The new sprites are derived from an original generated sheet matched to the existing cast. The narration and caption timeline match v2. See `review/v3-frames.jpg` for the revised compositions.
+
+Version 4 adds a close view of the bazaar trade ledger around 15.7s and a parcel landing beside the Tabriz design around 52.7s. The vendor crosses the market with a brisk walk, and the weaver walks more cautiously while carrying the parcel. Both walks animate separate thigh and shin pivots and use individually timed footfalls. Each character uses four faces across the film, including their neutral expression. The new prop sprites come from an original generated sheet. See `review/v4-frames.jpg`.

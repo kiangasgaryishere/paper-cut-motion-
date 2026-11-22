@@ -52,7 +52,7 @@ cues = [
     (4.17,'slide',.17,.06), (5.69,'fabric',.22,.14),
     (6.72,'page',.22,0), (8.05,'slide',.17,.10),
     (11.08,'slide',.155,-.14), (12.03,'slide',.155,.14), (12.98,'slide',.155,-.14),
-    (14.33,'slide',.13,.15), (17.38,'fabric',.16,-.10),
+    (16.11,'card',.21,.05), (16.35,'slide',.13,.08), (17.38,'fabric',.16,-.10),
     (20.95,'card',.17,.1), (24.18,'card',.20,.03), (24.87,'card',.18,.03), (25.56,'card',.18,.03),
     (27.7,'fabric',.17,.18), (31.36,'card',.17,.18),
     (34.93,'card',.15,-.17), (35.61,'card',.15,.15),
@@ -60,7 +60,7 @@ cues = [
     (40.02,'card',.16,.06), (42.41,'card',.19,-.20),
     (42.83,'card',.19,.20), (45.4,'slide',.19,-.12),
     (45.57,'card',.17,-.08), (47.88,'page',.20,0),
-    (49.29,'slide',.16,.04), (51.44,'fabric',.15,.13),
+    (49.29,'slide',.16,.04), (52.78,'fabric',.17,.13), (53.37,'fabric',.18,.12), (53.86,'card',.14,.02),
     (54.56,'slide',.17,-.13), (55.26,'slide',.17,.13), (56.41,'page',.20,0),
     (57.72,'slide',.17,0), (59.76,'card',.16,.12),
     (62.12,'fabric',.15,.10), (64.53,'card',.17,.13),
@@ -72,10 +72,23 @@ cues = [
 ]
 for cue, kind, gain, pan in cues:
     apply(cue,kind,gain,pan)
+# Short, muted surface contacts on the planted foot poses.
+rng = np.random.default_rng(4007)
+for begin, spacing, count, gain, direction in [(14.11,.296,4,.135,1),(50.61,.48,4,.102,-1)]:
+    for step in range(1,count+1):
+        t = np.arange(3840)/rate
+        grit = sosfilt(butter(2,[160,1450],btype='bandpass',fs=rate,output='sos'),
+                      rng.standard_normal(t.size))
+        body = .6*np.sin(2*np.pi*(88+step*3)*t)*np.exp(-t*65)
+        sound = (grit*.32+body)*np.exp(-t*30)*np.minimum(1,t/.004)
+        sound *= gain/np.max(np.abs(sound))
+        pan = direction * (step/(count+1)-.5)*.55
+        i = round((begin+spacing*step)*rate)
+        fx[i:i+len(sound)] += sound[:,None]*np.sqrt([(1-pan)/2,(1+pan)/2])
 envelope = np.sqrt(np.maximum(0,sosfilt(butter(2,7,fs=rate,output='sos'),voice**2)))
 fx *= np.clip(.06/(envelope+.028),.42,1)[:,None]
 mix = voice[:,None]+fx
 peak = maximum_filter1d(np.max(np.abs(mix),axis=1),size=245)
 mix *= np.minimum(1,.80/(peak+1e-9))[:,None]
-sf.write(out/'mix-v3.wav',mix,rate,subtype='PCM_24')
+sf.write(out/'mix-v4.wav',mix,rate,subtype='PCM_24')
 print('Source kept: 4,419,555 samples. Mixed 93 seconds, no score.')

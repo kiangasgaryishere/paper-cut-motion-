@@ -40,8 +40,9 @@ function paper(x,y,w,h,color=cream){
   ctx.fillStyle=fiber;ctx.fillRect(x,y,w,h);
 }
 const extras = Object.fromEntries(await Promise.all(
-  ['weaver-question','weaver-smile','rug-cut','merchant-shock','merchant-doubt','wool','weaver-focus','weaver-delight','merchant-sheepish','merchant-thinking',
-   'pattern-chart','weaving-shuttle','beater-comb'].map(async id => [id,await load(id+'.png')])));
+  ['weaver-question','rug-cut','merchant-shock','wool','weaver-focus','weaver-delight',
+   'merchant-sheepish','merchant-thinking','pattern-chart','weaving-shuttle','beater-comb',
+   'trade-ledger','travel-parcel'].map(async id => [id,await load(id+'.png')])));
 const pictures = {rug:0,market:1,loom:2,swatch:3};
 function artCrop(id,x,y,w,h,zoom=1,fx=.5,fy=.5){
   const i=pictures[id], sw=art.width/2, sh=art.height/2;
@@ -60,18 +61,62 @@ function circle(x,y,r,c){
 }
 const ramp=(t,a,b)=>ease((t-a)/(b-a));
 const beat=(t,a,b,c,d)=>ramp(t,a,b)*(1-ramp(t,c,d));
+// Each cast member has one neutral head and three reaction heads.
+const faces = [
+  [null,'weaver-question','weaver-focus','weaver-delight'],
+  [null,'merchant-shock','merchant-sheepish','merchant-thinking']
+];
+const usedFaces = [new Set(),new Set()];
+window.USED_FACES = () => usedFaces.map(used=>[...used]);
+const walkStyles = {
+  market:{duration:1.48, cycles:2.5, swing:.55, lift:28, bob:14},
+  careful:{duration:1.92, cycles:2, swing:.42, lift:17, bob:7}
+};
+function walkPose(t,name){
+  const style=walkStyles[name], u=clamp(t/style.duration);
+  // Slight acceleration, then a short deceleration into the last planted step.
+  const travel=u<.13 ? u*u/(.26*.87) : u>.87 ? 1-(1-u)*(1-u)/(.26*.87) : (u-.065)/.87;
+  const stride=Math.min(1,u*8,(1-u)*10);
+  return {travel, stride, phase:u*style.cycles*Math.PI*2, ...style};
+}
+function walkLegs(im,pose){
+  const sourceMiddle=Math.round(im.width/2);
+  for(const side of [1,0]){
+    const phase=pose.phase+side*Math.PI;
+    const lift=Math.max(0,Math.sin(phase))*pose.lift*pose.stride;
+    const swing=Math.cos(phase)*pose.swing*pose.stride;
+    const sx=side?sourceMiddle:0, sw=side?im.width-sourceMiddle:sourceMiddle;
+    ctx.save();
+    ctx.translate(side?34:-34,132-lift);
+    ctx.rotate(swing);
+    const knee=Math.round(im.height*.49);
+    // Separate thigh and shin pivots keep the bent leg readable in silhouette.
+    ctx.drawImage(im,sx,0,sw,knee,-36,0,72,111);
+    ctx.translate(0,101);
+    ctx.rotate(Math.max(0,Math.sin(phase))*.62*pose.stride);
+    ctx.drawImage(im,sx,knee,sw,im.height-knee,-36,0,72,113);
+    ctx.restore();
+  }
+}
 function actor(id,x,y,size,t,face,action={}){
-  const p=actors[id], head=extras[action.head]||p.head;
+  const p=actors[id], headId=action.head??null;
+  if(!faces[id].includes(headId))throw Error('Unexpected face for actor '+id+': '+headId);
+  usedFaces[id].add(headId??'neutral');
+  const head=extras[headId]||p.head;
   const q=Math.floor(t*12)/12;
-  const land=beat(q,.1,.28,.28,.55), jump=beat(q,0,.2,.2,.42);
+  const walk=action.walk?walkPose(q,action.walk):null;
+  const land=walk?0:beat(q,.1,.28,.28,.55), jump=walk?0:beat(q,0,.2,.2,.42);
   ctx.save();
-  ctx.translate(x+(action.entry||0)*(1-ramp(q,0,.5)),y-29*jump);
+  const travel=walk?walk.travel:ramp(q,0,.5);
+  const bob=walk?Math.abs(Math.sin(walk.phase))*walk.bob*walk.stride:29*jump;
+  ctx.translate(x+(action.entry||0)*(1-travel),y-bob);
   ctx.scale(size*face*(1+.07*land),size*(1-.08*land));
   ctx.rotate(action.lean||0);
   ctx.shadowColor='#271b176a';ctx.shadowOffsetX=8;ctx.shadowOffsetY=13;ctx.shadowBlur=9;
-  ctx.drawImage(p.legs,-72,126,144,220);
+  if(walk&&walk.stride>0) walkLegs(p.legs,walk);
+  else ctx.drawImage(p.legs,-72,126,144,220);
   ctx.drawImage(p.torso,-119,-32,238,188);
-  ctx.save();ctx.translate(64,0);ctx.rotate(action.arm??.1);
+  ctx.save();ctx.translate(64,0);ctx.rotate((action.arm??.1)+(walk?Math.cos(walk.phase)*walk.stride*(action.walk==='market'?.40:.15):0));
   ctx.drawImage(p.arm,-26,-21,213,155);
   ctx.shadowColor='transparent';circle(0,0,9,gold);
   ctx.restore();
@@ -171,7 +216,7 @@ function knot(t){
 function debate(t,kind){
   backdrop(kind==='weaver'?'swatch':'market',t,{fx:kind==='weaver'?.17:.53,dim:.25});
   const a=beat(t,.30,.66,.95,1.16), b=beat(t,1.02,1.35,1.85,2.17);
-  if(kind!=='weaver')actor(1,815,1020,1.41,t,-1,{entry:255,arm:.16+a*.67,lean:-a*.13,tilt:.06*b,head:b>.21?'merchant-shock':t>2.18?'merchant-thinking':'merchant-doubt'});
+  if(kind!=='weaver')actor(1,815,1020,1.41,t,-1,{entry:255,arm:.16+a*.67,lean:-a*.13,tilt:.06*b,head:b>.21?'merchant-shock':t>2.18?'merchant-thinking':null});
   actor(0,kind==='weaver'?320:250,1025,1.40,t,1,{entry:-220,arm:-.31+b*.85,tilt:-.12*b,lean:.135*b,head:t<1.15?(kind==='weaver'?'weaver-focus':'weaver-question'):'weaver-delight'});
   if(kind!=='weaver')flip(t,1.23,535,1169,'ایرانی؟','کجا بافته شد؟');
   else prop('wool',600+ramp(t,.53,1.58)*147,1054,184,160,ramp(t,.53,1.58)*.58,Math.sin(ramp(t,.53,1.58)*Math.PI)*86);
@@ -264,10 +309,52 @@ function compare(t){
   card('همان طرح',778,1263,360,109,t-2.5,{fill:'#f2d3b3',size:44});
   if(t>4.62)line([[665,1345],[883,1341]],gold,9);
 }
+function tradeScene(t){
+  const cut=1.58;
+  if(t<cut){
+    backdrop('market',t,{fx:.23+.33*ramp(t,0,cut),zoom:1.035,dim:.19});
+    actor(1,701,1000,1.48,t,1,{walk:'market',entry:-600,arm:-.15,lean:-.07,
+      head:t<1.04?null:'merchant-thinking'});
+    return;
+  }
+  const age=t-cut;
+  workSurface('#594536','#302724');
+  const arriving=1-ramp(age,0,.42);
+  prop('trade-ledger',540,790,930,625,-.10-arriving*.22,240*arriving);
+  const sweep=ramp(age,.48,1.12);
+  if(sweep>0){
+    const track=[[402,816],[488,851],[673,699]];
+    line([track[0],sweep<.33?[lerp(402,488,sweep/.33),lerp(816,851,sweep/.33)]:track[1]],red,13);
+    if(sweep>.33)line([track[1],[lerp(488,673,(sweep-.33)/.67),lerp(851,699,(sweep-.33)/.67)]],red,13);
+  }
+  burst(812,980,age-.42);
+
+}
+function travelWorkshop(t){
+  const cut=2.13;
+  if(t<cut){
+    backdrop('swatch',t,{zoom:1.025,fx:.16,dim:.30});
+    const step=walkPose(Math.floor(t*12)/12,'careful');
+    const x=427+550*(1-step.travel);
+    actor(0,427,999,1.53,t,-1,{walk:'careful',entry:550,lean:.055,arm:.30,
+      head:t<1.45?'weaver-focus':null});
+    prop('travel-parcel',x-110,1019-Math.abs(Math.sin(step.phase))*12*step.stride,416,183,-.09);
+    return;
+  }
+  const age=t-cut;
+  workSurface('#637d7b','#294743');
+  const slide=ramp(age,0,.63), roll=1-slide;
+  prop('pattern-chart',475,773,515,693,-.15,0);
+  prop('travel-parcel',lerp(1370,553,slide),991,844,359,-.09+roll*1.67,120*Math.sin(Math.PI*slide));
+  flip(age,.81,562,1240,'نقشهٔ تبریز','کارگاهی در جایی دیگر',635);
+  burst(901,1088,age-.60);
+}
 const shots=timeline.shots;
 function scene(index,t){
   const {kind,title}=shots[index];
   if(index===0){unroll(t);return;}
+  if(index===4){tradeScene(t);return;}
+  if(index===15){travelWorkshop(t);return;}
   if(index===1){
     if(t>1.14){knot(t-1.14);return;}
     backdrop('rug',t,{zoom:1.13,dim:.20});

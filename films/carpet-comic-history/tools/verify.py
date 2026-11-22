@@ -6,7 +6,7 @@ from scipy.signal import correlate
 import soundfile as sf
 p = Path(__file__).resolve().parents[1]
 root = p.parents[1]
-file = root/'video/carpet-comic-history-v3.mp4'
+file = root/'video/carpet-comic-history-v4.mp4'
 def run(*args):
     return subprocess.run(args, check=True, text=True, capture_output=True)
 probe = json.loads(run('ffprobe','-v','error','-count_frames','-show_streams','-show_format','-of','json',str(file)).stdout)
@@ -21,7 +21,7 @@ numbers = json.loads(log[log.rfind('{'):log.rfind('}')+1])
 assert -15.5 <= float(numbers['input_i']) <= -12.5 and float(numbers['input_tp']) <= -1
 run('ffmpeg','-v','error','-y','-i',str(file),'-vn','-ac','1','-c:a','pcm_f32le',str(p/'out/decoded.wav'))
 encoded,_ = sf.read(p/'out/decoded.wav')
-master,_ = sf.read(p/'out/mix-v3.wav')
+master,_ = sf.read(p/'out/mix-v4.wav')
 master = master.mean(axis=1)
 run('ffmpeg','-v','error','-y','-i',str(p/'assets/narration.mp3'),'-af','highpass=f=65','-ar','48000','-c:a','pcm_f32le',str(p/'out/reference.wav'))
 src,_ = sf.read(p/'out/reference.wav')
@@ -44,5 +44,5 @@ assert all(x['end']<=y['start'] for x,y in zip(plan['captions'],plan['captions']
 data=file.read_bytes()
 assert data.find(b'moov')<data.find(b'mdat')
 report = dict(duration=93,frames=2232,width=1080,height=1920,fps=24,full_decode=True,black_intervals=[],source_samples=4419555,alignment=anchors,music=False,loudness_lufs=float(numbers['input_i']),true_peak_dbtp=float(numbers['input_tp']),caption_preflight=json.loads((p/'out/preflight.json').read_text()),bytes=len(data),sha256=hashlib.sha256(data).hexdigest())
-(p/'QC-v3.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+(p/'QC-v4.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print({k:report[k] for k in ['duration','frames','loudness_lufs','true_peak_dbtp','bytes','sha256']})

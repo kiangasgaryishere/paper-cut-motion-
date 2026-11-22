@@ -25,3 +25,4 @@ extract('actions-v2.png', [['weaver-question','weaver-smile','rug-cut'],
                            ['merchant-shock','merchant-doubt','wool']])
 extract('actions-v3.png', [['weaver-focus','weaver-delight','merchant-sheepish','merchant-thinking'],
                            ['pattern-chart','weaving-shuttle','beater-comb',None]])
+extract('actions-v4.png', [['trade-ledger','travel-parcel']])
