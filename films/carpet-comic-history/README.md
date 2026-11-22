@@ -12,9 +12,11 @@ P=films/carpet-comic-history
 /workspace/lemo-opuscar/.venv/bin/python "$P/tools/key.py"
 PLAYWRIGHT_CHROME=/usr/bin/chromium LEMO_ANGLE=swiftshader node "$P/tools/preflight.mjs"
 /workspace/lemo-opuscar/.venv/bin/python "$P/tools/mix.py"
-PLAYWRIGHT_CHROME=/usr/bin/chromium LEMO_ANGLE=swiftshader node core/render/video.mjs "$P" --fps 24 --workers 3 --size 1080x1920 --out "$P/out/picture-v2.mp4"
+PLAYWRIGHT_CHROME=/usr/bin/chromium LEMO_ANGLE=swiftshader node core/render/video.mjs "$P" --fps 24 --workers 3 --size 1080x1920 --out "$P/out/picture-v3.mp4"
 bash "$P/tools/export.sh"
 /workspace/lemo-opuscar/.venv/bin/python "$P/tools/verify.py"
 ```
 
 The original framed cut is retained as `video/carpet-comic-history-v1.mp4`. The revised cut is `video/carpet-comic-history-v2.mp4`. See `review/v2-frames.jpg` for selected revision frames.
+
+Version 3 retains the magnified knot only in the hook (approximately 4.8–6.8s). A weaving shuttle passes through the warp and pulls the red weft at 10.8s, with a different composition for the overseas workshop at 54.32s. A beater comb compacts three rows at 23.6s. The pattern chart unfolds at 74.62s, and the tools reappear together at 83.37s. Four new keyed heads depict focus, delight, sheepishness and thoughtfulness. The new sprites are derived from an original generated sheet matched to the existing cast. The narration and caption timeline match v2. See `review/v3-frames.jpg` for the revised compositions.

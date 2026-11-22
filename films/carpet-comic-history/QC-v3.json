@@ -1,0 +1,330 @@
+{
+  "duration": 93,
+  "frames": 2232,
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "full_decode": true,
+  "black_intervals": [],
+  "source_samples": 4419555,
+  "alignment": [
+    {
+      "seconds": 1,
+      "aac_offset_samples": 0,
+      "voice_offset_samples": 0
+    },
+    {
+      "seconds": 9,
+      "aac_offset_samples": 0,
+      "voice_offset_samples": 0
+    },
+    {
+      "seconds": 18,
+      "aac_offset_samples": 0,
+      "voice_offset_samples": 0
+    },
+    {
+      "seconds": 28,
+      "aac_offset_samples": 0,
+      "voice_offset_samples": 0
+    },
+    {
+      "seconds": 36,
+      "aac_offset_samples": 0,
+      "voice_offset_samples": 0
+    },
+    {
+      "seconds": 43,
+      "aac_offset_samples": 0,
+      "voice_offset_samples": 0
+    },
+    {
+      "seconds": 52,
+      "aac_offset_samples": 0,
+      "voice_offset_samples": 0
+    },
+    {
+      "seconds": 62,
+      "aac_offset_samples": 0,
+      "voice_offset_samples": 0
+    },
+    {
+      "seconds": 72,
+      "aac_offset_samples": 0,
+      "voice_offset_samples": 0
+    },
+    {
+      "seconds": 83,
+      "aac_offset_samples": 0,
+      "voice_offset_samples": 0
+    },
+    {
+      "seconds": 89,
+      "aac_offset_samples": 0,
+      "voice_offset_samples": 0
+    }
+  ],
+  "music": false,
+  "loudness_lufs": -14.2,
+  "true_peak_dbtp": -2.29,
+  "caption_preflight": {
+    "captions": 36,
+    "shots": 30,
+    "boxes": [
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1442.75,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1442.75,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1442.75,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1442.75,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1442.75,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1442.75,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1442.75,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      },
+      {
+        "top": 1518.875,
+        "bottom": 1632,
+        "x": 95,
+        "right": 960,
+        "overflow": false
+      }
+    ]
+  },
+  "bytes": 50405033,
+  "sha256": "95bae36b9ba9250fcd352d586fb9d9884922bef4e2a7b42f6e58b9a049c5545d"
+}

@@ -8,6 +8,8 @@ def extract(sheet, rows):
     columns = len(rows[0])
     for row, names in enumerate(rows):
         for col, name in enumerate(names):
+            if name is None:
+                continue
             bounds = (im.width*col//columns, im.height*row//len(rows),
                       im.width*(col+1)//columns, im.height*(row+1)//len(rows))
             a = np.asarray(im.crop(bounds)).astype(float)
@@ -21,3 +23,5 @@ extract('puppets.png', [[f'{i}-{part}' for part in ('head','arm','torso','legs')
                        for i in range(2)])
 extract('actions-v2.png', [['weaver-question','weaver-smile','rug-cut'],
                            ['merchant-shock','merchant-doubt','wool']])
+extract('actions-v3.png', [['weaver-focus','weaver-delight','merchant-sheepish','merchant-thinking'],
+                           ['pattern-chart','weaving-shuttle','beater-comb',None]])

@@ -40,7 +40,8 @@ function paper(x,y,w,h,color=cream){
   ctx.fillStyle=fiber;ctx.fillRect(x,y,w,h);
 }
 const extras = Object.fromEntries(await Promise.all(
-  ['weaver-question','weaver-smile','rug-cut','merchant-shock','merchant-doubt','wool'].map(async id => [id,await load(id+'.png')])));
+  ['weaver-question','weaver-smile','rug-cut','merchant-shock','merchant-doubt','wool','weaver-focus','weaver-delight','merchant-sheepish','merchant-thinking',
+   'pattern-chart','weaving-shuttle','beater-comb'].map(async id => [id,await load(id+'.png')])));
 const pictures = {rug:0,market:1,loom:2,swatch:3};
 function artCrop(id,x,y,w,h,zoom=1,fx=.5,fy=.5){
   const i=pictures[id], sw=art.width/2, sh=art.height/2;
@@ -154,13 +155,13 @@ function unroll(t){
     ctx.restore();
   }
   const hit=beat(t,1.18,1.39,1.5,1.95);
-  actor(1,805,1060,1.13,t,-1,{entry:235,arm:-.2+hit*.89,lean:-hit*.1,head:t>2?'merchant-doubt':undefined});
+  actor(1,805,1060,1.13,t,-1,{entry:235,arm:-.2+hit*.89,lean:-hit*.1,head:t>2?'merchant-sheepish':undefined});
   card('فرش ایرانی؟',390,1100,557,154,t-1.36,{size:74});
   burst(532,1000,t-1.70);
 }
-function knot(t,mode='normal'){
+function knot(t){
   const pull=beat(t,.42,.92,1.12,1.52);
-  backdrop('loom',t,{zoom:mode==='macro'?1.50:1.13,fx:.88,fy:.41,dim:.15});
+  backdrop('loom',t,{zoom:1.50,fx:.88,fy:.41,dim:.15});
   const end=lerp(800,959,pull);
   ctx.strokeStyle='#8d3c31';ctx.lineWidth=17;ctx.lineCap='round';
   ctx.beginPath();ctx.moveTo(570,774);ctx.bezierCurveTo(645,842,698+pull*48,719-pull*45,end,852-pull*100);ctx.stroke();
@@ -168,12 +169,91 @@ function knot(t,mode='normal'){
   burst(577,774,t-.9);
 }
 function debate(t,kind){
-  backdrop(kind==='weaver'?'loom':'market',t,{fx:kind==='weaver'?.29:.53,dim:.23});
+  backdrop(kind==='weaver'?'swatch':'market',t,{fx:kind==='weaver'?.17:.53,dim:.25});
   const a=beat(t,.30,.66,.95,1.16), b=beat(t,1.02,1.35,1.85,2.17);
-  if(kind!=='weaver')actor(1,815,1020,1.41,t,-1,{entry:255,arm:.16+a*.67,lean:-a*.13,tilt:.06*b,head:b>.21?'merchant-shock':'merchant-doubt'});
-  actor(0,kind==='weaver'?320:250,1025,1.40,t,1,{entry:-220,arm:-.31+b*.85,tilt:-.12*b,lean:.135*b,head:t<1.15?'weaver-question':'weaver-smile'});
+  if(kind!=='weaver')actor(1,815,1020,1.41,t,-1,{entry:255,arm:.16+a*.67,lean:-a*.13,tilt:.06*b,head:b>.21?'merchant-shock':t>2.18?'merchant-thinking':'merchant-doubt'});
+  actor(0,kind==='weaver'?320:250,1025,1.40,t,1,{entry:-220,arm:-.31+b*.85,tilt:-.12*b,lean:.135*b,head:t<1.15?(kind==='weaver'?'weaver-focus':'weaver-question'):'weaver-delight'});
   if(kind!=='weaver')flip(t,1.23,535,1169,'ایرانی؟','کجا بافته شد؟');
   else prop('wool',600+ramp(t,.53,1.58)*147,1054,184,160,ramp(t,.53,1.58)*.58,Math.sin(ramp(t,.53,1.58)*Math.PI)*86);
+}
+// Three distinct material actions: passing a shuttle, beating the yarn, and folding open a chart.
+function workSurface(a,b){
+  const gradient=ctx.createLinearGradient(0,100,1080,1680);
+  gradient.addColorStop(0,a);gradient.addColorStop(1,b);
+  ctx.fillStyle=gradient;ctx.fillRect(0,0,1080,1920);
+  ctx.fillStyle=fiber;ctx.fillRect(0,0,1080,1920);
+}
+function warp(top,bottom,count,x0,x1){
+  for(let i=0;i<count;i++){
+    const x=lerp(x0,x1,i/(count-1));
+    line([[x,top],[x+(i%3)-1,bottom]], i%3===0?'#c5a87d':'#e0cda4',5);
+    line([[x+2,top],[x+2,bottom]],'#fff0c653',2);
+  }
+}
+function shuttleScene(t,overseas=false){
+  workSurface(overseas?'#627c76':'#385063',overseas?'#324b47':'#1f3040');
+  const count=overseas?19:26;
+  const top=overseas?540:235, bottom=overseas?1248:1400;
+  warp(top,bottom,count,42,1038);
+  const passTimes=overseas?[.24,.94]:[.28,1.23,2.18];
+  for(const [i,start] of passTimes.entries()){
+    const u=ramp(t,start,start+.66), y=790+i*107;
+    const from=i%2?1000:80,to=i%2?80:1000,x=lerp(from,to,u);
+    if(!u)continue;
+    line([[from,y],[x,y]],'#452525',15);
+    line([[from,y-3],[x,y-3]],'#cf7563',8);
+    if(t<start+.82)prop('weaving-shuttle',x,y,332,98,i%2?Math.PI:-.08,30+58*Math.sin(u*Math.PI));
+    for(let j=i%2;j<count;j+=2){
+      const px=lerp(42,1038,j/(count-1));
+      line([[px,y-28],[px,y+28]],'#ecdbb4',6);
+    }
+    burst(to,y,t-start-.66,'#e6c690');
+  }
+  if(overseas){
+    prop('pattern-chart',212,355,260,350,-.105,0);
+    actor(0,788,540,1.05,t,-1,{entry:180,arm:.23,head:'weaver-focus'});
+  }
+}
+function combScene(t){
+  workSurface('#c49f68','#806347');
+  ctx.save();ctx.translate(540,820);ctx.rotate(-.20);ctx.translate(-540,-820);
+  warp(220,1250,19,125,955);
+  for(let i=0;i<3;i++){
+    const tap=.38+i*.69;
+    const pull=ramp(t,tap,tap+.27);
+    const y=1060-i*98+pull*55;
+    line([[122,y],[950,y]],i%2?'#37536d':'#9a3d36',38);
+    line([[122,y-8],[950,y-8]],i%2?'#63839b':'#c87860',7);
+    burst(510,y-35,t-tap-.20,'#f9e1aa');
+  }
+  const step=Math.min(2,Math.max(0,Math.floor((t-.17)/.69)));
+  const tap=.38+step*.69, strike=beat(t,tap-.17,tap+.20,tap+.26,tap+.56);
+  prop('beater-comb',530,691-step*80+strike*170,350,474,.08-strike*.09,92*(1-strike));
+  ctx.restore();
+}
+function chartScene(t,tools=false){
+  workSurface(tools?'#cbb17e':'#6d3b43',tools?'#957344':'#412831');
+  const u=ramp(t,.25,1.21);
+  const w=tools?465:685,h=tools?676:918;
+  const cx=tools?407:540,cy=tools?775:793;
+  ctx.save();ctx.translate(cx,cy);ctx.rotate(lerp(-.14,-.045,u));
+  for(const side of [-1,1]){
+    ctx.save();
+    const opened=ramp(u,side<0?0:.13,side<0?.68:1);
+    ctx.scale(.055+.945*opened,1);
+    ctx.beginPath();ctx.rect(side<0?-w/2:0,-h/2,w/2,h);ctx.clip();
+    prop('pattern-chart',0,0,w,h,0,0);
+    rect(side<0?-w/2:0,-h/2,w/2,h,'rgba(66,48,36,'+(.33*(1-opened))+')',null);
+    ctx.restore();
+  }
+  line([[0,-h/2],[0,h/2]],'#53423049',3);
+  ctx.restore();
+  if(tools){
+    const settle=ramp(t,1.1,1.65);
+    prop('weaving-shuttle',821,515+(1-settle)*95,285,85,.29,45*(1-settle));
+    prop('beater-comb',800,958,245,340,.20,0);
+  }
+  burst(cx,cy-h/2,t-1.20,'#f4d9a7');
 }
 function compare(t){
   backdrop('swatch',t,{dim:.45});
@@ -189,7 +269,7 @@ function scene(index,t){
   const {kind,title}=shots[index];
   if(index===0){unroll(t);return;}
   if(index===1){
-    if(t>1.14){knot(t-1.14,'macro');return;}
+    if(t>1.14){knot(t-1.14);return;}
     backdrop('rug',t,{zoom:1.13,dim:.20});
     actor(0,205,1020,1.25,t,1,{arm:.10+.58*beat(t,.23,.46,.62,1.02),entry:-130,head:'weaver-question'});
     flip(t,.53,611,1040,'نقش ایرانی','محل بافت؟');
@@ -198,7 +278,12 @@ function scene(index,t){
   if(kind==='map'||kind==='route'){atlas(t,kind==='route');return;}
   if(kind==='compare'){compare(t);return;}
   if(kind==='debate'||kind==='weaver'){debate(t,kind);return;}
-  if(kind==='loom'){knot(t,index%2?'macro':'normal');return;}
+  if(kind==='loom'){
+    if(index===3||index===16)shuttleScene(t,index===16);
+    else if(index===7)combScene(t);
+    else chartScene(t,true);
+    return;
+  }
   if(kind==='cta'){
     backdrop('swatch',t,{dim:.33});
     prop('rug-cut',540,750,703,920,-.09,0);
@@ -220,6 +305,7 @@ function scene(index,t){
     return;
   }
   if(kind==='swatch'){
+    if(index===24){chartScene(t);return;}
     backdrop('swatch',t,{fx:.19+.61*ramp(t,0,2.4),dim:.10});
     if(index===9||index===20){
       prop('rug-cut',260,800,455,655,-.19,0);
@@ -229,10 +315,10 @@ function scene(index,t){
     }else prop('wool',755,1150,230,225,t*.72,19);
     return;
   }
-  backdrop(kind==='origin'?'loom':kind==='study'?'swatch':'rug',t,
+  backdrop(kind==='origin'?'market':kind==='study'?'swatch':'rug',t,
     {zoom:index%2?1.11:1.02,fx:index%2?.22:.72,dim:.18});
   if(kind==='tag'||kind==='origin'){
-    actor(1,235,1010,1.21,t,1,{entry:-190,arm:.03+beat(t,.43,.75,.92,1.25)*.7,head:'merchant-doubt'});
+    actor(1,235,1010,1.21,t,1,{entry:-190,arm:.03+beat(t,.43,.75,.92,1.25)*.7,head:kind==='origin'?'merchant-thinking':'merchant-sheepish'});
     flip(t,.72,619,1156,kind==='tag'?'طرح ایرانی':'محل تولید',kind==='tag'?'محل بافت؟':'مهارت بافنده؟');
   }else if(kind==='badge'||kind==='study'){
     card(title,540,1100,815,168,t-.22,{size:58,latin:/^[A-Za-z]/.test(title)});
