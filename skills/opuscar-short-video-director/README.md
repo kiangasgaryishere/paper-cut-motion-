@@ -64,3 +64,11 @@ The video-link helper is read-only except for network requests. It never commits
 ## License
 
 Original instructions, templates and helper scripts in this package are licensed under MIT; see [LICENSE](LICENSE). Upstream repositories are linked, not included.
+
+### Reference fidelity
+
+For an Opuscar link or example clip, resolve the exact source entry and version, identify its defining traits, and compare a short motion proof before the full render when motion drives the style. See [style fidelity](references/style-fidelity.md). To sample a local source or proof, use FFmpeg, ffprobe and Pillow:
+
+```sh
+python3 scripts/reference_frames.py reference.mp4 --start 2 --step 0.25 --count 12 --out reference-action.jpg
+```

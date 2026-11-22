@@ -8,11 +8,14 @@
 - User participation and ten-second/full mode are recorded.
 - Timed storyboard, shot/camera direction, text, B-roll and sound assets/sync points are defined.
 - Representative real style frames exist and the selected review gate is satisfied.
+- For a motion-defined reference, the short proof has been compared with the defining action. Record each significant trait, observed evidence and any deviation in the [style fidelity workflow](style-fidelity.md).
 - Visual milestones leave no unexplained gap beyond four seconds; teaching remains readable.
 
 ## Visual review
 
 Inspect a contact sheet across the film, closer strips around key actions/cuts, and actual playback where available. Check hook and first 5–6 seconds deliberately. Check the last three shots and CTA just as carefully.
+
+For a requested one-off shot, asset or expression count, count distinct appearances by timeline interval and inspect the rendered occurrences.
 
 Check changing scale/angle/action rather than repeated crops; focal hierarchy; character/prop/light continuity; road geometry, motion direction, foot contact, occlusion and parallax; maps/flags/historical accuracy; image/heading separation; bilingual shaping, contrast and mobile-safe text; correct final comment keyword. B-roll must explain or contextualize something.
 

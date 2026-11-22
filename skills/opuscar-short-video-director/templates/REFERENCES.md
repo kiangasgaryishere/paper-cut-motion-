@@ -3,6 +3,13 @@
 | Reference / URL / user file | Inspection actually performed | Time / evidence | Transferable principle | Planned shot/application | Compatibility with primary style | Rights if reused |
 |---|---|---|---|---|---|---|
 
+## Source resolution
+
+- User URL with anchor and exact entry:
+- Verified catalog and source revision:
+- Material actually available and accessed:
+- Substitutions, version differences and unverified aspects:
+
 ## Script and voice findings
 
 | Script location / source time | Actual issue / evidence | Suggested exact action | User decision | Final mapping |

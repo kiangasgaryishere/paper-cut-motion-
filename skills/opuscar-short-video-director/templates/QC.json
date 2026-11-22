@@ -2,6 +2,9 @@
   "version": "draft",
   "checks": {
     "preproduction_plan": {"status": "not performed", "evidence": ""},
+    "reference_source_resolution": {"status": "not performed", "evidence": ""},
+    "reference_motion_proof": {"status": "not performed", "evidence": ""},
+    "style_fidelity_final_comparison": {"status": "not performed", "evidence": ""},
     "style_frames": {"status": "not performed", "evidence": ""},
     "mobile_layout": {"status": "not performed", "evidence": ""},
     "visual_continuity": {"status": "not performed", "evidence": ""},

@@ -54,6 +54,10 @@ Read the checked-out `AGENTS.md`, `DIRECTOR.md`, `TECHNIQUE.md`, `core/README.md
 
 This skill's supplied-script requirement, mandatory preproduction plan, participation choices, restrained design and sound policy take precedence over upstream *workflow defaults*. Preserve upstream technical requirements and style invariants. If a style conflicts with the brief, propose a compatible alternative or explicit derivative. Do not silently claim compliance.
 
+## Reference-driven style accuracy
+
+When the user provides an Opuscar link, prompt or visual reference, apply [style fidelity](references/style-fidelity.md). Resolve the exact catalog entry and source revision, label the evidence you actually inspected, and translate the defining traits into visible or audible checks. For a motion-defined style, compare a short proof rendered through the final pipeline against the defining reference action before starting the full render. Keep the selected review mode. Record adapted or unverified traits instead of claiming exact fidelity from still frames.
+
 ## Design before building
 
 1. Analyze the narration against the script: real duration, pauses, bilingual pronunciation, repetitions, omissions and extra endings. Do not remove discrepancies without authorization.

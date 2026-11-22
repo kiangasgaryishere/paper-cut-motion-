@@ -30,3 +30,13 @@
 ## Style frames
 
 At least two real representative frames before full animation. Record file path, timeline moment, intent and issues found. Do not mark complete from a text-only description.
+
+
+## Fidelity checks
+
+| Trait | Role (invariant / demo choice / user adaptation) | Reference time or source | Planned action | Proof time and observed result |
+|---|---|---|---|---|
+
+Motion-proof path, frame rate and aspect ratio:
+Actual playback or frame-strip review performed:
+Differences carried into final export and reason:

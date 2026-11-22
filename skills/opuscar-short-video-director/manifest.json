@@ -1,6 +1,6 @@
 {
   "name": "opuscar-short-video-director",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "entrypoint": "SKILL.md",
   "license": "MIT",
   "primary_reference": "https://github.com/lemomo-ai/lemo-opuscar",
@@ -8,8 +8,8 @@
   "files": [
     {
       "path": "CHANGELOG.md",
-      "bytes": 819,
-      "sha256": "17b3e0cfbc6945ac351f7c6c7361be747ace783dd6b101785521c558193f3f61"
+      "bytes": 1134,
+      "sha256": "2a2f414384051dc3ff0ec8bcd37a6561f52a2104c3def8a3cc4c0c6a9bf45b9a"
     },
     {
       "path": "LICENSE",
@@ -18,18 +18,18 @@
     },
     {
       "path": "README.fa.md",
-      "bytes": 5061,
-      "sha256": "897a7c566c1d3be3b85ac0c5fb6e9cae53c10a14958db8554d360bb0417f5b90"
+      "bytes": 6286,
+      "sha256": "17d4c377663e4f5ac164ce1bb9e98f70ad5d139213501c0789b36c0d012fbf85"
     },
     {
       "path": "README.md",
-      "bytes": 5465,
-      "sha256": "cde63364671d56bb08af37f36654eac537dee582eb69a3ce11249658a472272d"
+      "bytes": 5927,
+      "sha256": "1b7e35f7cc58f8dc1cac955b7c76d23c43296ea001c2e84f6d36ee901ee72261"
     },
     {
       "path": "SKILL.md",
-      "bytes": 13010,
-      "sha256": "90f2cc4afd72538274bcb859fa9fe940f1e72c2e9a94b32af0247a2bf4ef5a42"
+      "bytes": 13609,
+      "sha256": "0d1df7584c7308af8b648063f3758745cc71573e688c3b43c49530933a303f09"
     },
     {
       "path": "agents/openai.yaml",
@@ -53,13 +53,13 @@
     },
     {
       "path": "references/quality.md",
-      "bytes": 4115,
-      "sha256": "b7aed4f7c0b5fa45a551caa0e4c537353b069e8bc76e76aed87ef3af004983d8"
+      "bytes": 4473,
+      "sha256": "a50e6bb9d42d1484ea6e77c7a343398604ee4de605d74a8b9f1ea11abd1c832c"
     },
     {
       "path": "references/reference-analysis.md",
-      "bytes": 3179,
-      "sha256": "fe0d31acbbcb702a3f82b40eac44397d6f714d1562081ef5e57a84ddc37a0bd5"
+      "bytes": 3388,
+      "sha256": "a61ee039ad287eb57599e773a6a45ddc3df978a226b132577cbf47cdcbaf59be"
     },
     {
       "path": "references/repository-delivery.md",
@@ -77,6 +77,11 @@
       "sha256": "6c090b94531040ece3b38f1f9e1ae173484c35e45204a91c8ae15a81f49f5bae"
     },
     {
+      "path": "references/style-fidelity.md",
+      "bytes": 4513,
+      "sha256": "f979b8b10d16254fdbef03b9c5ac6ffc6586656b907c4a89e80608e81957e1df"
+    },
+    {
       "path": "references/workflow.md",
       "bytes": 4072,
       "sha256": "b38146cb1d1bfd9f9d576e41a84d2fb4327e6d38de63c02b0cdadc3510f87a11"
@@ -90,6 +95,11 @@
       "path": "scripts/init_project.py",
       "bytes": 1894,
       "sha256": "58f52a0de9d4f41fb1841b48c9bcb74ce1d49856a1f52701cd1c1e639cf585b2"
+    },
+    {
+      "path": "scripts/reference_frames.py",
+      "bytes": 4026,
+      "sha256": "93f8b283d1cd025a82bdb0e7c54994f99da1d2ff01c7afa648448736409c4e91"
     },
     {
       "path": "scripts/selftest.py",
@@ -113,8 +123,8 @@
     },
     {
       "path": "templates/ART_DIRECTION.md",
-      "bytes": 1011,
-      "sha256": "481daeea0f9c9a247a955bb0250123308d166d394be1878d9f524a5a82a53e3a"
+      "bytes": 1341,
+      "sha256": "9fa39c7f9f78300afc47afd0e5afeb733911201df9a571315b48496c0520a6ce"
     },
     {
       "path": "templates/CREDITS.md",
@@ -128,8 +138,8 @@
     },
     {
       "path": "templates/QC.json",
-      "bytes": 1426,
-      "sha256": "71ce966d53691fa1e4368e6ff504873de319f7b944cffe9a1245d6e3b4bf3690"
+      "bytes": 1665,
+      "sha256": "e4e462e5a79c32c86fb0404540a28453f8c31f4757d08fea5153eb4cef7c097c"
     },
     {
       "path": "templates/README.md",
@@ -138,8 +148,8 @@
     },
     {
       "path": "templates/REFERENCES.md",
-      "bytes": 623,
-      "sha256": "e644d5aeac3cceabb3f57d3a151c98cda26caa702c360192c81c7aac49f13111"
+      "bytes": 831,
+      "sha256": "a01d0782b0f6f7908ce5ad56b712bd3b15b6e8a62743ac6f40b23421ca1bb3d0"
     },
     {
       "path": "templates/SOUND_PLAN.md",

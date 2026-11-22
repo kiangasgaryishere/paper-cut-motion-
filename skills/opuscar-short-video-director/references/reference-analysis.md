@@ -14,6 +14,8 @@ Analyze palette/contrast, texture/brush grammar, subject scale, negative space, 
 
 ## Reconcile with Opuscar
 
+Use the [style fidelity workflow](style-fidelity.md) to resolve sources, define comparison checks and verify a short motion proof. Use `scripts/reference_frames.py` for timestamped samples from a local clip.
+
 Read the actual chosen style description. Save the source URL/commit and exact applicable invariants in the art bible. A gallery-only Opuscar98 style may have a published prompt rather than a `styles/<slug>` folder. Find the real source; do not fabricate one or default to an unrelated main-library style because it is convenient.
 
 Explain internally how each reference technique fits the primary style. Examples: use a reference's reveal rhythm with gouache assets; use directional paper layers in a paper-cut style; use an appropriate documentary insert in a material-based style. Avoid mixing incompatible rendering languages without a deliberate, agreed derivative.

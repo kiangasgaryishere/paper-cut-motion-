@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0
+
+- Resolve exact Opuscar catalog entries and record source versions, evidence and substitutions.
+- Compare a short motion proof against the defining reference action before full rendering.
+- Add timestamped reference frame extraction and fidelity records in the art direction, reference and QC templates.
+
 ## 1.1.0
 
 - Commit and push each completed meaningful project change/revision automatically.
