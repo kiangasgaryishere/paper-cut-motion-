@@ -1,0 +1,3 @@
+# Carpet identity
+Three treatments: one rug travels through trade, a label exchange at a market, or a multi-panel debate. Use a single traveling rug across a comic page, with a quiet comparison panel that separates origin and design and a final three-way question about place, craft and design heritage. No territorial claim, fictional country attribution or official certification is depicted.
+Use separate jointed paper characters for the weaver and vendor, a printed atlas of Iran for Tabriz and Kashan, and paper evidence cards that land and change physically. Stage brisk paper actions around narration, with illustrated pauses on the questions. Keep the two English teaching terms on the paper and Persian subtitles in a separate opaque cream card.
