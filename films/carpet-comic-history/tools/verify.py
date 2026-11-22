@@ -6,7 +6,7 @@ from scipy.signal import correlate, butter, sosfilt
 import soundfile as sf
 p = Path(__file__).resolve().parents[1]
 root = p.parents[1]
-file = root/'video/carpet-comic-history-v1.mp4'
+file = root/'video/carpet-comic-history-v2.mp4'
 def run(*args):
     return subprocess.run(args, check=True, text=True, capture_output=True)
 probe = json.loads(run('ffprobe','-v','error','-count_frames','-show_streams','-show_format','-of','json',str(file)).stdout)
@@ -44,5 +44,5 @@ assert all(x['end']<=y['start'] for x,y in zip(plan['captions'],plan['captions']
 data=file.read_bytes()
 assert data.find(b'moov')<data.find(b'mdat')
 report = dict(duration=93,frames=2232,width=1080,height=1920,fps=24,full_decode=True,black_intervals=[],source_samples=4419555,alignment=anchors,music=False,loudness_lufs=float(numbers['input_i']),true_peak_dbtp=float(numbers['input_tp']),caption_preflight=json.loads((p/'out/preflight.json').read_text()),bytes=len(data),sha256=hashlib.sha256(data).hexdigest())
-(p/'QC.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+(p/'QC-v2.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print({k:report[k] for k in ['duration','frames','loudness_lufs','true_peak_dbtp','bytes','sha256']})

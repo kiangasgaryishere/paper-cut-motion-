@@ -39,137 +39,223 @@ function paper(x,y,w,h,color=cream){
   rect(x,y,w,h,color);
   ctx.fillStyle=fiber;ctx.fillRect(x,y,w,h);
 }
-function printImage(which,x,y,w,h,zoom=1){
-  const ids={rug:0,market:1,loom:2,swatch:3};
-  const q=ids[which], sw=art.width/2, sh=art.height/2;
-  const scale=Math.max(w/sw,h/sh)*zoom;
-  const cw=w/scale,ch=h/scale;
-  paper(x-13,y-13,w+26,h+26,'#f9eed7');
-  ctx.drawImage(art,(q%2)*sw+(sw-cw)/2,Math.floor(q/2)*sh+(sh-ch)/2,cw,ch,x,y,w,h);
-  ctx.strokeStyle=ink;ctx.lineWidth=3;ctx.strokeRect(x,y,w,h);
+const extras = Object.fromEntries(await Promise.all(
+  ['weaver-question','weaver-smile','rug-cut','merchant-shock','merchant-doubt','wool'].map(async id => [id,await load(id+'.png')])));
+const pictures = {rug:0,market:1,loom:2,swatch:3};
+function artCrop(id,x,y,w,h,zoom=1,fx=.5,fy=.5){
+  const i=pictures[id], sw=art.width/2, sh=art.height/2;
+  const k=Math.max(w/sw,h/sh)*zoom, cw=w/k, ch=h/k;
+  ctx.drawImage(art,(i%2)*sw+(sw-cw)*fx,Math.floor(i/2)*sh+(sh-ch)*fy,cw,ch,x,y,w,h);
 }
-function actor(id,x,y,s,t,face=1){
-  const parts=actors[id], beat=Math.floor(t*12)/12;
-  ctx.save();ctx.translate(x,y+Math.sin(beat*4+id)*8*s);ctx.scale(s*face,s);
-  ctx.shadowColor='#30251d55';ctx.shadowOffsetX=6;ctx.shadowOffsetY=9;ctx.shadowBlur=6;
-  ctx.drawImage(parts.legs,-72,126,144,220);
-  ctx.drawImage(parts.torso,-119,-32,238,188);
-  ctx.save();ctx.translate(64,0);ctx.rotate(-.13+.38*Math.sin(beat*3.9+id));
-  ctx.drawImage(parts.arm,-26,-21,213,155);
-  ctx.shadowColor='transparent';circle(0,0,9,gold);
-  ctx.restore();
-  ctx.save();ctx.translate(0,-48);ctx.rotate(.04*Math.sin(beat*4+id));
-  ctx.drawImage(parts.head,-112,-211,224,238);ctx.restore();ctx.restore();
+function backdrop(id,t,{zoom=1,fx=.5,fy=.5,dim=.14}={}){
+  artCrop(id,0,0,1080,1920,zoom+.055*ease(t/4),fx,fy);
+  const g=ctx.createLinearGradient(0,0,0,1920);
+  g.addColorStop(0,'#31211a19');g.addColorStop(.52,'#31211a00');g.addColorStop(1,'#30231b76');
+  ctx.fillStyle=g;ctx.fillRect(0,0,1080,1920);
+  ctx.fillStyle='rgba(47,31,19,'+dim+')';ctx.fillRect(0,0,1080,1920);
 }
 function circle(x,y,r,c){
-  ctx.fillStyle=c;ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fill();
+  ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fillStyle=c;ctx.fill();
 }
-function tag(text,x,y,w,h,t,{fill='#fff0cb',color=ink,latin=false,size=55}={}){
+const ramp=(t,a,b)=>ease((t-a)/(b-a));
+const beat=(t,a,b,c,d)=>ramp(t,a,b)*(1-ramp(t,c,d));
+function actor(id,x,y,size,t,face,action={}){
+  const p=actors[id], head=extras[action.head]||p.head;
+  const q=Math.floor(t*12)/12;
+  const land=beat(q,.1,.28,.28,.55), jump=beat(q,0,.2,.2,.42);
+  ctx.save();
+  ctx.translate(x+(action.entry||0)*(1-ramp(q,0,.5)),y-29*jump);
+  ctx.scale(size*face*(1+.07*land),size*(1-.08*land));
+  ctx.rotate(action.lean||0);
+  ctx.shadowColor='#271b176a';ctx.shadowOffsetX=8;ctx.shadowOffsetY=13;ctx.shadowBlur=9;
+  ctx.drawImage(p.legs,-72,126,144,220);
+  ctx.drawImage(p.torso,-119,-32,238,188);
+  ctx.save();ctx.translate(64,0);ctx.rotate(action.arm??.1);
+  ctx.drawImage(p.arm,-26,-21,213,155);
+  ctx.shadowColor='transparent';circle(0,0,9,gold);
+  ctx.restore();
+  ctx.save();ctx.translate(0,-49);ctx.rotate(action.tilt||0);
+  ctx.drawImage(head,-111,-211,222,236);
+  ctx.restore();ctx.restore();
+}
+function prop(id,x,y,w,h,angle=0,lift=0){
+  ctx.save();ctx.translate(x,y-lift);ctx.rotate(angle);
+  ctx.shadowColor='#30221966';ctx.shadowBlur=9+lift*.23;
+  ctx.shadowOffsetY=7+lift*.4;ctx.shadowOffsetX=5+lift*.25;
+  ctx.drawImage(extras[id],-w/2,-h/2,w,h);ctx.restore();
+}
+function card(text,x,y,w,h,t,{fill='#fff0cb',color=ink,latin=false,size=55}={}){
   if(t<0)return;
-  const u=ease(t/.37);
-  const rebound=t>.37?Math.sin((t-.37)*29)*Math.exp(-(t-.37)*14)*9:0;
-  ctx.save();ctx.translate(x+(1-u)*320,y-(1-u)*92+rebound);ctx.rotate(-.035-(1-u)*.12);
+  const u=ramp(t,0,.34);
+  const bounce=t>.34?Math.sin((t-.34)*29)*Math.exp(-(t-.34)*12)*11:0;
+  ctx.save();ctx.translate(x+(1-u)*165,y-(1-u)*122+bounce);ctx.rotate(-.035-(1-u)*.13);
   paper(-w/2,-h/2,w,h,fill);
-  ctx.setLineDash([9,7]);ctx.strokeStyle='#886d5080';ctx.lineWidth=2;
-  ctx.strokeRect(-w/2+12,-h/2+12,w-24,h-24);ctx.setLineDash([]);
-  label(text,0,0,size,color,latin);ctx.restore();
+  label(text,0,0,size,color,latin);
+  ctx.restore();
 }
-function map(t,route=false){
-  paper(111,538,858,650,'#dfd4ae');
-  const project=([lon,lat])=>[185+(lon-43)*31.8,615+(40-lat)*33.5];
-  for(let i=0;i<11;i++){
-    ctx.setLineDash([4,8]);line([[123+i*82,553],[123+i*82,1174]],'#82795a65',2);ctx.setLineDash([]);
+function burst(x,y,t,accent=cream){
+  if(t<0||t>.37)return;
+  ctx.save();ctx.globalAlpha=1-t/.37;
+  for(let i=0;i<9;i++){
+    const a=i*Math.PI*2/9, r=38+t*120;
+    line([[x+Math.cos(a)*r,y+Math.sin(a)*r],[x+Math.cos(a)*(r+32),y+Math.sin(a)*(r+32)]],accent,6);
   }
-  const polygons=geometry.type==='Polygon'?[geometry.coordinates]:geometry.coordinates;
-  for(const polygon of polygons){
-    const points=polygon[0].map(project);
-    ctx.beginPath();points.forEach(([x,y],i)=>i?ctx.lineTo(x,y):ctx.moveTo(x,y));ctx.closePath();
-    ctx.fillStyle='#aeaa7c';ctx.fill();ctx.strokeStyle='#696045';ctx.lineWidth=4;ctx.stroke();
+  ctx.restore();
+}
+function flip(t,at,x,y,front,back,width=580){
+  const q=ramp(t,at,at+.34);
+  ctx.save();ctx.translate(x,y);ctx.rotate(-.055);
+  ctx.scale(Math.max(.015,Math.abs(Math.cos(q*Math.PI))),1);
+  paper(-width/2,-70,width,140,q<.5?'#f5dfb3':'#d6e0df');
+  label(q<.5?front:back,0,0,width<500?43:52);
+  ctx.restore();
+  burst(x+260,y-45,t-at-.29);
+}
+function atlas(t,route=false){
+  rect(0,0,1080,1920,'#a9c2bb',null);
+  ctx.fillStyle=fiber;ctx.fillRect(0,0,1080,1920);
+  const project=([lon,lat])=>[65+(lon-43)*44,502+(40-lat)*52];
+  ctx.setLineDash([6,10]);
+  for(let i=0;i<16;i++)line([[i*79,0],[i*79,1920]],'#596e6562',2);
+  for(let i=0;i<23;i++)line([[0,i*91],[1080,i*91]],'#596e6562',2);
+  ctx.setLineDash([]);
+  const polys=geometry.type==='Polygon'?[geometry.coordinates]:geometry.coordinates;
+  for(const polygon of polys){
+    ctx.beginPath();polygon[0].map(project).forEach(([x,y],i)=>i?ctx.lineTo(x,y):ctx.moveTo(x,y));ctx.closePath();
+    for(let j=5;j>=1;j--){ctx.lineWidth=j*17;ctx.strokeStyle=j%2?'#9bb5ac':'#afc8bf';ctx.stroke();}
+    ctx.fillStyle='#d6b477';ctx.fill();ctx.strokeStyle='#584932';ctx.lineWidth=5;ctx.stroke();
   }
-  for(const [i,city] of [[[46.29,38.08],'تبریز'],[[51.44,33.98],'کاشان']].entries()){
-    const [x,y]=project(city[0]);const v=ease((t-i*.6)/.4);
-    if(v>0){circle(x,y,10*v,red);label(city[1],x+60,y-23,35);}
+  label('ایران',560,944,65,'#5e513c');
+  for(const [i,[ll,name]] of [[[46.29,38.08],'تبریز'],[[51.44,33.98],'کاشان']].entries()){
+    const [x,y]=project(ll), u=ramp(t,i*.68,i*.68+.36);
+    if(u<=0)continue;
+    const lift=88*(1-u);
+    line([[x,y-lift],[x+12,y-32-lift]],ink,5);circle(x+12,y-36-lift,12,red);
+    label(name,x+70,y-51-lift,41);
+    burst(x,y,t-i*.68-.36,red);
   }
-  line([[165,1098],[290,1098]],ink,3);line([[165,1089],[165,1107]],ink,3);line([[290,1089],[290,1107]],ink,3);
-  label('۳۵۰ کیلومتر',226,1132,22);
-  const north=903;line([[north,1040],[north,1115]],ink,3);line([[north-23,1078],[north+23,1078]],ink,3);
-  line([[north-10,1056],[north,1040],[north+10,1056]],ink,3);
   if(route){
-    const u=ease(t/1.1);ctx.setLineDash([13,10]);line([[390,779],[532,753],[lerp(532,838,u),lerp(753,938,u)]],red,5);ctx.setLineDash([]);
-    tag('کارگاهی در کشوری دیگر',708,1025,415,94,t-.45,{size:29});
+    const u=ramp(t,.25,1.5), x=lerp(350,880,u), y=lerp(795,1110,u)-180*Math.sin(Math.PI*u);
+    ctx.setLineDash([14,11]);line([[350,795],[x,y]],red,7);ctx.setLineDash([]);
+    prop('rug-cut',x,y,184,235,-.15+u*.32,25*Math.sin(Math.PI*u));
+    card('کارگاهی در کشوری دیگر',704,1270,586,116,t-1.4,{size:38});
   }
+}
+function unroll(t){
+  backdrop('market',t,{dim:.25});
+  const u=ramp(t,.05,1.25);
+  ctx.save();ctx.beginPath();ctx.rect(143,220,794,1100*u);ctx.clip();
+  prop('rug-cut',540,774,798,1110,-.05);ctx.restore();
+  if(u<1&&u>.01){
+    ctx.save();ctx.translate(540,220+1100*u);
+    ctx.fillStyle='#764334';ctx.shadowColor='#221b185f';ctx.shadowBlur=19;
+    ctx.beginPath();ctx.roundRect(-380,-30,760,65,31);ctx.fill();
+    for(let i=0;i<8;i++)line([[-358+i*101,-17],[-363+i*101,10]],'#ead5a366',4);
+    ctx.restore();
+  }
+  const hit=beat(t,1.18,1.39,1.5,1.95);
+  actor(1,805,1060,1.13,t,-1,{entry:235,arm:-.2+hit*.89,lean:-hit*.1,head:t>2?'merchant-doubt':undefined});
+  card('فرش ایرانی؟',390,1100,557,154,t-1.36,{size:74});
+  burst(532,1000,t-1.70);
+}
+function knot(t,mode='normal'){
+  const pull=beat(t,.42,.92,1.12,1.52);
+  backdrop('loom',t,{zoom:mode==='macro'?1.50:1.13,fx:.88,fy:.41,dim:.15});
+  const end=lerp(800,959,pull);
+  ctx.strokeStyle='#8d3c31';ctx.lineWidth=17;ctx.lineCap='round';
+  ctx.beginPath();ctx.moveTo(570,774);ctx.bezierCurveTo(645,842,698+pull*48,719-pull*45,end,852-pull*100);ctx.stroke();
+  prop('wool',end,875-pull*100,200,182,-pull*.6,0);
+  burst(577,774,t-.9);
+}
+function debate(t,kind){
+  backdrop(kind==='weaver'?'loom':'market',t,{fx:kind==='weaver'?.29:.53,dim:.23});
+  const a=beat(t,.30,.66,.95,1.16), b=beat(t,1.02,1.35,1.85,2.17);
+  if(kind!=='weaver')actor(1,815,1020,1.41,t,-1,{entry:255,arm:.16+a*.67,lean:-a*.13,tilt:.06*b,head:b>.21?'merchant-shock':'merchant-doubt'});
+  actor(0,kind==='weaver'?320:250,1025,1.40,t,1,{entry:-220,arm:-.31+b*.85,tilt:-.12*b,lean:.135*b,head:t<1.15?'weaver-question':'weaver-smile'});
+  if(kind!=='weaver')flip(t,1.23,535,1169,'ایرانی؟','کجا بافته شد؟');
+  else prop('wool',600+ramp(t,.53,1.58)*147,1054,184,160,ramp(t,.53,1.58)*.58,Math.sin(ramp(t,.53,1.58)*Math.PI)*86);
+}
+function compare(t){
+  backdrop('swatch',t,{dim:.45});
+  prop('rug-cut',540,607,616,831,-.035,0);
+  card('Origin',298,1095,370,133,t,{fill:'#dbe5e5',latin:true,size:67});
+  card('Design',778,1095,370,133,t-.42,{fill:'#f2d3b3',latin:true,size:67});
+  if(t>1.10) flip(t,3.16,298,1263,'محل بافت','محل بافتِ دیگر',370);
+  card('همان طرح',778,1263,360,109,t-2.5,{fill:'#f2d3b3',size:44});
+  if(t>4.62)line([[665,1345],[883,1341]],gold,9);
 }
 const shots=timeline.shots;
-function header(title,n){
-  rect(64,156,952,160,'#eee0bf');
-  rect(88,178,88,100,blue);
-  label(String(n+1).padStart(2,'0'),132,226,42,cream,true);
-  label(title,583,234,46,ink,/^[A-Za-z]/.test(title));
-}
-function panel(shot,n,t){
-  const {kind,title}=shot;
-  rect(43,104,994,1638,'#f0e3c7',ink,9);
-  ctx.fillStyle=fiber;ctx.fillRect(48,110,984,1626);
-  if(title && kind!=='cta')header(title,n);
-  const drift = 1+ease(t/3.4)*.047;
-  if(['rug','market','loom','swatch'].includes(kind)){
-    printImage(kind,100,412,880,791,drift);
-    if(kind==='rug'&&n===0) tag('نقش آشنا؛ منشأ نامعلوم',543,1252,713,111,t-1.25,{size:40});
-    if(kind==='swatch')tag('نقش · رنگ · بافت',540,1260,620,108,t-.9,{size:43});
-  }else if(kind==='map'||kind==='route'){
-    map(t,kind==='route');
-  }else if(kind==='compare'){
-    header('دو ویژگی متفاوت',n);
-    printImage('rug',114,454,852,570,1.04);
-    tag('Origin',328,1070,382,123,t,{fill:'#cedce1',latin:true,size:65});
-    tag('Design',753,1070,382,123,t-.65,{fill:'#f0d6be',latin:true,size:65});
-    tag('منشأ تولید',328,1226,382,106,t-1.3,{fill:'#cedce1',size:42});
-    tag('طرح فرش',753,1226,382,106,t-3.8,{fill:'#f0d6be',size:42});
-    const active=t>4.65?753:t>3.15?328:0;
-    if(active)line([[active-125,1308],[active+125,1305]],red,6);
-  }else if(kind==='debate'||kind==='weaver'){
-    printImage(kind==='weaver'?'loom':'rug',139,425,802,610,1.07);
-    actor(0,kind==='weaver'?320:265,1010,1.03,t);
-    if(kind==='debate')actor(1,806,1025,.98,t,-1);
-    if(kind==='weaver')tag('مهارتِ بافت',728,1183,365,114,t-.7,{size:41,fill:'#cedce1'});
-    if(n===17)tag('؟',540,1160,172,130,t-.5,{size:86,fill:'#f4d8ad'});
-  }else if(kind==='choice'){
-    printImage('swatch',115,434,850,569,1.03);
-    ['جای بافت','مهارت','تاریخ طرح'].forEach((s,i)=>tag(s,224+i*314,1112,287,122,t-i*.62,{size:37,fill:i===1?'#c9dce1':'#f1d9b6'}));
-  }else if(kind==='cta'){
-    printImage('swatch',116,360,847,600,1.06);
-    tag('هنر',540,1094,657,270,t,{size:138,fill:'#d8e3e4',color:blue});
-    label('کلمهٔ کامنت',540,1293,40);
-  }else{
-    const which=kind==='origin'?'loom':kind==='study'?'swatch':'rug';
-    printImage(which,130,401,820,676,drift);
-    if(kind==='tag')actor(1,242,956,.86,t);
-    const word=kind==='tag'?'برچسبِ فرش':kind==='origin'?'منشأ تولید':kind==='study'?'داستان + تمرین': title;
-    tag(word,kind==='tag'?662:540,1205,kind==='tag'?560:750,158,t-.32,{fill:'#e9d6ab',latin:/^[A-Za-z]/.test(word),size:52});
+function scene(index,t){
+  const {kind,title}=shots[index];
+  if(index===0){unroll(t);return;}
+  if(index===1){
+    if(t>1.14){knot(t-1.14,'macro');return;}
+    backdrop('rug',t,{zoom:1.13,dim:.20});
+    actor(0,205,1020,1.25,t,1,{arm:.10+.58*beat(t,.23,.46,.62,1.02),entry:-130,head:'weaver-question'});
+    flip(t,.53,611,1040,'نقش ایرانی','محل بافت؟');
+    return;
   }
-}
-function position(n){
-  const row=Math.floor(n/4),col=n%4;
-  return [(row%2?3-col:col)*1090,row*1930];
+  if(kind==='map'||kind==='route'){atlas(t,kind==='route');return;}
+  if(kind==='compare'){compare(t);return;}
+  if(kind==='debate'||kind==='weaver'){debate(t,kind);return;}
+  if(kind==='loom'){knot(t,index%2?'macro':'normal');return;}
+  if(kind==='cta'){
+    backdrop('swatch',t,{dim:.33});
+    prop('rug-cut',540,750,703,920,-.09,0);
+    card('هنر',540,1100,690,278,t-.1,{size:142,fill:'#efe2ba',color:blue});
+    burst(835,1010,t-.45);
+    return;
+  }
+  if(kind==='choice'){
+    backdrop('rug',t,{dim:.32});
+    const cards=['محل بافت','دستِ بافنده','تاریخِ طرح'];
+    cards.forEach((word,i)=>card(word,540,545+i*227,624,140,t-.28-i*.79,
+      {size:59,fill:['#e7d4a5','#d9e4e6','#efd2b3'][i]}));
+    return;
+  }
+  if(kind==='market'){
+    backdrop('market',t,{fx:.22+.54*ramp(t,0,2.4),zoom:1.02,dim:.16});
+    if(index===8){prop('rug-cut',280,870,385,533,-.19,15);prop('rug-cut',765,880,385,533,.12,70*(1-ramp(t,.33,1.1)));}
+    else actor(1,740,1050,1.26,t,-1,{entry:290,arm:.1+.6*beat(t,.43,.77,1.28,1.67)});
+    return;
+  }
+  if(kind==='swatch'){
+    backdrop('swatch',t,{fx:.19+.61*ramp(t,0,2.4),dim:.10});
+    if(index===9||index===20){
+      prop('rug-cut',260,800,455,655,-.19,0);
+      const u=ramp(t,.33,1.26);
+      prop('rug-cut',lerp(278,790,u),830,455,655,.12,92*Math.sin(Math.PI*u));
+      burst(935,690,t-1.26);
+    }else prop('wool',755,1150,230,225,t*.72,19);
+    return;
+  }
+  backdrop(kind==='origin'?'loom':kind==='study'?'swatch':'rug',t,
+    {zoom:index%2?1.11:1.02,fx:index%2?.22:.72,dim:.18});
+  if(kind==='tag'||kind==='origin'){
+    actor(1,235,1010,1.21,t,1,{entry:-190,arm:.03+beat(t,.43,.75,.92,1.25)*.7,head:'merchant-doubt'});
+    flip(t,.72,619,1156,kind==='tag'?'طرح ایرانی':'محل تولید',kind==='tag'?'محل بافت؟':'مهارت بافنده؟');
+  }else if(kind==='badge'||kind==='study'){
+    card(title,540,1100,815,168,t-.22,{size:58,latin:/^[A-Za-z]/.test(title)});
+    burst(891,1015,t-.55);
+  }else{
+    prop('rug-cut',545,780,595,810,-.10+.08*ramp(t,0,1.5),32*Math.sin(Math.PI*ramp(t,0,1.2)));
+  }
 }
 function render(t){
   ctx.setTransform(1,0,0,1,0,0);
-  rect(0,0,1080,1920,'#806851',null);
-  ctx.fillStyle=fiber;ctx.fillRect(0,0,1080,1920);
-  let n=shots.findLastIndex(s=>t>=s.start);
-  n=Math.max(n,0);
-  const age=t-shots[n].start, travel=n?ease(age/.44):1;
-  const next=position(n),prev=position(Math.max(n-1,0));
-  const scale=lerp(.94,1,travel);
-  const x=lerp(prev[0],next[0],travel),y=lerp(prev[1],next[1],travel);
-  ctx.save();ctx.translate(540,920);ctx.scale(scale,scale);ctx.translate(-540-x,-920-y);
-  function show(i,local){
-    const [px,py]=position(i);
-    ctx.save();ctx.translate(px,py);rect(0,65,1080,1710,cream,null);panel(shots[i],i,local);ctx.restore();
+  const n=Math.max(0,shots.findLastIndex(s=>t>=s.start));
+  const age=t-shots[n].start;
+  if(n>0&&n%4===2&&age<.24){
+    const x=1080*ramp(age,0,.24);
+    ctx.save();ctx.translate(-x,0);scene(n-1,shots[n].start-shots[n-1].start+age);ctx.restore();
+    ctx.save();ctx.translate(1080-x,0);scene(n,age);ctx.restore();
+  }else{
+    const hit=n===0?age-1.7:n===13?age-3.5:-1;
+    const jitter=hit>=0&&hit<.21?Math.sin(hit*84)*(1-hit/.21)*8:0;
+    if(jitter){ctx.save();ctx.translate(540+jitter,960);ctx.scale(1.023,1.023);ctx.translate(-540,-960);}
+    scene(n,age);
+    if(jitter)ctx.restore();
   }
-  if(travel<1)show(n-1,shots[n].start-shots[n-1].start);
-  show(n,age);
-  ctx.restore();
   const cue=timeline.captions.find(c=>c.start<=t&&c.end>t);
   caption.textContent=cue?.text||'';
 }

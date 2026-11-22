@@ -29,7 +29,6 @@ voice, sr = sf.read(out/'voice.wav',dtype='float32')
 assert sr == rate and len(voice) == 4419555
 voice = np.pad(voice,(0,samples-len(voice)))
 fx = np.zeros((samples,2),np.float32)
-timeline = json.loads((project/'timeline.json').read_text())
 sounds = {'page':'props-page-turn','fabric':'foley-fabric-touch',
           'card':'foley-card-touch','slide':'foley-paper-slide'}
 def apply(cue, kind, gain, pan):
@@ -47,19 +46,35 @@ def apply(cue, kind, gain, pan):
     i = round(cue*rate)
     fx[i:i+len(x)] += x[:,None]*np.sqrt([(1-pan)/2,(1+pan)/2])
 
-for n,shot in enumerate(timeline['shots'][1:],1):
-    if n%4==0 or shot['kind'] in ('compare','choice','cta'):
-        apply(shot['start']-.11,'page',.15,.05)
-    elif shot['kind'] in ('loom','swatch','rug'):
-        apply(shot['start']+.22,'fabric',.105,-.16)
-    else:
-        apply(shot['start']-.07,'slide',.12,.19)
-for t in [1.62,42.44,43.09,43.74,46.24,70.38,71,89.71]:
-    apply(t,'card',.18,.02)
+# (Cue time, material, gain, pan). Landings use the contact frame.
+cues = [
+    (.13,'fabric',.22,-.10), (1.70,'card',.25,.08),
+    (4.17,'slide',.17,.06), (5.69,'fabric',.22,.14),
+    (6.72,'page',.22,0), (8.05,'slide',.17,.10), (11.7,'fabric',.17,.12),
+    (14.33,'slide',.13,.15), (17.38,'fabric',.16,-.10),
+    (20.95,'card',.17,.1), (24.5,'fabric',.19,.14),
+    (27.7,'fabric',.17,.18), (31.36,'card',.17,.18),
+    (34.93,'card',.15,-.17), (35.61,'card',.15,.15),
+    (37.87,'slide',.18,.05), (39.42,'card',.18,.20),
+    (40.02,'card',.16,.06), (42.41,'card',.19,-.20),
+    (42.83,'card',.19,.20), (45.4,'slide',.19,-.12),
+    (45.57,'card',.17,-.08), (47.88,'page',.20,0),
+    (49.29,'slide',.16,.04), (51.44,'fabric',.15,.13),
+    (55.22,'fabric',.19,.14), (56.41,'page',.20,0),
+    (57.72,'slide',.17,0), (59.76,'card',.16,.12),
+    (62.12,'fabric',.15,.10), (64.53,'card',.17,.13),
+    (66.82,'slide',.17,.10), (69.99,'card',.18,-.15),
+    (70.80,'card',.18,0), (71.58,'card',.17,.15),
+    (73.85,'fabric',.17,.10), (77.09,'slide',.15,0),
+    (81.01,'card',.18,0), (84.27,'fabric',.17,.14),
+    (87.36,'card',.16,0), (89.78,'card',.25,0)
+]
+for cue, kind, gain, pan in cues:
+    apply(cue,kind,gain,pan)
 envelope = np.sqrt(np.maximum(0,sosfilt(butter(2,7,fs=rate,output='sos'),voice**2)))
 fx *= np.clip(.06/(envelope+.028),.42,1)[:,None]
 mix = voice[:,None]+fx
 peak = maximum_filter1d(np.max(np.abs(mix),axis=1),size=245)
 mix *= np.minimum(1,.80/(peak+1e-9))[:,None]
-sf.write(out/'mix.wav',mix,rate,subtype='PCM_24')
+sf.write(out/'mix-v2.wav',mix,rate,subtype='PCM_24')
 print('Source kept: 4,419,555 samples. Mixed 93 seconds, no score.')
