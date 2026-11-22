@@ -6,6 +6,7 @@ import numpy as np
 from scipy.signal import butter, sosfilt, resample_poly
 from scipy.ndimage import maximum_filter1d
 import soundfile as sf
+from score import make_score
 
 project = Path(__file__).resolve().parents[1]
 out = project / 'out'
@@ -30,7 +31,9 @@ assert sr == rate and len(voice) == 4419555
 voice = np.pad(voice,(0,samples-len(voice)))
 fx = np.zeros((samples,2),np.float32)
 sounds = {'page':'props-page-turn','fabric':'foley-fabric-touch',
-          'card':'foley-card-touch','slide':'foley-paper-slide'}
+          'card':'foley-card-touch','slide':'foley-paper-slide',
+          'ding':'notification-success-ding-ding','whoosh':'whoosh-fast-soft',
+          'coin':'money-coin-drop','impact':'impact-light-firm'}
 def apply(cue, kind, gain, pan):
     audio, sr = sf.read(project/f'assets/sfx/{sounds[kind]}.wav',always_2d=True)
     x = audio.mean(axis=1)
@@ -87,8 +90,31 @@ for begin, spacing, count, gain, direction in [(14.11,.296,4,.135,1),(50.61,.48,
         fx[i:i+len(sound)] += sound[:,None]*np.sqrt([(1-pan)/2,(1+pan)/2])
 envelope = np.sqrt(np.maximum(0,sosfilt(butter(2,7,fs=rate,output='sos'),voice**2)))
 fx *= np.clip(.06/(envelope+.028),.42,1)[:,None]
-mix = voice[:,None]+fx
+# Four additional one-shot effects, located on visible action.
+new_cues = [
+    (16.11,'coin',.205,.08),      # Trade ledger lands.
+    (42.31,'ding',.215,-.10),     # Origin card enters.
+    (47.89,'whoosh',.275,.05),   # Page whip into the next scene.
+    (53.37,'impact',.23,.08),    # Packed rug settles beside the pattern.
+]
+accents = np.zeros_like(fx)
+fx, prior_fx = accents, fx
+for cue, kind, gain, pan in new_cues:
+    apply(cue,kind,gain,pan)
+accents *= np.clip(.105/(envelope+.036),.64,1)[:,None]
+fx = prior_fx+accents
+
+score = make_score(rate,samples)
+# Reduce the score's speech band and smoothly duck its overall gain.
+mid = sosfilt(butter(2,[320,3700],btype='bandpass',fs=rate,output='sos'),score,axis=0)
+score -= .26*mid
+rms = np.sqrt(np.mean(score**2))
+score *= .051/(rms+1e-9)
+duck = np.clip(.110/(envelope+.08),.44,1)
+score *= duck[:,None]
+sf.write(out/'score-v5.wav',score,rate,subtype='PCM_24')
+mix = voice[:,None]+fx+score
 peak = maximum_filter1d(np.max(np.abs(mix),axis=1),size=245)
 mix *= np.minimum(1,.80/(peak+1e-9))[:,None]
-sf.write(out/'mix-v4.wav',mix,rate,subtype='PCM_24')
-print('Source kept: 4,419,555 samples. Mixed 93 seconds, no score.')
+sf.write(out/'mix-v5.wav',mix,rate,subtype='PCM_24')
+print('Source kept: 4,419,555 samples. Mixed 93 seconds, original score and four additional cues.')
